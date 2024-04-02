@@ -1,6 +1,6 @@
 site_name: obsidian-mkdocs template
 
-theme: windmill
+theme: windmill-dark
 # theme:
 #     name: 'material'
 #     palette:
