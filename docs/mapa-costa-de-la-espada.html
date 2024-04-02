@@ -62,7 +62,7 @@
 			var newMarker = L.marker(markerCoords).addTo(map);
 
 			// Contenido del popup (texto y enlace)
-			var popupContent = '<h2>' + marker.city + '</h2><p><a href="Almanaque del mundo/' + marker.city + '.md">Nota sobre ' + marker.city + '</a></p>';
+			var popupContent = '<h2>' + marker.city + '</h2><p><a href="./Almanaque del mundo/' + marker.city + '.md">Nota sobre ' + marker.city + '</a></p>';
 
 			// Agregar popup al marcador
 			newMarker.bindPopup(popupContent);
