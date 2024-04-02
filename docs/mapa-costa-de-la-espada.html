@@ -9,6 +9,7 @@
 	<!-- Make sure you put this AFTER Leaflet's CSS -->
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
 		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script src="marcadores.js"></script>
 	<style>
 		#map {
 			position: absolute;
@@ -43,8 +44,29 @@
 		// Establecer la vista del mapa y el nivel de zoom
 		map.setView([66.231457, 165.234375], 3); // Ajusta las coordenadas y el nivel de zoom según sea necesario
 
-		var marker = L.marker([74.179817, 149.076233]).addTo(map);
-		marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+		var markers = [];
+
+		markersData.forEach(function(markerData) {
+			var marker = {
+				city: markerData.city,
+				coordenadas: markerData.coordenadas
+			};
+			markers.push(marker);
+		});
+
+		markers.forEach(function(marker) {
+			// Coordenadas del marcador
+			var markerCoords = marker.coordenadas;
+
+			// Crear el marcador
+			var newMarker = L.marker(markerCoords).addTo(map);
+
+			// Contenido del popup (texto y enlace)
+			var popupContent = '<p>' + marker.city + '</p><p><a href="Almanaque del mundo/' + marker.city + '.md">Enlace a ' + marker.city + '</a></p>';
+
+			// Agregar popup al marcador
+			newMarker.bindPopup(popupContent);
+		});
 
 		var popup = L.popup();
 
