@@ -47,11 +47,13 @@
 		var markers = [];
 
 		markersData.forEach(function(markerData) {
-			var marker = {
-				city: markerData.city,
-				coordenadas: markerData.coordenadas
-			};
-			markers.push(marker);
+			if (markerData.isActive) {
+				var marker = {
+					city: markerData.city,
+					coordenadas: markerData.coordenadas
+				};
+				markers.push(marker);
+			}
 		});
 
 		markers.forEach(function(marker) {
