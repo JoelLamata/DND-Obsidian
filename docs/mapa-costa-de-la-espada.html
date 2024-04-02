@@ -6,7 +6,6 @@
 	<title>Display a map</title>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-	<!-- Make sure you put this AFTER Leaflet's CSS -->
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
 		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 	<script src="marcadores.js"></script>
@@ -18,6 +17,14 @@
 			bottom: 0;
 			left: 0;
 		}
+		img.blue { filter: hue-rotate(0deg); }
+		img.purple { filter: hue-rotate(40deg); }
+		img.violet { filter: hue-rotate(80deg); }
+		img.pink { filter: hue-rotate(100deg); }
+		img.fuxia { filter: hue-rotate(120deg); }
+		img.orange { filter: hue-rotate(160deg); }
+		img.red { filter: hue-rotate(180deg); }
+		img.green { filter: hue-rotate(240deg); }
 	</style>
 </head>
 
@@ -44,31 +51,22 @@
 		// Establecer la vista del mapa y el nivel de zoom
 		map.setView([66.231457, 165.234375], 3); // Ajusta las coordenadas y el nivel de zoom según sea necesario
 
-		var markers = [];
-
-		markersData.forEach(function(markerData) {
-			if (markerData.isActive) {
-				var marker = {
-					city: markerData.city,
-					coordenadas: markerData.coordenadas
-				};
-				markers.push(marker);
-			}
-		});
-
-		markers.forEach(function(marker) {
+		markersData.forEach(function(marker) {
 			// Coordenadas del marcador
 			var markerCoords = marker.coordenadas;
 
 			// Crear el marcador
 			var newMarker = L.marker(markerCoords).addTo(map);
+			newMarker._icon.classList.add(marker.color);
 
 			// Contenido del popup (texto y enlace)
-			var popupContent = '<h2>' + marker.city + '</h2><p><a href="./Almanaque del mundo/' + marker.city + '/">Nota sobre ' + marker.city + '</a></p>';
+			var popupContent = '<h2>' + marker.name + '</h2><p><a href="./Almanaque del mundo/' + marker.name + '/">Nota sobre ' + marker.name + '</a></p>';
 
 			// Agregar popup al marcador
 			newMarker.bindPopup(popupContent);
 		});
+
+
 
 		var popup = L.popup();
 
