@@ -4,9 +4,7 @@
 
 ## Eventos
 
-* [[Book of the Raven]]
-* [[A Deep and Creeping Darkness]]
-* [[Shemshime's Bedtime Rhyme]]
+* 
 
 ## NPCs
 
@@ -19,7 +17,9 @@
 
 ## Eventos por personajes
 
-* 
+* [[Book of the Raven]]
+* [[A Deep and Creeping Darkness]]
+* [[Shemshime's Bedtime Rhyme]]
 * 
 
 ## Mapas
