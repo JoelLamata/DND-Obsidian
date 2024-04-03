@@ -25,6 +25,7 @@
 		img.orange { filter: hue-rotate(160deg); }
 		img.red { filter: hue-rotate(180deg); }
 		img.green { filter: hue-rotate(240deg); }
+		img.gray { filter: grayscale(100%); }
 	</style>
 </head>
 
@@ -42,41 +43,76 @@
 			[510, 330] // Esquina inferior derecha
 		];
 
-		// Crear el mapa
-		var map = L.map('map');
-
 		// Añadir la imagen como un overlay
-		L.imageOverlay(imageUrl, imageBounds).addTo(map);
-
-		// Establecer la vista del mapa y el nivel de zoom
-		map.setView([66.231457, 165.234375], 3); // Ajusta las coordenadas y el nivel de zoom según sea necesario
+		var faerun = L.imageOverlay(imageUrl, imageBounds); //.addTo(map);
+		
+		// Crear un grupo de clúster para cada tipo de marcador
+		var cityMarkers = [];
+		var riverMarkers = [];
+		var forestMarkers = [];
+		var mountainMarkers = [];
 
 		markersData.forEach(function(marker) {
-			// Coordenadas del marcador
-			var markerCoords = marker.coordenadas;
+			if (!marker.isActive) {
+				return;
+			}
 
-			// Crear el marcador
-			var newMarker = L.marker(markerCoords).addTo(map);
-			newMarker._icon.classList.add(marker.color);
+			var markerCoords = marker.coordinates;
+			var newMarker = L.marker(markerCoords);//.addTo(map);
 
-			// Contenido del popup (texto y enlace)
+			// Agregar el marcador al grupo correspondiente según su tipo y le añadimo el color
+			switch (marker.type) {
+				case MarkerTypes.CITY:
+					cityMarkers.push(newMarker);
+					//newMarker._icon.classList.add("red");
+					//console.log(newMarker)
+					break;
+				case MarkerTypes.RIVER:
+					riverMarkers.push(newMarker);
+					//newMarker._icon.classList.push("blue");
+					break;
+				case MarkerTypes.FOREST:
+					forestMarkers.push(newMarker);
+					//newMarker._icon.classList.add("green");
+					break;
+				case MarkerTypes.MOUNTAIN:
+					mountainMarkers.push(newMarker);
+					//newMarker._icon.classList.add("gray");
+					break;
+				default:
+					break;
+			}
+
 			var popupContent = '<h2>' + marker.name + '</h2><p><a href="./Almanaque del mundo/Ubicaciones/' + marker.name + '/">Nota sobre ' + marker.name + '</a></p>';
-
-			// Agregar popup al marcador
 			newMarker.bindPopup(popupContent);
 		});
 
+		var cities = L.layerGroup(cityMarkers);
+		var rivers = L.layerGroup(riverMarkers);
+		var forests = L.layerGroup(forestMarkers);
+		var mountains = L.layerGroup(mountainMarkers);
 
+		// Crear el mapa
+		var map = L.map('map', {
+			center: [66.231457, 165.234375],
+			zoom: 3,
+			layers: [faerun, cities, rivers, forests, mountains]
+		});
 
+		var layerControl = L.control.layers().addTo(map);
+		layerControl.addOverlay(cities, "Ciudades");
+		layerControl.addOverlay(rivers, "Rios");
+		layerControl.addOverlay(forests, "Bosques");
+		layerControl.addOverlay(mountains, "Montañas");
+
+		// Creamos un popup de las coordenadas cuando no estamos clicando un marcador
 		var popup = L.popup();
-
 		function onMapClick(e) {
 			popup
 				.setLatLng(e.latlng)
 				.setContent("You clicked the map at " + e.latlng.toString())
 				.openOn(map);
 		}
-
 		map.on('click', onMapClick);
 	</script>
 </body>
