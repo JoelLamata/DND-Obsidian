@@ -17,42 +17,15 @@
 			bottom: 0;
 			left: 0;
 		}
-
-		img.blue {
-			filter: hue-rotate(0deg);
-		}
-
-		img.purple {
-			filter: hue-rotate(40deg);
-		}
-
-		img.violet {
-			filter: hue-rotate(80deg);
-		}
-
-		img.pink {
-			filter: hue-rotate(100deg);
-		}
-
-		img.fuxia {
-			filter: hue-rotate(120deg);
-		}
-
-		img.orange {
-			filter: hue-rotate(160deg);
-		}
-
-		img.red {
-			filter: hue-rotate(180deg);
-		}
-
-		img.green {
-			filter: hue-rotate(240deg);
-		}
-
-		img.gray {
-			filter: grayscale(100%);
-		}
+		img.blue { filter: hue-rotate(0deg); }
+		img.purple { filter: hue-rotate(40deg); }
+		img.violet { filter: hue-rotate(80deg); }
+		img.pink { filter: hue-rotate(100deg); }
+		img.fuxia { filter: hue-rotate(120deg); }
+		img.orange { filter: hue-rotate(160deg); }
+		img.red { filter: hue-rotate(180deg); }
+		img.green { filter: hue-rotate(240deg); }
+		img.gray { filter: grayscale(100%); }
 	</style>
 </head>
 
@@ -72,66 +45,39 @@
 
 		// Añadir la imagen como un overlay
 		var faerun = L.imageOverlay(imageUrl, imageBounds); //.addTo(map);
-
+		
 		// Crear un grupo de clúster para cada tipo de marcador
 		var cityMarkers = [];
 		var riverMarkers = [];
 		var forestMarkers = [];
 		var mountainMarkers = [];
 
-		// Define diferentes iconos para cada tipo de marcador
-		var cityIcon = L.icon({
-			iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-			iconAnchor: [12, 41],
-			popupAnchor: [0, -32],
-			className: 'red'
-		});
-
-		var riverIcon = L.icon({
-			iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-			iconAnchor: [12, 41],
-			popupAnchor: [0, -32],
-			className: 'blue'
-		});
-
-		var forestIcon = L.icon({
-			iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-			iconAnchor: [12, 41],
-			popupAnchor: [0, -32],
-			className: 'green'
-		});
-
-		var mountainIcon = L.icon({
-			iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-			iconAnchor: [12, 41],
-			popupAnchor: [0, -32],
-			className: 'gray'
-		});
-
-		markersData.forEach(function (marker) {
+		markersData.forEach(function(marker) {
 			if (!marker.isActive) {
 				return;
 			}
 
-			var newMarker = L.marker(marker.coordinates);
+			var markerCoords = marker.coordinates;
+			var newMarker = L.marker(markerCoords);//.addTo(map);
 
 			// Agregar el marcador al grupo correspondiente según su tipo y le añadimo el color
 			switch (marker.type) {
 				case MarkerTypes.CITY:
-					newMarker.setIcon(cityIcon);
 					cityMarkers.push(newMarker);
+					//newMarker._icon.classList.add("red");
+					//console.log(newMarker)
 					break;
 				case MarkerTypes.RIVER:
-					newMarker.setIcon(riverIcon);
 					riverMarkers.push(newMarker);
+					//newMarker._icon.classList.push("blue");
 					break;
 				case MarkerTypes.FOREST:
-					newMarker.setIcon(forestIcon);
 					forestMarkers.push(newMarker);
+					//newMarker._icon.classList.add("green");
 					break;
 				case MarkerTypes.MOUNTAIN:
-					newMarker.setIcon(mountainIcon);
 					mountainMarkers.push(newMarker);
+					//newMarker._icon.classList.add("gray");
 					break;
 				default:
 					break;
