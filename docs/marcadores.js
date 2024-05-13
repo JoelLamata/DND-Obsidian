@@ -1,11 +1,11 @@
-const MarkerTypes = {
+export const MarkerTypes = {
   CITY: 'city',
   RIVER: 'river',
   FOREST: 'forest',
   MOUNTAIN: 'mountain'
 };
 
-var markersData = [
+export var markersData = [
     {
       "name": "Waterdeep",
       "coordinates": [74.179817, 149.076233],
@@ -48,7 +48,4 @@ var markersData = [
       "type": MarkerTypes.FOREST,
       "isActive": false
     }
-
 ]
-  
-  
