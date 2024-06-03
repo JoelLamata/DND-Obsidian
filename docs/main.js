@@ -1,9 +1,9 @@
 // Importar la función de manejo de clics en el mapa
 import { calcularDistanciaEnMillas } from './distanceCalculator.js';
-import { markersData, MarkerTypes } from './marcadores.js';
+import { markersData, MarkerTypes, markerIcons, popupContents } from './marcadores.js';
 
 // URL de la imagen del mapa
-var imageUrl = 'https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg';
+var imageUrl = 'Imagenes/Maps/Sword-Coast-Map_HighRes.jpg';
 
 // Coordenadas del mapa
 var imageBounds = [
@@ -19,79 +19,60 @@ var cityMarkers = [];
 var riverMarkers = [];
 var forestMarkers = [];
 var mountainMarkers = [];
+var missionMarkers = [];
 
-// Define diferentes iconos para cada tipo de marcador
-var cityIcon = L.icon({
-    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-    iconAnchor: [12, 41],
-    popupAnchor: [0, -32],
-    className: 'red'
-});
-
-var riverIcon = L.icon({
-    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-    iconAnchor: [12, 41],
-    popupAnchor: [0, -32],
-    className: 'blue'
-});
-
-var forestIcon = L.icon({
-    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-    iconAnchor: [12, 41],
-    popupAnchor: [0, -32],
-    className: 'green'
-});
-
-var mountainIcon = L.icon({
-    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-    iconAnchor: [12, 41],
-    popupAnchor: [0, -32],
-    className: 'gray'
-});
-
-markersData.forEach(function (marker) {
+markersData.forEach(function(marker) {
     if (!marker.isActive) {
         return;
     }
 
+    // Crea el nuevo marcador
     var newMarker = L.marker(marker.coordinates);
 
-    // Agregar el marcador al grupo correspondiente según su tipo y le añadimo el color
+    // Asigna el icono correspondiente
+    if (markerIcons[marker.type]) {
+        newMarker.setIcon(markerIcons[marker.type]);
+    }
+
+    // Asigna el marcador al grupo correspondiente
     switch (marker.type) {
         case MarkerTypes.CITY:
-            newMarker.setIcon(cityIcon);
             cityMarkers.push(newMarker);
             break;
         case MarkerTypes.RIVER:
-            newMarker.setIcon(riverIcon);
             riverMarkers.push(newMarker);
             break;
         case MarkerTypes.FOREST:
-            newMarker.setIcon(forestIcon);
             forestMarkers.push(newMarker);
             break;
         case MarkerTypes.MOUNTAIN:
-            newMarker.setIcon(mountainIcon);
             mountainMarkers.push(newMarker);
+            break;
+        case MarkerTypes.MISSION:
+            missionMarkers.push(newMarker);
             break;
         default:
             break;
     }
 
-    var popupContent = '<h2>' + marker.name + '</h2><p><a href="./Almanaque del mundo/Ubicaciones/' + marker.name + '/">Nota sobre ' + marker.name + '</a></p>';
-    newMarker.bindPopup(popupContent);
+    // Genera el contenido del popup correspondiente
+    if (popupContents[marker.type]) {
+        var popupContent = popupContents[marker.type](marker);
+        newMarker.bindPopup(popupContent);
+    }
 });
 
 var cities = L.layerGroup(cityMarkers);
 var rivers = L.layerGroup(riverMarkers);
 var forests = L.layerGroup(forestMarkers);
 var mountains = L.layerGroup(mountainMarkers);
+var missions = L.layerGroup(missionMarkers);
 
 // Crear el mapa
 var map = L.map('map', {
     center: [66.231457, 165.234375],
     zoom: 3,
-    layers: [faerun, cities, rivers, forests, mountains]
+    layers: [faerun, cities, rivers, forests, mountains, missions]
 });
 
 var layerControl = L.control.layers().addTo(map);
@@ -99,12 +80,18 @@ layerControl.addOverlay(cities, "Ciudades");
 layerControl.addOverlay(rivers, "Rios");
 layerControl.addOverlay(forests, "Bosques");
 layerControl.addOverlay(mountains, "Montañas");
+layerControl.addOverlay(missions, "Misiones");
 
 var popup = L.popup({closeOnClick: false});
+var positionPopup = L.popup();
 var clickPoints = [];
 var line;
 
 map.on('click', function(e) {
+    positionPopup
+        .setLatLng(e.latlng)
+        .setContent("You clicked the map at " + e.latlng.toString())
+        .openOn(map);
     // Verificar si se ha presionado la tecla Control al hacer clic
     if (e.originalEvent.ctrlKey) {
         console.log("control click")

@@ -8,7 +8,7 @@
 
 ## NPCs
 
-* Isha
+* [[docs/Almanaque del mundo/NPCs/Isha]]
 
 ## Misiones
 

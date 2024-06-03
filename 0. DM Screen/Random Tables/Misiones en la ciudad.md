@@ -1,0 +1,103 @@
+| dice: 1d100 | Misiones ciudad |
+| ----------- | --------------- |
+|1|Se rumorea que el señor de la ciudad ha sido asesinado y sustituido por un doppleganger. Un guardia local cree haber visto al señor cambiar de piel, pero no está seguro. Se acerca al grupo para pedir ayuda.
+|2|Una mujer del pueblo ha estado oyendo extraños traqueteos y gemidos procedentes de la casa abandonada de al lado. Pide al grupo que investigue.
+|3|El herrero local te encarga traer de vuelta (1d10) plata o de una mina cercana en la que gnolls errantes se han instalado recientemente.
+|4|Caminando por la ciudad, tu grupo se da cuenta de que a muchos de los ciudadanos les falta uno o dos dedos.
+|5|El mercado bulle y se llena de gente discutiendo. Parece que todas las gallinas del gallinero han dejado de poner huevos, y eso ha disparado el precio de los huevos.
+|6|Un granjero local pide al grupo que ahuyente o mate a una manada de lobos que han estado aterrorizando a su ganado periódicamente.
+|7|Dos sastres rivales tienen cada uno la mitad del mejor pantalón jamás creado. Te han contratado para reparar los pantalones y unir las mitades.
+|8|Una bailarina local se queja de gritos a horas intempestivas de la mañana.
+|9|La biblioteca ha sido infestada de pequeños imitadores disfrazados de libros. Exterminarlos.
+|10|Se rumorea que el bibliotecario local es en secreto un peligroso lich/vampiro. Investiga.
+|11|Un bardo ha sido encontrado muerto en un callejón. Investiga.
+|12| A un joven le roban una pequeña bolsa de cobre unos matones adolescentes.
+|13|A través de canales poco fiables, el grupo se entera de un plan para cazar a un pequeño grupo itinerante de gusanos púrpura. El sindicato del crimen local quiere los preciados y difíciles de obtener órganos y sangre de los gusanos. La guardia local de la ciudad quiere que se descubra la ubicación del nido y se informe de ello, nada más.
+|14| Un noble pide al partido que le entregue un pequeño paquete. Unos diez minutos después de la entrega del paquete, alguien se acerca al partido y pregunta dónde está su paquete, proporcionando una identificación válida.
+|15|Un vigilante de la ciudad pide ayuda al grupo para organizar una operación. Si el grupo acepta, la operación comienza, pero cuando llega el objetivo, al menos un miembro del grupo lo reconoce y cree que es inocente.
+|16|El dueño de una herboristería contrata al grupo para que descienda a las alcantarillas de la ciudad y recoja ingredientes, entre ellos un órgano perteneciente a una criatura que no debería vivir en las cloacas.
+|17| Un mago/escolta muestra al grupo unos mapas que detallan la ubicación de los rayos caídos en la ciudad en los últimos años/meses/días. Hay un círculo extrañamente perfecto de relámpagos alrededor de un área pequeña y poco visible. Un huérfano está intentando aprender magia, y el hechizo que está intentando es demasiado poderoso para él.
+|18|Una organización local pide tu ayuda para encontrar y eliminar la influencia de las sectas en diversos distritos.
+|19|El alcalde te pide que le ayudes con un problema de zombis.
+|20|Una serie de asesinatos políticos ha barrido el ayuntamiento. El único hilo conductor es el mismo gato calío visto en la escena del crimen.
+|21|Un enorme socavón ha hundido la plaza del mercado en las alcantarillas. Los erizos de la zona afirman haber visto una torre sombría y una niebla arco iris resplandeciente surgir del agujero en mitad de la noche. |.
+|22|Un hombre o mujer grandemente vestido y de peso considerable grita a los aventureros para que detengan a un joven ladrón que huyó con una cesta suya.
+|23|Un joven huérfano se acerca al grupo y les pide que rescaten a su gato, que es lo más parecido a una familia. Un joven huérfano se acerca al grupo y les pide que rescaten a su gato, ya que es lo más parecido que tiene a una familia.
+|24|Se acerca al grupo un hombre encorvado con una horrible tos seca. Su rostro está algo oculto por una capucha, pero pide al grupo alguna medicina o curación, preferiblemente en su propia casa.
+|25|Un pueblerino afirma haber visto humanos hambrientos y pálidos arrastrando a otros, y los jugadores ven a ese mismo hombre ser arrastrado momentos después si lo descartan.
+|26|Cada vez más personas aparecen muertas en la cama con marcas de mordiscos en el cuello. Circulan rumores de que se trata de vampiros, pero las marcas de mordeduras de las víctimas corresponden a su propia disposición de los dientes.
+|27|Desde hace un par de semanas, la ciudad está misteriosamente nublada y por la noche siguen cayendo pájaros muertos del cielo.
+|28|Un día los jugadores se encuentran con que su taberna favorita ha desaparecido sin más. Ha sido sustituida por una o dos casas normales. Nadie en el pueblo, ni siquiera la gente que visitaba la taberna con regularidad, se acuerda de ella.
+|29|Un niño pequeño te pide que ayudes a su padre herido en un callejón, pero cuando llegas, no hay nada. El niño está sentado llorando y abrazado a la nada.
+|30|Todos los clérigos de la ciudad han enfermado de muerte. El anciano ha pedido al grupo que investigue este fenómeno.
+|31|Un niño se acerca al grupo y les pide que encuentren a sus hermanos desaparecidos. Su último paradero conocido era la capilla decrépita donde las afueras de la ciudad se encuentran con el bosque.
+|32|Una dulce anciana detiene al partido en la calle y les pregunta si pueden ir a comprarle cosas de su lista de la compra. Les entrega una bolsa de oro y la lista. Después de una inspección más detallada, los objetos parecen ser ingredientes para un ritual mortal.
+|33|Un alquimista loco se instaló junto a tu taberna favorita. Todo el establecimiento apesta a huevos asquerosos y otras cosas desagradables. El dueño de la taberna te pide ayuda para convencer al alquimista de que deje su trabajo o se vaya.
+|34|Una plaga de ratas ha asolado las calles más pobres de la ciudad. Parecen inusualmente concentradas y viciosas. Busca y acaba con la plaga.
+|35|Una taberna ha ardido hasta los cimientos con trece personas dentro, y dentro se encontraron los cuerpos de diez dopplegangers.|
+|36|Una banda local de contrabandistas ha comenzado recientemente a luchar contra una tribu de Grung en las alcantarillas- han pedido ayuda a la guardia de la ciudad, y se han visto ranas en cantidades preocupantes tras las recientes lluvias.
+|37|Corren rumores de que el magistrado local es un demonio disfrazado, pero en realidad es un dragón polimorfo.
+|38|Unas antiguas ruinas feéricas han sido descubiertas bajo la ciudad, y ciervos de ojos verdes y lobos han empezado a correr por las calles de noche, aullando y dando caza a aquellos que no entran lo suficientemente rápido.
+|39|Un niño ha caído enfermo y el herbolario local necesita unos ingredientes muy específicos pero no puede dejar al niño desatendido, el herbolario pide a tu grupo que los consiga.
+|40|Una serie de niños desaparecidos han estado sucediendo en un sector con constantes informes de un "dragón" en las alcantarillas. El consejo gremial local pide al grupo que investigue.
+|41|Un gran tigre anda suelto por el mercado. Si el partido lo mata, la noble a la que pertenece emerge de la multitud y exige una compensación inmediata.
+|42|Un trozo de comida vendido a la fiesta (tarta, pastel, sopa, etc.) de repente tiene un dedo meñique humanoide encontrado en su interior.
+|43|Una serie de jóvenes nobles han desaparecido, y la única conexión es que todos visitaron el mismo burdel.
+|44|Un magnífico circo ha llegado a la ciudad, pero durante la última noche de las fiestas el castillo será asaltado.
+|45|Un viejo barco que se creía perdido en el mar desde hacía muchos años regresa de repente a puerto, aparentemente sin haber sufrido ningún daño. La tripulación y los pasajeros están completamente ilesos, y nadie tiene ni idea de cuánto tiempo han estado desaparecidos.
+|46|Los ciudadanos más pobres y jóvenes empiezan a ahogarse en tierra firme y en lugares abiertos, con la piel empapada y viscosa. Hay un aboleth en algún lugar infectando con su baba el pozo más antiguo y profundo de la ciudad.|
+|47|Alguien está "secuestrando" todas las estatuas de bronce de la ciudad. Se trata de una facción militar que está construyendo un enorme cañón oculto, un monstruo oxidado o un mago loco que está perfeccionando un hechizo para animar objetos.
+|48|El Gremio de Actores y Músicos ha retado al Gremio de Ilusionistas y al Bard College a un concurso de pompa y boato para el próximo festival. Necesitan la fiesta para sabotear la competición.
+|49|La guardia de la ciudad ha perdido a dos miembros femeninos encubiertos en el distrito de los burdeles. No desaparecidas, sino renunciando a la ley y el orden en favor del vicio y el hedonismo Puede que haya un súcubo volteando a todos los agentes enviados.|49
+|50|El último lote de whisky de alta gama de la cervecera local ha sido saboteado o maldecido por hadas. Los cinco barriles ya vendidos deben ser recuperados rápidamente para que la reputación de la cervecería no se resienta.
+|51|La mitad de la ciudad se ha cubierto de vegetación densa de la noche a la mañana. La guardia de la ciudad está ocupada defendiendo el resto de la ciudad de las incursiones de animales salvajes procedentes de los bosques recién formados, así que el Capitán de la Guardia pide al grupo que investigue la raíz del asunto.
+|52|Una infección parece extenderse por los barrios marginales. Los funcionarios de la ciudad niegan cualquier prueba de ello y los guardias ya no vigilan cerca de los barrios bajos por la noche. Una figura encapuchada te invita a entrar en un callejón y te implora que averigües el destino de su ser querido, que fue a los barrios bajos a curar a los enfermos.
+|53|Un equipo deportivo local se ha vuelto inexplicablemente imparable en muy poco tiempo. Los rumores de que algo va mal van desde oscuras gangas hasta un sorprendente herbolario halfling (y todo lo demás). Reúne pistas, sigue las pistas y llega al fondo del asunto.
+|54|El agua de un distrito se ha vuelto repentinamente muy inflamable. El gobierno local quiere averiguar por qué, y quiere que se detenga. Los jugadores descubren que un grupo de gentuza antisistema contrató a un piromante para fabricar este acelerante fácil de ocultar, pero algo salió mal.
+|55|A toda la clase alta se le está cayendo el pelo y quieren que llegues al fondo del asunto.|
+|56|Es hora de elegir al nuevo alcalde de la ciudad. Para sorpresa de todos, los kobolds que viven en las alcantarillas de la ciudad han presentado un candidato para el puesto...
+|57|Una secta local de adoradores de demonios ha sido vista recientemente ayudando a la comunidad, alimentando a los sin techo y alojando a los pobres. La guardia de la ciudad está segura de que no es nada bueno, pero no puede probarlo.
+|58|El borracho del pueblo está atrapado en un bucle del día de la marmota, y utiliza sus conocimientos para fastidiar la fiesta durante 24 horas, ya que es la forma más divertida de pasar la eternidad repitiéndose.
+|59|Un ama de casa de aspecto angustiado implora al grupo que mate a las ratas gigantes que viven en su sótano. Sin embargo, una vez abajo, el grupo encuentra esporas de hongos alucinógenos que les hacen ver sus mayores temores. Por lo demás, es un sótano normal y corriente.
+|60|Se ha visto deambular por las calles de noche a un vendedor ambulante con un carro que vende artículos extraños, como jarras que transforman el agua en aceite y ollas que se calientan sin fuego. Sin embargo, los objetos que vende suelen funcionar mal o explotar.
+|61|Se rumorea que lleva un sombrero. Se rumorea que lleva sombrero.
+|62|Cada luna llena, los gatos del pueblo se reúnen dentro de una casa desierta. ¿Qué están planeando?
+|63|Un comerciante local pide al grupo que entregue una nota por toda la ciudad. Cuando vuelven a por el pago, el comerciante no recuerda al grupo. Una investigación mostrará que su dedo anular izquierdo ha desaparecido.
+|64|El grupo ve a una anciana local atacada por un gran hombre medio orco. Le roba una pequeña bolsa llena de hojas de una planta exótica. Si el grupo devuelve la planta a la mujer, ella les recompensa con una docena de galletas hechas con la planta que le devolvieron. Después de consumir las galletas, los aventureros descubren que la planta es el equivalente a la marihuana en este mundo.
+|65|Un Ooze que fue plantado en las alcantarillas para limpiarlas y lidiar con el problema de las ratas ha crecido enormemente y ha empezado a dividirse en más Oozes.
+|66|La fiesta se entera de que un hombre fue asesinado anoche. El autor es un espíritu y hubo muchos testigos, pero sólo la mitad vio al espíritu. Cada noche se cobra otra víctima hasta que el grupo consigue desvelar el secreto.
+|67|Un hombre es enfrentado por una turba por no poder controlar su brujería.|
+|68|El gremio local de ladrones se enfrenta a la familia gitana local por el control del narcotráfico de un distrito. El gobernador lo sabe y recibe dinero por mirar al otro lado, mucho dinero, pero su disputa podría llamar la atención no deseada sobre la ciudad y su bolsillo, te pide ayuda en el asunto.
+|69|Un cervecero de la segunda mejor cerveza de la ciudad cree que la cervecera más popular ha hecho un pacto con un demonio para mejorar sus productos. Si el grupo investiga, descubre que todos los cerveceros de la ciudad han hecho tratos sin saberlo con el mismo demonio, que tiene planes para adulterar todos sus productos y tomar el control de las mentes de los ciudadanos.
+|70|Los obreros arrancan a mazazos las lápidas del cementerio local para reparar las calles empedradas. A los muertos no les hace ninguna gracia.
+|71|Una estatua en la plaza del pueblo ha desaparecido de la noche a la mañana y se encuentran huellas (aparentemente de la estatua) que conducen al barrio de los Magos. Podría ser una broma o algo más siniestro.
+|72|Un borracho empieza a gritar en la fiesta, alegando que le han robado. Al ser registrado por los vigilantes, la cartera del hombre aparece en sus bolsillos.
+|73|En las salidas de las alcantarillas han empezado a aparecer cadáveres con marcas de mordiscos. Han empezado a correr rumores de cultos caníbales, licántropos y otras cosas por el estilo. Te contratan para investigar el asunto.
+|74|Un agorero aparentemente loco grita por las calles que las alcantarillas son una puerta al Abismo. Cada día que esto se ignore, d8 demonios con un nivel de desafío de 1 o inferior saldrán de las alcantarillas por la noche. Cada semana que se ignora, el nivel de desafío aumenta en 1.|.
+|75|En el gran jardín de una poderosa familia, el grupo observa que varias criaturas del bosque actúan de forma extraña. Tras una inspección más detallada, parecen casi humanos en sus gestos. Si el grupo pregunta sobre la familia, se enterará de que son conocidos por su habilidad para encantar y polimorfarse...
+|76|Un miembro del grupo ve a un niño en un callejón con un tercer ojo en la frente. El chico le dice telepáticamente que vaya a buscarle al cementerio.
+|77|La fiesta es detenida por un vendedor ambulante, que insiste frenéticamente en entregar un objeto esférico envuelto en tela a la fiesta.
+|78|Eleanor, heredera de una rica hacienda, aparece asesinada en el antiguo distrito de la industria cárnica. Gretchen, su gemela idéntica, cubre la ciudad de carteles ofreciendo una generosa bolsa por la cabeza del asesino de su hermana. Mientras tanto, una mujer que dice ser Eleanor jura que fue su hermana Gretchen la asesinada, y ofrece una recompensa equivalente a quien pueda descubrir la verdad.
+|79|Una querida estatua ha desaparecido del centro de la ciudad. Un concejal pide al grupo que la encuentre, pero cuanto más investigan, más insiste la gente en que la estatua nunca existió.
+|80|Por las alcantarillas se filtran limos y exudados animados.
+|81|Una larga fila de pueblerinos enfermos esperan impacientes ante la casa del boticario, llevan allí todo el día y ni el boticario ni su ayudante atienden la puerta. El caso es que la boticaria tenía enjauladas a algunas criaturas para cultivar su veneno y, de alguna manera, se han liberado. 
+|82|El grupo se encuentra con un edificio en llamas y debe rescatar a varios plebeyos atrapados en su interior. Más tarde, descubren que se trata de uno de una serie de incendios provocados.
+|83|El grupo debe ganarse el respeto de un grupo local de matones compitiendo en un torneo de lucha. Sin embargo, algunos competidores han sufrido desafortunados accidentes...
+|84|Varios lugareños han cometido actos violentos atípicos. Todos afirman que una deidad benévola se los ordenó en sueños.
+|85|Un gato parlante sigue al grupo, prometiendo llevarlos a un lugar mágico donde el vino fluye como el agua y el oro ensucia el suelo.
+|86|La construcción de una nueva carretera ha provocado la ira de los druidas locales.
+|87|Los mineros locales se han declarado en huelga, exigiendo salarios más altos y mejor equipamiento. El jefe quiere que les recuerdes quién manda.
+|88|Un portal al infierno/el abismo se abre en la plaza del pueblo, pero nadie parece darse cuenta ni preocuparse. Los demonios están comprando en el mercado.
+|89|Cuando el posadero local está reconstruyendo su hogar, una sección retirada de una pared revela un esqueleto humano incrustado en la mampostería, cubierto de tallas de estrangulamiento.
+|90|El grupo ve a una drow llamada Vicepenny con un globo rojo intentando atraer a un niño a las alcantarillas desde un desagüe.
+|91|Un mono roba y huye con uno de sus sombreros. Volverá por una pieza de fruta.
+|92|Un empleado disfrazado de leñador ofrece a la fiesta muestras gratuitas de cecina de una taberna cercana que cuentan como una ración diaria.
+|93|Un grupo de gansos malvados comienzan a perseguir a los enanos o gnomos del grupo. Los gansos están protegidos por los gobernantes de la ciudad.
+|94|Un pacífico gigante de las colinas vende sus intrincados patrones de encaje. La gente se pregunta cómo lo hace. Al interrogarle, revela que hace la mayor parte del trabajo él mismo, pero sus dos compañeras Pixie siempre están esperando a que se vaya a dormir. El encaje sobre su cara le permite descansar bien por la noche, esté donde esté.
+|95|Un elfo hippy vende un collar de escamas de dragón con tu nombre por 1d6x10GP.
+|96|El partido recibe un cupón para una clase gratis 'Para ti y un amigo' en el local Fighting Pit. Tienen que pagar sus propios uniformes.
+|97|Desde la ascensión del nuevo barón/burgomaestre, los criminales han sido llevados a la torre del homenaje y nunca se les ha vuelto a ver. El capitán de la guardia sabe que el torreón debería haberse quedado sin espacio en las mazmorras hace tiempo, pero no se le ha permitido entrar para verlos.
+|98|Una ejecución pública tiene lugar en la plaza del pueblo, el pueblo está dividido sobre si el acusado es realmente culpable.
+|99|Una casa/tienda en el centro de la ciudad ha desaparecido por completo, como si acabara de ser borrada de la creación. Un extraño olor y residuo mágico impregna el lugar.
+|100|Un anciano muy beligerante (y a menudo borracho) está causando problemas en el pueblo. El problema: se trata del querido tío del burgomaestre, que sigue siendo un luchador extremadamente hábil a pesar de su avanzada edad. La guardia no puede detenerlo sin herir gravemente al hombre.
+^cityMisions
