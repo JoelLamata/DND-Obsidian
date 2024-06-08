@@ -1,0 +1,1 @@
+![[Elina Green.jpeg]]

@@ -8,7 +8,7 @@
 
 ## NPCs
 
-* [[docs/Almanaque del mundo/NPCs/Isha]]
+* [[docs/Almanaque del mundo/NPCs/Isha|Isha]]
 
 ## Misiones
 
@@ -22,7 +22,7 @@
 * [[Shemshime's Bedtime Rhyme]]
 * 
 
-## Mapas
+## Imágenes
 
 ![[Candlekeep Map.png]]
 

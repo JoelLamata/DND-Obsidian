@@ -17,6 +17,6 @@ Placeholder
 
 ## Eventos por personajes
 
-## Mapas
+## Imágenes
 
 ##### Más información

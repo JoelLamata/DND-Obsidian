@@ -63,7 +63,7 @@ export const popupContents = {
       return '<h2>' + marker.name + '</h2><p><a href="./Almanaque del mundo/Ubicaciones/' + marker.name + '/">Nota sobre ' + marker.name + '</a></p>';
   },
   [MarkerTypes.MISSION]: function(marker) {
-      return '<h2>' + marker.name + '</h2><p><a href="./Almanaque del mundo/Ubicaciones/' + marker.name + '/">Nota sobre ' + marker.name + '</a></p>';
+      return '<h2>' + marker.name + '</h2><p><a href="./Almanaque del mundo/Misiones/' + marker.name + '/">Nota sobre ' + marker.name + '</a></p>';
   }
 };
 
@@ -105,7 +105,7 @@ export var markersData = [
       "isActive": true
     },
     {
-      "name": "Misión principal",
+      "name": "En busca de Dormilana",
       "coordinates": [49.296472, 169.689453],
       "type": MarkerTypes.MISSION,
       "isActive": true
