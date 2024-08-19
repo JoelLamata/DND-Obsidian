@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "4fe969e13255808d",
+    "type": "split",
+    "children": [
+      {
+        "id": "18f7f4104e0a7b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb0b6f12649faf9f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d43d2f14570677ea",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc7507c9973f4271",
+    "type": "split",
+    "children": [
+      {
+        "id": "b644b46114341ca8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c2e8bb1fef6d0be",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "49c61a008c92ba38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c04751af81049f15",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3aace90fe20057cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d51a4f757679cce7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5518fb44a821140f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "830d164751260522",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1682b5d05ffc11c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad163f623d99c636",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ba0931d385187ad6",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "9ce5255dfe4d7871",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-5e-statblocks:Open Creature pane": false
+    }
+  },
+  "active": "d43d2f14570677ea",
+  "lastOpenFiles": [
+    "dm/compendium/races/yuan-ti-mpmm.md",
+    "dm/compendium/races/triton-mpmm.md",
+    "dm/compendium/races/tortle-mpmm.md",
+    "dm/compendium/races/tiefling.md",
+    "dm/compendium/races/tiefling-winged-scag.md",
+    "dm/compendium/races/tiefling-infernal-legacy-scag.md",
+    "dm/compendium/races/tiefling-hellfire-scag.md",
+    "dm/compendium/races/tiefling-devils-tongue-scag.md",
+    "dm/compendium/races/thri-kreen-aag.md",
+    "dm/compendium/races/tabaxi-mpmm.md",
+    "dm/compendium/races/shifter-mpmm.md",
+    "dm/compendium/races/shadar-kai-mpmm.md",
+    "dm/compendium/races/sea-elf-mpmm.md",
+    "dm/compendium/races/satyr-mpmm.md",
+    "dm/compendium/races/races.md",
+    "dm/compendium/races/plasmoid-aag.md",
+    "dm/compendium/races/orc-mpmm.md",
+    "dm/compendium/races/minotaur-mpmm.md",
+    "dm/compendium/races/lizardfolk-mpmm.md",
+    "dm/compendium/races/kobold-mpmm.md",
+    "dm/compendium/races/kenku-mpmm.md",
+    "dm/compendium/races/human.md",
+    "dm/compendium/races/human-variant.md",
+    "dm/compendium/races/hobgoblin-mpmm.md",
+    "dm/compendium/races/harengon-mpmm.md",
+    "dm/compendium/races/halfling.md",
+    "dm/compendium/races",
+    "dm/compendium/items",
+    "dm/compendium/vehicles",
+    "dm/compendium/rules/variant-rules",
+    "dm/compendium/rules",
+    "dm/compendium/spells",
+    "dm/compendium/optional-features",
+    "dm/compendium/bestiary/humanoid",
+    "dm/compendium/bestiary/construct",
+    "dm/compendium/bestiary/celestial",
+    "z_Assets/Vehicles/Star Moth/Star Moth Map Player Version.webp",
+    "z_Assets/Vehicles/Star Moth/Star Moth Map.webp",
+    "z_Assets/Vehicles/Star Moth/Star Moth.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Map Player Version.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Map.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon.webp",
+    "Untitled.canvas",
+    "5etools-mirror-2.github.io/android-chrome-192x192.png",
+    "5etools-mirror-2.github.io/icon/icon-512.png",
+    "5etools-mirror-2.github.io/icon/icon-192.png",
+    "5etools-mirror-2.github.io/icon/icon-1024.png"
+  ]
+}
