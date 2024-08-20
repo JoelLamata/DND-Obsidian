@@ -4,27 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "18f7f4104e0a7b5e",
+        "id": "48dc2a7c0a3d9bd4",
         "type": "tabs",
         "children": [
           {
-            "id": "cb0b6f12649faf9f",
+            "id": "de7a16f67b819479",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d43d2f14570677ea",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md"
+              }
             }
           },
           {
@@ -165,8 +164,39 @@
       "obsidian-5e-statblocks:Open Creature pane": false
     }
   },
-  "active": "d43d2f14570677ea",
+  "active": "de7a16f67b819479",
   "lastOpenFiles": [
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Elfsong Tavern.md",
+    "z_Assets/Volos/Captura de pantalla 2024-08-20 a las 9.27.41.png",
+    "z_Assets/Otros/Captura de pantalla 2024-08-20 a las 9.27.41.png",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
+    "z_Assets/Otros/Pasted image 20240820092558.png",
+    "z_Assets/Otros/Pasted image 20240820092552.png",
+    "z_Assets/Otros/Pasted image 20240820092545.png",
+    "z_Assets/Otros/Pasted image 20240820092533.png",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Armas y estrellas - Blade and Stars.md",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Sirena sonrojada - Blushing Mermaid.md",
+    "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.46.59.png",
+    "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.48.26.png",
+    "z_Assets/Mapas/Pasted image 20240819212208.png",
+    "z_Assets/Otros/Pasted image 20240819213834.png",
+    "z_Assets/Otros",
+    "z_Assets/carpeta sin título",
+    "z_Assets/Mapas",
+    "z_Assets/Volos",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Baldurs Gate.md",
+    "1. Mundo DM/NPCs/Maga Montana.md",
+    "1. Mundo DM/NPCs/Morrigan, la Reina de las Sombras.md",
+    "1. Mundo DM/NPCs/Dormilana.md",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Wyrm's Crossing",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Outer city",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Underground",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Upper city",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Upper City.md",
+    "1. Mundo DM/NPCs/Isha.md",
+    "3. Proximas sesiones/Septiembre 2024.md",
+    "3. Proximas sesiones",
     "dm/compendium/races/yuan-ti-mpmm.md",
     "dm/compendium/races/triton-mpmm.md",
     "dm/compendium/races/tortle-mpmm.md",
@@ -181,38 +211,6 @@
     "dm/compendium/races/shadar-kai-mpmm.md",
     "dm/compendium/races/sea-elf-mpmm.md",
     "dm/compendium/races/satyr-mpmm.md",
-    "dm/compendium/races/races.md",
-    "dm/compendium/races/plasmoid-aag.md",
-    "dm/compendium/races/orc-mpmm.md",
-    "dm/compendium/races/minotaur-mpmm.md",
-    "dm/compendium/races/lizardfolk-mpmm.md",
-    "dm/compendium/races/kobold-mpmm.md",
-    "dm/compendium/races/kenku-mpmm.md",
-    "dm/compendium/races/human.md",
-    "dm/compendium/races/human-variant.md",
-    "dm/compendium/races/hobgoblin-mpmm.md",
-    "dm/compendium/races/harengon-mpmm.md",
-    "dm/compendium/races/halfling.md",
-    "dm/compendium/races",
-    "dm/compendium/items",
-    "dm/compendium/vehicles",
-    "dm/compendium/rules/variant-rules",
-    "dm/compendium/rules",
-    "dm/compendium/spells",
-    "dm/compendium/optional-features",
-    "dm/compendium/bestiary/humanoid",
-    "dm/compendium/bestiary/construct",
-    "dm/compendium/bestiary/celestial",
-    "z_Assets/Vehicles/Star Moth/Star Moth Map Player Version.webp",
-    "z_Assets/Vehicles/Star Moth/Star Moth Map.webp",
-    "z_Assets/Vehicles/Star Moth/Star Moth.webp",
-    "z_Assets/Vehicles/Space Galleon/Space Galleon Map Player Version.webp",
-    "z_Assets/Vehicles/Space Galleon/Space Galleon Map.webp",
-    "z_Assets/Vehicles/Space Galleon/Space Galleon.webp",
-    "Untitled.canvas",
-    "5etools-mirror-2.github.io/android-chrome-192x192.png",
-    "5etools-mirror-2.github.io/icon/icon-512.png",
-    "5etools-mirror-2.github.io/icon/icon-192.png",
-    "5etools-mirror-2.github.io/icon/icon-1024.png"
+    "Untitled.canvas"
   ]
 }
