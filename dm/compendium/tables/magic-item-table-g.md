@@ -15,7 +15,7 @@ aliases: ["Magic Item Table G"]
 | dice: d100 | Magic Item |
 |------------|------------|
 | 01-11 | [+2 weapon](compendium/items/2-weapon.md) |
-| 12-14 | **Figurine of Wondrous Power**<br /><br />`dice: [](magic-item-table-g.md#^figurine-of-wondrous-power)`<br /><br />| dice: d8 | Magic Item |<br />|----------|------------|<br />| 01 | [Figurine of wondrous power, bronze griffon](compendium/items/figurine-of-wondrous-power-bronze-griffon.md) |<br />| 02 | [Figurine of wondrous power, ebony fly](compendium/items/figurine-of-wondrous-power-ebony-fly.md) |<br />| 03 | [Figurine of wondrous power, golden lions](compendium/items/figurine-of-wondrous-power-golden-lions.md) |<br />| 04 | [Figurine of wondrous power, ivory goats](compendium/items/figurine-of-wondrous-power-ivory-goats.md) |<br />| 05 | [Figurine of wondrous power, marble elephant](compendium/items/figurine-of-wondrous-power-marble-elephant.md) |<br />| 06-07 | [Figurine of wondrous power, onyx dog](compendium/items/figurine-of-wondrous-power-onyx-dog.md) |<br />| 08 | [Figurine of wondrous power, serpentine owl](compendium/items/figurine-of-wondrous-power-serpentine-owl.md) |<br />^figurine-of-wondrous-power |
+| 12-14 | **Figurine of Wondrous Power**<br /><br />`dice: [[magic-item-table-g#^figurine-of-wondrous-power]]` |
 | 15 | [Adamantine breastplate](compendium/items/adamantine-armor.md) |
 | 16 | [Adamantine splint armor](compendium/items/adamantine-armor.md) |
 | 17 | [Amulet of health](compendium/items/amulet-of-health.md) |
@@ -103,3 +103,14 @@ aliases: ["Magic Item Table G"]
 | 99 | [Wand of wonder](compendium/items/wand-of-wonder.md) |
 | 00 | [Wings of flying](compendium/items/wings-of-flying.md) |
 ^magic-item-table-g
+
+| dice: d8 | Magic Item |
+|----------|------------|
+| 01 | [Figurine of wondrous power, bronze griffon](compendium/items/figurine-of-wondrous-power-bronze-griffon.md) |
+| 02 | [Figurine of wondrous power, ebony fly](compendium/items/figurine-of-wondrous-power-ebony-fly.md) |
+| 03 | [Figurine of wondrous power, golden lions](compendium/items/figurine-of-wondrous-power-golden-lions.md) |
+| 04 | [Figurine of wondrous power, ivory goats](compendium/items/figurine-of-wondrous-power-ivory-goats.md) |
+| 05 | [Figurine of wondrous power, marble elephant](compendium/items/figurine-of-wondrous-power-marble-elephant.md) |
+| 06-07 | [Figurine of wondrous power, onyx dog](compendium/items/figurine-of-wondrous-power-onyx-dog.md) |
+| 08 | [Figurine of wondrous power, serpentine owl](compendium/items/figurine-of-wondrous-power-serpentine-owl.md) |
+^figurine-of-wondrous-power

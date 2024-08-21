@@ -6,7 +6,7 @@ tags:
 aliases: ["Magic Item Table I"]
 ---
 # Magic Item Table I
-*Source: Dungeon Master's Guide p. 144* 
+*Source: Dungeon Master's Guide p. 144*  
 
 **Magic Item Table I**
 
@@ -42,7 +42,7 @@ aliases: ["Magic Item Table I"]
 | 70-71 | [+2 splint armor](compendium/items/2-armor.md) |
 | 72-73 | [+2 studded leather armor](compendium/items/2-armor.md) |
 | 74-75 | [Well of many worlds](compendium/items/well-of-many-worlds.md) |
-| 76 | **Magic armor**<br /><br />`dice: [](magic-item-table-i.md#^magic-armor)`<br /><br />| dice: 1d12 |  |<br />|------------|--|<br />| 1-2 | [+2 half plate armor](compendium/items/2-armor.md) |<br />| 3-4 | [+2 plate armor](compendium/items/2-armor.md) |<br />| 5-6 | [+3 studded leather armor](compendium/items/3-armor.md) |<br />| 7-8 | [+3 breastplate](compendium/items/3-armor.md) |<br />| 9-10 | [+3 splint armor](compendium/items/3-armor.md) |<br />| 11 | [+3 half plate armor](compendium/items/3-armor.md) |<br />| 12 | [+3 plate armor](compendium/items/3-armor.md) |<br />^magic-armor |
+| 76 | **Magic armor**<br /><br />`dice: [[magic-item-table-i#^magic-armor]]` |
 | 77 | [Apparatus of kwalish](compendium/items/apparatus-of-kwalish.md) |
 | 78 | [Armor of invulnerability](compendium/items/armor-of-invulnerability.md) |
 | 79 | [Belt of storm giant strength](compendium/items/belt-of-storm-giant-strength.md) |
@@ -68,3 +68,14 @@ aliases: ["Magic Item Table I"]
 | 99 | [Talisman of ultimate evil](compendium/items/talisman-of-ultimate-evil.md) |
 | 00 | [Tome of the stilled tongue](compendium/items/tome-of-the-stilled-tongue.md) |
 ^magic-item-table-i
+
+| dice: 1d12 |  |
+|------------|--|
+| 1-2 | [+2 half plate armor](compendium/items/2-armor.md) |
+| 3-4 | [+2 plate armor](compendium/items/2-armor.md) |
+| 5-6 | [+3 studded leather armor](compendium/items/3-armor.md) |
+| 7-8 | [+3 breastplate](compendium/items/3-armor.md) |
+| 9-10 | [+3 splint armor](compendium/items/3-armor.md) |
+| 11 | [+3 half plate armor](compendium/items/3-armor.md) |
+| 12 | [+3 plate armor](compendium/items/3-armor.md) |
+^magic-armor

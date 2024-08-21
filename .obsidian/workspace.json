@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
+                "file": "dm/compendium/rules/variant-rules/downtime-activity-buying-a-magic-item-xge.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1c381bdfcf01ba18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dm/compendium/tables/magic-item-table-i.md",
                 "mode": "source",
-                "source": false
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2d953378df2565c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,10 +73,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "buy",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md"
+                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md"
               }
             }
           },
@@ -149,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,56 +187,60 @@
       "command-palette:Open command palette": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-5e-statblocks:Open Creature pane": false
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "de7a16f67b819479",
+  "active": "2d953378df2565c9",
   "lastOpenFiles": [
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Elfsong Tavern.md",
+    "dm/compendium/tables/human-names-roman-male-xge.md",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
+    "z_Templates/Insert items shop.md",
+    "dm/compendium/tables/human-names-norse-female-xge.md",
+    "dm/compendium/rules/variant-rules/downtime-activity-buying-a-magic-item-xge.md",
+    "dm/compendium/items/3-armor.md",
+    "dm/compendium/tables/magic-item-table-i.md",
+    "tests tables.md",
+    "dm/compendium/tables/magic-item-table-h.md",
+    "dm/compendium/tables/magic-item-table-g.md",
+    "dm/compendium/tables/magic-item-rarity.md",
+    "dm/compendium/tables/magic-item-sale-complications-xge.md",
+    "dm/compendium/tables/magic-mushrooms-magic-mushroom-effects-tce.md",
+    "dm/compendium/tables/magic-items-tce.md",
+    "dm/compendium/tables/magic-items-awarded-by-rarity-major-xge.md",
+    "dm/compendium/tables/magic-items-awarded-by-rarity-minor-xge.md",
+    "dm/compendium/items/spell-scroll-cantrip.md",
+    "dm/compendium/items/potion-of-invisibility.md",
+    "dm/compendium/tables/buying-a-magic-item-magic-item-price-xge.md",
+    "0. DM Screen/Random Tables/Magic Item Price.md",
+    "dm/compendium/items/spell-scroll-1st-level.md",
+    "0. DM Screen/Random Tables/Shop items table.md",
+    "dm/compendium/items/potion-of-diminution.md",
+    "dm/compendium/items/potion-of-heroism.md",
+    "dm/compendium/items/potion-of-healing.md",
+    "dm/compendium/tables/magic-item-table-a.md",
+    "z_Assets/Otros/Pasted image 20240820095036.png",
+    "z_Assets/Otros/Pasted image 20240820095014.png",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Untitled",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tabernas",
     "z_Assets/Volos/Captura de pantalla 2024-08-20 a las 9.27.41.png",
     "z_Assets/Otros/Captura de pantalla 2024-08-20 a las 9.27.41.png",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/El ahorcado - Hanged Man.md",
     "z_Assets/Otros/Pasted image 20240820092558.png",
     "z_Assets/Otros/Pasted image 20240820092552.png",
     "z_Assets/Otros/Pasted image 20240820092545.png",
     "z_Assets/Otros/Pasted image 20240820092533.png",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Armas y estrellas - Blade and Stars.md",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Sirena sonrojada - Blushing Mermaid.md",
     "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.46.59.png",
     "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.48.26.png",
-    "z_Assets/Mapas/Pasted image 20240819212208.png",
-    "z_Assets/Otros/Pasted image 20240819213834.png",
     "z_Assets/Otros",
     "z_Assets/carpeta sin título",
     "z_Assets/Mapas",
     "z_Assets/Volos",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Baldurs Gate.md",
-    "1. Mundo DM/NPCs/Maga Montana.md",
-    "1. Mundo DM/NPCs/Morrigan, la Reina de las Sombras.md",
-    "1. Mundo DM/NPCs/Dormilana.md",
     "1. Mundo DM/Ubicaciones/Baldurs Gate/Wyrm's Crossing",
     "1. Mundo DM/Ubicaciones/Baldurs Gate/Outer city",
     "1. Mundo DM/Ubicaciones/Baldurs Gate/Underground",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Upper city",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Upper City.md",
-    "1. Mundo DM/NPCs/Isha.md",
-    "3. Proximas sesiones/Septiembre 2024.md",
-    "3. Proximas sesiones",
-    "dm/compendium/races/yuan-ti-mpmm.md",
-    "dm/compendium/races/triton-mpmm.md",
-    "dm/compendium/races/tortle-mpmm.md",
-    "dm/compendium/races/tiefling.md",
-    "dm/compendium/races/tiefling-winged-scag.md",
-    "dm/compendium/races/tiefling-infernal-legacy-scag.md",
-    "dm/compendium/races/tiefling-hellfire-scag.md",
-    "dm/compendium/races/tiefling-devils-tongue-scag.md",
-    "dm/compendium/races/thri-kreen-aag.md",
-    "dm/compendium/races/tabaxi-mpmm.md",
-    "dm/compendium/races/shifter-mpmm.md",
-    "dm/compendium/races/shadar-kai-mpmm.md",
-    "dm/compendium/races/sea-elf-mpmm.md",
-    "dm/compendium/races/satyr-mpmm.md",
     "Untitled.canvas"
   ]
 }
