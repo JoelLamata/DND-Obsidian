@@ -1,5 +1,3 @@
-## Escenas (que ocurre)
-
 - Despertar en la Posada y Entrada a Baldur's Gate:
 	- El aire de la mañana es fresco, con un suave aroma a tierra húmeda y hojas.
 	- Al acercarse a las puertas de la ciudad, el bullicio del día comienza a despertarse. Los carros tirados por caballos, cargados de mercancías, ya forman una larga fila para entrar, mientras los guardias, armados con lanzas y escudos adornados con el emblema de Baldur's Gate, controlan a los viajeros con miradas atentas.
@@ -7,7 +5,7 @@
 - El Revuelo en la Plaza del Diamant
 	- Las calles que conducen a la plaza están ya llenas de ciudadanos que se apresuran a ocupar un lugar, movidos por la expectación de algo extraordinario.
 	- La plaza, rodeada de elegantes edificios de piedra con balcones de hierro forjado, resuena con el murmullo de la multitud. Comerciantes, nobles, y aventureros se mezclan en un mar de rostros, todos dirigidos hacia un escenario decorado con flores vibrantes y telas de colores que ondean suavemente con la brisa matinal. 
-- La Maga montana
+- La [[Maga montana]]
 	- Mujer con un vestido extravagante de colores llamativos, casi irreales, cargada de brillos y olores.
 - El Espectáculo de la Maga Montana
 	- Cuando la Maga Montana comienza su actuación, un silencio expectante se apodera de la plaza. Con un gesto fluido de su mano, el aire a su alrededor parece vibrar, y la magia comienza a desplegarse en una sinfonía de colores y formas. 
@@ -21,22 +19,62 @@
 	- **Enredaderas** con flores que emiten un tenue resplandor nocturno suben por las paredes, y pequeñas **luces flotantes** como luciérnagas doradas bailan alrededor del umbra.
 	- Al entrar en la casa, los personajes son recibidos por un interior acogedor y sorprendentemente amplio, como si el espacio dentro fuera mayor de lo que el exterior sugiere. Las paredes están cubiertas con tapices de escenas del Feywild, mostrando paisajes imposibles y criaturas mágicas. Una gran **chimenea** emite un calor suave, y el sonido de un río lejano parece fluir constantemente en el fondo, aunque no hay ningún río a la vista.
 	- **Estanterías** llenas de libros antiguos y extraños artefactos ocupan gran parte de la sala principal. En el centro, una **mesa redonda** con sillas cómodas invita a los visitantes a sentarse. La luz en la habitación proviene de lámparas flotantes que cambian de intensidad según la necesidad. En un rincón, una pequeña ventana redonda deja entrar la luz natural, pero el paisaje que se ve a través de ella no parece corresponder al exterior: es como si se viera un fragmento del Feywild, con cielos púrpuras y árboles dorados.
-- La Petición de Montana: Recuperar el Velo de Istaria
+- La Petición de Montana: Recuperar [El Espejo de Guisante](https://forgottenrealms.fandom.com/wiki/Mirror)
+	- Montana explica que el Espejo de Guisante es la única forma de revertir la maldición, pero no puede activarlo por sí misma debido a las limitaciones que la maldición le impuso. Necesita a Jashin para que, usando su vínculo con el Feywild, canalice la energía feérica y reactive el espejo, permitiendo que Montana recupere su verdadera forma y poder.
+	- El Espejo de Guisante no solo tiene el poder de revertir la maldición de Montana. Es un artefacto versátil y antiguo, capaz de:
+		- **Revelar verdades ocultas:** Al mirarse en el espejo, uno puede ver su verdadera esencia o incluso vislumbrar fragmentos de su destino.
+		- **Romper otras maldiciones:** El espejo puede deshacer hechizos y maldiciones siempre y cuando el ritual sea realizado correctamente y con la persona adecuada.
+		- **Reflejar los deseos más profundos:** Aquellos con un fuerte vínculo con el Feywild pueden usar el espejo para reflejar no solo su esencia, sino también para descubrir cómo alcanzar sus deseos más profundos.
+- Montana cumple su promesa y les entrega un objeto raro y valioso: un **Mapa de Dora**. Este mapa mágico es un pergamino antiguo que, al concentrarse en un deseo profundo y verdadero, revela el camino hacia la realización de ese deseo.
+- 
 
-## NPCs
+# TODO
+Pensar en que puede enseñar el Espejo y el Mapa cuando lo usen los personajes?
 
-**[[Maga Montana]].** Description
+## Personajes
 
-**Istaria.** Description
+![[1. Mundo DM/PCs/Aelar Brightwind#^descripcion|clean]]
+![[1. Mundo DM/PCs/Bamblin#^descripcion|clean]]
+![[1. Mundo DM/PCs/Elina Green#^descripcion|clean]]
+![[Jashin#^descripcion|clean]]
+![[1. Mundo DM/PCs/Vofun#^descripcion|clean]]
 
-## Enfrentamientos
+## Inicio
 
-- Name
+Description of your strong start.
+
+## Escenas
+
+- Small scene description.
 
 ## Secretos y pistas
 
 - Secret description
 
-## Tesoros
+## Lugares fantasticos
+
+**Location**: aspect, aspect, aspect
+
+**Location**: aspect, aspect, aspect
+
+**Location**: aspect, aspect, aspect
+
+**Location**: aspect, aspect, aspect
+
+## NPCs importantes
+
+**Nombre.** Descripción.
+
+**Nombre.** Descripción.
+
+**Nombre.** Descripción.
+
+**Nombre.** Descripción.
+
+## Posibles monstruos
+
+- Name
+
+## Posibles tesoros
 
 - Description

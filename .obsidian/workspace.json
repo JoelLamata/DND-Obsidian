@@ -8,43 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de7a16f67b819479",
+            "id": "2b778f61f692e938",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dm/compendium/rules/variant-rules/downtime-activity-buying-a-magic-item-xge.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1c381bdfcf01ba18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dm/compendium/tables/magic-item-table-i.md",
+                "file": "0. DM Screen/Normas propias/Combate.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "2d953378df2565c9",
+            "id": "d93a57ae733739ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
-                "mode": "preview",
-                "source": true
+                "file": "0. DM Screen/Normas propias/Combate.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "buy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
+                "file": "0. DM Screen/Normas propias/Combate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
+                "file": "0. DM Screen/Normas propias/Combate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md"
+                "file": "0. DM Screen/Normas propias/Combate.md"
               }
             }
           },
@@ -193,34 +180,40 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "2d953378df2565c9",
+  "active": "2b778f61f692e938",
   "lastOpenFiles": [
-    "dm/compendium/tables/human-names-roman-male-xge.md",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
-    "z_Templates/Insert items shop.md",
-    "dm/compendium/tables/human-names-norse-female-xge.md",
-    "dm/compendium/rules/variant-rules/downtime-activity-buying-a-magic-item-xge.md",
-    "dm/compendium/items/3-armor.md",
-    "dm/compendium/tables/magic-item-table-i.md",
-    "tests tables.md",
-    "dm/compendium/tables/magic-item-table-h.md",
-    "dm/compendium/tables/magic-item-table-g.md",
-    "dm/compendium/tables/magic-item-rarity.md",
-    "dm/compendium/tables/magic-item-sale-complications-xge.md",
-    "dm/compendium/tables/magic-mushrooms-magic-mushroom-effects-tce.md",
-    "dm/compendium/tables/magic-items-tce.md",
-    "dm/compendium/tables/magic-items-awarded-by-rarity-major-xge.md",
-    "dm/compendium/tables/magic-items-awarded-by-rarity-minor-xge.md",
-    "dm/compendium/items/spell-scroll-cantrip.md",
-    "dm/compendium/items/potion-of-invisibility.md",
-    "dm/compendium/tables/buying-a-magic-item-magic-item-price-xge.md",
-    "0. DM Screen/Random Tables/Magic Item Price.md",
-    "dm/compendium/items/spell-scroll-1st-level.md",
-    "0. DM Screen/Random Tables/Shop items table.md",
-    "dm/compendium/items/potion-of-diminution.md",
-    "dm/compendium/items/potion-of-heroism.md",
-    "dm/compendium/items/potion-of-healing.md",
-    "dm/compendium/tables/magic-item-table-a.md",
+    "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md",
+    "0. DM Screen/Normas propias/Combate.md",
+    "0. DM Screen/Notas propias/Combate.md",
+    "0. DM Screen/Normas propias",
+    "0. DM Screen/Notas propias/Sistema NPCs.md",
+    "3. Proximas sesiones/Septiembre 2024.md",
+    "Untitled.md",
+    "0. DM Screen/Notas propias",
+    "z_Templates/World Building/Template - NPC.md",
+    "z_Templates/World Building/Other/Template - Resumen de la sesión.md",
+    "1. Mundo DM/PCs/Bamblin.md",
+    "1. Mundo DM/PCs/Aelar Brightwind.md",
+    "1. Mundo DM/PCs/Vofun.md",
+    "1. Mundo DM/PCs/Jashin.md",
+    "1. Mundo DM/PCs/Elina Green.md",
+    "docs/PCs/Aelar Brightwind.md",
+    "docs/PCs/Atheris Quinlan.md",
+    "docs/PCs/Bamblin.md",
+    "docs/PCs/Elina Green.md",
+    "docs/PCs/Vofun.md",
+    "1. Mundo DM/PCs/Atheris Quinlan.md",
+    "z_Templates/World Building/Other/Template - Session Journal.md",
+    "docs/PCs/Aelar Brightwind^descripcion.md",
+    "0. DM Screen/Random Tables/Nombres y apellidos.md",
+    "Aelar.md",
+    "1. Mundo DM/Items/Espejo de Guisante.md",
+    "z_Templates/World Building/Other/Template - Preparación de la sesión.md",
+    "z_Templates/World Building/Other/Template - Prep Journal.md",
+    "z_Assets/Portraits/Isha.jpeg",
+    "1. Mundo DM/Ubicaciones/Dungeons/Untitled",
+    "1. Mundo DM/Ubicaciones/Dungeons",
+    "1. Mundo DM/Items",
     "z_Assets/Otros/Pasted image 20240820095036.png",
     "z_Assets/Otros/Pasted image 20240820095014.png",
     "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Untitled",
@@ -233,14 +226,8 @@
     "z_Assets/Otros/Pasted image 20240820092545.png",
     "z_Assets/Otros/Pasted image 20240820092533.png",
     "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.46.59.png",
-    "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.48.26.png",
     "z_Assets/Otros",
     "z_Assets/carpeta sin título",
-    "z_Assets/Mapas",
-    "z_Assets/Volos",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Wyrm's Crossing",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Outer city",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Underground",
     "Untitled.canvas"
   ]
 }
