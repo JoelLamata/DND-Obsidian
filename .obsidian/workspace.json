@@ -16,28 +16,6 @@
             }
           },
           {
-            "id": "d93a57ae733739ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "666a8fd81660078a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "z_Assets/Mapas/Sword-Coast-Map_HighRes.jpg"
-              }
-            }
-          },
-          {
             "id": "f1869b5c9bf69e2c",
             "type": "leaf",
             "state": {
@@ -48,9 +26,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9fb39c9345df3648",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DM Screen/Random Tables/Misiones/Misiones en la ciudad.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "15e8c0a26becea68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DM Screen/Random Tables/Misiones/Misiones secundarias - Side quest hooks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b90fb06903a5b1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DM Screen/Tables dice.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -116,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md",
+                "file": "0. DM Screen/Tables dice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md",
+                "file": "0. DM Screen/Tables dice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md"
+                "file": "0. DM Screen/Tables dice.md"
               }
             }
           },
@@ -196,57 +210,57 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "fantasy-content-generator:Fantasy Generators": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "translate:Open translation view": false
     }
   },
-  "active": "d93a57ae733739ba",
+  "active": "1b90fb06903a5b1a",
   "lastOpenFiles": [
-    "0. DM Screen/Normas propias/Nuevas normas de Combate.md",
+    "0. DM Screen/Random Tables/Misiones/Misiones en la ciudad.md",
+    "0. DM Screen/Random Tables/Misiones/Misiones secundarias moralmente ambiguas - Morally Ambiguous Side Quests.md",
+    "0. DM Screen/Random Tables/Misiones/Misiones secundarias - Side quest hooks.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Rogue Magic Items.md",
+    "0. DM Screen/Random Tables/Misiones",
+    "0. DM Screen/Random Tables/Encounters",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Drogas y sus efectos - Fantasy Drugs and Their Effects.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Magic Items for a Rogue.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Tienda de segunda mano - Items in a Fantasy Thrift Shop.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros",
+    "0. DM Screen/Random Tables/temp trad.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Tesoros druídicos - Druidic Treasures.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Setas y sus efectos - Mushrooms and Their Effects.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Paladin Magic Items.md",
+    "0. DM Screen/Tables dice.md",
+    "0. DM Screen/Random Tables/Encounters/Encuentros en el viaje - Travel Montage Events.md",
+    "0. DM Screen/Random Tables/table_translator_deepl.py",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Objetos interesantes - Interesting trinkets.md",
+    "0. DM Screen/Random Tables/Nombres y apellidos.md",
+    "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md",
+    "0. DM Screen/Random Tables/Misiones/Ofertas de empleo publicadas en el tablón de anuncios de una taberna.md",
+    "0. DM Screen/Random Tables/Maldiciones.md",
     "1. Mundo DM/Ubicaciones/Baldurs Gate/Baldurs Gate.md",
     "z_Assets/Mapas/Sword-Coast-Map_HighRes.jpg",
+    "0. DM Screen/Normas propias/Nuevas normas de Combate.md",
     "Untitled.md",
     "Untitled.canvas",
     "z_Assets/Mapas/Pasted image 20240819212208.png",
     "z_Assets/Otros/Pasted image 20240820095036.png",
     "z_Assets/Otros/Pasted image 20240819213606.png",
     "z_Assets/Otros/Captura de pantalla 2024-08-20 a las 9.27.41.png",
-    "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md",
     "0. DM Screen/Notas propias/Combate.md",
     "0. DM Screen/Normas propias",
     "0. DM Screen/Notas propias/Sistema NPCs.md",
     "3. Proximas sesiones/Septiembre 2024.md",
     "0. DM Screen/Notas propias",
     "z_Templates/World Building/Template - NPC.md",
-    "z_Templates/World Building/Other/Template - Resumen de la sesión.md",
-    "1. Mundo DM/PCs/Bamblin.md",
-    "1. Mundo DM/PCs/Aelar Brightwind.md",
-    "1. Mundo DM/PCs/Vofun.md",
-    "1. Mundo DM/PCs/Jashin.md",
-    "1. Mundo DM/PCs/Elina Green.md",
-    "docs/PCs/Aelar Brightwind.md",
-    "docs/PCs/Atheris Quinlan.md",
-    "docs/PCs/Bamblin.md",
-    "docs/PCs/Elina Green.md",
-    "docs/PCs/Vofun.md",
-    "1. Mundo DM/PCs/Atheris Quinlan.md",
-    "z_Templates/World Building/Other/Template - Session Journal.md",
-    "docs/PCs/Aelar Brightwind^descripcion.md",
-    "0. DM Screen/Random Tables/Nombres y apellidos.md",
-    "Aelar.md",
-    "1. Mundo DM/Items/Espejo de Guisante.md",
-    "z_Templates/World Building/Other/Template - Preparación de la sesión.md",
     "z_Assets/Portraits/Isha.jpeg",
     "1. Mundo DM/Ubicaciones/Dungeons/Untitled",
     "1. Mundo DM/Ubicaciones/Dungeons",
     "1. Mundo DM/Items",
     "z_Assets/Otros/Pasted image 20240820095014.png",
     "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Untitled",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tabernas",
     "z_Assets/Volos/Captura de pantalla 2024-08-20 a las 9.27.41.png",
     "z_Assets/Otros/Pasted image 20240820092558.png",
-    "z_Assets/Otros/Pasted image 20240820092552.png",
-    "z_Assets/Otros",
-    "z_Assets/carpeta sin título"
+    "z_Assets/Otros/Pasted image 20240820092552.png"
   ]
 }

@@ -6,5 +6,14 @@
       ],
       "key": "T"
     }
+  ],
+  "translate:translator-selection-default": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "T"
+    }
   ]
 }

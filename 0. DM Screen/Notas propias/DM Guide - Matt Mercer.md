@@ -20,3 +20,12 @@
 - Conocer su poder, saber de que son capaces.
 
 ### Improvisación
+- No negar las acciones de los personajes (mientras no se pasen en exceso).
+- Dejar que se alejen de la historia principal y solo ir guiándoles para que no se alejen demasiado.
+- Las ideas extrañas no deberían asustar ya que pueden crear escenarios interesantes y divertidos.
+- Preparar alguna misión secundaria que tener siempre disponible por si se alejan de la historia principal.
+- Tener a mano una lista de nombres para NPCs o lista de NPCs creados anteriormente para mantener el ritmo de la historia.
+- Tener a mano lista de "history hooks".
+- Tener a mano lista de objetos mágicos que puedan pertenecer al entorno.
+
+### 

@@ -1,5 +1,5 @@
 
-| d100 | Nombre      |
+| dice: d100 | Nombre      |
 | ---- | ----------- |
 | 1    | Alejandro   |
 | 2    | Rodrigo     |
@@ -103,7 +103,7 @@
 | 100  | Alfonso     |
 ^nombres
 
-|d100|Apellido|
+|dice: d100|Apellido|
 |---|---|
 |1|García|
 |2|Fernández|
