@@ -1,14 +1,10 @@
-Enter text to display here.
-
 ## Personajes
 
-**Name.** Description.
-
-**Name.** Description.
-
-**Name.** Description.
-
-**Name.** Description.
+- [[docs/PCs/Vofun|Vofun]]
+- [[docs/PCs/Aelar Brightwind|Aelar Brightwind]]
+- [[docs/PCs/Bamblin|Bamblin]]
+- [[docs/PCs/Elina Green|Elina Green]]
+- Jashin
 
 ## Resumen de la sesión 
 
@@ -20,17 +16,9 @@ Brief session overview.
 
 ## A quien han conocido
 
-**Name.** Description
+**Lucas.** Goliath que les bloquea el camino para secuestrar a Vofun. Es derrotado y le destrozan la rodilla.
 
-**Name.** Description
-
-**Name.** Description
-
-**Name.** Description
-
-## Objetos importantes
-
-- Description
+**Dormilana.** Les manda a ver a la Maga Montana en Baldurs Gate para saber mas sobre el Feyworld.
 
 ## Que ha funcionado
 
