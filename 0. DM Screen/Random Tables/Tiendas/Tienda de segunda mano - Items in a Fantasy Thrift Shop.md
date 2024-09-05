@@ -1,4 +1,4 @@
-|d100|Entry|
+|dice: d100|Entry|
 |---|---|
 | 1 | Juego de platos Chip: Un juego de porcelana artesanal halfling. Muy bien hecho y viene con utensilios de plata. |
 | 2 | Urna de Restos Enanos: Exactamente lo que crees que es. Nadie la cogió en el montón de donaciones. |
@@ -100,3 +100,5 @@
 | 98 | Gafas circulares con cristales verdes; ¡cuatro de ellas! |
 | 99 | Un traje granate pasado de moda hecho a medida para un humano bajo y gordo, o quizá un enano de proporciones extrañas. |
 | 100 | Farol con capucha pintado con bastante detalle con motivos de gatos domésticos jugando en diferentes posturas. Está pintado principalmente en blanco y rosa, y tiene pequeñas marcas de roce en un lado. |
+
+^294a4a

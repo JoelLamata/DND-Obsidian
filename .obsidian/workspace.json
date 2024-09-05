@@ -28,38 +28,50 @@
             }
           },
           {
-            "id": "9fb39c9345df3648",
+            "id": "0cecae119b434bc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. DM Screen/Random Tables/Misiones/Misiones en la ciudad.md",
+                "file": "1. Mundo DM/NPCs/Maga Montana.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "15e8c0a26becea68",
+            "id": "2e1d11753c93f42d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. DM Screen/Random Tables/Misiones/Misiones secundarias - Side quest hooks.md",
+                "file": "0. DM Screen/Tables dice.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ebf6fbf21211f24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DM Screen/Notas propias/Items para classes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1b90fb06903a5b1a",
+            "id": "2069b88f0ab43d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. DM Screen/Tables dice.md",
+                "file": "3. Proximas sesiones/Septiembre 2024.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -93,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "maga montana",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. DM Screen/Tables dice.md",
+                "file": "0. DM Screen/Notas propias/Items para classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. DM Screen/Tables dice.md",
+                "file": "0. DM Screen/Notas propias/Items para classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. DM Screen/Tables dice.md"
+                "file": "0. DM Screen/Notas propias/Items para classes.md"
               }
             }
           },
@@ -214,53 +226,54 @@
       "translate:Open translation view": false
     }
   },
-  "active": "1b90fb06903a5b1a",
+  "active": "4ebf6fbf21211f24",
   "lastOpenFiles": [
-    "0. DM Screen/Random Tables/Misiones/Misiones en la ciudad.md",
-    "0. DM Screen/Random Tables/Misiones/Misiones secundarias moralmente ambiguas - Morally Ambiguous Side Quests.md",
-    "0. DM Screen/Random Tables/Misiones/Misiones secundarias - Side quest hooks.md",
+    "3. Proximas sesiones/Septiembre 2024.md",
+    "0. DM Screen/Notas propias/Items para classes.md",
+    "1. Mundo DM/NPCs/Maga Montana.md",
+    "0. DM Screen/Tables dice.md",
+    "0. DM Screen/Random Tables/temp trad.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Paladin Magic Items.md",
+    "z_Assets/Objetos/llave seta.webp",
+    "z_Assets/Objetos/mountainsideMUSHIEKEY_800x.webp",
+    "z_Assets/Objetos/mountainsideMUSHIEKEY_800x.webp.crdownload",
+    "z_Assets/Objetos",
     "0. DM Screen/Random Tables/Objetos y tesoros/Rogue Magic Items.md",
+    "0. DM Screen/Normas propias/Heroic Inspiration.md",
+    "0. DM Screen/Normas propias/Nuevas normas de Combate.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Drogas y sus efectos - Fantasy Drugs and Their Effects.md",
+    "0. DM Screen/Random Tables/Tiendas/Interesting Traveling Merchants.md",
+    "0. DM Screen/Random Tables/Misiones/Quests Involving Tool Kits.md",
+    "0. DM Screen/Random Tables/Tiendas/Items For Sale In A Fantasy Black Market.md",
+    "0. DM Screen/Random Tables/Tiendas/Magic Items a Scam Artist Would Sell.md",
+    "0. DM Screen/Random Tables/Tiendas/Tienda de segunda mano - Items in a Fantasy Thrift Shop.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Magical Items with Sentimental Origins.md",
+    "0. DM Screen/Random Tables/Unique Dragon Hoards.md",
+    "0. DM Screen/Random Tables/Tiendas",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Objetos malvados - Evil Magic Items.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Objetos preciados de difuntos - Treasured Items of the Deceased.md",
+    "0. DM Screen/Random Tables/Objetos y tesoros/Reliquias - Ancient Holy Relics.md",
+    "0. DM Screen/Random Tables/Nombres y apellidos.md",
+    "1. Mundo DM/Ubicaciones/Baldurs Gate/Baldurs Gate.md",
+    "0. DM Screen/Random Tables/Misiones/Misiones en la ciudad.md",
+    "0. DM Screen/Random Tables/Misiones/Misiones secundarias - Side quest hooks.md",
+    "0. DM Screen/Random Tables/Misiones/Misiones secundarias moralmente ambiguas - Morally Ambiguous Side Quests.md",
     "0. DM Screen/Random Tables/Misiones",
     "0. DM Screen/Random Tables/Encounters",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Drogas y sus efectos - Fantasy Drugs and Their Effects.md",
     "0. DM Screen/Random Tables/Objetos y tesoros/Magic Items for a Rogue.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Tienda de segunda mano - Items in a Fantasy Thrift Shop.md",
     "0. DM Screen/Random Tables/Objetos y tesoros",
-    "0. DM Screen/Random Tables/temp trad.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Tesoros druídicos - Druidic Treasures.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Setas y sus efectos - Mushrooms and Their Effects.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Paladin Magic Items.md",
-    "0. DM Screen/Tables dice.md",
-    "0. DM Screen/Random Tables/Encounters/Encuentros en el viaje - Travel Montage Events.md",
     "0. DM Screen/Random Tables/table_translator_deepl.py",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Objetos interesantes - Interesting trinkets.md",
-    "0. DM Screen/Random Tables/Nombres y apellidos.md",
-    "0. DM Screen/Notas propias/DM Guide - Matt Mercer.md",
-    "0. DM Screen/Random Tables/Misiones/Ofertas de empleo publicadas en el tablón de anuncios de una taberna.md",
-    "0. DM Screen/Random Tables/Maldiciones.md",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Baldurs Gate.md",
     "z_Assets/Mapas/Sword-Coast-Map_HighRes.jpg",
-    "0. DM Screen/Normas propias/Nuevas normas de Combate.md",
-    "Untitled.md",
     "Untitled.canvas",
     "z_Assets/Mapas/Pasted image 20240819212208.png",
     "z_Assets/Otros/Pasted image 20240820095036.png",
     "z_Assets/Otros/Pasted image 20240819213606.png",
     "z_Assets/Otros/Captura de pantalla 2024-08-20 a las 9.27.41.png",
-    "0. DM Screen/Notas propias/Combate.md",
     "0. DM Screen/Normas propias",
-    "0. DM Screen/Notas propias/Sistema NPCs.md",
-    "3. Proximas sesiones/Septiembre 2024.md",
     "0. DM Screen/Notas propias",
-    "z_Templates/World Building/Template - NPC.md",
     "z_Assets/Portraits/Isha.jpeg",
     "1. Mundo DM/Ubicaciones/Dungeons/Untitled",
-    "1. Mundo DM/Ubicaciones/Dungeons",
-    "1. Mundo DM/Items",
     "z_Assets/Otros/Pasted image 20240820095014.png",
-    "1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Untitled",
-    "z_Assets/Volos/Captura de pantalla 2024-08-20 a las 9.27.41.png",
-    "z_Assets/Otros/Pasted image 20240820092558.png",
-    "z_Assets/Otros/Pasted image 20240820092552.png"
+    "z_Assets/Volos/Captura de pantalla 2024-08-20 a las 9.27.41.png"
   ]
 }

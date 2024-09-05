@@ -153,7 +153,9 @@
       "host": "https://api-free.deepl.com/v2"
     },
     "lingva_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "en"
+      ],
       "host": "translate.plausibility.cloud",
       "auto_translate": false,
       "auto_translate_interval": 500,
