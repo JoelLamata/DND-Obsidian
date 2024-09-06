@@ -189,7 +189,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "fantasy-content-generator:Fantasy Generators": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "translate:Open translation view": false,
@@ -199,9 +198,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "fantasy-content-generator:Fantasy Generators": false
     }
   },
   "active": "2471707e31c176be",
