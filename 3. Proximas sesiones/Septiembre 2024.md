@@ -49,7 +49,7 @@ Description of your strong start.
 
 ## Secretos y pistas
 
-- Secret description
+- Aunque Montana ha sido honesto sobre su maldición, no ha revelado toda la verdad. Su desafío a Morrigan no fue por pura nobleza; Morgana intentó robar una parte del poder de Morrigan para aumentar su propio poder. Esto no solo enfureció a Morrigan, sino que fue la razón principal detrás de la maldición. Aunque Morgana se ha arrepentido de su arrogancia, teme que, si se redime completamente y recupera su poder, las fuerzas oscuras que lo acechan regresen para reclamar lo que una vez intentó robar.
 
 ## Lugares fantasticos
 
@@ -77,4 +77,7 @@ Description of your strong start.
 
 ## Posibles tesoros
 
-- Description
+- **Amulett of the Devout**: cambiar el amuleto de [[1. Mundo DM/PCs/Aelar Brightwind|Aelar Brightwind]] a: https://www.dndbeyond.com/magic-items/2411830-amulet-of-the-devout
+- 
+
+![[Items para classes]]
