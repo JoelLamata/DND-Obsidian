@@ -1,4 +1,5 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "z_Assets/Otros"
+  "attachmentFolderPath": "z_Assets/Otros",
+  "alwaysUpdateLinks": true
 }
