@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "2f9f25b5fa71e9ea",
+    "id": "fff07e93dae2c781",
     "type": "split",
     "children": [
       {
-        "id": "5df2f551fa7b467b",
+        "id": "22b5b382b75e3003",
         "type": "tabs",
         "children": [
           {
-            "id": "f6d37ab73d6504d4",
+            "id": "7bc2fd66d662d58b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "651afac79080f771",
+    "id": "ac895a4a2e78be99",
     "type": "split",
     "children": [
       {
-        "id": "9d5ae126d7243a15",
+        "id": "85904f42be6cc345",
         "type": "tabs",
         "children": [
           {
-            "id": "ec4d42de71569b3d",
+            "id": "a8c2f72cadf0a9d4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,12 +43,12 @@
             }
           },
           {
-            "id": "ae1c9380d4369f76",
+            "id": "f58c33cd9787488b",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mapa-cos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "6ca2a7dd6a9e9010",
+            "id": "f48f666bc8ee51a6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,22 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
-    "id": "16abb579b9ba2fb8",
+    "id": "06549097f17b725a",
     "type": "split",
     "children": [
       {
-        "id": "d56ed92a67d60e1b",
+        "id": "f9ed66939a70ccff",
         "type": "tabs",
         "children": [
           {
-            "id": "c2b0515c9963fe7b",
+            "id": "a42ecbf90655b9f6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "b0b426d41482cc49",
+            "id": "76b519fbade39414",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1805bc53589b25f7",
+            "id": "95ccbd4b58039fec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,15 +120,38 @@
             }
           },
           {
-            "id": "55d39147b26634dc",
+            "id": "f46705925213b2a9",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           },
           {
-            "id": "4517aa15ac6d1490",
+            "id": "92127c2e6d30aa00",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_39c8a9d82afb",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 0,
+                    "year": 1491
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_8a19f829f968"
+              }
+            }
+          },
+          {
+            "id": "44790cfb7dc6596c",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -130,10 +159,25 @@
             }
           },
           {
-            "id": "e65f1fdd1852051b",
+            "id": "4c3787d89188801e",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "861a98ae8fe6bc5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6439c29d1cf91705",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
               "state": {}
             }
           }
@@ -141,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,61 +195,62 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
-      "fantasy-content-generator:Fantasy Generators": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "translate:Open translation view": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "f6d37ab73d6504d4",
+  "active": "7bc2fd66d662d58b",
   "lastOpenFiles": [
-    "z_Assets/Personajes/Giff-5e.webp",
-    "Light-of-Xaryxis-Obsidian-main/Welcome.md",
-    "z_Assets/Portraits/Giff-portrait.png",
-    "z_Assets/Personajes",
-    "z_Assets 1/Images/Isha.jpeg",
-    "z_Assets/Mapas/Wildpsace-01 80x80.jpg",
-    "1. Light of Xaryxis/0. Notas/Decisiones de la historia que tengo que tomar que nervios no se que escoger.md",
-    "1. Costa de la Espada/3. Proximas sesiones/Septiembre 2024.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/wands-that-dont-recharge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/tying-knots-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/travel-at-sea-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/superior-ship-upgrades-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/tool-proficiencies-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/spellcasting-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/spell-points.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/sleep-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/skills-with-different-abilities.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ships-in-combat-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/skill-variants.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/sidekicks-tce.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ship-to-ship-combat-aag.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/simultaneous-effects-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ship-repairs-aag.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ship-stat-blocks-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/scroll-mishaps.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/shared-campaign-variant-rules-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/rest-variants.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/renown.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/random-ships-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/proficiency-dice.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/undead",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/plant",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/npc",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/monstrosity",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/ooze",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/fiend",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/legendary-group",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/giant",
+    "0. DM Screen/Random Tables/-Table dice.md",
+    "conflict-files-obsidian-git.md",
+    "1. Costa de la Espada/1. Mundo DM/Ubicaciones/Assarret.md",
+    "dm/compendium/rules/variant-rules/wands-that-dont-recharge.md",
+    "dm/compendium/rules/variant-rules/tying-knots-xge.md",
+    "dm/compendium/rules/variant-rules/travel-at-sea-gos.md",
+    "dm/compendium/rules/variant-rules/tool-proficiencies-xge.md",
+    "dm/compendium/rules/variant-rules/superior-ship-upgrades-gos.md",
+    "dm/compendium/rules/variant-rules/spellcasting-xge.md",
+    "dm/compendium/rules/variant-rules/spell-points.md",
+    "dm/compendium/rules/variant-rules/sleep-xge.md",
+    "dm/compendium/rules/variant-rules/skills-with-different-abilities.md",
+    "dm/compendium/rules/variant-rules/skill-variants.md",
+    "dm/compendium/rules/variant-rules/simultaneous-effects-xge.md",
+    "dm/compendium/rules/variant-rules/sidekicks-tce.md",
+    "dm/compendium/rules/variant-rules/ships-in-combat-gos.md",
+    "dm/compendium/rules/variant-rules/ship-to-ship-combat-aag.md",
+    "dm/compendium/rules/variant-rules/ship-repairs-aag.md",
+    "dm/compendium/rules/variant-rules/ship-stat-blocks-gos.md",
+    "dm/compendium/rules/variant-rules/shared-campaign-variant-rules-xge.md",
+    "dm/compendium/rules/variant-rules/scroll-mishaps.md",
+    "dm/compendium/rules/variant-rules/rest-variants.md",
+    "dm/compendium/rules/variant-rules/renown.md",
+    "dm/compendium/rules/variant-rules/random-ships-gos.md",
+    "dm/compendium/rules/variant-rules/proficiency-dice.md",
+    "dm/compendium/rules/variant-rules/plot-points.md",
+    "dm/compendium/rules/variant-rules",
+    "dm/compendium/rules",
+    "dm/compendium/rewards",
+    "dm/compendium/races",
+    "dm/compendium/optional-features",
+    "dm/compendium/spells",
+    "dm/compendium/objects",
+    "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.48.26.png",
+    "z_Assets/Volos/Captura de pantalla 2024-08-20 a las 9.27.41.png",
+    "z_Assets/Volos/Captura de pantalla 2024-08-19 a las 21.46.59.png",
+    "z_Assets/Volos",
     "z_Assets/Vehicles/Star Moth/Star Moth.webp",
     "z_Assets/Vehicles/Star Moth/Star Moth Map.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon.webp",
     "z_Assets/Vehicles/Star Moth/Star Moth Map Player Version.webp",
-    "z_Assets/Vehicles/Living ship/some-ship-variations-based-on-requests-ive-gotten-v0-3wuqo63du43b1.webp",
     "z_Assets/Vehicles/Space Galleon/Space Galleon Map.webp",
-    "z_Assets/Vehicles/Space Galleon/Space Galleon.webp"
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Map Player Version.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Colour map.webp",
+    "z_Assets/Vehicles/Star Moth",
+    "z_Assets/Vehicles/Space Galleon"
   ]
 }
