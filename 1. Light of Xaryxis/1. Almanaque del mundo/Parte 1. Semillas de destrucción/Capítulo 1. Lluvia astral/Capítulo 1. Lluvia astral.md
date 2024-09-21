@@ -1,0 +1,4 @@
+Al comienzo de la aventura, los personajes se dedican a sus quehaceres cotidianos en un bullicioso asentamiento costero, donde todo el mundo habla de las espectaculares lluvias de meteoritos que han surcado el cielo las últimas noches. En realidad, lo que la gente ha presenciado son lluvias de semillas astrales que caen del espacio y se sumergen profundamente en el suelo y el agua del asentamiento y sus alrededores. Algunas de estas semillas ya han germinado. La aventura comienza cuando enormes enredaderas cristalinas brotan de debajo de las calles, sembrando el caos en la comunidad.
+* * *
+
+[[Plagas astrales]]

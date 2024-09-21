@@ -1,2 +1,0 @@
-el gordo
-![[Vofun.jpeg]]

@@ -10,11 +10,11 @@ Enter text to display here.
 
 **Name.** Description.
 
-## Resumen de la sesión 
+## Resumen
 
 Brief session overview.
 
-## Puntos claves
+## Que he podido aprender
 
 - Description of any important information that the party learned.
 

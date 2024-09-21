@@ -1,1 +1,1 @@
-![[Isha.jpeg]]
+![[z_Assets/Portraits/Isha.jpeg]]

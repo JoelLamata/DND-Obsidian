@@ -1,4 +1,4 @@
-## Personajes
+## Characters
 
 **Name.** Description.
 
