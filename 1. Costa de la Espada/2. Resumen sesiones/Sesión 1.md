@@ -4,7 +4,7 @@
 - [[docs/PCs/Aelar Brightwind|Aelar Brightwind]]
 - [[docs/PCs/Bamblin|Bamblin]]
 - [[docs/PCs/Elina Green|Elina Green]]
-- Jashin
+- [[Jashin]]
 
 ## Resumen de la sesión 
 

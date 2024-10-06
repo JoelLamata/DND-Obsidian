@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "5df2f551fa7b467b",
+        "id": "8add702f537588fb",
         "type": "tabs",
         "children": [
           {
-            "id": "f6d37ab73d6504d4",
+            "id": "a3bd2d1c90485b83",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "acdbdd546b92e0d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md"
+              }
             }
           },
           {
@@ -161,52 +184,53 @@
       "translate:Open translation view": false
     }
   },
-  "active": "f6d37ab73d6504d4",
+  "active": "acdbdd546b92e0d6",
   "lastOpenFiles": [
-    "z_Assets/Personajes/Giff-5e.webp",
-    "Light-of-Xaryxis-Obsidian-main/Welcome.md",
-    "z_Assets/Portraits/Giff-portrait.png",
-    "z_Assets/Personajes",
-    "z_Assets 1/Images/Isha.jpeg",
-    "z_Assets/Mapas/Wildpsace-01 80x80.jpg",
-    "1. Light of Xaryxis/0. Notas/Decisiones de la historia que tengo que tomar que nervios no se que escoger.md",
-    "1. Costa de la Espada/3. Proximas sesiones/Septiembre 2024.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/wands-that-dont-recharge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/tying-knots-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/travel-at-sea-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/superior-ship-upgrades-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/tool-proficiencies-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/spellcasting-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/spell-points.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/sleep-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/skills-with-different-abilities.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ships-in-combat-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/skill-variants.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/sidekicks-tce.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ship-to-ship-combat-aag.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/simultaneous-effects-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ship-repairs-aag.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/ship-stat-blocks-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/scroll-mishaps.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/shared-campaign-variant-rules-xge.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/rest-variants.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/renown.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/random-ships-gos.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules/proficiency-dice.md",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/rules/variant-rules",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/undead",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/plant",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/npc",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/monstrosity",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/ooze",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/fiend",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/legendary-group",
-    "Light-of-Xaryxis-Obsidian-main/dm/compendium/bestiary/giant",
-    "z_Assets/Vehicles/Star Moth/Star Moth.webp",
-    "z_Assets/Vehicles/Star Moth/Star Moth Map.webp",
-    "z_Assets/Vehicles/Star Moth/Star Moth Map Player Version.webp",
-    "z_Assets/Vehicles/Living ship/some-ship-variations-based-on-requests-ive-gotten-v0-3wuqo63du43b1.webp",
-    "z_Assets/Vehicles/Space Galleon/Space Galleon Map.webp",
-    "z_Assets/Vehicles/Space Galleon/Space Galleon.webp"
+    "1. Light of Xaryxis/3. Resumen sesiones/Parte 1/1r sesión (Cap. 1-2).md",
+    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 3/Sesión.md",
+    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 2/Sesión.md",
+    "1. Light of Xaryxis/3. Resumen sesiones/Parte 1/2n sesión (Cap. 2).md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/A bordo del Moondancer.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Capítulo 2. El ataque de la Polilla Estelar.md",
+    "z_Assets/Vehicles/Bombard/some-ship-variations-based-on-requests-ive-gotten-v0-l1lj7b3du43b1.webp",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4_ Un amigo de verdad/Capítulo 4. Un amigo de verdad.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 3_ Salvamento traicionero/Neogi Raiders.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 3_ Salvamento traicionero/El edicto de Lucent.md",
+    "z_Assets/Vehicles/nautiloid.jpg",
+    "z_Assets/Vehicles/nautiloid.jpg.0.pdnSave",
+    "z_Assets/Vehicles/nautiloid.webp",
+    "z_Assets/Vehicles/nautiloid.webp.crdownload",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 3_ Salvamento traicionero/Capítulo 3. Salvamento traicionero.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/¿Lanza Mentes¿.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/A la Roca de Bral.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Traevus toma el relevo.md",
+    "dm/compendium/items/spelljamming-helm-aag.md",
+    "dm/compendium/bestiary/ooze/plasmoid-explorer-bam.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Vehiculos/Weaver Space.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Vehiculos/Goblin Rocket.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Vehiculos",
+    "z_Assets/Tokens/weaver_space.png",
+    "z_Assets/Tokens/weaver_space.png.crdownload",
+    "z_Assets/Tokens/goblin_rocket.png",
+    "z_Assets/Tokens/goblin_rocket.png.crdownload",
+    "z_Assets/Tokens/astral_elf.png",
+    "z_Assets/Tokens/astral_elf.png.crdownload",
+    "z_Assets/Tokens",
+    "z_Assets/Nueva carpeta",
+    "z_Assets/Portraits/Astral Elf.jpg",
+    "z_Assets/Portraits/Astral Elf.jpg.crdownload",
+    "z_Assets/Vehicles/Star Moth/token_map.png.0.pdnSave",
+    "z_Assets/Vehicles/Star Moth/token_map.png",
+    "z_Assets/Vehicles/Star Moth/map_no_background.png",
+    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 2/TODO.md",
+    "z_Assets/Vehicles/Weaver Space.jpg",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Peligro en las calles.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Posibles finales.md",
+    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 12/Conclusión TODO.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Problemas en los muelles.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Plagas astrales.md",
+    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 1/Sesión.md",
+    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 3/TODO.md"
   ]
 }
