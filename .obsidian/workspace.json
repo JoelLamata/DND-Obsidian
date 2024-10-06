@@ -1,6 +1,6 @@
 {
   "main": {
-    "id": "2f9f25b5fa71e9ea",
+    "id": "fff07e93dae2c781",
     "type": "split",
     "children": [
       {
@@ -40,15 +40,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "651afac79080f771",
+    "id": "ac895a4a2e78be99",
     "type": "split",
     "children": [
       {
-        "id": "9d5ae126d7243a15",
+        "id": "85904f42be6cc345",
         "type": "tabs",
         "children": [
           {
-            "id": "ec4d42de71569b3d",
+            "id": "a8c2f72cadf0a9d4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "ae1c9380d4369f76",
+            "id": "f58c33cd9787488b",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mapa-cos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "6ca2a7dd6a9e9010",
+            "id": "f48f666bc8ee51a6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -84,18 +84,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
-    "id": "16abb579b9ba2fb8",
+    "id": "06549097f17b725a",
     "type": "split",
     "children": [
       {
-        "id": "d56ed92a67d60e1b",
+        "id": "f9ed66939a70ccff",
         "type": "tabs",
         "children": [
           {
-            "id": "c2b0515c9963fe7b",
+            "id": "a42ecbf90655b9f6",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -112,7 +112,7 @@
             }
           },
           {
-            "id": "b0b426d41482cc49",
+            "id": "76b519fbade39414",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -124,7 +124,7 @@
             }
           },
           {
-            "id": "1805bc53589b25f7",
+            "id": "95ccbd4b58039fec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "55d39147b26634dc",
+            "id": "f46705925213b2a9",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -145,7 +145,28 @@
             }
           },
           {
-            "id": "4517aa15ac6d1490",
+            "id": "92127c2e6d30aa00",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_39c8a9d82afb",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 0,
+                    "year": 1491
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_8a19f829f968"
+              }
+            }
+          },
+          {
+            "id": "44790cfb7dc6596c",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -153,10 +174,25 @@
             }
           },
           {
-            "id": "e65f1fdd1852051b",
+            "id": "4c3787d89188801e",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "861a98ae8fe6bc5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6439c29d1cf91705",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
               "state": {}
             }
           }
@@ -164,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,13 +210,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
-      "fantasy-content-generator:Fantasy Generators": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "translate:Open translation view": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "acdbdd546b92e0d6",
