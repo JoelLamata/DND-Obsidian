@@ -4,22 +4,89 @@
     "type": "split",
     "children": [
       {
-        "id": "22b5b382b75e3003",
+        "id": "718e6c928c4b01d6",
         "type": "tabs",
         "children": [
           {
-            "id": "7bc2fd66d662d58b",
+            "id": "17a8b3610ef76234",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DM Screen/Tables dice.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "4d506fa6068f690b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DM Screen/Normas propias/Heroic Inspiration.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "209fe8d24a673b5a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DM Screen/Normas propias/Nuevas normas de Combate.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "5fab3a902904aaf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38d90d0bdd9bc27f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/A la Roca de Bral.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "601ae626e2ce593d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/¿Lanza Mentes¿.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -85,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/¿Lanza Mentes¿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/¿Lanza Mentes¿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/¿Lanza Mentes¿.md"
               }
             }
           },
@@ -189,6 +256,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "fantasy-content-generator:Fantasy Generators": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "translate:Open translation view": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -197,41 +268,37 @@
       "command-palette:Open command palette": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "calendarium:Open Calendarium": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "7bc2fd66d662d58b",
+  "active": "601ae626e2ce593d",
   "lastOpenFiles": [
-    "0. DM Screen/Random Tables/-Table dice.md",
-    "conflict-files-obsidian-git.md",
-    "1. Costa de la Espada/1. Mundo DM/Ubicaciones/Assarret.md",
-    "dm/compendium/rules/variant-rules/wands-that-dont-recharge.md",
-    "dm/compendium/rules/variant-rules/tying-knots-xge.md",
-    "dm/compendium/rules/variant-rules/travel-at-sea-gos.md",
-    "dm/compendium/rules/variant-rules/tool-proficiencies-xge.md",
-    "dm/compendium/rules/variant-rules/superior-ship-upgrades-gos.md",
-    "dm/compendium/rules/variant-rules/spellcasting-xge.md",
-    "dm/compendium/rules/variant-rules/spell-points.md",
-    "dm/compendium/rules/variant-rules/sleep-xge.md",
-    "dm/compendium/rules/variant-rules/skills-with-different-abilities.md",
-    "dm/compendium/rules/variant-rules/skill-variants.md",
-    "dm/compendium/rules/variant-rules/simultaneous-effects-xge.md",
-    "dm/compendium/rules/variant-rules/sidekicks-tce.md",
-    "dm/compendium/rules/variant-rules/ships-in-combat-gos.md",
-    "dm/compendium/rules/variant-rules/ship-to-ship-combat-aag.md",
-    "dm/compendium/rules/variant-rules/ship-repairs-aag.md",
-    "dm/compendium/rules/variant-rules/ship-stat-blocks-gos.md",
-    "dm/compendium/rules/variant-rules/shared-campaign-variant-rules-xge.md",
-    "dm/compendium/rules/variant-rules/scroll-mishaps.md",
-    "dm/compendium/rules/variant-rules/rest-variants.md",
-    "dm/compendium/rules/variant-rules/renown.md",
-    "dm/compendium/rules/variant-rules/random-ships-gos.md",
-    "dm/compendium/rules/variant-rules/proficiency-dice.md",
-    "dm/compendium/rules/variant-rules/plot-points.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/A la Roca de Bral.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/¿Lanza Mentes¿.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Traevus toma el relevo.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Vid cristalina.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/A bordo del Moondancer.md",
+    "0. DM Screen/Normas propias/Nuevas normas de Combate.md",
+    "0. DM Screen/Normas propias/Heroic Inspiration.md",
+    "0. DM Screen/Tables dice.md",
+    "dm/compendium/items/space-galleon-aag.md",
+    "dm/compendium/items/star-moth-aag.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Posibles finales.md",
+    "dm/compendium/items/spelljamming-helm-aag.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Problemas en los muelles.md",
+    "dm/compendium/bestiary/plant/astral-blight-lox.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Capítulo 2. El ataque de la Polilla Estelar.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Peligro en las calles.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Plagas astrales.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Capítulo 1. Lluvia astral.md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Antón el Artificiero.md",
+    "0. DM Screen/Notas propias/Items para classes.md",
+    "1. Costa de la Espada/3. Proximas sesiones/Septiembre 2024.md",
+    "dm/compendium/tables/magic-item-table-a.md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Maga Montana.md",
+    "1. Costa de la Espada/1. Mundo DM/Ubicaciones/Baldurs Gate/Lower city/Tiendas/Artículos de brujería - Sorcerous Sundries.md",
+    "dm/compendium/tables/magic-item-table-b.md",
     "dm/compendium/rules/variant-rules",
     "dm/compendium/rules",
     "dm/compendium/rewards",

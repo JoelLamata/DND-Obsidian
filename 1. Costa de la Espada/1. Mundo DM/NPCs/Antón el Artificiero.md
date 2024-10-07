@@ -1,0 +1,1 @@
+![[enano artificiero.jpg]]
