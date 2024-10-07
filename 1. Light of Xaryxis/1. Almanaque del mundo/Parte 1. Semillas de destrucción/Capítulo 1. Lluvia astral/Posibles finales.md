@@ -1,4 +1,4 @@
-Si los personajes embarcaron en el  _Moondancer_ en los muelles, concluya la sesión con "Up and Away." De lo contrario, utilice "Emergency Airlift.".  
+Si los personajes embarcaron en el _Moondancer_ en los muelles, concluya la sesión con "Up and Away." De lo contrario, utilice "Emergency Airlift.".  
 
 ### Up and Away
 
@@ -6,7 +6,7 @@ Una vez que los personajes y otros pasajeros están a salvo a bordo del  _Moonda
 
 > La enredadera cristalina se enrosca hacia arriba, raspando el cielo. Desde el puerto, se pueden ver enredaderas similares a kilómetros del asentamiento, que han salido del mundo y se extienden hacia el cielo. Cuando el  _Moondancer_ se aleja del puerto, la capitana Sartell pisa con fuerza la cubierta. "¡[[flapjack-lox|Flapjack]]!", grita. "¡Súbenos!"
 > 
-> De repente, el galeón se escora y cruje mientras sale del agua y se eleva por los aires. El mundo se desvanece bajo tus pies mientras  _Moondancer_ atraviesa las nubes y se adentra en el abismo estrellado de la noche.
+> De repente, el galeón se escora y cruje mientras sale del agua y se eleva por los aires. El mundo se desvanece bajo tus pies mientras _Moondancer_ atraviesa las nubes y se adentra en el abismo estrellado de la noche.
 
 _Here ends_ _chapter 1._
 
