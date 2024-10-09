@@ -1,3 +1,5 @@
+![[resolution-magic-item-base-prices-xge#^magic-item-base-prices|clean]]*Halved for a consumable item like a potion or scroll
+
 #### Cleric:
 ###### Uncommon
 - Amulet of the devout (Att): https://www.dndbeyond.com/magic-items/2411830-amulet-of-the-devout
@@ -61,11 +63,14 @@
 - Boots of elvenkind: https://www.dndbeyond.com/magic-items/4587-boots-of-elvenkind
 - Mithral armor: https://www.dndbeyond.com/magic-items/5381-mithral-armor
 - Quiver of ehlonna: https://www.dndbeyond.com/magic-items/5367-quiver-of-ehlonna
+- Moon Sickle (Att.): https://www.dndbeyond.com/magic-items/2405401-moon-sickle
+- Nature's Mantle (Att.): https://www.dndbeyond.com/magic-items/2405507-natures-mantle
+- Bracers of Archery (Att.): https://www.dndbeyond.com/magic-items/4593-bracers-of-archery
 
 ###### Rare
 - Cloak of Displacement (Att): https://www.dndbeyond.com/magic-items/4605-cloak-of-displacement
 - Figurine of Wondrous Power (Bronze Griffon) https://www.dndbeyond.com/magic-items/4637-figurine-of-wondrous-power-bronze-griffon
-- 
+- Eagle Whistle: https://dnd5e.wikidot.com/wondrous-items:eagle-whistle
 
 ###### Very rare
 - Oathbow (Att): https://www.dndbeyond.com/magic-items/4686-oathbow
@@ -84,6 +89,25 @@
 
 ###### Very Rare
 - Animated shield (Att): https://www.dndbeyond.com/magic-items/4571-animated-shield
+
+#### Bard:
+###### Uncommon
+- Hat of disguise (Att.): https://www.dndbeyond.com/magic-items/4651-hat-of-disguise
+- Instrument of the bards (Att.): https://www.dndbeyond.com/magic-items/5508-instrument-of-the-bards
+- Pipes of haunting: https://www.dndbeyond.com/magic-items/4696-pipes-of-haunting
+- Rhythm makers drum (Att.): https://www.dndbeyond.com/magic-items/2405713-rhythm-makers-drum
+
+###### Rare
+- Glamoured studdedd leather: https://www.dndbeyond.com/magic-items/4645-glamoured-studded-leather
+- Revelers Concertina (Att.): https://www.dndbeyond.com/magic-items/2405691-revelers-concertina
+- Staff of charming (Att.): https://www.dndbeyond.com/magic-items/4760-staff-of-charming
+- Staff of Healing (Att.): https://www.dndbeyond.com/magic-items/4763-staff-of-healing
+
+###### Very Rare
+- Ghost step tattoo (Att.): https://www.dndbeyond.com/magic-items/2412269-ghost-step-tattoo
+
+###### Legendary
+- 
 
 #### General:
 - Bag of Holding: https://www.dndbeyond.com/magic-items/4581-bag-of-holding
