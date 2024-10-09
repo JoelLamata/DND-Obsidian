@@ -1,4 +1,13 @@
-![[resolution-magic-item-base-prices-xge#^magic-item-base-prices|clean]]*Halved for a consumable item like a potion or scroll
+**Magic Item Base Prices**
+
+| Rarity    | Base Price* | Fromula               | Dice                        |
+| --------- | ----------- | --------------------- | --------------------------- |
+| Common    | 100 gp      | (1d6 + 1) x 10 gp     | `dice: (1d6 + 1) * 10`gp    |
+| Uncommon  | 400 gp      | 1d6 x 100 gp          | `dice: 1d6 * 100`gp         |
+| Rare      | 4,000 gp    | 2d10 x 1,000 gp       | `dice: 2d10 * 1000`gp       |
+| Very rare | 40,000 gp   | (1d4 + 1) x 10,000 gp | `dice: (1d4 + 1) * 10000`gp |
+| Legendary | 200,000 gp  | 2d6 x 25,000 gp       | `dice: 2d6 * 25000`gp       |
+*Halved for a consumable item like a potion or scroll
 
 #### Cleric:
 ###### Uncommon

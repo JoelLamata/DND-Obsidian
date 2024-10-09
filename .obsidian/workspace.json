@@ -29,7 +29,7 @@
               "state": {
                 "file": "0. DM Screen/Notas propias/Items para classes.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -52,8 +52,8 @@
               "type": "markdown",
               "state": {
                 "file": "dm/compendium/tables/resolution-magic-item-base-prices-xge.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           }
