@@ -1,10 +1,10 @@
 A medida que el  _Moondancer_ deja atrás el mundo de los personajes, lee:  
 
-> De pie en la cubierta del  _Moondancer_ , ves decenas de enredaderas cristalinas brotando de la superficie de tu mundo, algunas de las enredaderas alcanzan la altura suficiente para atravesar las nubes. Te encuentras navegando por un vacío lleno de gases de colores y estrellas parpadeantes. Un banco de peces espaciales pasa nadando junto a la nave por estribor.
+> De pie en la cubierta del _Moondancer_, ves decenas de enredaderas cristalinas brotando de la superficie de tu mundo, algunas de las enredaderas alcanzan la altura suficiente para atravesar las nubes. Te encuentras navegando por un vacío lleno de gases de colores y estrellas parpadeantes. Un banco de peces espaciales pasa nadando junto a la nave por estribor.
 > 
 > "Bienvenidos al espacio salvaje", dice la capitana Sartell, extendiendo los brazos. "Eso estuvo cerca, allá abajo. Maldita sea si sé lo que son esas enredaderas o cómo deshacerse de ellas, pero alguien en la Roca de Bral podría".
 
-Sólo dos miembros de la tripulación de  _Moondancer_ están a bordo: El capitán Sartell y un flumph que bloquea hechizos (ver "Flapjack the Flumph" más abajo). Dependiendo de cómo se desarrollaron los acontecimientos en el capítulo 1, el  _Moondancer_ podría tener los siguientes pasajeros a bordo, además de los personajes:
+Sólo dos miembros de la tripulación de  _Moondancer_ están a bordo: La capitana Sartell y un flumph que bloquea hechizos (ver "Flapjack the Flumph" más abajo). Dependiendo de cómo se desarrollaron los acontecimientos en el capítulo 1, el _Moondancer_ podría tener los siguientes pasajeros a bordo, además de los personajes:
 
   * Traevus y sus matones (ni Traevus ni sus matones obedecerán las órdenes del capitán Sartell, sino que se mantendrán al margen mientras los personajes estén cerca para frustrar cualquier revuelta abierta).
   * Hasta sesenta [[commoner|commoners]] (seis de los cuales son marineros competentes)
