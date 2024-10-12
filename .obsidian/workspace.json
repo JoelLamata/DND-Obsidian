@@ -27,9 +27,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md",
+                "file": "1. Costa de la Espada/3. Proximas sesiones/13-Octube 2024.md",
                 "mode": "preview",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "22c9d73288ffcfd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Costa de la Espada/1. Mundo DM/NPCs/Soldyr Byntheris.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -124,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md",
+                "file": "1. Costa de la Espada/3. Proximas sesiones/13-Octube 2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md",
+                "file": "1. Costa de la Espada/3. Proximas sesiones/13-Octube 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md"
+                "file": "1. Costa de la Espada/3. Proximas sesiones/13-Octube 2024.md"
               }
             }
           },
@@ -245,8 +257,17 @@
   },
   "active": "acdbdd546b92e0d6",
   "lastOpenFiles": [
-    "dm/compendium/tables/resolution-magic-item-base-prices-xge.md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Soldyr Byntheris.md",
+    "1. Costa de la Espada/3. Proximas sesiones/13-Octube 2024.md",
+    "dm/compendium/bestiary/humanoid/drow.md",
+    "1. Costa de la Espada/3. Proximas sesiones/Untitled.md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Tarbol Eixeberria.md",
+    "z_Assets/Portraits/Tarbol Eixeberria.jpg",
+    "z_Assets/Tarbol Eixeberria.jpg",
+    "z_Assets/Personajes/Tarbol Eixeberria.jpg",
+    "z_Assets/Personajes/Tarbol Eixeberria.jpg.crdownload",
     "0. DM Screen/Notas propias/Items para classes.md",
+    "dm/compendium/tables/resolution-magic-item-base-prices-xge.md",
     "1. Costa de la Espada/1. Mundo DM/Ideas.md",
     "1. Costa de la Espada/1. Mundo DM/Historia principal.md",
     "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
@@ -271,7 +292,6 @@
     "dm/compendium/items/spelljamming-helm-aag.md",
     "dm/compendium/bestiary/ooze/plasmoid-explorer-bam.md",
     "1. Light of Xaryxis/1. Almanaque del mundo/Vehiculos/Weaver Space.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Vehiculos/Goblin Rocket.md",
     "1. Light of Xaryxis/1. Almanaque del mundo/Vehiculos",
     "z_Assets/Tokens/weaver_space.png",
     "z_Assets/Tokens/weaver_space.png.crdownload",
@@ -282,14 +302,6 @@
     "z_Assets/Tokens",
     "z_Assets/Nueva carpeta",
     "z_Assets/Portraits/Astral Elf.jpg",
-    "z_Assets/Portraits/Astral Elf.jpg.crdownload",
-    "z_Assets/Vehicles/Star Moth/token_map.png.0.pdnSave",
-    "z_Assets/Vehicles/Star Moth/token_map.png",
-    "z_Assets/Vehicles/Star Moth/map_no_background.png",
-    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 2/TODO.md",
-    "z_Assets/Vehicles/Weaver Space.jpg",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Peligro en las calles.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Posibles finales.md",
-    "1. Light of Xaryxis/2. Organización sesiones/Capítulo 12/Conclusión TODO.md"
+    "z_Assets/Portraits/Astral Elf.jpg.crdownload"
   ]
 }
