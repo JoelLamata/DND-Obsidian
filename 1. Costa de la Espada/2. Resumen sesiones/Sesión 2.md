@@ -10,6 +10,7 @@ Se van al casino para conseguir dinero (sale mal).
 Compran pociones en [[Artículos de brujería - Sorcerous Sundries]], Elina le pega y le intenta robar una [[bag-of-holding|Bag of Holding]]. El dependiente acosa sexualmente a [[1. Costa de la Espada/1. Mundo DM/PCs/Aelar Brightwind|Aelar Brightwind]]
 En la plaza del diamant se encuentran el espectáculo de la [[Maga Montana]].
 Hablan con ella y llegan al trato de ayudarla a cambio del mapa, ya que [[1. Costa de la Espada/1. Mundo DM/PCs/Aelar Brightwind|Aelar Brightwind]] ha visto [[Assarret]].
+Elina mando el pajaro a ver el templo de Pelor.
 
 ## Que he podido aprender
 
