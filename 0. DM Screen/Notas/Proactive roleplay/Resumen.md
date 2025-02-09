@@ -62,41 +62,39 @@ Dividen a los PNJ en tres grandes categorías (76):
 - Villanos cuyos objetivos entran en conflicto con los de los PJ
 - Protectores que conceden recursos a los PJ a cambio de avanzar en los objetivos personales o de la facción del protector.
 
-Los aliados proporcionan ayuda al grupo a pequeña escala. Ellos «trabajan con los personajes como socios beneficiosos» (77), en gran parte porque sus objetivos están alineados. Si eso deja de ser cierto, «un aliado podría abandonar la partida para ir a hacer sus propias cosas». (77) En el caso de que un aliado acabe luchando junto al grupo, los autores sugieren restringir drásticamente sus opciones de combate para evitar que el combatiente adicional ralentice demasiado las cosas. Por ejemplo, dan el ejemplo de Balurium, un bardo que «tenía una puntuación de Iniciativa fija y sólo podía hacer dos cosas: atacar o dar Inspiración Bárdica unas cuantas veces al día» (84). (84) Eso le hacía muy rápido en combate.
+Los **aliados** proporcionan ayuda al grupo a pequeña escala. Ellos «trabajan con los personajes como socios beneficiosos» (77), en gran parte porque sus objetivos están alineados. Si eso deja de ser cierto, «un aliado podría abandonar la partida para ir a hacer sus propias cosas». (77) En el caso de que un aliado acabe luchando junto al grupo, los autores sugieren restringir drásticamente sus opciones de combate para evitar que el combatiente adicional ralentice demasiado las cosas. Por ejemplo, dan el ejemplo de Balurium, un bardo que «tenía una puntuación de Iniciativa fija y sólo podía hacer dos cosas: atacar o dar Inspiración Bárdica unas cuantas veces al día» (84). (84) Eso le hacía muy rápido en combate.
 
-Se ha escrito mucho sobre los villanos de los TTRPG, y mucho de ello implica establecer objetivos para ellos. Los autores sugieren un enfoque específico para prever los objetivos de un villano en un juego proactivo: «los villanos forman y persiguen objetivos en respuesta a los objetivos que los jugadores han diseñado». (86, énfasis añadido) Además de hacerlos villanos y poderosos, estos PNJs necesitan ser:
-
-Orientados a Objetivos. Este es el aspecto más importante del villano desde la perspectiva proactiva del jugador. Debes diseñar los objetivos de los villanos pensando en los jugadores. Estos objetivos específicos y concretos deben solaparse con los de los héroes de alguna forma o manera, o descubrirás que tu villano nunca les interesará. Los objetivos específicos de tus villanos son formas tangibles en las que tus héroes lucharán contra ellos. (88)
+Se ha escrito mucho sobre los **villanos** de los TTRPG, y mucho de ello implica establecer objetivos para ellos. Los autores sugieren un enfoque específico para prever los objetivos de un villano en un juego proactivo: «los villanos forman y persiguen objetivos en respuesta a los objetivos que los jugadores han diseñado». (86, énfasis añadido) Además de hacerlos villanos y poderosos, estos PNJs necesitan ser **Orientados a Objetivos**. Este es el aspecto más importante del villano desde la perspectiva proactiva del jugador. Debes diseñar los objetivos de los villanos pensando en los jugadores. Estos objetivos específicos y concretos deben solaparse con los de los héroes de alguna forma o manera, o descubrirás que tu villano nunca les interesará. Los objetivos específicos de tus villanos son formas tangibles en las que tus héroes lucharán contra ellos. (88)
 
 Los objetivos a largo plazo del villano deben estar definidos, suponer una amenaza grande y seria, pero pueden permitirse ser algo más vagos que la mayoría de los objetivos «al menos hasta más adelante en el juego». (88) Esto permite cierta flexibilidad a medida que avanza la campaña. Sus objetivos a medio plazo afectan a áreas más específicas, y suelen ser llevados a cabo por esbirros. Sus objetivos a corto plazo deben ser cosas que generen encuentros específicos. Por ejemplo, un objetivo a corto plazo de «arrasar la ciudad» podría generar tres o cuatro encuentros en los que los PC defiendan la ciudad.
 
 Sugieren que la clave para hacer que los villanos funcionen es asegurarse de que surja un conflicto entre los objetivos del villano y los de los PJ. Objetivos directamente opuestos aseguran un conflicto mayor. Por ejemplo, un objetivo del villano de «Quiero cosechar la magia del alma de la Archidruida Rubinia» entraría directamente en conflicto con un objetivo del PJ de «Quiero persuadir a la Archidruida Rubinia para que me acepte como aprendiz». Si el villano consigue asesinar a Rubinia, ella ya no estaría para enseñar al PC.
 
-Dicho esto, «si los jugadores persiguen constantemente exactamente los mismos objetivos que el villano, puede convertirse rápidamente en una tarea frustrante». (94) Los autores sugieren formular objetivos villanos que simplemente se solapen, es decir, el objetivo del villano plantea serios retos al PC, pero no quieren exactamente lo mismo.
+Dicho esto, «si los jugadores persiguen constantemente los mismos objetivos que el villano, puede convertirse rápidamente en una tarea frustrante». (94) Los autores sugieren formular objetivos villanos que simplemente se solapen, es decir, el objetivo del villano plantea serios retos al PC, pero no quieren exactamente lo mismo.
 
-Por último, los protectores se distinguen por dos características principales: tienen más autoridad o estatus social que el partido, y pueden dar al partido acceso a recursos. (95) En cuanto a los objetivos, el protector puede no estar directamente interesado en ninguna de las cosas que sí lo están los PC, pero los reconoce como un activo útil. Es una relación transaccional: el protector ofrece ayuda con los objetivos de los PJ, a cambio de la ayuda de los PJ para avanzar en los objetivos del protector.
+Por último, los **protectores** se distinguen por dos características principales: tienen más autoridad o estatus social que el grupo, y pueden dar al grupo acceso a recursos. (95) En cuanto a los objetivos, el protector puede no estar directamente interesado en ninguna de las cosas que sí lo están los PC, pero los reconoce como un activo útil. Es una relación transaccional: el protector ofrece ayuda con los objetivos de los PJ, a cambio de la ayuda de los PJ para avanzar en los objetivos del protector.
 
 Definir a un protector requiere conocer tanto sus objetivos como los recursos de los que dispone. Normalmente funcionan como representantes de una facción. Los objetivos del protector se alinearían con los de su facción, y pueden utilizar los recursos de la facción así como los suyos propios.
 
-Capítulo 4: Localizaciones
+# Capítulo 4: Localizaciones
 A diferencia de los PC, las facciones o los PNJ, las localizaciones no tienen objetivos. Pero en consonancia con el tema orientado a objetivos del libro, los autores sugieren construir las localizaciones en torno a los objetivos de los jugadores. Algunos objetivos de los jugadores pueden nombrar una localización específica que el GM necesita diseñar (como Songul, del objetivo anterior). Otros pueden implicar una determinada localización o tipo de localización.
 
-El objetivo es «ayudar a tus jugadores a crear vínculos emocionales con las localizaciones del juego y darles tanto motivación para perseguir sus objetivos como lugares en torno a los que crear objetivos» (108). (108) Para ello, sugieren trabajar hacia atrás a partir de los objetivos de los jugadores para «averiguar cuál será una conclusión satisfactoria de sus esfuerzos y diseñar una mazmorra, un asedio a un castillo o una torre de defensa en torno a esa idea.» (109)
+El objetivo es «ayudar a tus jugadores a crear vínculos emocionales con las localizaciones del juego y darles tanto motivación para perseguir sus objetivos como lugares en torno a los que crear objetivos» (108). Para ello, sugieren trabajar hacia atrás a partir de los objetivos de los jugadores para «averiguar cuál será una conclusión satisfactoria de sus esfuerzos y diseñar una mazmorra, un asedio a un castillo o una torre de defensa en torno a esa idea.» (109)
 
 El resto del capítulo ofrece una discusión de varios tipos comunes de localizaciones (bases de jugadores, ciudades y asentamientos, tierras salvajes, mazmorras y guaridas) y cómo podrían encajar en un juego proactivo.
 
-Capítulo 5: Conflicto
+# Capítulo 5: Conflicto
 Gran parte de la discusión anterior se centra aquí: el objetivo de crear todos esos objetivos (para los PC, las facciones, los aliados, los villanos y los protectores) es establecer un conflicto entre el grupo y otros elementos del mundo. Los autores señalan que la mayoría de las partidas esperan que haya combate, pero también que no todos los conflictos giran necesariamente en torno a la lucha.
 
 Sugieren que «hay tres cosas a tener en cuenta a la hora de diseñar conflictos: las motivaciones de los personajes jugadores, las motivaciones de las fuerzas que se oponen a ellos y lo que significa ganar el conflicto». (142) Si puedes incorporar todas esas cosas, entonces es probable que cada conflicto se sienta «como una guerra que vale la pena librar». (142)
 
-Cuando se diseñan objetivos opuestos a los del partido, el GM puede ajustar el nivel del conflicto ajustando los objetivos. Los conflictos de suma cero tienden a desembocar en combate. Por ejemplo, un objetivo del PC de «Obtener el cuadro “Las Lágrimas de Arsinoë”» sería un conflicto de suma cero con un objetivo del villano de «Destruir las “Lágrimas de Arsinoë”». Si un personaje tiene éxito, el otro fracasa. En esas condiciones, es probable que estalle la violencia.
+Cuando se diseñan objetivos opuestos a los del grupo, el GM puede ajustar el nivel del conflicto ajustando los objetivos. Los conflictos de suma cero tienden a desembocar en combate. Por ejemplo, un objetivo del PC de «Obtener el cuadro “Las Lágrimas de Arsinoë”» sería un conflicto de suma cero con un objetivo del villano de «Destruir las “Lágrimas de Arsinoë”». Si un personaje tiene éxito, el otro fracasa. En esas condiciones, es probable que estalle la violencia.
 
 Es más probable que se produzcan encuentros sociales cuando los objetivos no se oponen completamente. Por ejemplo, si el objetivo del villano es «Falsificar una copia de las Lágrimas de Arsinoë para venderla en el mercado negro», entonces el PC tiene más margen para enfocar el conflicto de forma social. Quizás se pueda llegar a un acuerdo que resulte en que ambos personajes consigan lo que quieren.
 
 El resto del capítulo consiste en la discusión de varias formas de conflicto: combates, combates orientados a objetivos, encuentros sin combate y encuentros sin combate orientados a objetivos.
 
-Capítulo 6: Recompensas
+# Capítulo 6: Recompensas
 Al declarar un objetivo, los jugadores te están diciendo qué recompensa quieren. Los autores lo explican con más detalle:
 
 En nuestros juegos proactivos, pensamos en las recompensas de dos formas distintas: función y forma. La función de una recompensa es el efecto que tiene en el juego: puede señalar la consecución de un objetivo, introducir un nuevo objetivo o elemento de la historia o simplemente ser un bonito hallazgo no relacionado con la historia. La forma de una recompensa es el tipo de botín: un objeto mágico, información útil, bienes inmuebles, dinero en metálico, etc. (167).
@@ -105,22 +103,16 @@ Si tu objetivo era encontrar una espada mágica y encuentras una espada mágica,
 
 En cualquier caso, la idea es dotar a tus recompensas de mayor impacto haciéndolas interactuar con los demás elementos de la historia.
 
-Capítulo 7: Encuentros
+# Capítulo 7: Encuentros
 Si me has seguido hasta aquí, probablemente lo veas venir: sí, el diseño proactivo de los encuentros tiene que ver con los objetivos. Los autores describen un proceso de siete pasos:
 
-Revisa los objetivos de los jugadores: ¿en qué están trabajando ahora mismo?
-
-Determina qué facciones tienen objetivos que coincidan con los de tus jugadores.
-
-Elige algunos objetivos de los PNJ que se opongan a los de tus jugadores.
-
-Elige dónde tendrá lugar el encuentro.
-
-Determina qué tipo de conflicto es probable que ocurra y cómo luchará el otro bando.
-
-Determina las recompensas por completar el encuentro.
-
-Prepara los materiales y las ayudas necesarias para los jugadores, es decir, mapas, miniaturas, bloques de estadísticas, etc.
+- Revisa los objetivos de los jugadores: ¿en qué están trabajando ahora mismo?
+- Determina qué facciones tienen objetivos que coincidan con los de tus jugadores.
+- Elige algunos objetivos de los PNJ que se opongan a los de tus jugadores.
+- Elige dónde tendrá lugar el encuentro.
+- Determina qué tipo de conflicto es probable que ocurra y cómo luchará el otro bando.
+- Determina las recompensas por completar el encuentro.
+- Prepara los materiales y las ayudas necesarias para los jugadores, es decir, mapas, miniaturas, bloques de estadísticas, etc.
 
 Continúan diciendo:
 
@@ -130,21 +122,15 @@ A menudo se aconseja a los GM -o ellos mismos lo descubren- que a veces es mejor
 
 El resto del capítulo gira en torno a ayudar a los jugadores a desarrollar los personajes de sus personajes, una discusión de algunas técnicas básicas de improvisación («sí, y», «sí, pero»), fracasar hacia adelante, y algunos consejos generales sobre la preparación del GM y cómo tomar notas.
 
-Capítulo 8: Saqueo de Pine Hollow
+# Capítulo 8: Saqueo de Pine Hollow
 El último capítulo del libro es una aventura proactiva. El formato no se parece mucho a las aventuras publicadas con las que puedes estar familiarizado. La mayor parte (páginas 197-223) gira en torno a:
 
-definir el escenario (Pine Hollow);
-
-las facciones que actúan en él y sus objetivos;
-
-crear PC con objetivos;
-
-crear PNJ asociados con las facciones y perseguir sus propios objetivos;
-
-Crear lugares;
-
-planificar los conflictos;
-
-crear recompensas.
+- Definir el escenario (Pine Hollow)
+- Las facciones que actúan en él y sus objetivos
+- Crear PC con objetivos
+- Crear PNJ asociados con las facciones y perseguir sus propios objetivos
+- Crear lugares
+- Planificar los conflictos
+- Crear recompensas
 
 En resumen, te guían a través de todo el proceso que se detalla en el libro, y sólo entonces añaden cuatro páginas con algunas ideas de encuentros como los que se pueden ver en una aventura más tradicional. (224-227) Por último, repasan el desarrollo real de la aventura. Al menos, en la medida de lo posible, ya que cada mesa que saquee Pine Hollow se desviará inmediatamente de las demás en función de cómo decida hacerlo. Esa es la naturaleza del enfoque proactivo, después de todo.
