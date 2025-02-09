@@ -1,6 +1,7 @@
 ## Inicio
 
 Continuan en el templo de Pelor, tienen que huir o pelear contra el golem de piedra.
+Al acabar se les acerca un miembro de los revolucionarios para reunirse con ellos.
 
 ## Escenas
 

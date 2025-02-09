@@ -1,9 +1,0 @@
-**Posible pista**: Podrían encontrar un **mapa oculto** o una serie de textos antiguos que revelen que Asarret ha sido utilizado como punto de conexión entre el mundo terrenal y los planos feéricos por siglos, pero los drow, con la ayuda del tirano, han corrompido esta conexión para sus propios fines. Quizás algún personaje élfico o un druida del Feywild les advierta de este peligro.
-- Encontrar un mapa oculto en un campamento Drow que indique el punto donde esta Assaret, marcado como punto de reclutamiento de unidades.
-	- Esto da la pista de que Assaret esta siendo utilizado por los Drow, ya que su conexión con el Feyworld es muy fuerte. Pero la conexión y la apertura de este portal ha creado interferencias y ahora nadie conoce sobre su posición exacta.
-
-**Pruebas del vínculo entre el tirano y los drow**: En la guarida del líder drow en Cloakwood, los personajes pueden encontrar **cartas o documentos** que hablen sobre un trato entre el tirano y las **casas nobles drow**, revelando los planes para tomar Asarret como una **base de operaciones clave** para los drow en la superficie.
-
-Con el ataque drow en Cloakwood detenido y la conexión entre **Asarret** y los planes del tirano descubierta, Elina tiene ahora una motivación clara para **formar un ejército** que enfrente tanto al tirano como a los drow. Este sería un gran arco para desarrollar a Elina como una **líder militar**, que podría culminar con la formación de un ejército.
-
-**El papel de Pelor**: A medida que Aelar siga investigando el papel de su dios en este conflicto, podría recibir visiones más claras de Pelor, guiándolo hacia cómo **purificar Asarret** y romper la influencia oscura de los drow en su pueblo natal.
