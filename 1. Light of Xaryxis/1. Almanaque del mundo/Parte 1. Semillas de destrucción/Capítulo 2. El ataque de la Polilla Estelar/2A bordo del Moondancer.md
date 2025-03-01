@@ -40,5 +40,5 @@ Utilice los planos de cubierta de [[space-galleon-aag|space galleon]] en [Astral
 
 * * *
 
-[[Capítulo 2. El ataque de la Polilla Estelar|Chapter 2: Attack of the Star Moth]] **|** [[Cuando los elfos atacan|When Elves Attack]]
+[[1Capítulo 2. El ataque de la Polilla Estelar|Chapter 2: Attack of the Star Moth]] **|** [[3Cuando los elfos atacan|When Elves Attack]]
 

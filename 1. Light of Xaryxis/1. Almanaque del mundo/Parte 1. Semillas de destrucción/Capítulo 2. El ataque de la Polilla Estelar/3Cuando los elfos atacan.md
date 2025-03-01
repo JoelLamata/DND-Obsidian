@@ -48,5 +48,5 @@ La bodega de carga de  _Dark Star_ contiene alimentos y agua suficientes para ma
 
 * * *
 
-[[A bordo del Moondancer|Aboard the Moondancer]] **|** [[Traevus toma el relevo|Traevus Takes Over]]
+[[2A bordo del Moondancer|Aboard the Moondancer]] **|** [[4Traevus toma el relevo|Traevus Takes Over]]
 

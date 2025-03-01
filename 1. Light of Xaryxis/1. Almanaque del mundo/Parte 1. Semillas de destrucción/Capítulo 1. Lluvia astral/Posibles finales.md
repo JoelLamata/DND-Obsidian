@@ -24,4 +24,4 @@ _Here ends_ _chapter 1._
 
 * * *
 
-[[Problemas en los muelles]] **|** [[Capítulo 2. El ataque de la Polilla Estelar]]
+[[Problemas en los muelles]] **|** [[1Capítulo 2. El ataque de la Polilla Estelar]]

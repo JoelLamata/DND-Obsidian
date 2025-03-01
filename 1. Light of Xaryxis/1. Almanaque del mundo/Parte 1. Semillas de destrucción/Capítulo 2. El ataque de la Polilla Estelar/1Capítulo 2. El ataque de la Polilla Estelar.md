@@ -8,5 +8,5 @@ Antes de ejecutar este capítulo, familiarícese con [chapter 2](https://5etools
 
 * * *
 
-[[Posibles finales|Possible Endings]] **|** [[A bordo del Moondancer|Aboard the Moondancer]]
+[[Posibles finales|Possible Endings]] **|** [[2A bordo del Moondancer|Aboard the Moondancer]]
 

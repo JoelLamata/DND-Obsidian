@@ -11,4 +11,4 @@ Cuando los personajes estén a horas de llegar a la Roca de Bral, lee:
 _Here ends_ _chapter 2._
 * * *
 
-[[A la Roca de Bral|To the Rock of Bral]] **|** [[Capítulo 3. Salvamento traicionero|Chapter 3: Treacherous Salvage]]
+[[5A la Roca de Bral|To the Rock of Bral]] **|** [[1Capítulo 3. Salvamento traicionero|Chapter 3: Treacherous Salvage]]

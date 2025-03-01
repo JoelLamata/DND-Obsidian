@@ -6,5 +6,5 @@ Durante el viaje, los personajes pueden preguntar a Sartell o a [[flapjack-lox|F
 
 * * *
 
-[[Traevus toma el relevo|Traevus Takes Over]] **|** [[¿Lanza Mentes¿|Mind Flayers?]]
+[[4Traevus toma el relevo|Traevus Takes Over]] **|** [[6¿Lanza Mentes¿|Mind Flayers?]]
 
