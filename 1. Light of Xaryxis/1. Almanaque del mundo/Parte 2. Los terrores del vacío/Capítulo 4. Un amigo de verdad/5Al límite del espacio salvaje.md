@@ -4,4 +4,4 @@ Tener una nueva aventura en la que ocupar sus pensamientos levanta el ánimo de 
 
 * * *
 
-[[El segundo viento|The Second Wind]] **|** [[Despiadado Reigar|Ruthless Reigar]]
+[[4El segundo viento|The Second Wind]] **|** [[6Despiadado Reigar|Ruthless Reigar]]

@@ -31,4 +31,4 @@ Si [[hastain-lox|Hastain]] prevalece pero la estética no sobrevive, el reigar t
 _Here ends_ _chapter 4._
 * * *
 
-[[Al límite del espacio salvaje|To the Edge of Wildspace]] **|** [[Chapter 5. Living on the Edge]]
+[[5Al límite del espacio salvaje|To the Edge of Wildspace]] **|** [[Chapter 5. Living on the Edge]]

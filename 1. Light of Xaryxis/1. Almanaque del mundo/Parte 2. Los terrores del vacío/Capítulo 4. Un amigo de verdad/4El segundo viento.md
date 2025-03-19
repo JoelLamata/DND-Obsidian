@@ -40,4 +40,4 @@ Al alcance de Starbough hay diez piedras de mangonel, que el treant puede lanzar
 
 * * *
 
-[[Comodoro Krux|Commodore Krux]] **|** [[Al límite del espacio salvaje|To the Edge of Wildspace]]
+[[3Comodoro Krux|Commodore Krux]] **|** [[5Al límite del espacio salvaje|To the Edge of Wildspace]]

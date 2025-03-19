@@ -10,5 +10,5 @@ Los personajes son libres de explorar la ciudad. Si el grupo retrasa demasiado e
 
 * * *
 
-[[Nightspider Dead Ahead|Nightspider Dead Ahead]] **|** [[Comodoro Krux|Commodore Krux]]
+[[1Nightspider Dead Ahead|1Nightspider Dead Ahead]] **|** [[3Comodoro Krux|Commodore Krux]]
 

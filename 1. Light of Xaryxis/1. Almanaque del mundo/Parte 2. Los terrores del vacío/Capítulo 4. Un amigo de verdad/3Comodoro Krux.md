@@ -16,5 +16,5 @@ Si los personajes corren peligro de ser derrotados por los duendes astrales, una
 
 * * *
 
-[[Bienvenido a la Roca|Welcome to the Rock]] **|** [[El segundo viento|The Second Wind]]
+[[2Bienvenido a la Roca|Welcome to the Rock]] **|** [[4El segundo viento|The Second Wind]]
 

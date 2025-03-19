@@ -4,5 +4,5 @@ Antes de llevar a cabo esta sesión, familiarízate con la Roca de Bral, que se 
 
 * * *
 
-[[3Neogi Raiders|3Neogi Raiders]] **|** [[Nightspider Dead Ahead|Nightspider Dead Ahead]]
+[[3Neogi Raiders|3Neogi Raiders]] **|** [[1Nightspider Dead Ahead|1Nightspider Dead Ahead]]
 

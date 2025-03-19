@@ -20,5 +20,5 @@ Si la capitana Sartell se ve obligada a rechazar la oferta de escolta de Daar'vi
 
 * * *
 
-[[Capítulo 4. Un amigo de verdad]] **|** [[Bienvenido a la Roca|Welcome to the Rock]]
+[[Capítulo 4. Un amigo de verdad]] **|** [[2Bienvenido a la Roca|Welcome to the Rock]]
 

@@ -6,5 +6,5 @@ Una vez que llegan a su destino, Krux y los personajes esperan obtener un mapa d
 
 * * *
 
-[[Despiadado Reigar|Ruthless Reigar]] **|** [[A la deriva|Adrift]]
+[[6Despiadado Reigar|Ruthless Reigar]] **|** [[A la deriva|Adrift]]
 
