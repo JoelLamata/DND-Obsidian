@@ -4,9 +4,9 @@ Cuando los personajes lleguen a la Roca de Bral, lee o parafrasea el siguiente t
 > 
 > "¡Bienvenidos a la Roca!" dice el Capitán Sartell. "Aquí es donde nos separamos".
 
-Si aún no lo ha hecho, la capitana Sartell insta a los personajes a buscar a [[commodore-krux-lox|Commodore Krux]], un giff que se ha enfrentado a elfos astrales en el pasado y que podría ayudar a los personajes a planear su próximo movimiento. Sartell sabe que a Krux se le suele encontrar en el Alegre Contemplador, una taberna popular.
+Si aún no lo ha hecho, la capitana Sartell insta a los personajes a buscar a [[commodore-krux-lox|Commodore Krux]], un giff que se ha enfrentado a elfos astrales en el pasado y que podría ayudar a los personajes a planear su próximo movimiento. Sartell sabe que a Krux se le suele encontrar en el Beholder Feliz, una taberna popular.
 
-Los personajes son libres de explorar la ciudad. Si el grupo retrasa demasiado el encuentro con Krux, haz que el capitán Sartell les envíe un mensaje diciendo que los elfos astrales les están buscando y que tienen que salir de la Roca rápidamente.
+Los personajes son libres de explorar la [ciudad](https://5e.tools/book.html#aag,3,who's%20who). Si el grupo retrasa demasiado el encuentro con Krux, haz que el capitán Sartell les envíe un mensaje diciendo que los elfos astrales les están buscando y que tienen que salir de la Roca rápidamente.
 
 * * *
 
