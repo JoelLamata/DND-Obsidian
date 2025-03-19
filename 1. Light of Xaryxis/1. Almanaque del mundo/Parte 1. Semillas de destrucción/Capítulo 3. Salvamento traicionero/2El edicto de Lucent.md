@@ -48,7 +48,7 @@ Un personaje que examine la silla del capitán y tenga éxito en un chequeo de I
 Los githyanki que atacaron al nautiloide inutilizaron la nave quitándole su [[spelljamming-helm-aag|spelljamming helm]]. Se llevaron como trofeo la cabeza de la cazadora de mentes muerta.
 
 **Tesoro.**
-Tumbada en la cubierta, cerca del mind flayer muerto, hay una [Ioun stone (reserve)](https://www.dndbeyond.com/magic-items/4941-ioun-stone-of-reserve). La piedra contiene un único lanzamiento del hechizo [[shield-of-faith|shield]].
+Tumbada en la cubierta, cerca del mind flayer muerto, hay una [Potion of polychromy](https://www.dndbeyond.com/magic-items/8225888-potion-of-polychromy)
 
 ### 4: Piso puente
 
@@ -98,7 +98,7 @@ Los guerreros githyanki mataron a un enajenador de mentes y a sus tres esclavos 
 En las celdas había nueve prisioneros. Los githyanki liberaron a los suyos y acabaron con la miseria de los demás prisioneros. Los personajes que registran las celdas encuentran los restos de tres humanos, un enano, un hadozee y un plasmoide.
 
 **Tesoro.**
-El desollador de mentes decapitado lleva una [+1 breastplate](https://5e.tools/items.html#+1%20breastplate_dmg) con tentáculos en relieve.
+Uno de los cadáveres llevaba consigo un [Mac-Fuirmidh Cittern](https://www.dndbeyond.com/magic-items/5438-mac-fuirmidh-cittern).
 
 ### 19: Almacenamiento
 
