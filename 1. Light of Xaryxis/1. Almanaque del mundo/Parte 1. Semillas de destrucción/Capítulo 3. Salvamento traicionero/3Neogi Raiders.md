@@ -9,4 +9,4 @@ Los neogi observan con interés la aproximación de _Moondancer_ y esperan a ver
 _Here ends part 1 of the adventure. Each character should gain a level before the next session._
 * * *
 
-[[2El edicto de Lucent|The Lucent Edict]] **|** [[Capítulo 4. Un amigo de verdad]]
+[[2El edicto de Lucent|The Lucent Edict]] **|** [[1Capítulo 4. Un amigo de verdad]]
