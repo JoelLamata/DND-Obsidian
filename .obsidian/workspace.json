@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 6 (13-04-2025).md",
-                "mode": "source",
+                "file": "1. Costa de la Espada/1. Mundo DM/NPCs/Gunter.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sesión 6 (13-04-2025)"
+              "title": "Gunter"
             }
           }
         ],
@@ -289,6 +289,17 @@
   },
   "active": "34194cccba382e22",
   "lastOpenFiles": [
+    "z_Assets/Otros/Pasted image 20250412201443.png",
+    "1. Costa de la Espada/3. Proximas sesiones/Sesión 6 (13-04-2025).md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Gunter.md",
+    "z_Assets/Tokens/Jaspar Graves.png",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/7Despiadado Reigar.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/6Al límite del espacio salvaje.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/5El segundo viento.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/4Comodoro Krux.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/3Bienvenido a la Roca.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/2Nightspider Dead Ahead.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/1Capítulo 4. Un amigo de verdad.md",
     "z_Assets/Otros/Pasted image 20250412200004.png",
     "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/2Bienvenido a la Roca.md",
     "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/1Nightspider Dead Ahead.md",
@@ -305,16 +316,7 @@
     "1. Light of Xaryxis/1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 3. Salvamento traicionero/1Capítulo 3. Salvamento traicionero.md",
     "dm/compendium/bestiary/aberration/psurlon-bam.md",
     "dm/compendium/bestiary/aberration/neh-thalggu-bam.md",
-    "1. Costa de la Espada/3. Proximas sesiones/Sesión 6 (13-04-2025).md",
     "1. Costa de la Espada/3. Proximas sesiones/Sesión 5 (15-02-2025).md",
-    "1. Costa de la Espada/3. Proximas sesiones/Sesión 2 (09-09-2024).md",
-    "1. Costa de la Espada/3. Proximas sesiones/Sesión 3 (13-10-2024).md",
-    "1. Costa de la Espada/3. Proximas sesiones/Sesión 4 (23-11-2024).md",
-    "1. Costa de la Espada/2. Resumen sesiones/Sesión 3 (13-10-24).md",
-    "1. Costa de la Espada/2. Resumen sesiones/Sesión 4 (23-11-2024).md",
-    "1. Costa de la Espada/1. Mundo DM/NPCs/Maga Montana.md",
-    "dm/compendium/bestiary/npc/flapjack-lox.md",
-    "dm/compendium/bestiary/humanoid/quaggoth.md",
     "z_Assets/Otros/Pasted image 20250214164150.png",
     "z_Assets/Otros/Pasted image 20250214161939.png",
     "z_Assets/Otros/Pasted image 20250214154035.png",
@@ -332,8 +334,6 @@
     "z_Assets/Portraits/Tarbol Eixeberria.jpg",
     "z_Assets/Tarbol Eixeberria.jpg",
     "z_Assets/Personajes/Tarbol Eixeberria.jpg",
-    "z_Assets/Vehicles/Bombard/some-ship-variations-based-on-requests-ive-gotten-v0-l1lj7b3du43b1.webp",
-    "z_Assets/Vehicles/nautiloid.jpg",
-    "z_Assets/Vehicles/nautiloid.webp"
+    "z_Assets/Vehicles/Bombard/some-ship-variations-based-on-requests-ive-gotten-v0-l1lj7b3du43b1.webp"
   ]
 }
