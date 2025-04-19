@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "4fe969e13255808d",
+    "type": "split",
+    "children": [
+      {
+        "id": "18f7f4104e0a7b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d9c05d7c6cfda9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Organización sesiones/Capítulo 1/Sesión.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc7507c9973f4271",
+    "type": "split",
+    "children": [
+      {
+        "id": "b644b46114341ca8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c2e8bb1fef6d0be",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "49c61a008c92ba38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c04751af81049f15",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3aace90fe20057cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d51a4f757679cce7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5518fb44a821140f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. Organización sesiones/Capítulo 1/Sesión.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "830d164751260522",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. Organización sesiones/Capítulo 1/Sesión.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1682b5d05ffc11c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad163f623d99c636",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. Organización sesiones/Capítulo 1/Sesión.md"
+              }
+            }
+          },
+          {
+            "id": "ba0931d385187ad6",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "de8d697146dbb951",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false
+    }
+  },
+  "active": "0d9c05d7c6cfda9c",
+  "lastOpenFiles": [
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Plagas astrales.md",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Capítulo 1. Lluvia astral.md",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Peligro en las calles.md",
+    "2. Organización sesiones/Capítulo 1/TODO.md",
+    "2. Organización sesiones/Capítulo 2/Sesión.md",
+    "2. Organización sesiones/Capítulo 1/Sesión.md",
+    "dm/compendium/items/star-moth-aag.md",
+    "z_Assets/Vehicles/Space Galleon/some-ship-variations-based-on-requests-ive-gotten-v0-l5w9za3du43b1.png",
+    "z_Assets/Vehicles/Space Galleon/some-ship-variations-based-on-requests-ive-gotten-v0-l5w9za3du43b1.png.0.pdnSave",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Colour map.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Colour map.webp.crdownload",
+    "z_Assets/Vehicles/Space Galleon/some-ship-variations-based-on-requests-ive-gotten-v0-l5w9za3du43b1.webp.0.pdnSave",
+    "z_Assets/Vehicles/Living ship/some-ship-variations-based-on-requests-ive-gotten-v0-3wuqo63du43b1.webp",
+    "z_Assets/Vehicles/Living ship/some-ship-variations-based-on-requests-ive-gotten-v0-3wuqo63du43b1.webp.crdownload",
+    "z_Assets/Vehicles/Living ship",
+    "z_Assets/Vehicles/Nueva carpeta",
+    "z_Assets/Vehicles/Bombard/some-ship-variations-based-on-requests-ive-gotten-v0-l1lj7b3du43b1.webp",
+    "z_Assets/Vehicles/Bombard/some-ship-variations-based-on-requests-ive-gotten-v0-l1lj7b3du43b1.webp.crdownload",
+    "z_Assets/Vehicles/Bombard",
+    "z_Assets/Vehicles/Space Galleon/some-ship-variations-based-on-requests-ive-gotten-v0-l5w9za3du43b1.webp",
+    "z_Assets/Vehicles/Space Galleon/some-ship-variations-based-on-requests-ive-gotten-v0-l5w9za3du43b1.webp.crdownload",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Cuando los elfos atacan.md",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/A bordo del Moondancer.md",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/Capítulo 2. El ataque de la Polilla Estelar.md",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Posibles finales.md",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Problemas en los muelles.md",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 1. Lluvia astral/Vid cristalina.md",
+    "z_Assets/Maps/Wildspace-03 80x80.jpg",
+    "z_Assets/Maps/Wildspace-03 80x80.jpg.crdownload",
+    "z_Assets/Maps/Wildspace-02 80x80.jpg",
+    "z_Assets/Maps/Wildpsace-01 80x80.jpg",
+    "1. Almanaque del mundo/Parte 1. Semillas de destrucción/Capítulo 2. El ataque de la Polilla Estelar/¿Lanza Mentes¿.md",
+    "4. Personajes/Poppeto Goldpoint.md",
+    "4. Personajes/Jumpno Partyno.md",
+    "4. Personajes/Grimmar.md",
+    "4. Personajes/Galadranth Novaeris.md",
+    "4. Personajes/Buratino.md",
+    "2. Organización sesiones/Capítulo 2/TODO.md",
+    "2. Organización sesiones/Capítulo 12/Conclusión TODO.md",
+    "1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 11. Momento culminante/Capítulo 11. Momento culminante.md",
+    "0. Notas/Decisiones de la historia que tengo que tomar que nervios no se que escoger.md",
+    "1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 6_ Grave Alianza/¡Mira, una princesa!.md",
+    "1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 12. Luz de Xaryxis/Capítulo 12. Luz de Xaryxis.md",
+    "1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 10. Invasores del espacio/Capítulo 10. Invasores del espacio.md",
+    "z_Assets/Vehicles/Star Moth/Star Moth Map Player Version.webp",
+    "z_Assets/Vehicles/Star Moth/Star Moth Map.webp",
+    "Untitled.canvas"
+  ]
+}

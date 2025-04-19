@@ -11,8 +11,8 @@ NoteIcon: npc
 ---
 > [!infobox]
 > # `=this.file.name`
-> ![[Isha.jpeg|cover hsmall]]
-> [[Isha.jpeg|Show To Players]]
+> ![[z_Assets/Portraits/Isha.jpeg|cover hsmall]]
+> [[z_Assets/Portraits/Isha.jpeg|Show To Players]]
 > ###### Basic Information
 > Type |  Stat |
 > ---|---|

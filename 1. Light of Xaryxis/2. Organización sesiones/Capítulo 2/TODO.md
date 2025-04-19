@@ -1,0 +1,1 @@
+- [ ] Cuando esten en la roca de bral que gente conozca a Jumpno Partyno

@@ -16,30 +16,6 @@
             }
           },
           {
-            "id": "f1869b5c9bf69e2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Mundo DM/Ubicaciones/Baldurs Gate/Baldurs Gate.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cecae119b434bc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Mundo DM/NPCs/Maga Montana.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "2e1d11753c93f42d",
             "type": "leaf",
             "state": {
@@ -52,31 +28,19 @@
             }
           },
           {
-            "id": "4ebf6fbf21211f24",
+            "id": "9c2d92a775621712",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2069b88f0ab43d0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Proximas sesiones/Septiembre 2024.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. DM Screen/Notas propias/Items para classes.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -226,54 +190,54 @@
       "translate:Open translation view": false
     }
   },
-  "active": "4ebf6fbf21211f24",
+  "active": "9c2d92a775621712",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "0. DM Screen/Notas propias/Items para classes.md",
-    "2. Resumen sesiones/Sesión 2.md",
-    "1. Mundo DM/Ubicaciones/Terrassa.md",
-    "1. Mundo DM/Ubicaciones/Assarret.md",
-    "1. Mundo DM/NPCs/Dexter.md",
-    "1. Mundo DM/Ideas.md",
-    "3. Proximas sesiones/Septiembre 2024.md",
-    "1. Mundo DM/NPCs/Maga Montana.md",
     "0. DM Screen/Tables dice.md",
-    "0. DM Screen/Random Tables/temp trad.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Paladin Magic Items.md",
-    "z_Assets/Objetos/llave seta.webp",
-    "z_Assets/Objetos/mountainsideMUSHIEKEY_800x.webp",
-    "z_Assets/Objetos/mountainsideMUSHIEKEY_800x.webp.crdownload",
-    "z_Assets/Objetos",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Rogue Magic Items.md",
-    "0. DM Screen/Normas propias/Heroic Inspiration.md",
-    "0. DM Screen/Normas propias/Nuevas normas de Combate.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Drogas y sus efectos - Fantasy Drugs and Their Effects.md",
-    "0. DM Screen/Random Tables/Tiendas/Interesting Traveling Merchants.md",
-    "0. DM Screen/Random Tables/Misiones/Quests Involving Tool Kits.md",
-    "0. DM Screen/Random Tables/Tiendas/Items For Sale In A Fantasy Black Market.md",
-    "0. DM Screen/Random Tables/Tiendas/Magic Items a Scam Artist Would Sell.md",
-    "0. DM Screen/Random Tables/Tiendas/Tienda de segunda mano - Items in a Fantasy Thrift Shop.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Magical Items with Sentimental Origins.md",
-    "0. DM Screen/Random Tables/Unique Dragon Hoards.md",
-    "0. DM Screen/Random Tables/Tiendas",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Objetos malvados - Evil Magic Items.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Objetos preciados de difuntos - Treasured Items of the Deceased.md",
-    "0. DM Screen/Random Tables/Objetos y tesoros/Reliquias - Ancient Holy Relics.md",
-    "0. DM Screen/Random Tables/Misiones",
-    "0. DM Screen/Random Tables/Encounters",
-    "0. DM Screen/Random Tables/Objetos y tesoros",
-    "0. DM Screen/Random Tables/table_translator_deepl.py",
-    "z_Assets/Mapas/Sword-Coast-Map_HighRes.jpg",
-    "Untitled.canvas",
-    "z_Assets/Mapas/Pasted image 20240819212208.png",
-    "z_Assets/Otros/Pasted image 20240820095036.png",
-    "z_Assets/Otros/Pasted image 20240819213606.png",
-    "z_Assets/Otros/Captura de pantalla 2024-08-20 a las 9.27.41.png",
-    "0. DM Screen/Normas propias",
-    "0. DM Screen/Notas propias",
-    "z_Assets/Portraits/Isha.jpeg",
-    "1. Mundo DM/Ubicaciones/Dungeons/Untitled",
-    "z_Assets/Otros/Pasted image 20240820095014.png",
-    "z_Assets/Volos/Captura de pantalla 2024-08-20 a las 9.27.41.png"
+    "conflict-files-obsidian-git.md",
+    "z_Assets/Vehicles/Star Moth/token_map.png",
+    "z_Assets/Vehicles/Star Moth/map_no_background.png",
+    "z_Assets/Vehicles/Star Moth/Star Moth.webp",
+    "z_Assets/Vehicles/Star Moth/Star Moth Planos.md",
+    "z_Assets/Vehicles/Star Moth/Star Moth Map.webp",
+    "z_Assets/Vehicles/Star Moth/Star Moth Map Player Version.webp",
+    "z_Assets/Vehicles/Space Galleon/some-ship-variations-based-on-requests-ive-gotten-v0-l5w9za3du43b1.png",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Planos.md",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Map.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Map Player Version.webp",
+    "z_Assets/Vehicles/Space Galleon/Space Galleon Colour map.webp",
+    "z_Assets/Vehicles/Star Moth",
+    "z_Assets/Vehicles/Space Galleon",
+    "z_Assets/Vehicles/Living ship",
+    "z_Assets/Vehicles/Bombard",
+    "z_Assets/Vehicles",
+    "z_Assets/Tokens",
+    "z_Assets/Personajes",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 12. Luz de Xaryxis/Vida o muerte.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 12. Luz de Xaryxis/Further Adventures.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 12. Luz de Xaryxis/Dying Wish.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 12. Luz de Xaryxis/Conclusión.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 12. Luz de Xaryxis/Capítulo 12. Luz de Xaryxis.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 11. Momento culminante/Templo de la Luz.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 11. Momento culminante/Llegada a la Ciudadela.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 11. Momento culminante/Juicio por combate.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 11. Momento culminante/Capítulo 11. Momento culminante.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 10. Invasores del espacio/Llegada a Xaryxispace.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 10. Invasores del espacio/Enfoque final.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 10. Invasores del espacio/Capítulo 10. Invasores del espacio.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 10. Invasores del espacio/Caballero de Tu'narath.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 10. Invasores del espacio/Ataque a la Ciudadela.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 9_ Discordia y diplomacia/¡Reúna la flota!.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 9_ Discordia y diplomacia/La amenaza xaryxiana.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 9_ Discordia y diplomacia/Jinete del Dragón Rojo.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 9_ Discordia y diplomacia/Capítulo 9. Discordia y diplomacia.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 9_ Discordia y diplomacia/Alianza en el Doomspace.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 8_ Arena de sangre/¿Qué Coalición¿.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 8_ Arena de sangre/Reunión Vocath.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 3. Caos en el Doomspace/Capítulo 8_ Arena de sangre/La gran entrada de Xeleth.md",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 12. Luz de Xaryxis",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 11. Momento culminante",
+    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 4. Salvadores del Multiverso/Capítulo 10. Invasores del espacio",
+    "Untitled.canvas"
   ]
 }

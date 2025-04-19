@@ -1,3 +1,0 @@
-- Han tendido una trampa a (personaje antiguo de alex) y su padre se ha aliado con los elfos oscuros para conquistar el reino, obligando a (personaje antiguo de alex) a casarse con la hija del líder del grupo de los elfos oscuros.
-	- Los elfos oscuros para poder entrar en el mismo plano (vienen del Underdark) tienen que crear un portal (me lo estoy inventando pero podría mirarlo)
-		- Para crear dicho portal necesitan los sueños de la gente? no se, unirlo con el pueblo del guillem tu

@@ -1,7 +1,7 @@
 > [!statblocks|columns] 
 > 
 >> [!blank] 
->> ![[Isha.jpeg|right cover htiny wtiny circle lp]]
+>> ![[z_Assets/Portraits/Isha.jpeg|right cover htiny wtiny circle lp]]
 >> # Name 
 >>  > Description 
 >> 

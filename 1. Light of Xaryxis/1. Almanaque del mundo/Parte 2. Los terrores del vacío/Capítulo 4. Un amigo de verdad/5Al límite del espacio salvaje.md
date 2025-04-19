@@ -1,0 +1,7 @@
+Una vez que los personajes están a bordo del  _Second Wind_ y a salvo de la Roca de Bral, Krux les revela su plan: viajar a otro sistema del Espacio Salvaje llamado Doomspace, donde los enemigos del Imperio Xaryxian están formando una coalición. Krux cree que la única esperanza de los personajes para salvar su planeta es unirse a la coalición. Krux no sabe mucho sobre el Doomspace, así que el destino inmediato de la nave es una torre solitaria en un asteroide, donde vive una maga cartógrafa llamada [[topolah-lox|Topolah]]. [[topolah-lox|Topolah]] es amiga de Krux, y él está seguro de que ella podrá proporcionarle un mapa del Doomspace. Su torre está en el límite del sistema del Espacio Salvaje.
+
+Tener una nueva aventura en la que ocupar sus pensamientos levanta el ánimo de Krux. El giff deja de beber y se mueve por su nave con determinación y autoridad, ladrando órdenes como el comandante militar que fue antaño. Sin embargo, cada vez que la conversación gira en torno a la historia de Krux con el Imperio Xaryxiano, el giff se vuelve callado y melancólico. Es obvio que hay un recuerdo doloroso que Krux aún no se siente cómodo compartiendo; si se le presiona, el giff hace un gesto desdeñoso con la mano, murmurando: "Seguro que esta vez las cosas salen de otra manera". (Encontrará más información sobre el secreto de Krux en chapter 7.)
+
+* * *
+
+[[4El segundo viento|The Second Wind]] **|** [[6Despiadado Reigar|Ruthless Reigar]]
