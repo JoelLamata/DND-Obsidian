@@ -6,6 +6,10 @@ La responsabilidad de crear objetivos para los personajes recae en los jugadores
 - Los objetivos deben tener consecuencias en caso de fracaso.
 - Los objetivos deben ser divertidos.
 
+«Alcanzables», se refiere a que «los objetivos deben formularse de tal manera que sepamos cuándo los hemos logrado». Por ejemplo, «Quiero ser más poderoso» no es un buen objetivo porque «más poderoso» es demasiado vago. Un objetivo mejor podría ser «Quiero ganar el torneo de artes marciales de Berga el año que viene», entra dentro de la definición «más poderoso» y el GM puede imaginar fácilmente una serie de encuentros que conduzcan a su consecución.
+
+Las consecuencias por fracasar deben ser claras, para que tanto los jugadores como los PC entiendan lo que está en juego. «Si puedes fracasar en la consecución de un objetivo sólo para intentarlo de nuevo, entonces no significa nada fracasar».
+
 Ejercicio de practica:
 1. Que objetivo a medio plazo tiene el personaje? El objetivo no tiene porque ser sorprendente ni cambiar tu perspectiva sobre el mundo, tiene que ser importante para el personaje y difícil de conseguir.
 2. Que dos o tres objetivos a corto plazo pueden ayudar al personaje a cumplir su objetivo a medio plazo?
@@ -35,10 +39,16 @@ Ejemplos (cada columna es individual):
 | Descubrir su identidad como alguien importante                                  | Conseguir la atención de un poderoso aliado                                                                | Una persona o objeto importante es destruido antes de poder hacer suficiente progreso |
 | Aprender información importante sobre algo que esta siendo escondido o guardado | Un impulso inexplicable (seguramente relacionado con algo de la infancia)                                  | No se ha hecho nunca                                                                  |
 | Matar un dios                                                                   | Dios le dijo que lo hiciera                                                                                | Los seguidores de dios son grandes luchadores                                         |
+Los jugadores deberían inventar nuevos objetivos a medida que completan los antiguos.
+
 Para controlar los objetivos de los jugadores:
+Toma nota de todos los objetivos de cada jugador, y ten los a mano para facilitar la improvisación de nuevos eventos.
 
 Resumen:
 
-| Pasos de jugador | Pasos de DM |
-| ---------------- | ----------- |
-|                  |             |
+| Pasos de jugador                                                                                                                                           | Pasos de DM                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Piensa sobre la historia del personaje, habilidades y sus rasgos. Explicaselos al grupo.<br>Decide en un objetivo a largo o medio plazo.                   | Es el objetivo alcanxable? Puede ser divertido? Como puede fallar?                                                |
+| Si es necesario, rehaz el objetivo hasta que cumpla los criterios.<br>Comparte los objetivos con la mesa y ajusta para la colaboración si es necesario.    | Apunta todos los objetivos.                                                                                       |
+| Crea uno o dos objetivos a corto plazo que contribuyan a tu objetivo a largo plazo.                                                                        | Son los objetivos alcanxables? Pueden ser divertidos? Como pueden fallar?                                         |
+| Si es necesario, rehaz los objetivos hasta que cumplan los criterios.<br>Comparte los objetivos con la mesa y ajusta para la colaboración si es necesario. | Apunta todos los objetivos a corto plazo. Piensa si estos comparten lugar, personas u objetos y apuntalo también. |
