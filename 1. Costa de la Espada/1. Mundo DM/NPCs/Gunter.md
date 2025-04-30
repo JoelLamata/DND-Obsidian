@@ -27,3 +27,5 @@ Ha aprendido un poco de magia rudimentaria de Elira, en especial hechizos menore
 - Sueña con abrir su propia tienda de “plantas que no muerden (mucho)” algún día.
 - Usa un sombrero de paja desproporcionadamente grande para su cabeza.
 - Cree que las plantas escuchan mejor si uno canta en falsete.
+
++1 de oro
