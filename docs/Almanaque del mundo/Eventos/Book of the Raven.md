@@ -1,1 +1,0 @@
-Encontraron un libro de una mansión maldita fueron y mataron a un tío raro en otro mundo.

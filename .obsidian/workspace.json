@@ -24,59 +24,17 @@
             }
           },
           {
-            "id": "89e8e0b834abc634",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. DM Screen/Tables dice.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tables dice"
-            }
-          },
-          {
-            "id": "7e0a65738d71fb7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. DM Screen/Notas/Items para classes.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Items para classes"
-            }
-          },
-          {
-            "id": "fe6b0bd598ccca2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 6 (13-04-2025).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sesión 6 (13-04-2025)"
-            }
-          },
-          {
             "id": "0dd9a4116cead885",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Costa de la Espada/1. Mundo DM/NPCs/Gunter.md",
-                "mode": "preview",
+                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 7 (NI IDEA).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gunter"
+              "title": "Sesión 7 (NI IDEA)"
             }
           }
         ],
@@ -234,12 +192,62 @@
             "state": {
               "type": "initiative-tracker-view",
               "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "33b371d91f9398e0",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "47a1d95749488738",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "576fc8c2fbca9891",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6d07d0a86a55f701",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e86e23d89f376947",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8b07196b9c4d11c3",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -249,7 +257,7 @@
             }
           },
           {
-            "id": "43ef87adb0dec7b6",
+            "id": "b5d9b613be28a31d",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -271,8 +279,8 @@
             "state": {
               "type": "initiative-tracker-creature-view",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -284,33 +292,41 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "fantasy-content-generator:Fantasy Generators": false,
-      "translate:Open translation view": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-git:Open Git source control": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "translate:Open translation view": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "89e8e0b834abc634",
+  "active": "0dd9a4116cead885",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "docs/Topic 1/Note 2.md",
+    "docs/Topic 1/Note 1.md",
+    "1. Costa de la Espada/3. Proximas sesiones/Sesión 7 (NI IDEA).md",
+    "1. Costa de la Espada/1. Mundo DM/PCs/Atheris Quinlan.md",
+    "docs/PCs/Atheris Quinlan.md",
+    "1. Costa de la Espada/1. Mundo DM/Apuntes/Ejercito revolucionario.md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Revolucionarios/Tarbol Eixeberria.md",
+    "1. Costa de la Espada/3. Proximas sesiones/Sesión 6 (13-04-2025).md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Gunter.md",
+    "1. Costa de la Espada/1. Mundo DM/Apuntes/Historia.md",
+    "1. Costa de la Espada/1. Mundo DM/NPCs/Soldyr Byntheris.md",
     "0. DM Screen/Tables dice.md",
+    "conflict-files-obsidian-git.md",
     "0. DM Screen/Notas/Proactive roleplay/Creación de Recompensas.md",
     "0. DM Screen/Notas/Proactive roleplay/Creación de Localizaciones.md",
     "0. DM Screen/Notas/Proactive roleplay/Creación de Encuentros.md",
     "0. DM Screen/Notas/Proactive roleplay/Creación de Conflictos.md",
-    "1. Costa de la Espada/1. Mundo DM/Apuntes/Ejercito revolucionario.md",
-    "1. Costa de la Espada/3. Proximas sesiones/Sesión 6 (13-04-2025).md",
-    "1. Costa de la Espada/1. Mundo DM/NPCs/Gunter.md",
     "0. DM Screen/Notas/Items para classes.md",
     "0. DM Screen/Random Tables (Custom)/Dados para las tablas.md",
     "0. DM Screen/Random Tables (100d)/temp trad.md",
@@ -322,14 +338,6 @@
     "z_Assets/Otros/Pasted image 20250412201443.png",
     "z_Assets/Otros/Pasted image 20250412200004.png",
     "0. DM Screen/DM Board.md",
-    "0. DM Screen/Random Tables (100d)/Tiendas/Tienda de segunda mano - Items in a Fantasy Thrift Shop.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/2Bienvenido a la Roca.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/1Nightspider Dead Ahead.md",
-    "1. Light of Xaryxis/0. Notas/Decisiones de la historia que tengo que tomar que nervios no se que escoger.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/4El segundo viento.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/5Al límite del espacio salvaje.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/6Despiadado Reigar.md",
-    "1. Light of Xaryxis/1. Almanaque del mundo/Parte 2. Los terrores del vacío/Capítulo 4. Un amigo de verdad/Capítulo 4. Un amigo de verdad.md",
     "z_Assets/Otros/Pasted image 20250214164150.png",
     "z_Assets/Otros/Pasted image 20250214161939.png",
     "z_Assets/Otros/Pasted image 20250214154035.png",
