@@ -7,7 +7,7 @@
     - Estatus social destruido.
     - Un contrato mágico que no recuerdan haber firmado.
 - El gremio tiene rangos dependiendo del nivel del personaje. Cada rango ofrece acceso a ventajas mecánicas: portales intercontinentales, artefactos, seguros médicos mágicos, y descuentos en burdeles arcanos.
-	- Junior, mid, senior, manager, CEO, etc.
+	- Becario (1-3), Junior (4-6), mid (7-9), senior (10-12), manager (13-15), CEO (15+).
 	- Comun, poco comun, etc.
 - El gremio tiene varias sedes por el mundo que los personajes pueden viajar a ellas usando portales (en el caso de tener un rango mas alto).
 - El gremio esta subvencionado por el govierno. Esto puede crear situaciones donde haya corrupción, o misiones especificas para ganarse el favor politico.
@@ -40,7 +40,8 @@ Misiones Políticas / Globales:
 - Estas misiones tienen efectos duraderos en el equilibrio político (salvar o eliminar a un príncipe, cerrar un portal dimensional, negociar con una deidad, etc.).
 
 **¿Cómo se distribuyen las misiones importantes?**
-*El Ministerio de Equilibrio Operativo (MEO)*
+*El Ministerio de Equipos Operativos (MEO)*
+*Oscar Mucho, Manager Empresarial del Ministerio de Equipos Operativos - MEMEO*
 Una entidad burocrática inmensa y corrupta. Su propósito es **asignar misiones críticas** y evitar que un solo gremio tenga demasiado poder... en teoría.
 Sistema de Licitación Mágica:
 1. **Una misión crítica aparece.**
@@ -84,9 +85,59 @@ Un gremio puede:
 - Patrocinar héroes falsos para manipular la narrativa pública.
 
 #### **Ideas de misiones**
+- Juegos olimpicos de Gremiolimpiadas
+- Escoltar a alguien
+- Ayudar a proteger algo o alguien
+- Carrera contra otro gremio
+- Control/exterminio de plaga
+- Asesinato
+- Trabajo de corrupción para el beneficio del gremio
+- Misiones trampa de otros gremios
+- Negociar por un pago o servicio
+- Investigaciones sobre robos, asesinatos, desapariciones
+
+#### Monstruos que quieren los niños estos
+- [[rakshasa|Rakshasa]]
+- [[beholder|Beholder]]
+- [[hydra|Hydra]]
+- [[mind-flayer|Mind Flayer]]
+- [[Modrons]]
+- [[owlbear|Owlbear]]
+- [[purple-worm|Purple Worm]]
+- [[lich|Lich]]
+- [[chimera|Chimera]]
+- [[Elemental catalist]]
+- [[mimic|Mimic]]
+
+#### Items
+![[Pasted image 20250721201429.png]]
+- Crear economia de items
+	- El gremio tiene una tienda con items a la venta
+	- Los items que consiguen en las misiones se pueden vender luego
+- Algunos personajes pueden empezar con un arma custom o "vestigio", pero que no las consigan durante las aventuras (puede haber excepciones).
+
+#### Otros
+- [[mimic|Mimic]]: Dar imagen impresa de cofre por defecto, cada vez que encuentren uno enseñar imagen, en caso de ser mimico, que tenga alguna diferencia.
+- Utilizar la dificultad de las misiones para subir de nivel/rango. Se necesita completar una mision de rango superior para subir al siguiente rango.
+	- Becario (1-3): 1 misión de Becario.
+	- Junior (4-6):
+	- Mid (7-9):
+	- Senior (10-12):
+	- Manager (13-15):
+	- CEO (15+):
+
+| Rango/Mision    | Becario | Junior | Mid | Senior | Manager | CEO |
+| --------------- | ------- | ------ | --- | ------ | ------- | --- |
+| Becario (1-3)   | 1       | X      | X   | X      | X       | X   |
+| Junior (4-6)    | 2       | 1      | X   | X      | X       | X   |
+| Mid (7-9)       | 3       | 2      | 1   | X      | X       | X   |
+| Senior (10-12)  | 4       | 3      | 2   | 1      | X       | X   |
+| Manager (13-15) | 5       | 4      | 3   | 2      | 1       | X   |
+| CEO (15+)       | 6       | 5      | 4   | 3      | 2       | 1   |
 
 
 
 >[!warning]
 >Daggerhart tiene preguntas sobre relaciones entre personajes y backstories etc.
 >Crear un NPCs que sea Goblin Slayer
+>Usar variables para el combate, que no se base en golpear/matar
