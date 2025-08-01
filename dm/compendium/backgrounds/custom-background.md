@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- compendium/src/5e/phb
 - ttrpg-cli/background
-aliases: ["Custom Background"]
+- ttrpg-cli/compendium/src/5e/phb
+aliases:
+- Custom Background
 ---
 # Custom Background
 *Source: Player's Handbook p. 126*  
+
 
 - **Skill Proficiencies.** Two of your choice  
 - **Languages and Tool Proficiencies.** Two of your choice  

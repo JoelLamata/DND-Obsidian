@@ -2,23 +2,23 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-- ttrpg-cli/item/wondrous
 aliases: 
 - "Libram of Souls and Flesh"
 ---
 # Libram of Souls and Flesh
-*Wondrous Item, rare (requires attunement by a wizard)*  
+*Wondrous item, rare (requires attunement by a wizard)*  
+
 
 - **Weight**: 3.0 lbs.
 
-With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: [animate dead](compendium/spells/animate-dead.md), [circle of death](compendium/spells/circle-of-death.md), [false life](compendium/spells/false-life.md), [finger of death](compendium/spells/finger-of-death.md), [speak with dead](compendium/spells/speak-with-dead.md), [summon undead](compendium/spells/summon-undead-tce.md), and [vampiric touch](compendium/spells/vampiric-touch.md). It functions as a spellbook for you.
+With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: [animate dead](/3-Mechanics/CLI/spells/animate-dead-xphb.md), [circle of death](/3-Mechanics/CLI/spells/circle-of-death-xphb.md), [false life](/3-Mechanics/CLI/spells/false-life-xphb.md), [finger of death](/3-Mechanics/CLI/spells/finger-of-death-xphb.md), [speak with dead](/3-Mechanics/CLI/spells/speak-with-dead-xphb.md), [summon undead](/3-Mechanics/CLI/spells/summon-undead-xphb.md), and [vampiric touch](/3-Mechanics/CLI/spells/vampiric-touch-xphb.md). It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 
-The book has 3 charges, and it regains `dice: 1d3|avg` (`1d3`) expended charges daily at dawn. You can use the charges in the following ways while holding it:
+The book has 3 charges, and it regains `dice:1d3|noform|noparens|avg` (`d3`) expended charges daily at dawn. You can use the charges in the following ways while holding it:
 
 - If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the necromancy school.  
 - As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target's status. The effect ends if you deal damage or force a creature to make a saving throw.  

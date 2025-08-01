@@ -2,7 +2,7 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/grassland
@@ -10,12 +10,15 @@ tags:
 - ttrpg-cli/monster/environment/mountain
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
-aliases: ["Clockwork Stone Defender"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Clockwork Stone Defender
 ---
-# Clockwork Stone Defender
+# [Clockwork Stone Defender](3-Mechanics\CLI\bestiary\construct/clockwork-stone-defender-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 80*  
 
-The thick plates of stone riveted onto a stone [defender](compendium/items/defender.md) give it substantial protection. Its chief role is as a bodyguard.
+The thick plates of stone riveted onto a stone [defender](/3-Mechanics/CLI/items/defender-xdmg.md) give it substantial protection. Its chief role is as a bodyguard.
 
 ## Clockworks
 
@@ -31,8 +34,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 | dice: d10 | Enhancement |
 |-----------|-------------|
-| 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](/compendium/rules/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
-| 2 | **Sensors.** The range of the clockwork's [darkvision](/compendium/rules/senses.md#darkvision) increases by 60 feet, and it gains proficiency in [Perception](/compendium/rules/skills.md#Perception) if it lacks that proficiency. |
+| 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](/3-Mechanics/CLI/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
+| 2 | **Sensors.** The range of the clockwork's [darkvision](/3-Mechanics/CLI/senses.md#Darkvision) increases by 60 feet, and it gains proficiency in [Perception](/3-Mechanics/CLI/skills.md#Perception) if it lacks that proficiency. |
 | 3 | **Fortified.** The clockwork's AC increases by 2. |
 | 4 | **Increased Speed.** The clockwork's speed increases by 10 feet. |
 | 5 | **Reinforced Construction.** The clockwork has resistance to force, lightning, and thunder damage. |
@@ -49,51 +52,61 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 | dice: d8 | Malfunction |
 |----------|-------------|
-| 1 | **Faulty Sensors.** Roll a `dice: d6\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](/compendium/rules/conditions.md#blinded) until the end of its turn. |
-| 2 | **Flawed Targeting.** Roll a `dice: d6\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn. |
+| 1 | **Faulty Sensors.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](/3-Mechanics/CLI/conditions.md#Blinded) until the end of its turn. |
+| 2 | **Flawed Targeting.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn. |
 | 3 | **Ground Fault.** The clockwork has vulnerability to lightning damage. |
-| 4 | **Imprinting Loop.** Roll a `dice: d6\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks or dam ages it. |
+| 4 | **Imprinting Loop.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks or dam ages it. |
 | 5 | **Limited Steering.** The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn. |
-| 6 | **Overactive Sense of Self-Preservation.** If the clock work has half its hit points or fewer at the start of its turn in combat, roll a `dice: d6\|avg` (`d6`). If you roll a 1, it retreats from combat if possible. It otherwise keeps fighting. |
-| 7 | **Overheats.** Roll a `dice: d6\|avg` (`d6`) at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](/compendium/rules/conditions.md#incapacitated) until the end of its turn. |
+| 6 | **Overactive Sense of Self-Preservation.** If the clock work has half its hit points or fewer at the start of its turn in combat, roll a `dice:d6\|noform\|noparens\|avg` (`d6`). If you roll a 1, it retreats from combat if possible. It otherwise keeps fighting. |
+| 7 | **Overheats.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](/3-Mechanics/CLI/conditions.md#Incapacitated) until the end of its turn. |
 | 8 | **Rusty Gears.** The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet. |
 ^clockwork-malfunctions
 
-## Statblock
-
-```ad-statblock
-title: Clockwork Stone Defender
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Clockwork%20Stone%20Defender.webp#token)
-*Medium construct, Unaligned*
-
-- **Armor Class** 16  (natural armor)
-- **Hit Points** 105 (`14d8 + 42`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|10 (+0)|17 (+3)| 3 (-4)|10 (+0)| 1 (-5)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** understands one language of its creator but can't speak
-- **Challenge** 4
-
-## Traits
-
-***Magic Resistance.*** The clockwork has advantage on saving throws against spells and other magical effects.
-
-***Unusual Nature.*** The clockwork doesn't require air, food, drink, or sleep.
-
-## Actions
-
-***Slam.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage, and if the target is Large or smaller, it is knocked [prone](/compendium/rules/conditions.md#prone).
-
-## Reactions
-
-***Intercept Attack.*** In response to another creature within 5 feet of it being hit by an attack roll, the clockwork gives that creature a +5 bonus to its AC against that attack, potentially causing a miss. To use this ability, the clockwork must be able to see the creature and the attacker.
+```statblock
+"name": "Clockwork Stone Defender (MPMM)"
+"size": "Medium"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "105"
+"hit_dice": "14d8 + 42"
+"modifier": !!int "0"
+"stats":
+  - !!int "19"
+  - !!int "10"
+  - !!int "17"
+  - !!int "3"
+  - !!int "10"
+  - !!int "1"
+"speed": "30 ft."
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [exhaustion](/3-Mechanics/CLI/conditions.md#Exhaustion),\
+  \ [frightened](/3-Mechanics/CLI/conditions.md#Frightened), [paralyzed](/3-Mechanics/CLI/conditions.md#Paralyzed),\
+  \ [petrified](/3-Mechanics/CLI/conditions.md#Petrified), [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "understands one language of its creator but can't speak"
+"cr": "4"
+"traits":
+  - "desc": "The clockwork has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The clockwork doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
+"actions":
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) bludgeoning damage, and if the target is Large or smaller, it is\
+      \ knocked [prone](/3-Mechanics/CLI/conditions.md#Prone)."
+    "name": "Slam"
+"reactions":
+  - "desc": "In response to another creature within 5 feet of it being hit by an attack\
+      \ roll, the clockwork gives that creature a +5 bonus to its AC against that\
+      \ attack, potentially causing a miss. To use this ability, the clockwork must\
+      \ be able to see the creature and the attacker."
+    "name": "Intercept Attack"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Clockwork Stone Defender.webp"
 ```
 ^statblock
 

@@ -2,19 +2,22 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
-aliases: ["Bard"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Bard
 ---
-# Bard
+# [Bard](3-Mechanics\CLI\bestiary\humanoid/bard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 59*  
 
 Bards are gifted poets, storytellers, and entertainers who travel far and wide. They're commonly found in taverns or in the company of jolly bands of adventurers, rough-and-tumble mercenaries, and wealthy patrons.
 
-Each bard is a master of at least one type of performance. You may choose a bard's main type, or you may roll on the Bard [Performance](/compendium/rules/skills.md#Performance) Types table to determine it.
+Each bard is a master of at least one type of performance. You may choose a bard's main type, or you may roll on the Bard [Performance](/3-Mechanics/CLI/skills.md#Performance) Types table to determine it.
 
 **Bard Performance Types**
 
@@ -34,45 +37,67 @@ Each bard is a master of at least one type of performance. You may choose a bard
 | 10 | Acting |
 ^bard-performance-types
 
-```ad-statblock
-title: Bard
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Bard.webp#token)
-*Medium humanoid, Any alignment*
-
-- **Armor Class** 15  ([chain shirt](compendium/items/chain-shirt.md))
-- **Hit Points** 44 (`8d8 + 8`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|14 (+2)|12 (+1)|10 (+0)|13 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Dexterity +4, Wisdom +3
-- **Skills** Acrobatics +4, Perception +5, Performance +6
-- **Senses** passive Perception 15
-- **Languages** any two languages
-- **Challenge** 2
-
-***Spellcasting.*** The bard casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 12):
-
-**At will**: [dancing lights](compendium/spells/dancing-lights.md), [mage hand](compendium/spells/mage-hand.md), [prestidigitation](compendium/spells/prestidigitation.md)
-
-**1/day each**: [charm person](compendium/spells/charm-person.md), [invisibility](compendium/spells/invisibility.md), [sleep](compendium/spells/sleep.md)
-
-## Actions
-
-***Multiattack.*** The bard makes two Shortsword or Shortbow attacks. It can replace one attack with a use of Spellcasting.
-
-***Shortsword.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 80/320 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
-
-***Cacophony (Recharge 4-6).*** Each creature in a 15-foot cube originating from the bard must make a DC 12 Constitution saving throw. On a failed save, a creature takes `dice: 2d8|avg` (`2d8`) thunder damage and is pushed up to 10 feet away from the bard. On a successful save, a creature takes half as much damage and isn't pushed.
-
-## Bonus Actions
-
-***Taunt (2/Day).*** The bard targets one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
+```statblock
+"name": "Bard (MPMM)"
+"size": "Medium"
+"type": "humanoid"
+"alignment": "Any alignment"
+"ac": !!int "15"
+"ac_class": "[chain shirt](/3-Mechanics/CLI/items/chain-shirt-xphb.md)"
+"hp": !!int "44"
+"hit_dice": "8d8 + 8"
+"modifier": !!int "2"
+"stats":
+  - !!int "11"
+  - !!int "14"
+  - !!int "12"
+  - !!int "10"
+  - !!int "13"
+  - !!int "14"
+"speed": "30 ft."
+"saves":
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "3"
+"skillsaves":
+  - "name": "[Acrobatics](/3-Mechanics/CLI/skills.md#Acrobatics)"
+    "desc": "+4"
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Performance](/3-Mechanics/CLI/skills.md#Performance)"
+    "desc": "+6"
+"senses": "passive Perception 15"
+"languages": "any two languages"
+"cr": "2"
+"actions":
+  - "desc": "The bard makes two Shortsword or Shortbow attacks. It can replace one\
+      \ attack with a use of Spellcasting."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+      \ + 2) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Shortbow"
+  - "desc": "Each creature in a 15-foot cube originating from the bard must make a\
+      \ DC 12 Constitution saving throw. On a failed save, a creature takes 9 (2d8)\
+      \ thunder damage and is pushed up to 10 feet away from the bard. On a successful\
+      \ save, a creature takes half as much damage and isn't pushed."
+    "name": "Cacophony (Recharge 4-6)"
+  - "desc": "The bard casts one of the following spells, using Charisma as the spellcasting\
+      \ ability (spell save DC 12):\n\nAt will: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights-xphb.md),\
+      \ [mage hand](/3-Mechanics/CLI/spells/mage-hand-xphb.md), [prestidigitation](/3-Mechanics/CLI/spells/prestidigitation-xphb.md)\n\
+      \n1/day each: [charm person](/3-Mechanics/CLI/spells/charm-person-xphb.md),\
+      \ [invisibility](/3-Mechanics/CLI/spells/invisibility-xphb.md), [sleep](/3-Mechanics/CLI/spells/sleep-xphb.md)"
+    "name": "Spellcasting"
+"bonus_actions":
+  - "desc": "The bard targets one creature within 30 feet of it. If the target can\
+      \ hear the bard, the target must succeed on a DC 12 Charisma saving throw or\
+      \ have disadvantage on ability checks, attack rolls, and saving throws until\
+      \ the start of the bard's next turn."
+    "name": "Taunt (2/Day)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Bard.webp"
 ```
 ^statblock
 

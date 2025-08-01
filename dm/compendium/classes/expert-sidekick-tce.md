@@ -2,41 +2,44 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- compendium/src/5e/tce
 - ttrpg-cli/class/expert-sidekick
-aliases: ["Expert Sidekick"]
+- ttrpg-cli/compendium/src/5e/tce
+aliases:
+- Expert Sidekick
 ---
 # Expert Sidekick
 *Source: Tasha's Cauldron of Everything p. 142*  
 
-> [!tldr]- Feature progression
+> [!tldr] Class and Feature Progression
 > 
-> | Level | PB | Features |
-> |-------|----|----------|
-> | 1st | +2 | [Sidekick Class](#Sidekick%20Class%20(Level%201)), [Bonus Proficiencies](#Bonus%20Proficiencies%20(Level%201)), [Helpful](#Helpful%20(Level%201)) |
-> | 2nd | +2 | [Cunning Action](#Cunning%20Action%20(Level%202)) |
-> | 3rd | +2 | [Expertise](#Expertise%20(Level%203)) |
-> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
-> | 5th | +3 | ⏤ |
-> | 6th | +3 | [Coordinated Strike](#Coordinated%20Strike%20(Level%206)) |
-> | 7th | +3 | [Evasion](#Evasion%20(Level%207)) |
-> | 8th | +3 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%208)) |
-> | 9th | +4 | ⏤ |
-> | 10th | +4 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2010)) |
-> | 11th | +4 | [Inspiring Help](#Inspiring%20Help%20(Level%2011)) |
-> | 12th | +4 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2012)) |
-> | 13th | +5 | ⏤ |
-> | 14th | +5 | [Reliable Talent](#Reliable%20Talent%20(Level%2014)) |
-> | 15th | +5 | [Expertise](#Expertise%20(Level%2015)) |
-> | 16th | +5 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2016)) |
-> | 17th | +6 | ⏤ |
-> | 18th | +6 | [Sharp Mind](#Sharp%20Mind%20(Level%2018)) |
-> | 19th | +6 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2019)) |
-> | 20th | +6 | [Inspiring Help Improvement](#Inspiring%20Help%20Improvement%20(Level%2020)) |
-> 
-> - PB: Proficiency Bonus
-^feature-progression
+> <table class="class-progression">
+> <thead>
+> <tr><th colspan='3'></th></tr>
+> <tr class="class-progression"><th class"level">Level</th><th class"pb">PB</th><th class"feature">Features</th></tr>
+> </thead><tbody>
+> <tr class="class-progression"><td class"level">1st</td><td class"pb">+2</td><td class"feature"><a href='#Sidekick Class (Level 1)' class='internal-link'>Sidekick Class</a>, <a href='#Bonus Proficiencies (Level 1)' class='internal-link'>Bonus Proficiencies</a>, <a href='#Helpful (Level 1)' class='internal-link'>Helpful</a></td></tr>
+> <tr class="class-progression"><td class"level">2nd</td><td class"pb">+2</td><td class"feature"><a href='#Cunning Action (Level 2)' class='internal-link'>Cunning Action</a></td></tr>
+> <tr class="class-progression"><td class"level">3rd</td><td class"pb">+2</td><td class"feature"><a href='#Expertise (Level 3)' class='internal-link'>Expertise</a></td></tr>
+> <tr class="class-progression"><td class"level">4th</td><td class"pb">+2</td><td class"feature"><a href='#Ability Score Improvement (Level 4)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">5th</td><td class"pb">+3</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">6th</td><td class"pb">+3</td><td class"feature"><a href='#Coordinated Strike (Level 6)' class='internal-link'>Coordinated Strike</a></td></tr>
+> <tr class="class-progression"><td class"level">7th</td><td class"pb">+3</td><td class"feature"><a href='#Evasion (Level 7)' class='internal-link'>Evasion</a></td></tr>
+> <tr class="class-progression"><td class"level">8th</td><td class"pb">+3</td><td class"feature"><a href='#Ability Score Improvement (Level 8)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">9th</td><td class"pb">+4</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">10th</td><td class"pb">+4</td><td class"feature"><a href='#Ability Score Improvement (Level 10)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">11th</td><td class"pb">+4</td><td class"feature"><a href='#Inspiring Help (Level 11)' class='internal-link'>Inspiring Help</a></td></tr>
+> <tr class="class-progression"><td class"level">12th</td><td class"pb">+4</td><td class"feature"><a href='#Ability Score Improvement (Level 12)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">13th</td><td class"pb">+5</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">14th</td><td class"pb">+5</td><td class"feature"><a href='#Reliable Talent (Level 14)' class='internal-link'>Reliable Talent</a></td></tr>
+> <tr class="class-progression"><td class"level">15th</td><td class"pb">+5</td><td class"feature"><a href='#Expertise (Level 15)' class='internal-link'>Expertise</a></td></tr>
+> <tr class="class-progression"><td class"level">16th</td><td class"pb">+5</td><td class"feature"><a href='#Ability Score Improvement (Level 16)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">17th</td><td class"pb">+6</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">18th</td><td class"pb">+6</td><td class"feature"><a href='#Sharp Mind (Level 18)' class='internal-link'>Sharp Mind</a></td></tr>
+> <tr class="class-progression"><td class"level">19th</td><td class"pb">+6</td><td class"feature"><a href='#Ability Score Improvement (Level 19)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">20th</td><td class"pb">+6</td><td class"feature"><a href='#Inspiring Help Improvement (Level 20)' class='internal-link'>Inspiring Help Improvement</a></td></tr>
+> </tbody></table>
 
+^class-progression
 
 ## Hit Points
 
@@ -46,13 +49,11 @@ aliases: ["Expert Sidekick"]
 
 ## Starting Expert Sidekick
 
-You are proficient with the following items.
-
-- **Saving Throws**: Dexterity, Intelligence, Charisma
-- **Armor**: light
-- **Weapons**: simple
-- **Tools**: two tools of your choice
-- **Skills**: Choose 5 from *Acrobatics*, *Animal Handling*, *Arcana*, *Athletics*, *Deception*, *History*, *Insight*, *Intimidation*, *Investigation*, *Medicine*, *Nature*, *Perception*, *Performance*, *Persuasion*, *Religion*, *Sleight of Hand*, *Stealth*, *Survival*, *Spellcasting*
+- **Saving Throws**: One saving throw of your choice: Dexterity, Intelligence, or Charisma.
+- **Armor**: Light armor
+- **Weapons**: All simple weapons if [humanoid](#Bonus%20Proficiencies%20(Level%201))
+- **Tools**: Two tools of your choice if [humanoid](#Bonus%20Proficiencies%20(Level%201))
+- **Skills**: Five skills of your choice
 
 
 ## Expert Sidekick
@@ -66,7 +67,7 @@ The Expert is a master of certain tasks or knowledge, favoring cunning over braw
 To gain the Expert class, a creature must have at least one language in its stat block that it can speak.
 
 > [!note]
-> this class is intended for NPC [sidekicks](/compendium/rules/variant-rules/sidekicks-tce.md).
+> Note: this class is intended for NPC [sidekicks](/3-Mechanics/CLI/variant-rules/sidekicks-tce.md).
 
 ### Bonus Proficiencies (Level 1)
 
@@ -80,13 +81,13 @@ In addition, the sidekick gains proficiency in five skills of your choice, and i
 
 *1st-level Expert feature*
 
-The sidekick is adept at giving well-timed assistance; the sidekick can take the [Help](/compendium/rules/actions.md#Help) action as a bonus action.
+The sidekick is adept at giving well-timed assistance; the sidekick can take the [Help](/3-Mechanics/CLI/actions.md#Help) action as a bonus action.
 
 ### Cunning Action (Level 2)
 
 *2nd-level Expert feature*
 
-The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the [Dash](/compendium/rules/actions.md#Dash), [Disengage](/compendium/rules/actions.md#Disengage), or [Hide](/compendium/rules/actions.md#Hide) action as a bonus action.
+The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the [Dash](/3-Mechanics/CLI/actions.md#Dash), [Disengage](/3-Mechanics/CLI/actions.md#Disengage), or [Hide](/3-Mechanics/CLI/actions.md#Hide) action as a bonus action.
 
 ### Expertise (Level 3)
 
@@ -102,17 +103,19 @@ At 15th level, choose two more of the sidekick's skill proficiencies to gain thi
 
 At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Coordinated Strike (Level 6)
 
 *6th-level Expert feature*
 
-The sidekick is adept at fighting in concert with a companion. When the sidekick uses its Helpful feature to aid an ally in attacking a creature, that target can be up to 30 feet away from the sidekick, and the sidekick can deal an extra `dice: 2d6|avg` (`2d6`) damage to it the next time the sidekick hits it with an attack roll before the end of the current turn. The extra damage is the same type of damage dealt by the attack.
+The sidekick is adept at fighting in concert with a companion. When the sidekick uses its Helpful feature to aid an ally in attacking a creature, that target can be up to 30 feet away from the sidekick, and the sidekick can deal an extra `dice:2d6|noform|noparens|avg` (`2d6`) damage to it the next time the sidekick hits it with an attack roll before the end of the current turn. The extra damage is the same type of damage dealt by the attack.
 
 ### Evasion (Level 7)
 
 *7th-level Expert feature*
 
-Because of extraordinary good luck, the sidekick is skilled at avoiding danger. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while [incapacitated](/compendium/rules/conditions.md#incapacitated).
+Because of extraordinary good luck, the sidekick is skilled at avoiding danger. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while [incapacitated](/3-Mechanics/CLI/conditions.md#Incapacitated).
 
 ### Ability Score Improvement (Level 8)
 
@@ -120,19 +123,23 @@ Because of extraordinary good luck, the sidekick is skilled at avoiding danger. 
 
 At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Ability Score Improvement (Level 10)
 
 *10th-level Expert feature*
 
 At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Inspiring Help (Level 11)
 
 *11th-level Expert feature*
 
-When the sidekick takes the [Help](/compendium/rules/actions.md#Help) action, the creature who receives the help also gains a `dice: 1d6|avg` (`1d6`) bonus to the `dice: d20|avg` (`d20`) roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.
+When the sidekick takes the [Help](/3-Mechanics/CLI/actions.md#Help) action, the creature who receives the help also gains a `dice:1d6|noform|noparens|avg` (`d6`) bonus to the `dice:d20|noform|noparens|avg` (`d20`) roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.
 
-At 20th level, the bonus increases to `dice: 2d6|avg` (`2d6`).
+At 20th level, the bonus increases to `dice:2d6|noform|noparens|avg` (`2d6`).
 
 ### Ability Score Improvement (Level 12)
 
@@ -140,11 +147,13 @@ At 20th level, the bonus increases to `dice: 2d6|avg` (`2d6`).
 
 At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Reliable Talent (Level 14)
 
 *14th-level Expert feature*
 
-The sidekick has refined its skills to an exceptional degree. Whenever the sidekick makes an ability check that includes its whole proficiency bonus, it can treat a `dice: d20|avg` (`d20`) roll of 9 or lower as a 10.
+The sidekick has refined its skills to an exceptional degree. Whenever the sidekick makes an ability check that includes its whole proficiency bonus, it can treat a `dice:d20|noform|noparens|avg` (`d20`) roll of 9 or lower as a 10.
 
 ### Expertise (Level 15)
 
@@ -158,6 +167,8 @@ Choose two of the sidekick's skill proficiencies. The sidekick's proficiency bon
 
 At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Sharp Mind (Level 18)
 
 *18th-level Expert feature*
@@ -170,8 +181,10 @@ The sidekick gains proficiency in one of the following saving throws of your cho
 
 At 4th level and again at 8th, 10th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Inspiring Help Improvement (Level 20)
 
 *20th-level Expert feature*
 
-At 20th level, the bonus dice granted by the sidekick's Inspiring Help increases to `dice: 2d6|avg` (`2d6`).
+At 20th level, the bonus dice granted by the sidekick's Inspiring Help increases to `dice:2d6|noform|noparens|avg` (`2d6`).

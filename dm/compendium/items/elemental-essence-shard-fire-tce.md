@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-- ttrpg-cli/item/wondrous
 aliases: 
 - "Elemental Essence Shard (Fire)"
 ---
 # Elemental Essence Shard (Fire)
-*Wondrous Item, rare (requires attunement by a sorcerer)*  
+*Wondrous item, rare (requires attunement by a sorcerer)*  
+
 
 - **Weight**: 1.0 lbs.
 
@@ -20,6 +20,6 @@ When you use a Metamagic option on a spell while you are holding or wearing the 
 
 ## Property
 
-One target of the spell that you can see catches fire. The burning target takes `dice: 2d10|avg` (`2d10`) fire damage at the start of its next turn, and then the flames go out.
+One target of the spell that you can see catches fire. The burning target takes `dice:2d10|noform|noparens|avg` (`2d10`) fire damage at the start of its next turn, and then the flames go out.
 
 *Source: Tasha's Cauldron of Everything p. 127*

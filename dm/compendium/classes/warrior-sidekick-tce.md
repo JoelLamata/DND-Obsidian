@@ -2,41 +2,44 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- compendium/src/5e/tce
 - ttrpg-cli/class/warrior-sidekick
-aliases: ["Warrior Sidekick"]
+- ttrpg-cli/compendium/src/5e/tce
+aliases:
+- Warrior Sidekick
 ---
 # Warrior Sidekick
 *Source: Tasha's Cauldron of Everything p. 146*  
 
-> [!tldr]- Feature progression
+> [!tldr] Class and Feature Progression
 > 
-> | Level | PB | Features |
-> |-------|----|----------|
-> | 1st | +2 | [Sidekick Class](#Sidekick%20Class%20(Level%201)), [Bonus Proficiencies](#Bonus%20Proficiencies%20(Level%201)), [Martial Role](#Martial%20Role%20(Level%201)) |
-> | 2nd | +2 | [Second Wind](#Second%20Wind%20(Level%202)) |
-> | 3rd | +2 | [Improved Critical](#Improved%20Critical%20(Level%203)) |
-> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
-> | 5th | +3 | ⏤ |
-> | 6th | +3 | [Extra Attack](#Extra%20Attack%20(Level%206)) |
-> | 7th | +3 | [Battle Readiness](#Battle%20Readiness%20(Level%207)) |
-> | 8th | +3 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%208)) |
-> | 9th | +4 | ⏤ |
-> | 10th | +4 | [Improved Defense](#Improved%20Defense%20(Level%2010)) |
-> | 11th | +4 | [Indomitable](#Indomitable%20(Level%2011)) |
-> | 12th | +4 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2012)) |
-> | 13th | +5 | ⏤ |
-> | 14th | +5 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2014)) |
-> | 15th | +5 | [Extra Attack Improvement](#Extra%20Attack%20Improvement%20(Level%2015)) |
-> | 16th | +5 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2016)) |
-> | 17th | +6 | ⏤ |
-> | 18th | +6 | [Indomitable Improvement](#Indomitable%20Improvement%20(Level%2018)) |
-> | 19th | +6 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2019)) |
-> | 20th | +6 | [Second Wind Improvement](#Second%20Wind%20Improvement%20(Level%2020)) |
-> 
-> - PB: Proficiency Bonus
-^feature-progression
+> <table class="class-progression">
+> <thead>
+> <tr><th colspan='3'></th></tr>
+> <tr class="class-progression"><th class"level">Level</th><th class"pb">PB</th><th class"feature">Features</th></tr>
+> </thead><tbody>
+> <tr class="class-progression"><td class"level">1st</td><td class"pb">+2</td><td class"feature"><a href='#Sidekick Class (Level 1)' class='internal-link'>Sidekick Class</a>, <a href='#Bonus Proficiencies (Level 1)' class='internal-link'>Bonus Proficiencies</a>, <a href='#Martial Role (Level 1)' class='internal-link'>Martial Role</a></td></tr>
+> <tr class="class-progression"><td class"level">2nd</td><td class"pb">+2</td><td class"feature"><a href='#Second Wind (Level 2)' class='internal-link'>Second Wind</a></td></tr>
+> <tr class="class-progression"><td class"level">3rd</td><td class"pb">+2</td><td class"feature"><a href='#Improved Critical (Level 3)' class='internal-link'>Improved Critical</a></td></tr>
+> <tr class="class-progression"><td class"level">4th</td><td class"pb">+2</td><td class"feature"><a href='#Ability Score Improvement (Level 4)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">5th</td><td class"pb">+3</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">6th</td><td class"pb">+3</td><td class"feature"><a href='#Extra Attack (Level 6)' class='internal-link'>Extra Attack</a></td></tr>
+> <tr class="class-progression"><td class"level">7th</td><td class"pb">+3</td><td class"feature"><a href='#Battle Readiness (Level 7)' class='internal-link'>Battle Readiness</a></td></tr>
+> <tr class="class-progression"><td class"level">8th</td><td class"pb">+3</td><td class"feature"><a href='#Ability Score Improvement (Level 8)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">9th</td><td class"pb">+4</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">10th</td><td class"pb">+4</td><td class"feature"><a href='#Improved Defense (Level 10)' class='internal-link'>Improved Defense</a></td></tr>
+> <tr class="class-progression"><td class"level">11th</td><td class"pb">+4</td><td class"feature"><a href='#Indomitable (Level 11)' class='internal-link'>Indomitable</a></td></tr>
+> <tr class="class-progression"><td class"level">12th</td><td class"pb">+4</td><td class"feature"><a href='#Ability Score Improvement (Level 12)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">13th</td><td class"pb">+5</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">14th</td><td class"pb">+5</td><td class"feature"><a href='#Ability Score Improvement (Level 14)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">15th</td><td class"pb">+5</td><td class"feature"><a href='#Extra Attack Improvement (Level 15)' class='internal-link'>Extra Attack Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">16th</td><td class"pb">+5</td><td class"feature"><a href='#Ability Score Improvement (Level 16)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">17th</td><td class"pb">+6</td><td class"feature"></td></tr>
+> <tr class="class-progression"><td class"level">18th</td><td class"pb">+6</td><td class"feature"><a href='#Indomitable Improvement (Level 18)' class='internal-link'>Indomitable Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">19th</td><td class"pb">+6</td><td class"feature"><a href='#Ability Score Improvement (Level 19)' class='internal-link'>Ability Score Improvement</a></td></tr>
+> <tr class="class-progression"><td class"level">20th</td><td class"pb">+6</td><td class"feature"><a href='#Second Wind Improvement (Level 20)' class='internal-link'>Second Wind Improvement</a></td></tr>
+> </tbody></table>
 
+^class-progression
 
 ## Hit Points
 
@@ -46,13 +49,11 @@ aliases: ["Warrior Sidekick"]
 
 ## Starting Warrior Sidekick
 
-You are proficient with the following items.
-
-- **Saving Throws**: Strength, Dexterity, Constitution
-- **Armor**: light, medium, heavy, shields
-- **Weapons**: martial
+- **Saving Throws**: One saving throw of your choice: Strength, Dexterity, or Constitution.
+- **Armor**: All armor; and shields if [humanoid](#Bonus%20Proficiencies%20(Level%201))
+- **Weapons**: All simple and martial weapons if [humanoid](#Bonus%20Proficiencies%20(Level%201))
 - **Tools**: none
-- **Skills**: Choose 2 from *Acrobatics*, *Animal Handling*, *Athletics*, *Intimidation*, *Nature*, *Perception*, *Survival*
+- **Skills**: Two skills of your choice from the following list: [Acrobatics](/3-Mechanics/CLI/skills.md#Acrobatics), [Animal Handling](/3-Mechanics/CLI/skills.md#Animal%20Handling), [Athletics](/3-Mechanics/CLI/skills.md#Athletics), [Intimidation](/3-Mechanics/CLI/skills.md#Intimidation), [Nature](/3-Mechanics/CLI/skills.md#Nature), [Perception](/3-Mechanics/CLI/skills.md#Perception), and [Survival](/3-Mechanics/CLI/skills.md#Survival).
 
 
 ## Warrior Sidekick
@@ -64,7 +65,7 @@ A Warrior sidekick grows in martial prowess as it fights by your side. It might 
 ### Sidekick Class (Level 1)
 
 > [!note]
-> this class is intended for NPC [sidekicks](/compendium/rules/variant-rules/sidekicks-tce.md).
+> Note: this class is intended for NPC [sidekicks](/3-Mechanics/CLI/variant-rules/sidekicks-tce.md).
 
 ### Bonus Proficiencies (Level 1)
 
@@ -72,7 +73,7 @@ A Warrior sidekick grows in martial prowess as it fights by your side. It might 
 
 The sidekick gains proficiency in one saving throw of your choice: Strength, Dexterity, or Constitution.
 
-In addition, the sidekick gains proficiency in two skills of your choice from the following list: [Acrobatics](/compendium/rules/skills.md#Acrobatics), [Animal Handling](/compendium/rules/skills.md#Animal%20Handling), [Athletics](/compendium/rules/skills.md#Athletics), [Intimidation](/compendium/rules/skills.md#Intimidation), [Nature](/compendium/rules/skills.md#Nature), [Perception](/compendium/rules/skills.md#Perception), and [Survival](/compendium/rules/skills.md#Survival).
+In addition, the sidekick gains proficiency in two skills of your choice from the following list: [Acrobatics](/3-Mechanics/CLI/skills.md#Acrobatics), [Animal Handling](/3-Mechanics/CLI/skills.md#Animal%20Handling), [Athletics](/3-Mechanics/CLI/skills.md#Athletics), [Intimidation](/3-Mechanics/CLI/skills.md#Intimidation), [Nature](/3-Mechanics/CLI/skills.md#Nature), [Perception](/3-Mechanics/CLI/skills.md#Perception), and [Survival](/3-Mechanics/CLI/skills.md#Survival).
 
 The sidekick gains proficiency with all armor, and if it is a humanoid or has a simple or martial weapon in its stat block, it gains proficiency with shields and all simple and martial weapons.
 
@@ -89,7 +90,7 @@ Each warrior focuses on offense or defense in their training. Choose one of the 
 
 *2nd-level Warrior feature*
 
-The sidekick can use a bonus action on its turn to regain hit points equal to `dice: 1d10|avg` (`1d10`) + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.
+The sidekick can use a bonus action on its turn to regain hit points equal to `dice:1d10|noform|noparens|avg` (`d10`) + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.
 
 The sidekick can use this feature twice between rests starting at 20th level.
 
@@ -97,7 +98,7 @@ The sidekick can use this feature twice between rests starting at 20th level.
 
 *3rd-level Warrior feature*
 
-The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the `dice: d20|avg` (`d20`).
+The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the `dice:d20|noform|noparens|avg` (`d20`).
 
 ### Ability Score Improvement (Level 4)
 
@@ -105,11 +106,13 @@ The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the `d
 
 At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Extra Attack (Level 6)
 
 *6th-level Warrior feature*
 
-The sidekick can attack twice, instead of once, whenever it takes the [Attack](/compendium/rules/actions.md#Attack) action on its turn.
+The sidekick can attack twice, instead of once, whenever it takes the [Attack](/3-Mechanics/CLI/actions.md#Attack) action on its turn.
 
 The number of attacks increases to three when the sidekick reaches 15th level.
 
@@ -126,6 +129,8 @@ The sidekick has advantage on initiative rolls.
 *8th-level Warrior feature*
 
 At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
+
+If your DM allows the use of feats, the sidekick may instead take a feat.
 
 ### Improved Defense (Level 10)
 
@@ -147,17 +152,21 @@ The sidekick can use this feature twice between long rests starting at 18th leve
 
 At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Ability Score Improvement (Level 14)
 
 *14th-level Warrior feature*
 
 At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Extra Attack Improvement (Level 15)
 
 *15th-level Warrior feature*
 
-The sidekick can attack twice, instead of once, whenever it takes the [Attack](/compendium/rules/actions.md#Attack) action on its turn.
+The sidekick can attack twice, instead of once, whenever it takes the [Attack](/3-Mechanics/CLI/actions.md#Attack) action on its turn.
 
 The number of attacks increases to three when the sidekick reaches 15th level.
 
@@ -168,6 +177,8 @@ If the sidekick has the Multiattack action, it can use Extra Attack or Multiatta
 *16th-level Warrior feature*
 
 At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
+
+If your DM allows the use of feats, the sidekick may instead take a feat.
 
 ### Indomitable Improvement (Level 18)
 
@@ -182,6 +193,8 @@ The sidekick can use this feature twice between long rests starting at 18th leve
 *19th-level Warrior feature*
 
 At 4th level and again at 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
+
+If your DM allows the use of feats, the sidekick may instead take a feat.
 
 ### Second Wind Improvement (Level 20)
 

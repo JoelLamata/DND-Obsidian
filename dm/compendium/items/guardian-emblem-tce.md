@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/uncommon
-- ttrpg-cli/item/wondrous
 aliases: 
 - "Guardian Emblem"
 ---
 # Guardian Emblem
-*Wondrous Item, uncommon (requires attunement by a cleric or paladin)*  
+*Wondrous item, uncommon (requires attunement by a cleric or paladin)*  
+
 
 
 This emblem is the symbol of a deity or a spiritual tradition. As an action, you can attach the emblem to a suit of armor or a shield or remove it.

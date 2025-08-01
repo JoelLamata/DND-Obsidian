@@ -2,9 +2,10 @@
 obsidianUIMode: preview
 cssclasses: json5e-reward
 tags:
-- compendium/src/5e/dmg
+- ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/reward/boon
-aliases: ["Boon of Quick Casting"]
+aliases:
+- Boon of Quick Casting
 ---
 # Boon of Quick Casting
 

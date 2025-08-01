@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/aarakocra
-aliases: ["Aarakocra"]
+aliases:
+- Aarakocra
 ---
 # Aarakocra
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 5*  
+![](races/MPMM/Aarakocra.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Medium
@@ -22,13 +24,13 @@ Because of your wings, you have a flying speed equal to your walking speed. You 
 
 ### Talons
 
-You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals `dice: 1d6|avg` (`1d6`) + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals `dice:1d6|noform|noparens|avg` (`d6`) + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Wind Caller
 
-Starting at 3rd level, you can cast the [gust of wind](compendium/spells/gust-of-wind.md) spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher.
+Starting at 3rd level, you can cast the [gust of wind](/3-Mechanics/CLI/spells/gust-of-wind-xphb.md) spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher.
 
-Intelligence, Wisdom, or Charisma is your spellcasting ability for when you cast [gust of wind](compendium/spells/gust-of-wind.md) with this trait (choose when you select this race).
+Intelligence, Wisdom, or Charisma is your spellcasting ability for when you cast [gust of wind](/3-Mechanics/CLI/spells/gust-of-wind-xphb.md) with this trait (choose when you select this race).
 
 ## Description
 

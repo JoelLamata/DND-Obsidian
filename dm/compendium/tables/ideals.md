@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Ideals"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Ideals
 ---
 # Ideals
 *Source: Dungeon Master's Guide p. 90* 

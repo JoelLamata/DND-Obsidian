@@ -2,13 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/devil
-aliases: ["Merregon"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Merregon
 ---
-# Merregon
+# [Merregon](3-Mechanics\CLI\bestiary\fiend/merregon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 179*  
 
 The souls of fallen soldiers, mercenaries, and bodyguards who served evil without reservation often find everlasting servitude in the Nine Hells as merregons. These faceless foot soldiers are the Hells' legionnaires, tasked with protecting their infernal plane and its rulers against intruders.
@@ -17,42 +20,54 @@ Merregons have no individuality and hence no need for faces. Every merregon legi
 
 Because of their unshakable loyalty, merregons form the backbone of many devils' protective retinues. They shrink from no task, no matter how dangerous. Unless ordered to fall back, they never retreat from a fight.
 
-```ad-statblock
-title: Merregon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Merregon.webp#token)
-*Medium fiend (devil), Typically  Lawful Evil*
-
-- **Armor Class** 16  (natural armor)
-- **Hit Points** 45 (`6d8 + 18`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|14 (+2)|17 (+3)| 6 (-2)|12 (+1)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Languages** understands Infernal but can't speak, telepathy 120 ft.
-- **Challenge** 4
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the merregon's [darkvision](/compendium/rules/senses.md#darkvision).
-
-***Magic Resistance.*** The merregon has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Multiattack.*** The merregon makes three Halberd attacks.
-
-***Halberd.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 1d10 + 4|avg` (`1d10 + 4`) slashing damage.
-
-***Heavy Crossbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 100/400 ft., one target. *Hit:* `dice: 1d10 + 2|avg` (`1d10 + 2`) piercing damage.
-
-## Reactions
-
-***Loyal Bodyguard.*** When another Fiend within 5 feet of the merregon is hit by an attack roll, the merregon causes itself to be hit instead.
+```statblock
+"name": "Merregon (MPMM)"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Typically  Lawful Evil"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "45"
+"hit_dice": "6d8 + 18"
+"modifier": !!int "2"
+"stats":
+  - !!int "18"
+  - !!int "14"
+  - !!int "17"
+  - !!int "6"
+  - !!int "12"
+  - !!int "8"
+"speed": "30 ft."
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[frightened](/3-Mechanics/CLI/conditions.md#Frightened),\
+  \ [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "understands Infernal but can't speak, telepathy 120 ft."
+"cr": "4"
+"traits":
+  - "desc": "Magical darkness doesn't impede the merregon's [darkvision](/3-Mechanics/CLI/senses.md#Darkvision)."
+    "name": "Devil's Sight"
+  - "desc": "The merregon has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+"actions":
+  - "desc": "The merregon makes three Halberd attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9\
+      \ (1d10 + 4) slashing damage."
+    "name": "Halberd"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit:\
+      \ 7 (1d10 + 2) piercing damage."
+    "name": "Heavy Crossbow"
+"reactions":
+  - "desc": "When another Fiend within 5 feet of the merregon is hit by an attack\
+      \ roll, the merregon causes itself to be hit instead."
+    "name": "Loyal Bodyguard"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Merregon.webp"
 ```
 ^statblock

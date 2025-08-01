@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/tce
-aliases: ["What's on the Menu Solution"]
+- ttrpg-cli/compendium/src/5e/tce
+aliases:
+- What's on the Menu Solution
 ---
 # What's on the Menu Solution
 *Source: Tasha's Cauldron of Everything p. 188* 

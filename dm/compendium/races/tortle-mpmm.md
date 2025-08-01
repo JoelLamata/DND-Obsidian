@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/tortle
-aliases: ["Tortle"]
+aliases:
+- Tortle
 ---
 # Tortle
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 34*  
+![](races/MPMM/Tortle.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium
@@ -21,7 +23,7 @@ You are Medium or Small. You choose the size when you select this race.
 
 ### Claws
 
-You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals `dice: 1d6|avg` (`1d6`) + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals `dice:1d6|noform|noparens|avg` (`d6`) + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Hold Breath
 
@@ -33,11 +35,11 @@ Your shell provides you a base AC of 17 (your Dexterity modifier doesn't affect 
 
 ### Nature's Intuition
 
-Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: [Animal Handling](/compendium/rules/skills.md#Animal%20Handling), [Medicine](/compendium/rules/skills.md#Medicine), [Nature](/compendium/rules/skills.md#Nature), [Perception](/compendium/rules/skills.md#Perception), [Stealth](/compendium/rules/skills.md#Stealth), or [Survival](/compendium/rules/skills.md#Survival).
+Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: [Animal Handling](/3-Mechanics/CLI/skills.md#Animal%20Handling), [Medicine](/3-Mechanics/CLI/skills.md#Medicine), [Nature](/3-Mechanics/CLI/skills.md#Nature), [Perception](/3-Mechanics/CLI/skills.md#Perception), [Stealth](/3-Mechanics/CLI/skills.md#Stealth), or [Survival](/3-Mechanics/CLI/skills.md#Survival).
 
 ### Shell Defense
 
-You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are [prone](/compendium/rules/conditions.md#prone), your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.
+You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are [prone](/3-Mechanics/CLI/conditions.md#Prone), your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.
 
 ## Description
 

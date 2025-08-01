@@ -2,15 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
-aliases: ["Angry Sorrowsworn"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Angry Sorrowsworn
 ---
-# Angry Sorrowsworn
+# [Angry Sorrowsworn](3-Mechanics\CLI\bestiary\monstrosity/angry-sorrowsworn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 222*  
 
 Relying on violence to sustain their existence, angry sorrowsworn—sometimes called the Angry—grow more powerful when their foes fight back. If a creature opts not to attack, though, this sorrowsworn becomes confused, and its attacks weaken. It also has two heads, which bicker with each other incessantly.
@@ -19,41 +22,53 @@ Relying on violence to sustain their existence, angry sorrowsworn—sometimes ca
 
 The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnations of the plane's bleak nature. Sorrowsworn embody the forms of suffering inherent to the shadowy landscape and visit horror on those who stumble into their midst. Each sorrowsworn personifies a different aspect of despair or distress.
 
-## Statblock
-
-```ad-statblock
-title: Angry Sorrowsworn
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Angry%20Sorrowsworn.webp#token)
-*Medium monstrosity, Typically  Neutral Evil*
-
-- **Armor Class** 18  (natural armor)
-- **Hit Points** 255 (`30d8 + 120`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|10 (+0)|19 (+4)| 8 (-1)|13 (+1)| 6 (-2)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** ⏤
-- **Skills** Perception +11
-- **Senses** darkvision 60 ft., passive Perception 21
-- **Languages** Common
-- **Challenge** 13
-
-## Traits
-
-***Two Heads.*** The sorrowsworn has advantage on saving throws against being [blinded](/compendium/rules/conditions.md#blinded), [charmed](/compendium/rules/conditions.md#charmed), [deafened](/compendium/rules/conditions.md#deafened), [frightened](/compendium/rules/conditions.md#frightened), [stunned](/compendium/rules/conditions.md#stunned), or knocked [unconscious](/compendium/rules/conditions.md#unconscious).
-
-***Rising Anger.*** If another creature deals damage to the sorrowsworn, the sorrowsworn's attack rolls have advantage until the end of its next turn, and the first time it hits with a Hook attack on its next turn, the attack's target takes an extra `dice: 3d12|avg` (`3d12`) psychic damage.
-
-On its turn, the sorrowsworn has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn.
-
-## Actions
-
-***Multiattack.*** The sorrowsworn makes two Hook attacks.
-
-***Hook.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 5 ft., one target. *Hit:* `dice: 2d12 + 3|avg` (`2d12 + 3`) piercing damage.
+```statblock
+"name": "Angry Sorrowsworn (MPMM)"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Typically  Neutral Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "255"
+"hit_dice": "30d8 + 120"
+"modifier": !!int "0"
+"stats":
+  - !!int "17"
+  - !!int "10"
+  - !!int "19"
+  - !!int "8"
+  - !!int "13"
+  - !!int "6"
+"speed": "30 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+11"
+"damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
+"senses": "darkvision 60 ft., passive Perception 21"
+"languages": "Common"
+"cr": "13"
+"traits":
+  - "desc": "The sorrowsworn has advantage on saving throws against being [blinded](/3-Mechanics/CLI/conditions.md#Blinded),\
+      \ [charmed](/3-Mechanics/CLI/conditions.md#Charmed), [deafened](/3-Mechanics/CLI/conditions.md#Deafened),\
+      \ [frightened](/3-Mechanics/CLI/conditions.md#Frightened), [stunned](/3-Mechanics/CLI/conditions.md#Stunned),\
+      \ or knocked [unconscious](/3-Mechanics/CLI/conditions.md#Unconscious)."
+    "name": "Two Heads"
+  - "desc": "If another creature deals damage to the sorrowsworn, the sorrowsworn's\
+      \ attack rolls have advantage until the end of its next turn, and the first\
+      \ time it hits with a Hook attack on its next turn, the attack's target takes\
+      \ an extra 19 (3d12) psychic damage.\n\nOn its turn, the sorrowsworn has disadvantage\
+      \ on attack rolls if no other creature has dealt damage to it since the end\
+      \ of its last turn."
+    "name": "Rising Anger"
+"actions":
+  - "desc": "The sorrowsworn makes two Hook attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
+      \ (2d12 + 3) piercing damage."
+    "name": "Hook"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Angry Sorrowsworn.webp"
 ```
 ^statblock
 

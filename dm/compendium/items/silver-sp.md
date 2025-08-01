@@ -2,13 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/phb
-- ttrpg-cli/item/wealth/coinage
+- ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/item/gear/treasure-coinage
+- ttrpg-cli/item/rarity/none
 aliases: 
 - "Silver (sp)"
 ---
 # Silver (sp)
-*Coinage*  
+*Treasure (coinage)*  
+![](items/PHB/Silver (sp).webp#right)
 
 - **Cost**: 1 sp
 - **Weight**: 0.02 lbs.

@@ -2,13 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
-- compendium/src/5e/phb
+- ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/greek
 - ttrpg-cli/domain/trickery
-aliases: ["Hermes"]
+aliases: 
+- Hermes
 ---
 # Hermes
-*Source: Player's Handbook p. 298. Available in the SRD.* 
+*Source: Player's Handbook p. 298. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 
 
 - **Alignment**: Chaotic Good
 - **Domains**: Trickery

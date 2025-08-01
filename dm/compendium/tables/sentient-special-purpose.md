@@ -2,11 +2,12 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Sentient Special Purpose"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Sentient Special Purpose
 ---
 # Sentient Special Purpose
-*Source: Dungeon Master's Guide p. 216. Available in the SRD.* 
+*Source: Dungeon Master's Guide p. 216. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 
 
 **Sentient Special Purpose**
 

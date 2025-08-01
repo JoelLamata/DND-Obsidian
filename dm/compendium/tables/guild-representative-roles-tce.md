@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/tce
-aliases: ["Guild Representative Roles"]
+- ttrpg-cli/compendium/src/5e/tce
+aliases:
+- Guild Representative Roles
 ---
 # Guild Representative Roles
 *Source: Tasha's Cauldron of Everything p. 95* 
@@ -12,10 +13,10 @@ aliases: ["Guild Representative Roles"]
 
 | Role | Backgrounds |
 |------|-------------|
-| Researcher | [Acolyte](compendium/backgrounds/acolyte.md), [Entertainer](compendium/backgrounds/entertainer.md), [Guild Artisan](compendium/backgrounds/guild-artisan.md), [Sage](compendium/backgrounds/sage.md) |
-| Negotiator | [Charlatan](compendium/backgrounds/charlatan.md), [Entertainer](compendium/backgrounds/entertainer.md), [Guild Artisan](compendium/backgrounds/guild-artisan.md), [Noble](compendium/backgrounds/noble.md), [Sailor](compendium/backgrounds/sailor.md) |
-| Saboteur | [Charlatan](compendium/backgrounds/charlatan.md), [Criminal](compendium/backgrounds/criminal.md), [Guild Artisan](compendium/backgrounds/guild-artisan.md), [Soldier](compendium/backgrounds/soldier.md), [Urchin](compendium/backgrounds/urchin.md) |
-| Guard | [Criminal](compendium/backgrounds/criminal.md), [Folk Hero](compendium/backgrounds/folk-hero.md), [Outlander](compendium/backgrounds/outlander.md), [Sailor](compendium/backgrounds/sailor.md), [Soldier](compendium/backgrounds/soldier.md) |
-| Explorer | [Acolyte](compendium/backgrounds/acolyte.md), [Folk Hero](compendium/backgrounds/folk-hero.md), [Guild Artisan](compendium/backgrounds/guild-artisan.md), [Outlander](compendium/backgrounds/outlander.md), [Sailor](compendium/backgrounds/sailor.md) |
+| Researcher | [Acolyte](/3-Mechanics/CLI/backgrounds/acolyte-xphb.md), [Entertainer](/3-Mechanics/CLI/backgrounds/entertainer-xphb.md), [Guild Artisan](/3-Mechanics/CLI/backgrounds/guild-artisan.md), [Sage](/3-Mechanics/CLI/backgrounds/sage-xphb.md) |
+| Negotiator | [Charlatan](/3-Mechanics/CLI/backgrounds/charlatan-xphb.md), [Entertainer](/3-Mechanics/CLI/backgrounds/entertainer-xphb.md), [Guild Artisan](/3-Mechanics/CLI/backgrounds/guild-artisan.md), [Noble](/3-Mechanics/CLI/backgrounds/noble-xphb.md), [Sailor](/3-Mechanics/CLI/backgrounds/sailor-xphb.md) |
+| Saboteur | [Charlatan](/3-Mechanics/CLI/backgrounds/charlatan-xphb.md), [Criminal](/3-Mechanics/CLI/backgrounds/criminal-xphb.md), [Guild Artisan](/3-Mechanics/CLI/backgrounds/guild-artisan.md), [Soldier](/3-Mechanics/CLI/backgrounds/soldier-xphb.md), [Urchin](/3-Mechanics/CLI/backgrounds/urchin.md) |
+| Guard | [Criminal](/3-Mechanics/CLI/backgrounds/criminal-xphb.md), [Folk Hero](/3-Mechanics/CLI/backgrounds/folk-hero.md), [Outlander](/3-Mechanics/CLI/backgrounds/outlander.md), [Sailor](/3-Mechanics/CLI/backgrounds/sailor-xphb.md), [Soldier](/3-Mechanics/CLI/backgrounds/soldier-xphb.md) |
+| Explorer | [Acolyte](/3-Mechanics/CLI/backgrounds/acolyte-xphb.md), [Folk Hero](/3-Mechanics/CLI/backgrounds/folk-hero.md), [Guild Artisan](/3-Mechanics/CLI/backgrounds/guild-artisan.md), [Outlander](/3-Mechanics/CLI/backgrounds/outlander.md), [Sailor](/3-Mechanics/CLI/backgrounds/sailor-xphb.md) |
 | Expert | Any |
 ^guild-representative-roles

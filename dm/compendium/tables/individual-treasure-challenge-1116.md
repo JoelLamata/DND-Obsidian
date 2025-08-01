@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Individual Treasure: Challenge 11—16"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Individual Treasure: Challenge 11—16
 ---
 # Individual Treasure: Challenge 11—16
 *Source: Dungeon Master's Guide p. 133* 

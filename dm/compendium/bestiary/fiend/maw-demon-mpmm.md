@@ -2,17 +2,20 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/demon
-aliases: ["Maw Demon"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Maw Demon
 ---
-# Maw Demon
+# [Maw Demon](3-Mechanics\CLI\bestiary\fiend/maw-demon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 176*  
 
-> [!quote]- A quote from Tasha  
+> [!quote] A quote from Tasha  
 > 
 > I once pulled a whole bottle of fine strawberry liquor from the belly of a maw demon. No clue where it might've devoured such a find, but I'm not complaining.
 
@@ -38,31 +41,43 @@ Because maw demons are indiscriminate in their hunger, their stomachs contain al
 | 8 | Humanoid teeth |
 ^maw-demons-stomach-contents
 
-```ad-statblock
-title: Maw Demon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Maw%20Demon.webp#token)
-*Medium fiend (demon), Typically  Chaotic Evil*
-
-- **Armor Class** 13  (natural armor)
-- **Hit Points** 33 (`6d8 + 6`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)| 8 (-1)|13 (+1)| 5 (-3)| 8 (-1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Languages** understands Abyssal but can't speak
-- **Challenge** 1
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 2|avg` (`2d8 + 2`) piercing damage.
-
-***Disgorge (Recharge 6).*** The demon vomits in a 15-foot cube. Each creature in that area must succeed on a DC 11 Dexterity saving throw or take `dice: 2d10|avg` (`2d10`) acid damage and fall [prone](/compendium/rules/conditions.md#prone) in the spew.
+```statblock
+"name": "Maw Demon (MPMM)"
+"size": "Medium"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "33"
+"hit_dice": "6d8 + 6"
+"modifier": !!int "-1"
+"stats":
+  - !!int "14"
+  - !!int "8"
+  - !!int "13"
+  - !!int "5"
+  - !!int "8"
+  - !!int "5"
+"speed": "30 ft."
+"damage_resistances": "cold, fire, lightning"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [frightened](/3-Mechanics/CLI/conditions.md#Frightened),\
+  \ [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "understands Abyssal but can't speak"
+"cr": "1"
+"actions":
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d8 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "The demon vomits in a 15-foot cube. Each creature in that area must succeed\
+      \ on a DC 11 Dexterity saving throw or take 11 (2d10) acid damage and fall [prone](/3-Mechanics/CLI/conditions.md#Prone)\
+      \ in the spew."
+    "name": "Disgorge (Recharge 6)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Maw Demon.webp"
 ```
 ^statblock
 

@@ -2,7 +2,7 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
 - ttrpg-cli/monster/environment/arctic
 - ttrpg-cli/monster/environment/desert
@@ -13,9 +13,12 @@ tags:
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/dragon
-aliases: ["Guard Drake"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Guard Drake
 ---
-# Guard Drake
+# [Guard Drake](3-Mechanics\CLI\bestiary\dragon/guard-drake-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 151*  
 
 A guard drake is a reptilian creature created out of dragon scales by means of a bizarre and grisly ritual. When trained properly, a drake is obedient and territorial, which makes it an excellent watch beast that can follow simple commands.
@@ -26,33 +29,42 @@ The ritual, which takes several days, requires 10 pounds of fresh dragon scales 
 
 A newly hatched guard drake imprints upon the first creature that feeds it (usually the one planning to train it), establishing an aggressive but trusting bond with that individual. A guard drake is fully grown within two to three weeks and can be trained in the same length of time. It is the equivalent of a guard dog in terms of what it can be trained to do. A guard drake resembles the type of dragon it was created from, but with a wingless, squat, muscular build. A drake can't reproduce, nor can its scales be used to make other guard drakes.
 
-```ad-statblock
-title: Guard Drake
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Guard%20Drake.webp#token)
-*Medium dragon, Unaligned*
-
-- **Armor Class** 14  (natural armor)
-- **Hit Points** 52 (`7d8 + 21`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|11 (+0)|16 (+3)| 4 (-3)|10 (+0)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** understands Draconic but can't speak
-- **Challenge** 2
-
-## Actions
-
-***Multiattack.*** The guard drake makes one Bite attack and one Tail attack.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage.
-
-***Tail.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) bludgeoning damage.
+```statblock
+"name": "Guard Drake (MPMM)"
+"size": "Medium"
+"type": "dragon"
+"alignment": "Unaligned"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "52"
+"hit_dice": "7d8 + 21"
+"modifier": !!int "0"
+"stats":
+  - !!int "16"
+  - !!int "11"
+  - !!int "16"
+  - !!int "4"
+  - !!int "10"
+  - !!int "7"
+"speed": "30 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+2"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "understands Draconic but can't speak"
+"cr": "2"
+"actions":
+  - "desc": "The guard drake makes one Bite attack and one Tail attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+      \ + 3) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+      \ + 3) bludgeoning damage."
+    "name": "Tail"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Guard Drake.webp"
 ```
 ^statblock
 

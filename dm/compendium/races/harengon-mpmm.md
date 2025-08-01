@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/harengon
-aliases: ["Harengon"]
+aliases:
+- Harengon
 ---
 # Harengon
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 22*  
+![](races/MPMM/Harengon.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium
@@ -25,11 +27,11 @@ You can add your proficiency bonus to your initiative rolls.
 
 ### Leporine Senses
 
-You have proficiency in the [Perception](/compendium/rules/skills.md#Perception) skill.
+You have proficiency in the [Perception](/3-Mechanics/CLI/skills.md#Perception) skill.
 
 ### Lucky Footwork
 
-When you fail a Dexterity saving throw, you can use your reaction to roll a `dice: d4|avg` (`d4`) and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're [prone](/compendium/rules/conditions.md#prone) or your speed is 0.
+When you fail a Dexterity saving throw, you can use your reaction to roll a `dice:d4|noform|noparens|avg` (`d4`) and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're [prone](/3-Mechanics/CLI/conditions.md#Prone) or your speed is 0.
 
 ### Rabbit Hop
 

@@ -2,21 +2,24 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fey/elf
-aliases: ["Autumn Eladrin"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Autumn Eladrin
 ---
-# Autumn Eladrin
+# [Autumn Eladrin](3-Mechanics\CLI\bestiary\fey/autumn-eladrin-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 115*  
 
 Eladrin often enter the autumn season when they are overcome by feelings of goodwill. In this aspect, they defuse conflicts and alleviate suffering by using their magic to relieve any ailments that afflict the people who come to them for aid. They tolerate no violence in their presence and move quickly to settle disputes, to ensure that peace continues to reign.
 
 ## Eladrin
 
-> [!quote]- A quote from Tasha  
+> [!quote] A quote from Tasha  
 > 
 > If an autumn eladrin invites you over for dinner, come with an empty stomach. Their goodwill extends to heaping portions.
 > 
@@ -30,61 +33,80 @@ The magic flowing through eladrin responds to their emotional state by transform
 
 ### Changeable Natures
 
-Whenever one of the eladrin presented here finishes a long rest, they can associate themself with a different season, provided they aren't [incapacitated](/compendium/rules/conditions.md#incapacitated). When the eladrin makes this change, they use the stat block of the new season rather than their old stat block. Any damage the eladrin sustained in their previous form applies to the new form, as do any conditions or other ongoing effects affecting them.
+Whenever one of the eladrin presented here finishes a long rest, they can associate themself with a different season, provided they aren't [incapacitated](/3-Mechanics/CLI/conditions.md#Incapacitated). When the eladrin makes this change, they use the stat block of the new season rather than their old stat block. Any damage the eladrin sustained in their previous form applies to the new form, as do any conditions or other ongoing effects affecting them.
 
-## Statblock
-
-```ad-statblock
-title: Autumn Eladrin
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Autumn%20Eladrin.webp#token)
-*Medium fey (elf), Typically  Chaotic Neutral*
-
-- **Armor Class** 19  (natural armor)
-- **Hit Points** 165 (`22d8 + 66`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|16 (+3)|16 (+3)|14 (+2)|17 (+3)|18 (+4)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** ⏤
-- **Skills** Insight +7, Medicine +7
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Languages** Common, Elvish, Sylvan
-- **Challenge** 10
-
-## Traits
-
-***Enchanting Presence.*** Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes [charmed](/compendium/rules/conditions.md#charmed) by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.
-
-Whenever the eladrin deals damage to the [charmed](/compendium/rules/conditions.md#charmed) creature, the [charmed](/compendium/rules/conditions.md#charmed) creature can repeat the saving throw, ending the effect on itself on a success.
-
-***Magic Resistance.*** The eladrin has advantage on saving throws against spells and other magical effects.
-
-***Spellcasting.*** The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):
-
-**At will**: [hold person](compendium/spells/hold-person.md)
-
-**1/day each**: [greater restoration](compendium/spells/greater-restoration.md), [revivify](compendium/spells/revivify.md)
-
-**2/day each**: [cure wounds](compendium/spells/cure-wounds.md) (as a 5th-level spell), [lesser restoration](compendium/spells/lesser-restoration.md)
-
-## Actions
-
-***Multiattack.*** The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting.
-
-***Longsword.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 1|avg` (`1d8 + 1`) slashing damage, or `dice: 1d10 + 1|avg` (`1d10 + 1`) slashing damage if used with two hands, plus `dice: 5d8|avg` (`5d8`) psychic damage.
-
-***Longbow.*** *Ranged Weapon Attack:* `dice: d20+7` (+7 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage plus `dice: 5d8|avg` (`5d8`) psychic damage.
-
-## Bonus Actions
-
-***Fey Step (Recharge 4-6).*** The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.
-
-## Reactions
-
-***Foster Peace.*** If a creature [charmed](/compendium/rules/conditions.md#charmed) by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker.
+```statblock
+"name": "Autumn Eladrin (MPMM)"
+"size": "Medium"
+"type": "fey"
+"subtype": "elf"
+"alignment": "Typically  Chaotic Neutral"
+"ac": !!int "19"
+"ac_class": "natural armor"
+"hp": !!int "165"
+"hit_dice": "22d8 + 66"
+"modifier": !!int "3"
+"stats":
+  - !!int "12"
+  - !!int "16"
+  - !!int "16"
+  - !!int "14"
+  - !!int "17"
+  - !!int "18"
+"speed": "30 ft."
+"skillsaves":
+  - "name": "[Insight](/3-Mechanics/CLI/skills.md#Insight)"
+    "desc": "+7"
+  - "name": "[Medicine](/3-Mechanics/CLI/skills.md#Medicine)"
+    "desc": "+7"
+"damage_resistances": "psychic"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": "Common, Elvish, Sylvan"
+"cr": "10"
+"traits":
+  - "desc": "Any non-eladrin creature that starts its turn within 60 feet of the eladrin\
+      \ must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes\
+      \ [charmed](/3-Mechanics/CLI/conditions.md#Charmed) by the eladrin for 1 minute.\
+      \ On a successful save, the creature becomes immune to any eladrin's Enchanting\
+      \ Presence for 24 hours.\n\nWhenever the eladrin deals damage to the [charmed](/3-Mechanics/CLI/conditions.md#Charmed)\
+      \ creature, the [charmed](/3-Mechanics/CLI/conditions.md#Charmed) creature can\
+      \ repeat the saving throw, ending the effect on itself on a success."
+    "name": "Enchanting Presence"
+  - "desc": "The eladrin has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+"actions":
+  - "desc": "The eladrin makes two Longsword or Longbow attacks. It can replace one\
+      \ attack with a use of Spellcasting."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d8\
+      \ + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands,\
+      \ plus 22 (5d8) psychic damage."
+    "name": "Longsword"
+  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+      \ 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage."
+    "name": "Longbow"
+  - "desc": "The eladrin casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
+      \nAt will: [hold person](/3-Mechanics/CLI/spells/hold-person-xphb.md)\n\n\
+      2/day each: [cure wounds](/3-Mechanics/CLI/spells/cure-wounds-xphb.md) (as\
+      \ a 5th-level spell), [lesser restoration](/3-Mechanics/CLI/spells/lesser-restoration-xphb.md)\n\
+      \n1/day each: [greater restoration](/3-Mechanics/CLI/spells/greater-restoration-xphb.md),\
+      \ [revivify](/3-Mechanics/CLI/spells/revivify-xphb.md)"
+    "name": "Spellcasting"
+"bonus_actions":
+  - "desc": "The eladrin teleports, along with any equipment it is wearing or carrying,\
+      \ up to 30 feet to an unoccupied space it can see."
+    "name": "Fey Step (Recharge 4-6)"
+"reactions":
+  - "desc": "If a creature [charmed](/3-Mechanics/CLI/conditions.md#Charmed) by the\
+      \ eladrin hits with an attack roll while within 60 feet of the eladrin, the\
+      \ eladrin magically causes the attack to miss, provided the eladrin can see\
+      \ the attacker."
+    "name": "Foster Peace"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Autumn Eladrin.webp"
 ```
 ^statblock
 

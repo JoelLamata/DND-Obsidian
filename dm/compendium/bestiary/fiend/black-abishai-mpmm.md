@@ -2,14 +2,17 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/devil
-aliases: ["Black Abishai"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Black Abishai
 ---
-# Black Abishai
+# [Black Abishai](3-Mechanics\CLI\bestiary\fiend/black-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 38*  
 
 Expert assassins and infiltrators, black abishais can weave shadows to mask their presence, allowing them to reach a location where they can deliver a fatal strike to their targets.
@@ -22,48 +25,67 @@ Tiamat deploys abishais as her agents, sending them forth to represent her inter
 
 Abishais stand outside the normal hierarchy of the Nine Hells, having their own chain of command and ultimately answering to Tiamat (and Asmodeus, when he chooses to use them). Other archdevils can command abishais to work for them, but most archdevils do so rarely, since it is never clear whether an abishai follows Tiamat's orders or Asmodeus's. There is inherent risk in countermanding an order given by Tiamat, but interfering with Asmodeus's plans invites certain destruction.
 
-## Statblock
-
-```ad-statblock
-title: Black Abishai
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Black%20Abishai.webp#token)
-*Medium fiend (devil), Typically  Lawful Evil*
-
-- **Armor Class** 15  (natural armor)
-- **Hit Points** 58 (`9d8 + 18`)
-- **Speed** 30 ft., fly 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|17 (+3)|14 (+2)|13 (+1)|16 (+3)|11 (+0)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +6, Wisdom +6
-- **Skills** Perception +6, Stealth +6
-- **Senses** darkvision 120 ft., passive Perception 16
-- **Languages** Draconic, Infernal, telepathy 120 ft.
-- **Challenge** 7
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the abishai's [darkvision](/compendium/rules/senses.md#darkvision).
-
-***Magic Resistance.*** The abishai has advantage on saving throws against spells and other magical effects.
-
-***Creeping Darkness (Recharge 6).*** The abishai casts [darkness](compendium/spells/darkness.md) at a point within 120 feet of it, requiring no spell components or [concentration](/compendium/rules/conditions.md#concentration). Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action.
-
-
-## Actions
-
-***Multiattack.*** The abishai makes one Bite attack and two Scimitar attacks.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d10 + 3|avg` (`1d10 + 3`) piercing damage plus `dice: 2d8|avg` (`2d8`) acid damage.
-
-***Scimitar.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) force damage.
-
-## Bonus Actions
-
-***Shadow Stealth.*** While in dim light or darkness, the abishai takes the [Hide](/compendium/rules/actions.md#Hide) action.
+```statblock
+"name": "Black Abishai (MPMM)"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Typically  Lawful Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "58"
+"hit_dice": "9d8 + 18"
+"modifier": !!int "3"
+"stats":
+  - !!int "14"
+  - !!int "17"
+  - !!int "14"
+  - !!int "13"
+  - !!int "16"
+  - !!int "11"
+"speed": "30 ft., fly 40 ft."
+"saves":
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+6"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "acid, fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 120 ft., passive Perception 16"
+"languages": "Draconic, Infernal, telepathy 120 ft."
+"cr": "7"
+"traits":
+  - "desc": "Magical darkness doesn't impede the abishai's [darkvision](/3-Mechanics/CLI/senses.md#Darkvision)."
+    "name": "Devil's Sight"
+  - "desc": "The abishai has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+"actions":
+  - "desc": "The abishai makes one Bite attack and two Scimitar attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10\
+      \ + 3) piercing damage plus 9 (2d8) acid damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+      \ + 3) force damage."
+    "name": "Scimitar"
+  - "desc": "The abishai casts [darkness](/3-Mechanics/CLI/spells/darkness-xphb.md)\
+      \ at a point within 120 feet of it, requiring no spell components or [concentration](/3-Mechanics/CLI/conditions.md#Concentration).\
+      \ Wisdom is its spellcasting ability for this spell. While the spell persists,\
+      \ the abishai can move the area of darkness up to 60 feet as a bonus action.\n"
+    "name": "Creeping Darkness (Recharge 6)"
+"bonus_actions":
+  - "desc": "While in dim light or darkness, the abishai takes the [Hide](/3-Mechanics/CLI/actions.md#Hide)\
+      \ action."
+    "name": "Shadow Stealth"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Black Abishai.webp"
 ```
 ^statblock
 

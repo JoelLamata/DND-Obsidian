@@ -2,18 +2,21 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/demon
-aliases: ["Babau"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Babau
 ---
-# Babau
+# [Babau](3-Mechanics\CLI\bestiary\fiend/babau-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 52*  
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > I'm unimpressed by most children. They are a blend of their ancestors but often more disappointing. You'd think two of the most beautiful, bloodthirsty beings of the Lower Planes would create a creature of greater potential. Instead, the ghastly babau fails to match the fiendish splendor of its parents.
 
@@ -21,37 +24,59 @@ Demons and devils clash endlessly for control of the Lower Planes. One of these 
 
 A babau demon has the cunning of a devil and the bloodthirstiness of a demon. It has leathery skin pulled tight over its gaunt frame and a curved horn protruding from the back of its elongated skull. A babau's baleful glare can weaken a creature, and its talons gleam with acidic slime.
 
-```ad-statblock
-title: Babau
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Babau.webp#token)
-*Medium fiend (demon), Typically  Chaotic Evil*
-
-- **Armor Class** 16  (natural armor)
-- **Hit Points** 82 (`11d8 + 33`)
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|16 (+3)|16 (+3)|11 (+0)|12 (+1)|13 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +5, Stealth +5
-- **Senses** darkvision 120 ft., passive Perception 15
-- **Languages** Abyssal
-- **Challenge** 4
-
-***Spellcasting.*** The babau casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 11):
-
-**At will**: [darkness](compendium/spells/darkness.md), [dispel magic](compendium/spells/dispel-magic.md), [fear](compendium/spells/fear.md), [heat metal](compendium/spells/heat-metal.md), [levitate](compendium/spells/levitate.md)
-
-## Actions
-
-***Multiattack.*** The babau makes two Claw attacks. It can replace one attack with a use of Spellcasting or Weakening Gaze.
-
-***Claw.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 4|avg` (`1d4 + 4`) slashing damage plus `dice: 1d4|avg` (`1d4`) acid damage.
-
-***Weakening Gaze.*** The babau targets one creature that it can see within 20 feet of it. The target must make a DC 13 Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+```statblock
+"name": "Babau (MPMM)"
+"size": "Medium"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "82"
+"hit_dice": "11d8 + 33"
+"modifier": !!int "3"
+"stats":
+  - !!int "19"
+  - !!int "16"
+  - !!int "16"
+  - !!int "11"
+  - !!int "12"
+  - !!int "13"
+"speed": "40 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+5"
+"damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
+  \ nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 120 ft., passive Perception 15"
+"languages": "Abyssal"
+"cr": "4"
+"actions":
+  - "desc": "The babau makes two Claw attacks. It can replace one attack with a use\
+      \ of Spellcasting or Weakening Gaze."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4\
+      \ + 4) slashing damage plus 2 (d4) acid damage."
+    "name": "Claw"
+  - "desc": "The babau targets one creature that it can see within 20 feet of it.\
+      \ The target must make a DC 13 Constitution saving throw. On a failed save,\
+      \ the target deals only half damage with weapon attacks that use Strength for\
+      \ 1 minute. The target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success."
+    "name": "Weakening Gaze"
+  - "desc": "The babau casts one of the following spells, requiring no material components\
+      \ and using Wisdom as the spellcasting ability (spell save DC 11):\n\nAt will:\
+      \ [darkness](/3-Mechanics/CLI/spells/darkness-xphb.md), [dispel magic](/3-Mechanics/CLI/spells/dispel-magic-xphb.md),\
+      \ [fear](/3-Mechanics/CLI/spells/fear-xphb.md), [heat metal](/3-Mechanics/CLI/spells/heat-metal-xphb.md),\
+      \ [levitate](/3-Mechanics/CLI/spells/levitate-xphb.md)"
+    "name": "Spellcasting"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Babau.webp"
 ```
 ^statblock
 

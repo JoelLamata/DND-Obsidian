@@ -2,71 +2,96 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
 - ttrpg-cli/monster/environment/desert
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity/warlock
-aliases: ["Yuan-ti Mind Whisperer"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Yuan-ti Mind Whisperer
 ---
-# Yuan-ti Mind Whisperer
+# [Yuan-ti Mind Whisperer](3-Mechanics\CLI\bestiary\monstrosity/yuan-ti-mind-whisperer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 274*  
 
 Mind whisperers are yuan-ti malison spellcasters who enter into a pact with the serpent god Sseth, the Sibilant Death. They use their abilities to convert others to their faith, increase their personal power, and befuddle the minds of their enemies.
 
 Mind whisperers are elusive, manipulative, unpredictable, and willing to cheat or kill comrades and rivals alike if doing so benefits them. The worshipers of Sseth have their hands in many schemes, often plying the middle ground between two factions, and thus spend a lot of energy making sure none of their allies learn of their conflicting connections. Even among Sseth-worshiping communities, mind whisperers are known for being self-important, sneaky, and prone to flee at the first sign of trouble.
 
-```ad-statblock
-title: Yuan-ti Mind Whisperer
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Yuan-ti%20Mind%20Whisperer.webp#token)
-*Medium monstrosity (warlock), Typically  Neutral Evil*
-
-- **Armor Class** 14  (natural armor)
-- **Hit Points** 71 (`13d8 + 13`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|14 (+2)|13 (+1)|14 (+2)|14 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Wisdom +4, Charisma +5
-- **Skills** Deception +5, Stealth +4
-- **Senses** darkvision 120 ft., passive Perception 12
-- **Languages** Abyssal, Common, Draconic
-- **Challenge** 4
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the yuan-ti's [darkvision](/compendium/rules/senses.md#darkvision).
-
-***Magic Resistance.*** The yuan-ti has advantage on saving throws against spells and other magical effects.
-
-***Sseth's Blessing.*** When the yuan-ti reduces an enemy to 0 hit points, the yuan-ti gains 9 temporary hit points.
-
-***Spellcasting (Yuan-ti Form Only).*** The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 13):
-
-**At will**: [animal friendship](compendium/spells/animal-friendship.md) (snakes only), [message](compendium/spells/message.md), [minor illusion](compendium/spells/minor-illusion.md), [prestidigitation](compendium/spells/prestidigitation.md)
-
-**2/day each**: [detect thoughts](compendium/spells/detect-thoughts.md), [hypnotic pattern](compendium/spells/hypnotic-pattern.md)
-
-**3/day**: [suggestion](compendium/spells/suggestion.md)
-
-## Actions
-
-***Multiattack.*** The yuan-ti makes two Bite attacks and one Scimitar attack, or it makes two Spectral Fangs attacks.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage plus `dice: 2d6|avg` (`2d6`) poison damage.
-
-***Scimitar (Yuan-ti Form Only).*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) slashing damage.
-
-***Spectral Fangs.*** *Ranged Spell Attack:* `dice: d20+5` (+5 to hit), range 120 ft., one target. *Hit:* `dice: 3d8 + 3|avg` (`3d8 + 3`) psychic damage.
-
-## Bonus Actions
-
-***Change Shape.*** The yuan-ti transforms into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form.
+```statblock
+"name": "Yuan-ti Mind Whisperer (MPMM)"
+"size": "Medium"
+"type": "monstrosity"
+"subtype": "warlock"
+"alignment": "Typically  Neutral Evil"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "71"
+"hit_dice": "13d8 + 13"
+"modifier": !!int "2"
+"stats":
+  - !!int "16"
+  - !!int "14"
+  - !!int "13"
+  - !!int "14"
+  - !!int "14"
+  - !!int "16"
+"speed": "30 ft."
+"saves":
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
+"skillsaves":
+  - "name": "[Deception](/3-Mechanics/CLI/skills.md#Deception)"
+    "desc": "+5"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+4"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 120 ft., passive Perception 12"
+"languages": "Abyssal, Common, Draconic"
+"cr": "4"
+"traits":
+  - "desc": "Magical darkness doesn't impede the yuan-ti's [darkvision](/3-Mechanics/CLI/senses.md#Darkvision)."
+    "name": "Devil's Sight"
+  - "desc": "The yuan-ti has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "When the yuan-ti reduces an enemy to 0 hit points, the yuan-ti gains\
+      \ 9 temporary hit points."
+    "name": "Sseth's Blessing"
+"actions":
+  - "desc": "The yuan-ti makes two Bite attacks and one Scimitar attack, or it makes\
+      \ two Spectral Fangs attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+      \ + 3) piercing damage plus 7 (2d6) poison damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+      \ + 3) slashing damage."
+    "name": "Scimitar (Yuan-ti Form Only)"
+  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 16\
+      \ (3d8 + 3) psychic damage."
+    "name": "Spectral Fangs"
+  - "desc": "The yuan-ti casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 13):\n\
+      \nAt will: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship-xphb.md)\
+      \ (snakes only), [message](/3-Mechanics/CLI/spells/message-xphb.md), [minor\
+      \ illusion](/3-Mechanics/CLI/spells/minor-illusion-xphb.md), [prestidigitation](/3-Mechanics/CLI/spells/prestidigitation-xphb.md)\n\
+      \n3/day: [suggestion](/3-Mechanics/CLI/spells/suggestion-xphb.md)\n\n2/day\
+      \ each: [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts-xphb.md),\
+      \ [hypnotic pattern](/3-Mechanics/CLI/spells/hypnotic-pattern-xphb.md)"
+    "name": "Spellcasting (Yuan-ti Form Only)"
+"bonus_actions":
+  - "desc": "The yuan-ti transforms into a Medium snake or back into its true form.\
+      \ Its statistics are the same in each form. Any equipment it is wearing or carrying\
+      \ isn't transformed. If it dies, it stays in its current form."
+    "name": "Change Shape"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Yuan-ti Mind Whisperer.webp"
 ```
 ^statblock
 

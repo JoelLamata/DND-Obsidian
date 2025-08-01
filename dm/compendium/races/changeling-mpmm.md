@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/changeling
-aliases: ["Changeling"]
+aliases:
+- Changeling
 ---
 # Changeling
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 10*  
+![](races/MPMM/Changeling.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Type**: fey
@@ -26,7 +28,7 @@ You are Medium or Small. You choose the size when you select this race.
 
 ### Changeling Instincts
 
-Thanks to your connection to the fey realm, you gain proficiency with two of the following skills of your choice: [Deception](/compendium/rules/skills.md#Deception), [Insight](/compendium/rules/skills.md#Insight), [Intimidation](/compendium/rules/skills.md#Intimidation), [Performance](/compendium/rules/skills.md#Performance), or [Persuasion](/compendium/rules/skills.md#Persuasion).
+Thanks to your connection to the fey realm, you gain proficiency with two of the following skills of your choice: [Deception](/3-Mechanics/CLI/skills.md#Deception), [Insight](/3-Mechanics/CLI/skills.md#Insight), [Intimidation](/3-Mechanics/CLI/skills.md#Intimidation), [Performance](/3-Mechanics/CLI/skills.md#Performance), or [Persuasion](/3-Mechanics/CLI/skills.md#Persuasion).
 
 ### Shapechanger
 

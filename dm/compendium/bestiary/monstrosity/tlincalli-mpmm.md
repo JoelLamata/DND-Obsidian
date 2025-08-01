@@ -2,14 +2,17 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
 - ttrpg-cli/monster/environment/desert
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
-aliases: ["Tlincalli"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Tlincalli
 ---
-# Tlincalli
+# [Tlincalli](3-Mechanics\CLI\bestiary\monstrosity/tlincalli-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 242*  
 
 Tlincallis, also called scorpion folk, are chitin-covered creatures with a humanlike upper body and the lower body of an enormous scorpion, complete with a stinger at the end of a long tail. These desert creatures range across arid lands, hunting at dawn and dusk. In the hours between, they wait out the day's heat or the night's cold by burying themselves in loose sand or earth or, if the terrain proves too inflexible, lurking in ruins or shallow caves.
@@ -24,35 +27,58 @@ These predators see themselves as great hunters, and respect others with such sk
 
 Tlincallis rarely build cities, make clothing, or mine metals. Instead, they scavenge much of what they need or want. They do, however, melt down scavenged metal to forge crude weapons, armor, and tools.
 
-```ad-statblock
-title: Tlincalli
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Tlincalli.webp#token)
-*Large monstrosity, Typically  Neutral*
-
-- **Armor Class** 15  (natural armor)
-- **Hit Points** 85 (`10d10 + 30`)
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|13 (+1)|16 (+3)| 8 (-1)|12 (+1)| 8 (-1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +4, Stealth +4, Survival +4
-- **Senses** darkvision 60 ft., passive Perception 14
-- **Languages** Tlincalli
-- **Challenge** 5
-
-## Actions
-
-***Multiattack.*** The tlincalli makes one Longsword or Spiked Chain attack and one Sting attack.
-
-***Longsword.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) slashing damage, or `dice: 1d10 + 3|avg` (`1d10 + 3`) slashing damage if used with two hands.
-
-***Spiked Chain.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage, and the target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 11) if it is a Large or smaller creature. Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), and the tlincalli can't use the spiked chain against another target.
-
-***Sting.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage plus `dice: 4d6|avg` (`4d6`) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. If it fails the saving throw by 5 or more, the target is also [paralyzed](/compendium/rules/conditions.md#paralyzed) while [poisoned](/compendium/rules/conditions.md#poisoned). The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+```statblock
+"name": "Tlincalli (MPMM)"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Typically  Neutral"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "85"
+"hit_dice": "10d10 + 30"
+"modifier": !!int "1"
+"stats":
+  - !!int "16"
+  - !!int "13"
+  - !!int "16"
+  - !!int "8"
+  - !!int "12"
+  - !!int "8"
+"speed": "40 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+4"
+  - "name": "[Survival](/3-Mechanics/CLI/skills.md#Survival)"
+    "desc": "+4"
+"senses": "darkvision 60 ft., passive Perception 14"
+"languages": "Tlincalli"
+"cr": "5"
+"actions":
+  - "desc": "The tlincalli makes one Longsword or Spiked Chain attack and one Sting\
+      \ attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+      \ + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+    "name": "Longsword"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage, and the target is [grappled](/3-Mechanics/CLI/conditions.md#Grappled)\
+      \ (escape DC 11) if it is a Large or smaller creature. Until this grapple ends,\
+      \ the target is [restrained](/3-Mechanics/CLI/conditions.md#Restrained), and\
+      \ the tlincalli can't use the spiked chain against another target."
+    "name": "Spiked Chain"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6\
+      \ (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target must\
+      \ succeed on a DC 14 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)\
+      \ for 1 minute. If it fails the saving throw by 5 or more, the target is also\
+      \ [paralyzed](/3-Mechanics/CLI/conditions.md#Paralyzed) while [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned).\
+      \ The target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
+    "name": "Sting"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Tlincalli.webp"
 ```
 ^statblock
 

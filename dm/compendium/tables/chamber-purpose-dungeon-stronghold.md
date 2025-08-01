@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Chamber Purpose; Dungeon: Stronghold"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Chamber Purpose; Dungeon: Stronghold
 ---
 # Chamber Purpose; Dungeon: Stronghold
 *Source: Dungeon Master's Guide p. 292* 
@@ -37,7 +38,7 @@ aliases: ["Chamber Purpose; Dungeon: Stronghold"]
 | 71-74 | Sitting room for family and intimate guests |
 | 75-78 | Stable |
 | 79-86 | Storage for mundane goods and supplies |
-| 87 | Strong room or vault for protecting important treasures (75% chance chance of being hidden behind a secret door) |
+| 87 | Strong room or vault for protecting important treasures (75 percent chance of being hidden behind a secret door) |
 | 88-92 | Study, including a writing desk |
 | 93 | Throne room, elaborately decorated |
 | 94-96 | Waiting room where lesser guests are held before receiving an audience |

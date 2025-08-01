@@ -2,15 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-- ttrpg-cli/item/wondrous
+- ttrpg-cli/item/wondrous/tattoo
 aliases: 
 - "Shadowfell Brand Tattoo"
 ---
 # Shadowfell Brand Tattoo
-*Wondrous Item, rare (requires attunement)*  
+*Wondrous item (tattoo), rare (requires attunement)*  
+
 
 
 Produced by a special needle, this magic tattoo is dark in color and abstract.
@@ -23,7 +24,7 @@ If your attunement to the tattoo ends, the tattoo vanishes, and the needle reapp
 
 ## Shadow Essence
 
-You gain [darkvision](/compendium/rules/senses.md#darkvision) with a range of 60 feet, and you have advantage on Dexterity ([Stealth](/compendium/rules/skills.md#Stealth)) checks.
+You gain [darkvision](/3-Mechanics/CLI/senses.md#Darkvision) with a range of 60 feet, and you have advantage on Dexterity ([Stealth](/3-Mechanics/CLI/skills.md#Stealth)) checks.
 
 ## Shadowy Defense
 

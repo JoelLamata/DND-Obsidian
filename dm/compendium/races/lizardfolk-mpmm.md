@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/lizardfolk
-aliases: ["Lizardfolk"]
+aliases:
+- Lizardfolk
 ---
 # Lizardfolk
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 26*  
+![](races/MPMM/Lizardfolk.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Medium
@@ -21,7 +23,7 @@ Your walking speed is 30 feet, and you have a swimming speed equal to your walki
 
 ### Bite
 
-You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals `dice: 1d6|avg` (`1d6`) + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals `dice:1d6|noform|noparens|avg` (`d6`) + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Hold Breath
 
@@ -37,7 +39,7 @@ You have tough, scaly skin. When you aren't wearing armor, your base AC is 13 + 
 
 ### Nature's Intuition
 
-Thanks to your mystical connection to nature, you gain proficiency with two of the following skills of your choice: [Animal Handling](/compendium/rules/skills.md#Animal%20Handling), [Medicine](/compendium/rules/skills.md#Medicine), [Nature](/compendium/rules/skills.md#Nature), [Perception](/compendium/rules/skills.md#Perception), [Stealth](/compendium/rules/skills.md#Stealth), or [Survival](/compendium/rules/skills.md#Survival).
+Thanks to your mystical connection to nature, you gain proficiency with two of the following skills of your choice: [Animal Handling](/3-Mechanics/CLI/skills.md#Animal%20Handling), [Medicine](/3-Mechanics/CLI/skills.md#Medicine), [Nature](/3-Mechanics/CLI/skills.md#Nature), [Perception](/3-Mechanics/CLI/skills.md#Perception), [Stealth](/3-Mechanics/CLI/skills.md#Stealth), or [Survival](/3-Mechanics/CLI/skills.md#Survival).
 
 ## Description
 

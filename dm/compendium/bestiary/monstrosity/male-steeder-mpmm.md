@@ -2,19 +2,22 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
-aliases: ["Male Steeder"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Male Steeder
 ---
-# Male Steeder
+# [Male Steeder](3-Mechanics\CLI\bestiary\monstrosity/male-steeder-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 231*  
 
 ## Steeders
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > Steeders resemble spiders as much as worgs resemble wolves. The creatures may appear similar, but steeders are more than mere vermin.
 
@@ -26,37 +29,51 @@ Steeders are intelligent enough to learn simple hand signals and vocal commands,
 
 Rather than spinning webs, steeders excrete a viscous substance from their legs. This goo allows them to creep along walls and ceilings and to grapple prey.
 
-```ad-statblock
-title: Male Steeder
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Male%20Steeder.webp#token)
-*Medium monstrosity, Unaligned*
-
-- **Armor Class** 12  (natural armor)
-- **Hit Points** 13 (`2d8 + 4`)
-- **Speed** 30 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|12 (+1)|14 (+2)| 2 (-4)|10 (+0)| 3 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +5, Perception +4
-- **Senses** darkvision 120 ft., passive Perception 14
-- **Languages** —
-- **Challenge** 1/4
-
-## Traits
-
-***Extraordinary Leap.*** The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to jump 3 feet.
-
-***Spider Climb.*** The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage plus `dice: 1d8|avg` (`1d8`) poison damage.
-
-***Sticky Leg.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one Small or Tiny creature. *Hit:* The target is stuck to the steeder's leg and [grappled](/compendium/rules/conditions.md#grappled) (escape DC 12). The steeder can have only one creature [grappled](/compendium/rules/conditions.md#grappled) at a time.
+```statblock
+"name": "Male Steeder (MPMM)"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "12"
+"ac_class": "natural armor"
+"hp": !!int "13"
+"hit_dice": "2d8 + 4"
+"modifier": !!int "1"
+"stats":
+  - !!int "15"
+  - !!int "12"
+  - !!int "14"
+  - !!int "2"
+  - !!int "10"
+  - !!int "3"
+"speed": "30 ft., climb 30 ft."
+"skillsaves":
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+5"
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+4"
+"senses": "darkvision 120 ft., passive Perception 14"
+"languages": ""
+"cr": "1/4"
+"traits":
+  - "desc": "The distance of the steeder's long jumps is tripled; every foot of its\
+      \ walking speed that it spends on the jump allows it to jump 3 feet."
+    "name": "Extraordinary Leap"
+  - "desc": "The steeder can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
+"actions":
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
+      \ + 2) piercing damage plus 4 (d8) poison damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature.\
+      \ Hit: The target is stuck to the steeder's leg and [grappled](/3-Mechanics/CLI/conditions.md#Grappled)\
+      \ (escape DC 12). The steeder can have only one creature [grappled](/3-Mechanics/CLI/conditions.md#Grappled)\
+      \ at a time."
+    "name": "Sticky Leg"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Male Steeder.webp"
 ```
 ^statblock
 

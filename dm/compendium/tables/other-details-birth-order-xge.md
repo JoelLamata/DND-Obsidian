@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/xge
-aliases: ["Other Details; Birth Order"]
+- ttrpg-cli/compendium/src/5e/xge
+aliases:
+- Other Details; Birth Order
 ---
 # Other Details; Birth Order
 *Source: Xanathar's Guide to Everything p. 62* 

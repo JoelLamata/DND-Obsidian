@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
-- ttrpg-cli/item/wondrous
 aliases: 
 - "Baba Yaga's Mortar and Pestle"
 ---
 # Baba Yaga's Mortar and Pestle
-*Wondrous Item, artifact (requires attunement)*  
+*Wondrous item, artifact (requires attunement)*  
+![](items/TCE/Baba Yaga's Mortar and Pestle.webp#right)
 
 
 The creations of the immortal hag Baba Yaga defy the laws of mortal magic. Among the notorious implements that cement her legend on countless worlds are the artifacts that propel her through the planes: Baba Yaga's Mortar and Pestle. These signature tools of Baba Yaga are a single artifact for purposes of attunement. Should the two objects become separated, the pestle appears next to the mortar at the next dawn.
@@ -19,9 +19,9 @@ The creations of the immortal hag Baba Yaga defy the laws of mortal magic. Among
 
 This artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the "Dungeon Master's Guide":
 
-- 2 [minor beneficial](compendium/tables/artifact-properties-minor-beneficial-properties.md) properties  
-- 1 [major beneficial](compendium/tables/artifact-properties-major-beneficial-properties.md) property  
-- 1 [minor detrimental](compendium/tables/artifact-properties-minor-detrimental-properties.md) property  
+- 2 [minor beneficial](/3-Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md) properties  
+- 1 [major beneficial](/3-Mechanics/CLI/tables/artifact-properties-major-beneficial-properties.md) property  
+- 1 [minor detrimental](/3-Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md) property  
 
 ## Properties of the Mortar
 
@@ -31,17 +31,17 @@ The mortar is a Tiny wooden bowl. However, the mortar increases in size to accom
 
 The pestle is a 6-inch-long, worn wooden tool. Once during your turn while you are holding the pestle, you can extend it into a quarterstaff or shrink it back into a pestle (no action required). As a quarterstaff, the pestle is a magic weapon that grants a +3 bonus to attack and damage rolls made with it.
 
-The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra `dice: 1d8|avg` (`1d8`) force damage for each charge expended. The pestle regains all expended charges daily at dawn.
+The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra `dice:1d8|noform|noparens|avg` (`d8`) force damage for each charge expended. The pestle regains all expended charges daily at dawn.
 
 ## Perfect Tools
 
 While holding the mortar and pestle, you can use your action to say the name of any nonmagical plant, mineral, or fluid and an amount of the material worth 10 gp or less. The mortar instantly fills with the desired amount of that material. Once you use this action, you can't do so again until you finish a short or long rest.
 
-You can also use the artifact as [alchemist's supplies](compendium/items/alchemists-supplies.md), [brewer's supplies](compendium/items/brewers-supplies.md), [cook's utensils](compendium/items/cooks-utensils.md), an [herbalism kit](compendium/items/herbalism-kit.md), and a [poisoner's kit](compendium/items/poisoners-kit.md). You have advantage on any check you make using the artifact as one of these tools.
+You can also use the artifact as [alchemist's supplies](/3-Mechanics/CLI/items/alchemists-supplies-xphb.md), [brewer's supplies](/3-Mechanics/CLI/items/brewers-supplies-xphb.md), [cook's utensils](/3-Mechanics/CLI/items/cooks-utensils-xphb.md), an [herbalism kit](/3-Mechanics/CLI/items/herbalism-kit-xphb.md), and a [poisoner's kit](/3-Mechanics/CLI/items/poisoners-kit-xphb.md). You have advantage on any check you make using the artifact as one of these tools.
 
 ## Primal Parts
 
-As an action while the pestle and the mortar is within 5 feet of you, you can command the pestle to grind. For the next minute, or until you use your action to verbally command it to stop, the pestle moves on its own, grinding the contents of the mortar into a mush or fine powder that's equally useful for cooking or alchemy. At the start of each of your turns, whatever is in the mortar takes `dice: 4d10|avg` (`4d10`) force damage. If this reduces the target's hit points to 0, the target is reduced to powder, pulp, or paste, as appropriate. Only magic items are unaffected. If you wish, when the pestle stops, you can have the mortar separate its contents-like powdered bone, crushed herbs, pulped organs-into separate piles.
+As an action while the pestle and the mortar is within 5 feet of you, you can command the pestle to grind. For the next minute, or until you use your action to verbally command it to stop, the pestle moves on its own, grinding the contents of the mortar into a mush or fine powder that's equally useful for cooking or alchemy. At the start of each of your turns, whatever is in the mortar takes `dice:4d10|noform|noparens|avg` (`4d10`) force damage. If this reduces the target's hit points to 0, the target is reduced to powder, pulp, or paste, as appropriate. Only magic items are unaffected. If you wish, when the pestle stops, you can have the mortar separate its contents-like powdered bone, crushed herbs, pulped organs-into separate piles.
 
 ## Traverse the Night
 

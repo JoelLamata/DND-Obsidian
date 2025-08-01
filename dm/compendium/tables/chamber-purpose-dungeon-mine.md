@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Chamber Purpose; Dungeon: Mine"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Chamber Purpose; Dungeon: Mine
 ---
 # Chamber Purpose; Dungeon: Mine
 *Source: Dungeon Master's Guide p. 292* 
@@ -21,7 +22,7 @@ aliases: ["Chamber Purpose; Dungeon: Mine"]
 | 6-7 | Guardroom |
 | 8 | Kitchen used to feed workers |
 | 9 | Laboratory used to conduct tests on strange minerals extracted from the mine |
-| 10-15 | Lode where metal ore is mined (75% chance chance of being depleted) |
+| 10-15 | Lode where metal ore is mined (75 percent chance of being depleted) |
 | 16 | Office used by the mine supervisor |
 | 17 | Smithy for repairing damaged tools |
 | 18-19 | Storage for tools and other equipment |

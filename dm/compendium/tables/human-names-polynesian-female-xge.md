@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/xge
-aliases: ["Human Names – Polynesian, Female"]
+- ttrpg-cli/compendium/src/5e/xge
+aliases:
+- Human Names – Polynesian, Female
 ---
 # Human Names – Polynesian, Female
 *Source: Xanathar's Guide to Everything p. 181* 

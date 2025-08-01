@@ -2,7 +2,7 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
 - ttrpg-cli/monster/environment/arctic
 - ttrpg-cli/monster/environment/forest
@@ -10,12 +10,15 @@ tags:
 - ttrpg-cli/monster/environment/hill
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
-aliases: ["Gnoll Witherling"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Gnoll Witherling
 ---
-# Gnoll Witherling
+# [Gnoll Witherling](3-Mechanics\CLI\bestiary\undead/gnoll-witherling-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 145*  
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > The life cycle of Yeenoghu's gnolls begins and ends with eating. They eat their enemies, they eat one another, and they're freed from their hunger only in death.
 
@@ -25,45 +28,54 @@ The survivors devour the flesh of their slain comrades but preserve the bones. T
 
 Witherlings travel with their comrades and try to kill anything in their path. They don't eat and aren't motivated by hunger, leaving more flesh for the rest of the war band.
 
-```ad-statblock
-title: Gnoll Witherling
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Gnoll%20Witherling.webp#token)
-*Medium undead, Typically  Chaotic Evil*
-
-- **Armor Class** 12  (natural armor)
-- **Hit Points** 11 (`2d8 + 2`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)| 8 (-1)|12 (+1)| 5 (-3)| 5 (-3)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 7
-- **Languages** understands Gnoll but can't speak
-- **Challenge** 1/4
-
-## Traits
-
-***Unusual Nature.*** The witherling doesn't require air, food, drink, or sleep.
-
-## Actions
-
-***Multiattack.*** The witherling makes two Bite or Spiked Club attacks.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) necrotic damage.
-
-***Spiked Club.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage.
-
-## Bonus Actions
-
-***Rampage.*** After the witherling reduces a creature to 0 hit points with a melee attack on its turn, the gnoll moves up to half its speed and makes one Bite attack.
-
-## Reactions
-
-***Vengeful Strike.*** In response to a gnoll being reduced to 0 hit points within 30 feet of the witherling, the witherling makes one Bite or Spiked Club attack.
+```statblock
+"name": "Gnoll Witherling (MPMM)"
+"size": "Medium"
+"type": "undead"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "12"
+"ac_class": "natural armor"
+"hp": !!int "11"
+"hit_dice": "2d8 + 2"
+"modifier": !!int "-1"
+"stats":
+  - !!int "14"
+  - !!int "8"
+  - !!int "12"
+  - !!int "5"
+  - !!int "5"
+  - !!int "5"
+"speed": "30 ft."
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/conditions.md#Exhaustion),\
+  \ [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 60 ft., passive Perception 7"
+"languages": "understands Gnoll but can't speak"
+"cr": "1/4"
+"traits":
+  - "desc": "The witherling doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
+"actions":
+  - "desc": "The witherling makes two Bite or Spiked Club attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+      \ + 2) necrotic damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+      \ + 2) piercing damage."
+    "name": "Spiked Club"
+"bonus_actions":
+  - "desc": "After the witherling reduces a creature to 0 hit points with a melee\
+      \ attack on its turn, the gnoll moves up to half its speed and makes one Bite\
+      \ attack."
+    "name": "Rampage"
+"reactions":
+  - "desc": "In response to a gnoll being reduced to 0 hit points within 30 feet of\
+      \ the witherling, the witherling makes one Bite or Spiked Club attack."
+    "name": "Vengeful Strike"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Gnoll Witherling.webp"
 ```
 ^statblock
 

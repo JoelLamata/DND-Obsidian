@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/xge
-aliases: ["Grassland Encounters (Levels 1—5)"]
+- ttrpg-cli/compendium/src/5e/xge
+aliases:
+- Grassland Encounters (Levels 1—5)
 ---
 # Grassland Encounters (Levels 1—5)
 *Source: Xanathar's Guide to Everything p. 100* 
@@ -14,46 +15,46 @@ aliases: ["Grassland Encounters (Levels 1—5)"]
 
 | dice: d100 | Encounter |
 |------------|-----------|
-| 01 | 1 [hobgoblin captain](compendium/bestiary/humanoid/hobgoblin-captain.md) with `dice: 1d4 + 1\|avg` (`1d4 + 1`) [hobgoblins](compendium/bestiary/humanoid/hobgoblin.md) |
-| 02 | 1 [chimera](compendium/bestiary/monstrosity/chimera.md) |
-| 03 | 1 [gorgon](compendium/bestiary/monstrosity/gorgon.md) |
-| 04 | `dice: 1d2\|avg` (`1d2`) couatls |
-| 05 | 1 ankylosaurus |
-| 06 | 1 weretiger |
-| 07 | `dice: 1d3\|avg` (`1d3`) allosauruses |
-| 08-09 | `dice: 1d3\|avg` (`1d3`) elephants |
+| 01 | 1 [hobgoblin captain](/3-Mechanics/CLI/bestiary/fey/hobgoblin-captain-xmm.md) with `dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`) [hobgoblins](/3-Mechanics/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) |
+| 02 | 1 [chimera](/3-Mechanics/CLI/bestiary/monstrosity/chimera-xmm.md) |
+| 03 | 1 [gorgon](/3-Mechanics/CLI/bestiary/construct/gorgon-xmm.md) |
+| 04 | `dice:1d2\|noform\|noparens\|avg` (`d2`) [couatls](/3-Mechanics/CLI/bestiary/celestial/couatl-xmm.md) |
+| 05 | 1 [ankylosaurus](/3-Mechanics/CLI/bestiary/beast/ankylosaurus-xmm.md) |
+| 06 | 1 [weretiger](/3-Mechanics/CLI/bestiary/monstrosity/weretiger-xmm.md) |
+| 07 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [allosauruses](/3-Mechanics/CLI/bestiary/beast/allosaurus-xmm.md) |
+| 08-09 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [elephants](/3-Mechanics/CLI/bestiary/beast/elephant-xmm.md) |
 | 10-14 | A circle of standing stones within which the air is utterly still, no matter how hard the wind blows outside |
-| 15-16 | 1 [phase spider](compendium/bestiary/monstrosity/phase-spider.md) |
-| 17-18 | 1 [gnoll pack lord](compendium/bestiary/humanoid/gnoll-pack-lord.md) with `dice: 1d4\|avg` (`1d4`) [giant hyenas](compendium/bestiary/beast/giant-hyena.md) |
-| 19-20 | 1 pegasus |
-| 21-22 | 1 [ankheg](compendium/bestiary/monstrosity/ankheg.md) |
-| 23-24 | `dice: 1d3\|avg` (`1d3`) rhinoceroses |
-| 25-28 | `dice: 1d3\|avg` (`1d3`) [cockatrices](compendium/bestiary/monstrosity/cockatrice.md) |
-| 29-32 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) [giant wasps](compendium/bestiary/beast/giant-wasp.md) or `dice: 1d4 + 3\|avg` (`1d4 + 3`) [swarms of insects](compendium/bestiary/beast/swarm-of-insects.md) |
-| 33-36 | `dice: 1d4\|avg` (`1d4`) [jackalweres](compendium/bestiary/humanoid/jackalwere.md) or `dice: 1d4\|avg` (`1d4`) [scouts](compendium/bestiary/humanoid/scout.md) |
-| 37-40 | `dice: 1d8\|avg` (`1d8`) giant goats or `dice: 1d8\|avg` (`1d8`) worgs |
-| 41-44 | `dice: 2d4\|avg` (`2d4`) [hobgoblins](compendium/bestiary/humanoid/hobgoblin.md), `dice: 2d4\|avg` (`2d4`) [orcs](compendium/bestiary/humanoid/orc.md), or `dice: 2d4\|avg` (`2d4`) [gnolls](compendium/bestiary/humanoid/gnoll.md) |
-| 45-46 | `dice: 1d2\|avg` (`1d2`) [giant poisonous snakes](compendium/bestiary/beast/giant-poisonous-snake.md) |
-| 47-48 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) elk or `dice: 1d6 + 2\|avg` (`1d6 + 2`) [riding horses](compendium/bestiary/beast/riding-horse.md) |
-| 49-50 | `dice: 2d4\|avg` (`2d4`) [goblins](compendium/bestiary/humanoid/goblin.md) |
-| 51-52 | `dice: 1d3\|avg` (`1d3`) boars |
-| 53-54 | 1 leopard (panther) 1 lion |
-| 55-58 | `dice: 1d6 + 3\|avg` (`1d6 + 3`) [goblins](compendium/bestiary/humanoid/goblin.md) riding wolves |
-| 59-62 | `dice: 2d6\|avg` (`2d6`) [giant wolf spiders](compendium/bestiary/beast/giant-wolf-spider.md) or 1 [giant eagle](compendium/bestiary/beast/giant-eagle.md) |
-| 63-65 | `dice: 1d8 + 4\|avg` (`1d8 + 4`) [pteranodons](compendium/bestiary/beast/pteranodon.md) |
-| 66-69 | `dice: 3d6\|avg` (`3d6`) [wolves](compendium/bestiary/beast/wolf.md) |
-| 70-74 | `dice: 2d4 + 2\|avg` (`2d4 + 2`) [axe beaks](compendium/bestiary/beast/axe-beak.md) |
-| 75-76 | 1 [giant boar](compendium/bestiary/beast/giant-boar.md) or `dice: 1d2\|avg` (`1d2`) [tigers](compendium/bestiary/beast/tiger.md) |
-| 77-78 | 1 [ogre](compendium/bestiary/giant/ogre.md) or `dice: 1d3\|avg` (`1d3`) [bugbears](compendium/bestiary/humanoid/bugbear.md) |
-| 79-80 | giant elk or 1 [gnoll pack lord](compendium/bestiary/humanoid/gnoll-pack-lord.md) or `dice: 1d3\|avg` (`1d3`) [giant hyenas](compendium/bestiary/beast/giant-hyena.md) |
-| 81-82 | `dice: 1d3\|avg` (`1d3`) giant vultures or `dice: 1d3\|avg` (`1d3`) hippogriffs |
-| 83-84 | 1 [goblin boss](compendium/bestiary/humanoid/goblin-boss.md) with `dice: 1d6 + 2\|avg` (`1d6 + 2`) [goblins](compendium/bestiary/humanoid/goblin.md) and `dice: 1d4 + 3\|avg` (`1d4 + 3`) [wolves](compendium/bestiary/beast/wolf.md), or `dice: 1d3\|avg` (`1d3`) [thri-kreen](compendium/bestiary/humanoid/thri-kreen.md) |
-| 85-89 | `dice: 1d3\|avg` (`1d3`) [druids](compendium/bestiary/humanoid/druid.md) patrolling the wilds |
-| 90-91 | `dice: 1d6\|avg` (`1d6`) scarecrows or 1 [wereboar](compendium/bestiary/humanoid/wereboar.md) |
-| 92-93 | `dice: 1d3\|avg` (`1d3`) [centaurs](compendium/bestiary/monstrosity/centaur.md) or `dice: 1d3\|avg` (`1d3`) [griffons](compendium/bestiary/monstrosity/griffon.md) |
-| 94 | `dice: 1d3\|avg` (`1d3`) [gnoll fangs of Yeenoghu](compendium/bestiary/fiend/gnoll-fang-of-yeenoghu.md), or 1 orc Eye of Gruumsh with `dice: 2d4 + 1\|avg` (`2d4 + 1`) [orcs](compendium/bestiary/humanoid/orc.md) |
-| 95-96 | 1 triceratops |
-| 97 | 1 [cyclops](compendium/bestiary/giant/cyclops.md) or 1 [bulette](compendium/bestiary/monstrosity/bulette.md) |
-| 98-99 | `dice: 1d4\|avg` (`1d4`) [manticores](compendium/bestiary/monstrosity/manticore.md) |
-| 00 | 1 tyrannosaurus rex |
+| 15-16 | 1 [phase spider](/3-Mechanics/CLI/bestiary/monstrosity/phase-spider-xmm.md) |
+| 17-18 | 1 [gnoll pack lord](/3-Mechanics/CLI/bestiary/fiend/gnoll-pack-lord-xmm.md) with `dice:1d4\|noform\|noparens\|avg` (`d4`) [giant hyenas](/3-Mechanics/CLI/bestiary/beast/giant-hyena-xmm.md) |
+| 19-20 | 1 [pegasus](/3-Mechanics/CLI/bestiary/celestial/pegasus-xmm.md) |
+| 21-22 | 1 [ankheg](/3-Mechanics/CLI/bestiary/monstrosity/ankheg-xmm.md) |
+| 23-24 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [rhinoceroses](/3-Mechanics/CLI/bestiary/beast/rhinoceros-xmm.md) |
+| 25-28 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [cockatrices](/3-Mechanics/CLI/bestiary/monstrosity/cockatrice-xmm.md) |
+| 29-32 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [giant wasps](/3-Mechanics/CLI/bestiary/beast/giant-wasp-xmm.md) or `dice:1d4+3\|noform\|noparens\|avg` (`1d4 + 3`) [swarms of insects](/3-Mechanics/CLI/bestiary/beast/swarm-of-insects-xmm.md) |
+| 33-36 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [jackalweres](/3-Mechanics/CLI/bestiary/fiend/jackalwere-xmm.md) or `dice:1d4\|noform\|noparens\|avg` (`d4`) [scouts](/3-Mechanics/CLI/bestiary/humanoid/scout-xmm.md) |
+| 37-40 | `dice:1d8\|noform\|noparens\|avg` (`d8`) [giant goats](/3-Mechanics/CLI/bestiary/beast/giant-goat-xmm.md) or `dice:1d8\|noform\|noparens\|avg` (`d8`) [worgs](/3-Mechanics/CLI/bestiary/fey/worg-xmm.md) |
+| 41-44 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [hobgoblins](/3-Mechanics/CLI/bestiary/fey/hobgoblin-warrior-xmm.md), `dice:2d4\|noform\|noparens\|avg` (`2d4`) [orcs](/3-Mechanics/CLI/bestiary/humanoid/tough-xmm.md), or `dice:2d4\|noform\|noparens\|avg` (`2d4`) [gnolls](/3-Mechanics/CLI/bestiary/fiend/gnoll-warrior-xmm.md) |
+| 45-46 | `dice:1d2\|noform\|noparens\|avg` (`d2`) [giant poisonous snakes](/3-Mechanics/CLI/bestiary/beast/giant-venomous-snake-xmm.md) |
+| 47-48 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [elk](/3-Mechanics/CLI/bestiary/beast/elk-xmm.md) or `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [riding horses](/3-Mechanics/CLI/bestiary/beast/riding-horse-xmm.md) |
+| 49-50 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [goblins](/3-Mechanics/CLI/bestiary/fey/goblin-warrior-xmm.md) |
+| 51-52 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [boars](/3-Mechanics/CLI/bestiary/beast/boar-xmm.md) |
+| 53-54 | 1 leopard ([panther](/3-Mechanics/CLI/bestiary/beast/panther-xmm.md)) 1 [lion](/3-Mechanics/CLI/bestiary/beast/lion-xmm.md) |
+| 55-58 | `dice:1d6+3\|noform\|noparens\|avg` (`1d6 + 3`) [goblins](/3-Mechanics/CLI/bestiary/fey/goblin-warrior-xmm.md) riding wolves |
+| 59-62 | `dice:2d6\|noform\|noparens\|avg` (`2d6`) [giant wolf spiders](/3-Mechanics/CLI/bestiary/beast/giant-wolf-spider-xmm.md) or 1 [giant eagle](/3-Mechanics/CLI/bestiary/celestial/giant-eagle-xmm.md) |
+| 63-65 | `dice:1d8+4\|noform\|noparens\|avg` (`1d8 + 4`) [pteranodons](/3-Mechanics/CLI/bestiary/beast/pteranodon-xmm.md) |
+| 66-69 | `dice:3d6\|noform\|noparens\|avg` (`3d6`) [wolves](/3-Mechanics/CLI/bestiary/beast/wolf-xmm.md) |
+| 70-74 | `dice:2d4+2\|noform\|noparens\|avg` (`2d4 + 2`) [axe beaks](/3-Mechanics/CLI/bestiary/monstrosity/axe-beak-xmm.md) |
+| 75-76 | 1 [giant boar](/3-Mechanics/CLI/bestiary/beast/giant-boar-xmm.md) or `dice:1d2\|noform\|noparens\|avg` (`d2`) [tigers](/3-Mechanics/CLI/bestiary/beast/tiger-xmm.md) |
+| 77-78 | 1 [ogre](/3-Mechanics/CLI/bestiary/giant/ogre-xmm.md) or `dice:1d3\|noform\|noparens\|avg` (`d3`) [bugbears](/3-Mechanics/CLI/bestiary/fey/bugbear-warrior-xmm.md) |
+| 79-80 | [giant elk](/3-Mechanics/CLI/bestiary/celestial/giant-elk-xmm.md) or 1 [gnoll pack lord](/3-Mechanics/CLI/bestiary/fiend/gnoll-pack-lord-xmm.md) or `dice:1d3\|noform\|noparens\|avg` (`d3`) [giant hyenas](/3-Mechanics/CLI/bestiary/beast/giant-hyena-xmm.md) |
+| 81-82 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [giant vultures](/3-Mechanics/CLI/bestiary/monstrosity/giant-vulture-xmm.md) or `dice:1d3\|noform\|noparens\|avg` (`d3`) [hippogriffs](/3-Mechanics/CLI/bestiary/monstrosity/hippogriff-xmm.md) |
+| 83-84 | 1 [goblin boss](/3-Mechanics/CLI/bestiary/fey/goblin-boss-xmm.md) with `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [goblins](/3-Mechanics/CLI/bestiary/fey/goblin-warrior-xmm.md) and `dice:1d4+3\|noform\|noparens\|avg` (`1d4 + 3`) [wolves](/3-Mechanics/CLI/bestiary/beast/wolf-xmm.md), or `dice:1d3\|noform\|noparens\|avg` (`d3`) [thri-kreen](/3-Mechanics/CLI/bestiary/monstrosity/thri-kreen-marauder-xmm.md) |
+| 85-89 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [druids](/3-Mechanics/CLI/bestiary/humanoid/druid-xmm.md) patrolling the wilds |
+| 90-91 | `dice:1d6\|noform\|noparens\|avg` (`d6`) [scarecrows](/3-Mechanics/CLI/bestiary/construct/scarecrow-xmm.md) or 1 [wereboar](/3-Mechanics/CLI/bestiary/monstrosity/wereboar-xmm.md) |
+| 92-93 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [centaurs](/3-Mechanics/CLI/bestiary/fey/centaur-trooper-xmm.md) or `dice:1d3\|noform\|noparens\|avg` (`d3`) [griffons](/3-Mechanics/CLI/bestiary/monstrosity/griffon-xmm.md) |
+| 94 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [gnoll fangs of Yeenoghu](/3-Mechanics/CLI/bestiary/fiend/gnoll-fang-of-yeenoghu-xmm.md), or 1 [orc Eye of Gruumsh](/3-Mechanics/CLI/bestiary/humanoid/cultist-fanatic-xmm.md) with `dice:2d4+1\|noform\|noparens\|avg` (`2d4 + 1`) [orcs](/3-Mechanics/CLI/bestiary/humanoid/tough-xmm.md) |
+| 95-96 | 1 [triceratops](/3-Mechanics/CLI/bestiary/beast/triceratops-xmm.md) |
+| 97 | 1 [cyclops](/3-Mechanics/CLI/bestiary/giant/cyclops-sentry-xmm.md) or 1 [bulette](/3-Mechanics/CLI/bestiary/monstrosity/bulette-xmm.md) |
+| 98-99 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [manticores](/3-Mechanics/CLI/bestiary/monstrosity/manticore-xmm.md) |
+| 00 | 1 [tyrannosaurus rex](/3-Mechanics/CLI/bestiary/beast/tyrannosaurus-rex-xmm.md) |
 ^grassland-encounters-levels-15

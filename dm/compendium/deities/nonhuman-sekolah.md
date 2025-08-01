@@ -2,11 +2,12 @@
 obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
-- compendium/src/5e/phb
+- ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/nonhuman
 - ttrpg-cli/domain/nature
 - ttrpg-cli/domain/tempest
-aliases: ["Sekolah"]
+aliases: 
+- Sekolah
 ---
 # Sekolah
 *Source: Player's Handbook p. 296* 

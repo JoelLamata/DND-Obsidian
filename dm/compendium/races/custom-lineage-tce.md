@@ -2,14 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/race/custom-lineage
-aliases: ["Custom Lineage"]
+aliases:
+- Custom Lineage
 ---
 # Custom Lineage
 *Source: Tasha's Cauldron of Everything p. 8*  
 
-- **Ability Scores**: Apply +2 to one of Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
+
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma.
 - **Size**: Small or Medium
 - **Speed**: 30 ft.
 
@@ -31,7 +33,7 @@ You gain one feat of your choice for which you qualify.
 
 ### Variable Trait
 
-You gain one of the following options of your choice: (a) [darkvision](/compendium/rules/senses.md#darkvision) with a range of 60 feet or (b) proficiency in one skill of your choice.
+You gain one of the following options of your choice: (a) [darkvision](/3-Mechanics/CLI/senses.md#Darkvision) with a range of 60 feet or (b) proficiency in one skill of your choice.
 
 ### Languages
 

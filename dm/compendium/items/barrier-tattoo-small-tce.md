@@ -2,15 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/uncommon
-- ttrpg-cli/item/wondrous
+- ttrpg-cli/item/wondrous/tattoo
 aliases: 
 - "Barrier Tattoo (Small)"
 ---
 # Barrier Tattoo (Small)
-*Wondrous Item, uncommon (requires attunement)*  
+*Wondrous item (tattoo), uncommon (requires attunement)*  
+
 
 
 Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.

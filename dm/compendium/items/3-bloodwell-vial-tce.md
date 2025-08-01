@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
-- ttrpg-cli/item/wondrous
 aliases: 
 - "+3 Bloodwell Vial"
 ---
 # +3 Bloodwell Vial
-*Wondrous Item, very rare (requires attunement by a sorcerer)*  
+*Wondrous item, very rare (requires attunement by a sorcerer)*  
+
 
 
 To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.

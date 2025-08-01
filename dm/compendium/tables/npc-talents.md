@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["NPC Talents"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- NPC Talents
 ---
 # NPC Talents
 *Source: Dungeon Master's Guide p. 90* 

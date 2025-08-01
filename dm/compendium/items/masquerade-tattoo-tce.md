@@ -2,15 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/common
-- ttrpg-cli/item/wondrous
+- ttrpg-cli/item/wondrous/tattoo
 aliases: 
 - "Masquerade Tattoo"
 ---
 # Masquerade Tattoo
-*Wondrous Item, common (requires attunement)*  
+*Wondrous item (tattoo), common (requires attunement)*  
+
 
 
 Produced by a special needle, this magic tattoo appears on your body as whatever you desire.
@@ -27,6 +28,6 @@ As a bonus action, you can shape the tattoo into any color or pattern and move i
 
 ## Disguise Self
 
-As an action, you can use the tattoo to cast the [disguise self](compendium/spells/disguise-self.md) spell (DC 13 to discern the disguise). Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn.
+As an action, you can use the tattoo to cast the [disguise self](/3-Mechanics/CLI/spells/disguise-self-xphb.md) spell (DC 13 to discern the disguise). Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn.
 
 *Source: Tasha's Cauldron of Everything p. 131*

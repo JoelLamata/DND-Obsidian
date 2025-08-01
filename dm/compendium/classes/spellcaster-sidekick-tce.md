@@ -2,67 +2,43 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- compendium/src/5e/tce
 - ttrpg-cli/class/spellcaster-sidekick
-aliases: ["Spellcaster Sidekick"]
+- ttrpg-cli/compendium/src/5e/tce
+aliases:
+- Spellcaster Sidekick
 ---
 # Spellcaster Sidekick
 *Source: Tasha's Cauldron of Everything p. 144*  
 
-> [!tldr]- Feature progression
+> [!tldr] Class and Feature Progression
 > 
-> | Level | PB | Features |
-> |-------|----|----------|
-> | 1st | +2 | [Sidekick Class](#Sidekick%20Class%20(Level%201)), [Bonus Proficiencies](#Bonus%20Proficiencies%20(Level%201)), [Spellcasting](#Spellcasting%20(Level%201)) |
-> | 2nd | +2 | ⏤ |
-> | 3rd | +2 | ⏤ |
-> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
-> | 5th | +3 | ⏤ |
-> | 6th | +3 | [Potent Cantrips](#Potent%20Cantrips%20(Level%206)) |
-> | 7th | +3 | ⏤ |
-> | 8th | +3 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%208)) |
-> | 9th | +4 | ⏤ |
-> | 10th | +4 | ⏤ |
-> | 11th | +4 | ⏤ |
-> | 12th | +4 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2012)) |
-> | 13th | +5 | ⏤ |
-> | 14th | +5 | [Empowered Spells](#Empowered%20Spells%20(Level%2014)) |
-> | 15th | +5 | ⏤ |
-> | 16th | +5 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2016)) |
-> | 17th | +6 | ⏤ |
-> | 18th | +6 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2018)) |
-> | 19th | +6 | ⏤ |
-> | 20th | +6 | [Focused Casting](#Focused%20Casting%20(Level%2020)) |
-> 
-> - PB: Proficiency Bonus
-^feature-progression
+> <table class="class-progression">
+> <thead>
+> <tr><th colspan='10'></th></tr>
+> <tr class="class-progression"><th class"level">Level</th><th class"pb">PB</th><th class"feature">Features</th><th class="value">Cantrips Known</th><th class="value">Spells Known</th><th class="value">1st</th><th class="value">2nd</th><th class="value">3rd</th><th class="value">4th</th><th class="value">5th</th></tr>
+> </thead><tbody>
+> <tr class="class-progression"><td class"level">1st</td><td class"pb">+2</td><td class"feature"><a href='#Sidekick Class (Level 1)' class='internal-link'>Sidekick Class</a>, <a href='#Bonus Proficiencies (Level 1)' class='internal-link'>Bonus Proficiencies</a>, <a href='#Spellcasting (Level 1)' class='internal-link'>Spellcasting</a></td><td class="value">2</td><td class="value">1</td><td class="value">2</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">2nd</td><td class"pb">+2</td><td class"feature"></td><td class="value">2</td><td class="value">2</td><td class="value">2</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">3rd</td><td class"pb">+2</td><td class"feature"></td><td class="value">2</td><td class="value">3</td><td class="value">3</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">4th</td><td class"pb">+2</td><td class"feature"><a href='#Ability Score Improvement (Level 4)' class='internal-link'>Ability Score Improvement</a></td><td class="value">3</td><td class="value">3</td><td class="value">3</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">5th</td><td class"pb">+3</td><td class"feature"></td><td class="value">3</td><td class="value">4</td><td class="value">4</td><td class="value">2</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">6th</td><td class"pb">+3</td><td class"feature"><a href='#Potent Cantrips (Level 6)' class='internal-link'>Potent Cantrips</a></td><td class="value">3</td><td class="value">4</td><td class="value">4</td><td class="value">2</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">7th</td><td class"pb">+3</td><td class"feature"></td><td class="value">3</td><td class="value">5</td><td class="value">4</td><td class="value">3</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">8th</td><td class"pb">+3</td><td class"feature"><a href='#Ability Score Improvement (Level 8)' class='internal-link'>Ability Score Improvement</a></td><td class="value">3</td><td class="value">5</td><td class="value">4</td><td class="value">3</td><td class="value">⏤</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">9th</td><td class"pb">+4</td><td class"feature"></td><td class="value">3</td><td class="value">6</td><td class="value">4</td><td class="value">3</td><td class="value">2</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">10th</td><td class"pb">+4</td><td class"feature"></td><td class="value">4</td><td class="value">6</td><td class="value">4</td><td class="value">3</td><td class="value">2</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">11th</td><td class"pb">+4</td><td class"feature"></td><td class="value">4</td><td class="value">7</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">12th</td><td class"pb">+4</td><td class"feature"><a href='#Ability Score Improvement (Level 12)' class='internal-link'>Ability Score Improvement</a></td><td class="value">4</td><td class="value">7</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">⏤</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">13th</td><td class"pb">+5</td><td class"feature"></td><td class="value">4</td><td class="value">8</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">1</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">14th</td><td class"pb">+5</td><td class"feature"><a href='#Empowered Spells (Level 14)' class='internal-link'>Empowered Spells</a></td><td class="value">4</td><td class="value">8</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">1</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">15th</td><td class"pb">+5</td><td class"feature"></td><td class="value">4</td><td class="value">9</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">2</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">16th</td><td class"pb">+5</td><td class"feature"><a href='#Ability Score Improvement (Level 16)' class='internal-link'>Ability Score Improvement</a></td><td class="value">4</td><td class="value">9</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">2</td><td class="value">⏤</td></tr>
+> <tr class="class-progression"><td class"level">17th</td><td class"pb">+6</td><td class"feature"></td><td class="value">4</td><td class="value">10</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">3</td><td class="value">1</td></tr>
+> <tr class="class-progression"><td class"level">18th</td><td class"pb">+6</td><td class"feature"><a href='#Ability Score Improvement (Level 18)' class='internal-link'>Ability Score Improvement</a></td><td class="value">4</td><td class="value">10</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">3</td><td class="value">1</td></tr>
+> <tr class="class-progression"><td class"level">19th</td><td class"pb">+6</td><td class"feature"></td><td class="value">4</td><td class="value">11</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">3</td><td class="value">2</td></tr>
+> <tr class="class-progression"><td class"level">20th</td><td class"pb">+6</td><td class"feature"><a href='#Focused Casting (Level 20)' class='internal-link'>Focused Casting</a></td><td class="value">4</td><td class="value">11</td><td class="value">4</td><td class="value">3</td><td class="value">3</td><td class="value">3</td><td class="value">2</td></tr>
+> </tbody></table>
 
-> [!tldr]- Class progression
-> 
-> | Level | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th | 5th |
-> |-------|----------------|--------------|-----|-----|-----|-----|-----|
-> | 1st | 2 | 1 | 2 | ⏤ | ⏤ | ⏤ | ⏤ |
-> | 2nd | 2 | 2 | 2 | ⏤ | ⏤ | ⏤ | ⏤ |
-> | 3rd | 2 | 3 | 3 | ⏤ | ⏤ | ⏤ | ⏤ |
-> | 4th | 3 | 3 | 3 | ⏤ | ⏤ | ⏤ | ⏤ |
-> | 5th | 3 | 4 | 4 | 2 | ⏤ | ⏤ | ⏤ |
-> | 6th | 3 | 4 | 4 | 2 | ⏤ | ⏤ | ⏤ |
-> | 7th | 3 | 5 | 4 | 3 | ⏤ | ⏤ | ⏤ |
-> | 8th | 3 | 5 | 4 | 3 | ⏤ | ⏤ | ⏤ |
-> | 9th | 3 | 6 | 4 | 3 | 2 | ⏤ | ⏤ |
-> | 10th | 4 | 6 | 4 | 3 | 2 | ⏤ | ⏤ |
-> | 11th | 4 | 7 | 4 | 3 | 3 | ⏤ | ⏤ |
-> | 12th | 4 | 7 | 4 | 3 | 3 | ⏤ | ⏤ |
-> | 13th | 4 | 8 | 4 | 3 | 3 | 1 | ⏤ |
-> | 14th | 4 | 8 | 4 | 3 | 3 | 1 | ⏤ |
-> | 15th | 4 | 9 | 4 | 3 | 3 | 2 | ⏤ |
-> | 16th | 4 | 9 | 4 | 3 | 3 | 2 | ⏤ |
-> | 17th | 4 | 10 | 4 | 3 | 3 | 3 | 1 |
-> | 18th | 4 | 10 | 4 | 3 | 3 | 3 | 1 |
-> | 19th | 4 | 11 | 4 | 3 | 3 | 3 | 2 |
-> | 20th | 4 | 11 | 4 | 3 | 3 | 3 | 2 |
-> 
-> - 1st-9th: Spell slots per level
 ^class-progression
 
 ## Hit Points
@@ -73,13 +49,11 @@ aliases: ["Spellcaster Sidekick"]
 
 ## Starting Spellcaster Sidekick
 
-You are proficient with the following items.
-
-- **Saving Throws**: Wisdom, Intelligence, Charisma
-- **Armor**: light
-- **Weapons**: simple
+- **Saving Throws**: One saving throw of your choice: Wisdom, Intelligence, or Charisma.
+- **Armor**: Light armor
+- **Weapons**: All simple weapons if [humanoid](#Bonus%20Proficiencies%20(Level%201))
 - **Tools**: none
-- **Skills**: Choose 2 from *Arcana*, *History*, *Insight*, *Investigation*, *Medicine*, *Performance*, *Persuasion*, *Religion*
+- **Skills**: Two skills of your choice from the following list: [Arcana](/3-Mechanics/CLI/skills.md#Arcana), [History](/3-Mechanics/CLI/skills.md#History), [Insight](/3-Mechanics/CLI/skills.md#Insight), [Investigation](/3-Mechanics/CLI/skills.md#Investigation), [Medicine](/3-Mechanics/CLI/skills.md#Medicine), [Performance](/3-Mechanics/CLI/skills.md#Performance), [Persuasion](/3-Mechanics/CLI/skills.md#Persuasion), and [Religion](/3-Mechanics/CLI/skills.md#Religion).
 
 
 ## Spellcaster Sidekick
@@ -93,7 +67,7 @@ A sidekick who becomes a Spellcaster walks the paths of magic. The sidekick migh
 To gain the Spellcaster class, a creature must have at least one language in its stat block that it can speak.
 
 > [!note]
-> this class is intended for NPC [sidekicks](/compendium/rules/variant-rules/sidekicks-tce.md).
+> Note: this class is intended for NPC [sidekicks](/3-Mechanics/CLI/variant-rules/sidekicks-tce.md).
 
 ### Bonus Proficiencies (Level 1)
 
@@ -101,7 +75,7 @@ To gain the Spellcaster class, a creature must have at least one language in its
 
 The sidekick gains proficiency in one saving throw of your choice: Wisdom, Intelligence, or Charisma.
 
-In addition, the sidekick gains proficiency in two skills of your choice from the following list: [Arcana](/compendium/rules/skills.md#Arcana), [History](/compendium/rules/skills.md#History), [Insight](/compendium/rules/skills.md#Insight), [Investigation](/compendium/rules/skills.md#Investigation), [Medicine](/compendium/rules/skills.md#Medicine), [Performance](/compendium/rules/skills.md#Performance), [Persuasion](/compendium/rules/skills.md#Persuasion), and [Religion](/compendium/rules/skills.md#Religion).
+In addition, the sidekick gains proficiency in two skills of your choice from the following list: [Arcana](/3-Mechanics/CLI/skills.md#Arcana), [History](/3-Mechanics/CLI/skills.md#History), [Insight](/3-Mechanics/CLI/skills.md#Insight), [Investigation](/3-Mechanics/CLI/skills.md#Investigation), [Medicine](/3-Mechanics/CLI/skills.md#Medicine), [Performance](/3-Mechanics/CLI/skills.md#Performance), [Persuasion](/3-Mechanics/CLI/skills.md#Persuasion), and [Religion](/3-Mechanics/CLI/skills.md#Religion).
 
 The sidekick gains proficiency with light armor, and if it is a humanoid or has a simple or martial weapon in its stat block, it also gains proficiency with all simple weapons.
 
@@ -128,9 +102,9 @@ The Spellcaster table shows how many spell slots the sidekick has to cast its Sp
 
 The sidekick knows two cantrips and one 1st-level spell of your choice from its spell list. Here are recommendations for a 1st-level spellcaster of each role:
 
-- **Mage.** [mage hand](compendium/spells/mage-hand.md), [ray of frost](compendium/spells/ray-of-frost.md), [thunderwave](compendium/spells/thunderwave.md)  
-- **Healer.** [cure wounds](compendium/spells/cure-wounds.md), [guidance](compendium/spells/guidance.md), [sacred flame](compendium/spells/sacred-flame.md)  
-- **Prodigy.** [eldritch blast](compendium/spells/eldritch-blast.md), [healing word](compendium/spells/healing-word.md), [light](compendium/spells/light.md)  
+- **Mage.** [mage hand](/3-Mechanics/CLI/spells/mage-hand-xphb.md), [ray of frost](/3-Mechanics/CLI/spells/ray-of-frost-xphb.md), [thunderwave](/3-Mechanics/CLI/spells/thunderwave-xphb.md)  
+- **Healer.** [cure wounds](/3-Mechanics/CLI/spells/cure-wounds-xphb.md), [guidance](/3-Mechanics/CLI/spells/guidance-xphb.md), [sacred flame](/3-Mechanics/CLI/spells/sacred-flame-xphb.md)  
+- **Prodigy.** [eldritch blast](/3-Mechanics/CLI/spells/eldritch-blast-xphb.md), [healing word](/3-Mechanics/CLI/spells/healing-word-xphb.md), [light](/3-Mechanics/CLI/spells/light-xphb.md)  
 - The Cantrips Known and Spells Known columns of the Spellcaster table shows when the sidekick learns more spells of your choice. Each of the spells in the Spells Known column must be of a level for which the sidekick has spell slots, as shown on the table. For instance, when the sidekick reaches 5th level in this class, it can learn one new spell of 1st or 2nd level.  
 - Additionally, when the sidekick gains a level in this class, you can choose one of the spells it knows from this class and replace it with another spell from its spell list. The new spell must be a cantrip or of a level for which the sidekick has spell slots.  
 
@@ -140,19 +114,21 @@ The sidekick's spellcasting ability for these spells depends on the choice you m
 
 The sidekick uses its spellcasting ability whenever a spell refers to that ability. In addition, it uses its spellcasting ability modifier when setting the saving throw DC for a spell it casts and when making an attack roll with one.
 
-**Spell save DC**: 8 + your proficiency bonus + your Spellcasting modifier
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Spellcasting</span>
 
-**Spell attack modifier**: your proficiency bonus + your Spellcasting modifier
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Spellcasting</span>
 
 #### Spellcasting Focus
 
-The sidekick can use a focus for its spells depending on the choice you made on the Spellcasting table. A Mage can use an arcane focus, a Healer can use a holy symbol, and a Prodigy can use an arcane focus or a [musical instrument](compendium/items/musical-instrument.md).
+The sidekick can use a focus for its spells depending on the choice you made on the Spellcasting table. A Mage can use an arcane focus, a Healer can use a holy symbol, and a Prodigy can use an arcane focus or a [musical instrument](/3-Mechanics/CLI/items/musical-instrument-xphb.md).
 
 ### Ability Score Improvement (Level 4)
 
 *4th-level Spellcaster feature*
 
 At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
+
+If your DM allows the use of feats, the sidekick may instead take a feat.
 
 ### Potent Cantrips (Level 6)
 
@@ -166,11 +142,15 @@ The sidekick can add its spellcasting ability modifier to the damage it deals wi
 
 At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Ability Score Improvement (Level 12)
 
 *12th-level Spellcaster feature*
 
 At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
+
+If your DM allows the use of feats, the sidekick may instead take a feat.
 
 ### Empowered Spells (Level 14)
 
@@ -184,14 +164,18 @@ Choose one school of magic. Whenever the sidekick casts a spell of that school b
 
 At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Ability Score Improvement (Level 18)
 
 *18th-level Spellcaster feature*
 
 At 4th level and again at 8th, 12th, 16th, and 18th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.
 
+If your DM allows the use of feats, the sidekick may instead take a feat.
+
 ### Focused Casting (Level 20)
 
 *20th-level Spellcaster feature*
 
-Taking damage can't break the sidekick's [concentration](/compendium/rules/conditions.md#concentration) on a spell.
+Taking damage can't break the sidekick's [concentration](/3-Mechanics/CLI/conditions.md#Concentration) on a spell.

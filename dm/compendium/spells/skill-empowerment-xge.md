@@ -2,19 +2,26 @@
 obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
-- compendium/src/5e/xge
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
-- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/transmutation
-aliases: ["Skill Empowerment"]
+classes:
+- Artificer
+- Bard
+- Sorcerer
+- Wizard
+aliases:
+- Skill Empowerment
 ---
 # Skill Empowerment
 *5th-level, Transmutation*  
 
-- **Casting time:** 1 action
+
+- **Casting time:** 1 Action
 - **Range:** Touch
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 hour
@@ -23,6 +30,6 @@ Your magic deepens a creature's understanding of its own talent. You touch one w
 
 You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.
 
-**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Bard](compendium/classes/bard.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Sorcerer](/3-Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Artificer](/3-Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](/3-Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](/3-Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 165*

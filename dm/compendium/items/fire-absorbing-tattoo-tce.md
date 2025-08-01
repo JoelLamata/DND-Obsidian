@@ -2,15 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
-- ttrpg-cli/item/wondrous
+- ttrpg-cli/item/wondrous/tattoo
 aliases: 
 - "Fire Absorbing Tattoo"
 ---
 # Fire Absorbing Tattoo
-*Wondrous Item, very rare (requires attunement)*  
+*Wondrous item (tattoo), very rare (requires attunement)*  
+
 
 
 Produced by a special needle, this magic tattoo features designs that emphasize one color (red).

@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/xge
-aliases: ["Hill Encounters (Levels 5—10)"]
+- ttrpg-cli/compendium/src/5e/xge
+aliases:
+- Hill Encounters (Levels 5—10)
 ---
 # Hill Encounters (Levels 5—10)
 *Source: Xanathar's Guide to Everything p. 101* 
@@ -14,50 +15,50 @@ aliases: ["Hill Encounters (Levels 5—10)"]
 
 | dice: d100 | Encounter |
 |------------|-----------|
-| 01 | `dice: 1d4\|avg` (`1d4`) pegasi or `dice: 1d3\|avg` (`1d3`) [perytons](compendium/bestiary/monstrosity/peryton.md) |
-| 02 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) giant goats |
-| 03 | 1 [manticore](compendium/bestiary/monstrosity/manticore.md) |
-| 04 | `dice: 1d8 + 1\|avg` (`1d8 + 1`) [gnolls](compendium/bestiary/humanoid/gnoll.md) or `dice: 1d8 + 1\|avg` (`1d8 + 1`) [hobgoblins](compendium/bestiary/humanoid/hobgoblin.md) |
-| 05 | `dice: 1d4\|avg` (`1d4`) lions |
-| 06 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) worgs |
-| 07 | `dice: 1d4\|avg` (`1d4`) [brown bears](compendium/bestiary/beast/brown-bear.md) |
-| 08 | `dice: 3d6\|avg` (`3d6`) [axe beaks](compendium/bestiary/beast/axe-beak.md) |
-| 09 | 1 [half-ogre](compendium/bestiary/giant/half-ogre-ogrillon.md) with `dice: 2d6\|avg` (`2d6`) [orcs](compendium/bestiary/humanoid/orc.md) |
-| 10 | `dice: 2d10\|avg` (`2d10`) [winged kobolds](compendium/bestiary/humanoid/winged-kobold.md) |
-| 11-12 | 1 [goblin boss](compendium/bestiary/humanoid/goblin-boss.md) with `dice: 1d4\|avg` (`1d4`) [dire wolves](compendium/bestiary/beast/dire-wolf.md) and `dice: 2d6\|avg` (`2d6`) [goblins](compendium/bestiary/humanoid/goblin.md) |
-| 13 | `dice: 1d6\|avg` (`1d6`) giant elk |
-| 14-15 | `dice: 1d8 + 1\|avg` (`1d8 + 1`) [giant eagles](compendium/bestiary/beast/giant-eagle.md) |
-| 16-17 | `dice: 1d4\|avg` (`1d4`) [phase spiders](compendium/bestiary/monstrosity/phase-spider.md) |
-| 18-19 | 1 [gnoll pack lord](compendium/bestiary/humanoid/gnoll-pack-lord.md) with `dice: 2d4\|avg` (`2d4`) [giant hyenas](compendium/bestiary/beast/giant-hyena.md) |
-| 20 | `dice: 2d4\|avg` (`2d4`) hippogriffs |
+| 01 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [pegasi](/3-Mechanics/CLI/bestiary/celestial/pegasus-xmm.md) or `dice:1d3\|noform\|noparens\|avg` (`d3`) [perytons](/3-Mechanics/CLI/bestiary/monstrosity/peryton-xmm.md) |
+| 02 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [giant goats](/3-Mechanics/CLI/bestiary/beast/giant-goat-xmm.md) |
+| 03 | 1 [manticore](/3-Mechanics/CLI/bestiary/monstrosity/manticore-xmm.md) |
+| 04 | `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [gnolls](/3-Mechanics/CLI/bestiary/fiend/gnoll-warrior-xmm.md) or `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [hobgoblins](/3-Mechanics/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) |
+| 05 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [lions](/3-Mechanics/CLI/bestiary/beast/lion-xmm.md) |
+| 06 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [worgs](/3-Mechanics/CLI/bestiary/fey/worg-xmm.md) |
+| 07 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [brown bears](/3-Mechanics/CLI/bestiary/beast/brown-bear-xmm.md) |
+| 08 | `dice:3d6\|noform\|noparens\|avg` (`3d6`) [axe beaks](/3-Mechanics/CLI/bestiary/monstrosity/axe-beak-xmm.md) |
+| 09 | 1 [half-ogre](/3-Mechanics/CLI/bestiary/giant/ogrillon-ogre-xmm.md) with `dice:2d6\|noform\|noparens\|avg` (`2d6`) [orcs](/3-Mechanics/CLI/bestiary/humanoid/tough-xmm.md) |
+| 10 | `dice:2d10\|noform\|noparens\|avg` (`2d10`) [winged kobolds](/3-Mechanics/CLI/bestiary/dragon/winged-kobold-xmm.md) |
+| 11-12 | 1 [goblin boss](/3-Mechanics/CLI/bestiary/fey/goblin-boss-xmm.md) with `dice:1d4\|noform\|noparens\|avg` (`d4`) [dire wolves](/3-Mechanics/CLI/bestiary/beast/dire-wolf-xmm.md) and `dice:2d6\|noform\|noparens\|avg` (`2d6`) [goblins](/3-Mechanics/CLI/bestiary/fey/goblin-warrior-xmm.md) |
+| 13 | `dice:1d6\|noform\|noparens\|avg` (`d6`) [giant elk](/3-Mechanics/CLI/bestiary/celestial/giant-elk-xmm.md) |
+| 14-15 | `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [giant eagles](/3-Mechanics/CLI/bestiary/celestial/giant-eagle-xmm.md) |
+| 16-17 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [phase spiders](/3-Mechanics/CLI/bestiary/monstrosity/phase-spider-xmm.md) |
+| 18-19 | 1 [gnoll pack lord](/3-Mechanics/CLI/bestiary/fiend/gnoll-pack-lord-xmm.md) with `dice:2d4\|noform\|noparens\|avg` (`2d4`) [giant hyenas](/3-Mechanics/CLI/bestiary/beast/giant-hyena-xmm.md) |
+| 20 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [hippogriffs](/3-Mechanics/CLI/bestiary/monstrosity/hippogriff-xmm.md) |
 | 21-25 | A 15-foot-tall stone statue of a dwarf warrior that has been tipped over on its side |
-| 26-27 | `dice: 2d4\|avg` (`2d4`) [orogs](compendium/bestiary/humanoid/orog.md) |
-| 28-29 | `dice: 1d4 + 1\|avg` (`1d4 + 1`) [griffons](compendium/bestiary/monstrosity/griffon.md) |
-| 30-31 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) [harpies](compendium/bestiary/monstrosity/harpy.md) |
-| 32-33 | 1 orc Eye of Gruumsh with `dice: 2d6 + 3\|avg` (`2d6 + 3`) [orcs](compendium/bestiary/humanoid/orc.md) |
-| 34-35 | `dice: 1d4 + 3\|avg` (`1d4 + 3`) [giant boars](compendium/bestiary/beast/giant-boar.md) |
+| 26-27 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [orogs](/3-Mechanics/CLI/bestiary/humanoid/berserker-xmm.md) |
+| 28-29 | `dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`) [griffons](/3-Mechanics/CLI/bestiary/monstrosity/griffon-xmm.md) |
+| 30-31 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [harpies](/3-Mechanics/CLI/bestiary/monstrosity/harpy-xmm.md) |
+| 32-33 | 1 [orc Eye of Gruumsh](/3-Mechanics/CLI/bestiary/humanoid/cultist-fanatic-xmm.md) with `dice:2d6+3\|noform\|noparens\|avg` (`2d6 + 3`) [orcs](/3-Mechanics/CLI/bestiary/humanoid/tough-xmm.md) |
+| 34-35 | `dice:1d4+3\|noform\|noparens\|avg` (`1d4 + 3`) [giant boars](/3-Mechanics/CLI/bestiary/beast/giant-boar-xmm.md) |
 | 36-40 | A stone door set into the side of a steep hill, opening onto 15 feet of descending stairs that end at a cave-in |
-| 41-42 | `dice: 1d3\|avg` (`1d3`) [green hags](compendium/bestiary/fey/green-hag.md) |
-| 43-44 | `dice: 1d4\|avg` (`1d4`) [werewolves](compendium/bestiary/humanoid/werewolf.md) |
-| 45-46 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) [ogres](compendium/bestiary/giant/ogre.md) |
-| 47-48 | 1 [hobgoblin captain](compendium/bestiary/humanoid/hobgoblin-captain.md) with `dice: 2d8\|avg` (`2d8`) [hobgoblins](compendium/bestiary/humanoid/hobgoblin.md) |
-| 49-50 | 1 [bandit captain](compendium/bestiary/humanoid/bandit-captain.md) with `dice: 3d6\|avg` (`3d6`) [bandits](compendium/bestiary/humanoid/bandit.md) |
-| 51-54 | 1 [chimera](compendium/bestiary/monstrosity/chimera.md) |
-| 55-58 | `dice: 1d4\|avg` (`1d4`) ettins |
-| 59-62 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) [veterans](compendium/bestiary/humanoid/veteran.md) with `dice: 2d6\|avg` (`2d6`) [berserkers](compendium/bestiary/humanoid/berserker.md) |
+| 41-42 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [green hags](/3-Mechanics/CLI/bestiary/fey/green-hag-xmm.md) |
+| 43-44 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [werewolves](/3-Mechanics/CLI/bestiary/monstrosity/werewolf-xmm.md) |
+| 45-46 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [ogres](/3-Mechanics/CLI/bestiary/giant/ogre-xmm.md) |
+| 47-48 | 1 [hobgoblin captain](/3-Mechanics/CLI/bestiary/fey/hobgoblin-captain-xmm.md) with `dice:2d8\|noform\|noparens\|avg` (`2d8`) [hobgoblins](/3-Mechanics/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) |
+| 49-50 | 1 [bandit captain](/3-Mechanics/CLI/bestiary/humanoid/bandit-captain-xmm.md) with `dice:3d6\|noform\|noparens\|avg` (`3d6`) [bandits](/3-Mechanics/CLI/bestiary/humanoid/bandit-xmm.md) |
+| 51-54 | 1 [chimera](/3-Mechanics/CLI/bestiary/monstrosity/chimera-xmm.md) |
+| 55-58 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [ettins](/3-Mechanics/CLI/bestiary/giant/ettin-xmm.md) |
+| 59-62 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [veterans](/3-Mechanics/CLI/bestiary/humanoid/warrior-veteran-xmm.md) with `dice:2d6\|noform\|noparens\|avg` (`2d6`) [berserkers](/3-Mechanics/CLI/bestiary/humanoid/berserker-xmm.md) |
 | 63-65 | An abandoned wooden hut |
-| 66-69 | 1 [galeb duhr](compendium/bestiary/elemental/galeb-duhr.md) |
-| 70-73 | 1 [bulette](compendium/bestiary/monstrosity/bulette.md) |
-| 74-77 | 1 [wyvern](compendium/bestiary/dragon/wyvern.md) |
-| 78-80 | `dice: 2d6 + 10\|avg` (`2d6 + 10`) [goats](compendium/bestiary/beast/goat.md) with 1 herder ([tribal warrior](compendium/bestiary/humanoid/tribal-warrior.md)) |
-| 81-82 | `dice: 1d3\|avg` (`1d3`) [hill giants](compendium/bestiary/giant/hill-giant.md) |
-| 83-84 | `dice: 2d4\|avg` (`2d4`) [wereboars](compendium/bestiary/humanoid/wereboar.md) |
-| 85-86 | `dice: 1d4\|avg` (`1d4`) revenants |
-| 87-88 | `dice: 1d2\|avg` (`1d2`) [gorgons](compendium/bestiary/monstrosity/gorgon.md) |
-| 89-90 | `dice: 1d8 + 1\|avg` (`1d8 + 1`) [gnoll fangs of Yeenoghu](compendium/bestiary/fiend/gnoll-fang-of-yeenoghu.md) |
-| 91-93 | `dice: 1d4\|avg` (`1d4`) [cyclopes](compendium/bestiary/giant/cyclops.md) |
-| 94-96 | 1 [young red dragon](compendium/bestiary/dragon/young-red-dragon.md) |
-| 97-98 | `dice: 1d4\|avg` (`1d4`) stone giants |
-| 99 | `dice: 1d3\|avg` (`1d3`) young copper dragons |
-| 00 | 1 [roc](compendium/bestiary/monstrosity/roc.md) |
+| 66-69 | 1 [galeb duhr](/3-Mechanics/CLI/bestiary/elemental/galeb-duhr-xmm.md) |
+| 70-73 | 1 [bulette](/3-Mechanics/CLI/bestiary/monstrosity/bulette-xmm.md) |
+| 74-77 | 1 [wyvern](/3-Mechanics/CLI/bestiary/dragon/wyvern-xmm.md) |
+| 78-80 | `dice:2d6+10\|noform\|noparens\|avg` (`2d6 + 10`) [goats](/3-Mechanics/CLI/bestiary/beast/goat-xmm.md) with 1 herder ([tribal warrior](/3-Mechanics/CLI/bestiary/humanoid/warrior-infantry-xmm.md)) |
+| 81-82 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [hill giants](/3-Mechanics/CLI/bestiary/giant/hill-giant-xmm.md) |
+| 83-84 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [wereboars](/3-Mechanics/CLI/bestiary/monstrosity/wereboar-xmm.md) |
+| 85-86 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [revenants](/3-Mechanics/CLI/bestiary/undead/revenant-xmm.md) |
+| 87-88 | `dice:1d2\|noform\|noparens\|avg` (`d2`) [gorgons](/3-Mechanics/CLI/bestiary/construct/gorgon-xmm.md) |
+| 89-90 | `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [gnoll fangs of Yeenoghu](/3-Mechanics/CLI/bestiary/fiend/gnoll-fang-of-yeenoghu-xmm.md) |
+| 91-93 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [cyclopes](/3-Mechanics/CLI/bestiary/giant/cyclops-sentry-xmm.md) |
+| 94-96 | 1 [young red dragon](/3-Mechanics/CLI/bestiary/dragon/young-red-dragon-xmm.md) |
+| 97-98 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [stone giants](/3-Mechanics/CLI/bestiary/giant/stone-giant-xmm.md) |
+| 99 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [young copper dragons](/3-Mechanics/CLI/bestiary/dragon/young-copper-dragon-xmm.md) |
+| 00 | 1 [roc](/3-Mechanics/CLI/bestiary/monstrosity/roc-xmm.md) |
 ^hill-encounters-levels-510

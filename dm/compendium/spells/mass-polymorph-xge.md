@@ -2,21 +2,26 @@
 obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
-- compendium/src/5e/xge
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/spell/class/bard
-- ttrpg-cli/spell/class/cleric/arcana-domain
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
-- ttrpg-cli/spell/level/9
+- ttrpg-cli/spell/level/9th-level
 - ttrpg-cli/spell/school/transmutation
-aliases: ["Mass Polymorph"]
+classes:
+- Bard
+- Sorcerer
+- Wizard
+aliases:
+- Mass Polymorph
 ---
 # Mass Polymorph
 *9th-level, Transmutation*  
 
-- **Casting time:** 1 action
+
+- **Casting time:** 1 Action
 - **Range:** 120 feet
-- **Components:** V, S, a caterpillar cocoon
+- **Components:** V, S, M (a caterpillar cocoon)
 - **Duration:** Concentration, up to 1 hour
 
 You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.
@@ -29,6 +34,6 @@ The creature is limited in the actions it can perform by the nature of its new f
 
 The target's gear melds into the new form. The target can't activate, use, wield, or otherwise benefit from any of its equipment.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Sorcerer](/3-Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Bard](/3-Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](/3-Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 160*

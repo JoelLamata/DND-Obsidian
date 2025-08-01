@@ -2,13 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/25
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/construct/inevitable
-aliases: ["Marut"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Marut
 ---
-# Marut
+# [Marut](3-Mechanics\CLI\bestiary\construct/marut-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 173*  
 
 The nigh-unstoppable inevitables serve a singular purpose: they enforce contracts forged in the Hall of Concordance in the city of Sigil. Primus, the leader of the modrons, created maruts and other inevitables to bring order to dealings between planar folk. A wide array of disparate creatures, including yugoloths, will enter into a contract with inevitables if asked.
@@ -17,46 +20,75 @@ The Hall of Concordance is an embassy of pure law in Sigil, the City of Doors. I
 
 Inevitables care nothing for the spirit of an agreement, only the letter. A marut enforces what is written, not what was meant by or supposed to be understood from the writing. The Kolyarut rejects contracts that contain vague, contradictory, or unenforceable terms. Beyond that, it doesn't care whether both parties understand what they're agreeing to.
 
-```ad-statblock
-title: Marut
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Marut.webp#token)
-*Large construct (inevitable), Typically  Lawful Neutral*
-
-- **Armor Class** 22  (natural armor)
-- **Hit Points** 432 (`32d10 + 256`)
-- **Speed** 40 ft., fly 30 ft. (hover)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|28 (+9)|12 (+1)|26 (+8)|19 (+4)|15 (+2)|18 (+4)|
-
-- **Proficiency Bonus** +8
-- **Saving Throws** Intelligence +12, Wisdom +10, Charisma +12
-- **Skills** Insight +10, Intimidation +12, Perception +10
-- **Senses** darkvision 60 ft., passive Perception 20
-- **Languages** all but rarely speaks
-- **Challenge** 25
-
-## Traits
-
-***Immutable Form.*** The marut is immune to any spell or effect that would alter its form.
-
-***Legendary Resistance (3/Day).*** If the marut fails a saving throw, it can choose to succeed instead.
-
-***Magic Resistance.*** The marut has advantage on saving throws against spells and other magical effects.
-
-***Unusual Nature.*** The marut doesn't require air, food, drink, or sleep.
-
-***Plane Shift (3/Day).*** The marut casts [plane shift](compendium/spells/plane-shift.md), requiring no material components and using Intelligence as the spellcasting ability. The marut can cast the spell normally, or it can cast the spell on an unwilling creature it can see within 60 feet of it. If it uses the latter option, the targeted creature must succeed on a DC 20 Charisma saving throw or be banished to a teleportation circle in the Hall of Concordance in Sigil.
-
-**3/day**: [plane shift](compendium/spells/plane-shift.md)
-
-## Actions
-
-***Multiattack.*** The marut makes two Unerring Slam attacks.
-
-***Unerring Slam.*** *Melee Weapon Attack:* automatic hit, reach 5 ft., one target. *Hit:* 60 force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller.
-
-***Blazing Edict (Recharge 5-6).*** Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a DC 20 Wisdom saving throw or be [stunned](/compendium/rules/conditions.md#stunned) until the end of the marut's next turn.
+```statblock
+"name": "Marut (MPMM)"
+"size": "Large"
+"type": "construct"
+"subtype": "inevitable"
+"alignment": "Typically  Lawful Neutral"
+"ac": !!int "22"
+"ac_class": "natural armor"
+"hp": !!int "432"
+"hit_dice": "32d10 + 256"
+"modifier": !!int "1"
+"stats":
+  - !!int "28"
+  - !!int "12"
+  - !!int "26"
+  - !!int "19"
+  - !!int "15"
+  - !!int "18"
+"speed": "40 ft., fly 30 ft. (hover)"
+"saves":
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "12"
+"skillsaves":
+  - "name": "[Insight](/3-Mechanics/CLI/skills.md#Insight)"
+    "desc": "+10"
+  - "name": "[Intimidation](/3-Mechanics/CLI/skills.md#Intimidation)"
+    "desc": "+12"
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+10"
+"damage_resistances": "thunder; bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [frightened](/3-Mechanics/CLI/conditions.md#Frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/conditions.md#Paralyzed), [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned),\
+  \ [unconscious](/3-Mechanics/CLI/conditions.md#Unconscious)"
+"senses": "darkvision 60 ft., passive Perception 20"
+"languages": "all but rarely speaks"
+"cr": "25"
+"traits":
+  - "desc": "The marut is immune to any spell or effect that would alter its form."
+    "name": "Immutable Form"
+  - "desc": "If the marut fails a saving throw, it can choose to succeed instead."
+    "name": "Legendary Resistance (3/Day)"
+  - "desc": "The marut has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The marut doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
+"actions":
+  - "desc": "The marut makes two Unerring Slam attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit:\
+      \ 60 force damage, and the target is pushed up to 5 feet away from the marut\
+      \ if it is Huge or smaller."
+    "name": "Unerring Slam"
+  - "desc": "Arcane energy emanates from the marut's chest in a 60-foot cube. Every\
+      \ creature in that area takes 45 radiant damage. Each creature that takes any\
+      \ of this damage must succeed on a DC 20 Wisdom saving throw or be [stunned](/3-Mechanics/CLI/conditions.md#Stunned)\
+      \ until the end of the marut's next turn."
+    "name": "Blazing Edict (Recharge 5-6)"
+  - "desc": "The marut casts [plane shift](/3-Mechanics/CLI/spells/plane-shift-xphb.md),\
+      \ requiring no material components and using Intelligence as the spellcasting\
+      \ ability. The marut can cast the spell normally, or it can cast the spell on\
+      \ an unwilling creature it can see within 60 feet of it. If it uses the latter\
+      \ option, the targeted creature must succeed on a DC 20 Charisma saving throw\
+      \ or be banished to a teleportation circle in the Hall of Concordance in Sigil.\n"
+    "name": "Plane Shift (3/Day)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Marut.webp"
 ```
 ^statblock

@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/genasi/air
-aliases: ["Genasi (Air)"]
+aliases:
+- Genasi (Air)
 ---
 # Genasi (Air)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 16*  
+![](races/MPMM/Genasi.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium
@@ -30,7 +32,7 @@ You can speak, read, and write Common and one other language that you and your D
 
 ### Unending Breath
 
-You can hold your breath indefinitely while you're not [incapacitated](/compendium/rules/conditions.md#incapacitated).
+You can hold your breath indefinitely while you're not [incapacitated](/3-Mechanics/CLI/conditions.md#Incapacitated).
 
 ### Lightning Resistance
 
@@ -38,7 +40,7 @@ You have resistance to lightning damage.
 
 ### Mingle with the Wind
 
-You know the [shocking grasp](compendium/spells/shocking-grasp.md) cantrip. Starting at 3rd level, you can cast the [feather fall](compendium/spells/feather-fall.md) spell with this trait, without requiring a material component. Starting 5th level, you can also cast the [levitate](compendium/spells/levitate.md) spell with this trait, without requiring a material component. Once you cast [feather fall](compendium/spells/feather-fall.md) or [levitate](compendium/spells/levitate.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+You know the [shocking grasp](/3-Mechanics/CLI/spells/shocking-grasp-xphb.md) cantrip. Starting at 3rd level, you can cast the [feather fall](/3-Mechanics/CLI/spells/feather-fall-xphb.md) spell with this trait, without requiring a material component. Starting 5th level, you can also cast the [levitate](/3-Mechanics/CLI/spells/levitate-xphb.md) spell with this trait, without requiring a material component. Once you cast [feather fall](/3-Mechanics/CLI/spells/feather-fall-xphb.md) or [levitate](/3-Mechanics/CLI/spells/levitate-xphb.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 

@@ -2,7 +2,7 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
 - ttrpg-cli/monster/environment/arctic
 - ttrpg-cli/monster/environment/forest
@@ -11,9 +11,12 @@ tags:
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/giant
-aliases: ["Dire Troll"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Dire Troll
 ---
-# Dire Troll
+# [Dire Troll](3-Mechanics\CLI\bestiary\giant/dire-troll-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 246*  
 
 Trolls kill and eat almost anything—including, in rare cases, other trolls. This cannibalism has the effect of causing a troll to grow to an unusually large size. The resulting dire trolls crave more and more troll flesh to fuel their continued growth.
@@ -30,41 +33,58 @@ Although trolls are rarely devout and seldom ponder spiritual questions, some fe
 
 Vaprak's troll worshipers believe this god devours the souls of those who have been cooked or digested (slain by fire or acid). Otherwise, the god spits the soul back into the world to regenerate a new body.
 
-## Statblock
-
-```ad-statblock
-title: Dire Troll
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Dire%20Troll.webp#token)
-*Huge giant, Typically  Chaotic Evil*
-
-- **Armor Class** 15  (natural armor)
-- **Hit Points** 172 (`15d12 + 75`)
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|22 (+6)|15 (+2)|21 (+5)| 9 (-1)|11 (+0)| 5 (-3)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Wisdom +5, Charisma +2
-- **Skills** Perception +5
-- **Senses** darkvision 60 ft., passive Perception 15
-- **Languages** Giant
-- **Challenge** 13
-
-## Traits
-
-***Regeneration.*** The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, it regains only 5 hit points at the start of its next turn. The troll dies only if it is hit by an attack that deals 10 or more acid or fire damage while the troll has 0 hit points.
-
-## Actions
-
-***Multiattack.***  The troll makes one Bite attack and four Claw attacks.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+11` (+11 to hit), reach 10 ft., one target. *Hit:* `dice: 1d8 + 6|avg` (`1d8 + 6`) piercing damage plus `dice: 1d10|avg` (`1d10`) poison damage.
-
-***Claws.*** *Melee Weapon Attack:* `dice: d20+11` (+11 to hit), reach 10 ft., one target. *Hit:* `dice: 3d6 + 6|avg` (`3d6 + 6`) slashing damage.
-
-***Whirlwind of Claws (Recharge 5-6).*** Each creature within 10 feet of the troll must make a DC 19 Dexterity saving throw, taking `dice: 8d10|avg` (`8d10`) slashing damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Dire Troll (MPMM)"
+"size": "Huge"
+"type": "giant"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "172"
+"hit_dice": "15d12 + 75"
+"modifier": !!int "2"
+"stats":
+  - !!int "22"
+  - !!int "15"
+  - !!int "21"
+  - !!int "9"
+  - !!int "11"
+  - !!int "5"
+"speed": "40 ft."
+"saves":
+  - "wisdom": !!int "5"
+  - "charisma": !!int "2"
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+5"
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
+"condition_immunities": "[frightened](/3-Mechanics/CLI/conditions.md#Frightened),\
+  \ [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 60 ft., passive Perception 15"
+"languages": "Giant"
+"cr": "13"
+"traits":
+  - "desc": "The troll regains 10 hit points at the start of its turn. If the troll\
+      \ takes acid or fire damage, it regains only 5 hit points at the start of its\
+      \ next turn. The troll dies only if it is hit by an attack that deals 10 or\
+      \ more acid or fire damage while the troll has 0 hit points."
+    "name": "Regeneration"
+"actions":
+  - "desc": "The troll makes one Bite attack and four Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 10\
+      \ (1d8 + 6) piercing damage plus 5 (d10) poison damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 16\
+      \ (3d6 + 6) slashing damage."
+    "name": "Claws"
+  - "desc": "Each creature within 10 feet of the troll must make a DC 19 Dexterity\
+      \ saving throw, taking 44 (8d10) slashing damage on a failed save, or half as\
+      \ much damage on a successful one."
+    "name": "Whirlwind of Claws (Recharge 5-6)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Dire Troll.webp"
 ```
 ^statblock
 

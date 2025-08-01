@@ -2,17 +2,24 @@
 obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
-- compendium/src/5e/xge
+- ttrpg-cli/compendium/src/5e/xge
+- ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
-- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/transmutation
-aliases: ["Guardian of Nature"]
+classes:
+- Bard
+- Druid
+- Ranger
+aliases:
+- Guardian of Nature
 ---
 # Guardian of Nature
 *4th-level, Transmutation*  
 
-- **Casting time:** 1 bonus
+
+- **Casting time:** 1 Bonus Action
 - **Range:** Self
 - **Components:** V
 - **Duration:** Concentration, up to 1 minute
@@ -24,9 +31,9 @@ A nature spirit answers your call and transforms you into a powerful guardian. T
 Bestial fur covers your body, your facial features become feral, and you gain the following benefits:
 
 - Your walking speed increases by 10 feet.  
-- You gain [darkvision](/compendium/rules/senses.md#darkvision) with a range of 120 feet.  
+- You gain [darkvision](/3-Mechanics/CLI/senses.md#Darkvision) with a range of 120 feet.  
 - You make Strength-based attack rolls with advantage.  
-- Your melee weapon attacks deal an extra `dice: 1d6|avg` (`1d6`) force damage on a hit.  
+- Your melee weapon attacks deal an extra `dice:1d6|noform|noparens|avg` (`d6`) force damage on a hit.  
 
 ## Great Tree
 
@@ -39,6 +46,6 @@ Your skin appears barky, leaves sprout from your hair, and you gain the followin
 
 ## Summary
 
-**Classes**: [Druid](compendium/classes/druid.md), [Ranger](compendium/classes/ranger.md)
+**Classes**: [Druid](/3-Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](/3-Mechanics/CLI/lists/list-spells-classes-ranger.md); [Bard](/3-Mechanics/CLI/lists/list-spells-classes-bard.md)
 
 *Source: Xanathar's Guide to Everything p. 157*

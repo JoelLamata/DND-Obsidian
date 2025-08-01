@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Tracking DCs"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Tracking DCs
 ---
 # Tracking DCs
 *Source: Dungeon Master's Guide p. 244* 

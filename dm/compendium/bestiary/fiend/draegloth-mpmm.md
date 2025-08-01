@@ -2,17 +2,20 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/demon
-aliases: ["Draegloth"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Draegloth
 ---
-# Draegloth
+# [Draegloth](3-Mechanics\CLI\bestiary\fiend/draegloth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 98*  
 
-A draegloth is a demon created by an elf priest of Lolth in an unholy, dangerous ritual in which it is infused with the fey essence of the creator and the fiendish essence of a [glabrezu](compendium/bestiary/fiend/glabrezu.md). This ritual rarely succeeds, but Lolth's faithful consider it worth the risk, as the resulting creature is gifted with innate magic and physical might. The draegloth usually serves its creator, lending its thirst for destruction to the creator's plans to triumph over rivals.
+A draegloth is a demon created by an elf priest of Lolth in an unholy, dangerous ritual in which it is infused with the fey essence of the creator and the fiendish essence of a [glabrezu](/3-Mechanics/CLI/bestiary/fiend/glabrezu-xmm.md). This ritual rarely succeeds, but Lolth's faithful consider it worth the risk, as the resulting creature is gifted with innate magic and physical might. The draegloth usually serves its creator, lending its thirst for destruction to the creator's plans to triumph over rivals.
 
 A draegloth is an ogre-sized, four-armed biped with purple skin and pale hair. Two of its arms are muscular, tipped with sharp claws; the other two are the size and shape of an elf's arms, capable of delicate movements. Although the creature is heavily muscled, it is graceful like an elf. Its bestial face features glowing red eyes, a doglike snout, and a mouth full of sharp teeth.
 
@@ -20,43 +23,58 @@ Among the drow noble houses of Menzoberranzan in the Forgotten Realms, a high pr
 
 Although draegloths plays an important part in the plans of Lolth's cult, a draegloth can't rise above the status of a favored servant to a priest in that cult. Before a draegloth is given any duties, it receives instruction in accepting the role set for it and not challenging authority. Most draegloths fiercely resent being given orders, but thanks to their training, they typically take out their frustration on their creator's enemies, rather than on their creator. A draegloth that can't suppress its ambitions might abandon its creator and strike out on its own. Whether these rebellious draegloths are part of Lolth's plan for sowing chaos is unclear.
 
-```ad-statblock
-title: Draegloth
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Draegloth.webp#token)
-*Large fiend (demon), Typically  Chaotic Evil*
-
-- **Armor Class** 15  (natural armor)
-- **Hit Points** 123 (`13d10 + 52`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|20 (+5)|15 (+2)|18 (+4)|13 (+1)|11 (+0)|11 (+0)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +3, Stealth +5
-- **Senses** darkvision 120 ft., passive Perception 13
-- **Languages** Abyssal, Elvish, Undercommon
-- **Challenge** 7
-
-## Traits
-
-***Fey Ancestry.*** The draegloth has advantage on saving throws against being [charmed](/compendium/rules/conditions.md#charmed), and magic can't put it to sleep.
-
-***Spellcasting.*** The draegloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 11):
-
-**At will**: [dancing lights](compendium/spells/dancing-lights.md), [darkness](compendium/spells/darkness.md)
-
-**1/day each**: [confusion](compendium/spells/confusion.md), [faerie fire](compendium/spells/faerie-fire.md)
-
-## Actions
-
-***Multiattack.*** The draegloth makes one Bite attack and two Claw attacks.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 5 ft., one creature. *Hit:* `dice: 2d10 + 5|avg` (`2d10 + 5`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 5|avg` (`2d10 + 5`) slashing damage.
+```statblock
+"name": "Draegloth (MPMM)"
+"size": "Large"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "123"
+"hit_dice": "13d10 + 52"
+"modifier": !!int "2"
+"stats":
+  - !!int "20"
+  - !!int "15"
+  - !!int "18"
+  - !!int "13"
+  - !!int "11"
+  - !!int "11"
+"speed": "30 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+5"
+"damage_resistances": "cold, fire, lightning"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 120 ft., passive Perception 13"
+"languages": "Abyssal, Elvish, Undercommon"
+"cr": "7"
+"traits":
+  - "desc": "The draegloth has advantage on saving throws against being [charmed](/3-Mechanics/CLI/conditions.md#Charmed),\
+      \ and magic can't put it to sleep."
+    "name": "Fey Ancestry"
+"actions":
+  - "desc": "The draegloth makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16\
+      \ (2d10 + 5) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16\
+      \ (2d10 + 5) slashing damage."
+    "name": "Claw"
+  - "desc": "The draegloth casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 11):\n\
+      \nAt will: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights-xphb.md),\
+      \ [darkness](/3-Mechanics/CLI/spells/darkness-xphb.md)\n\n1/day each: [confusion](/3-Mechanics/CLI/spells/confusion-xphb.md),\
+      \ [faerie fire](/3-Mechanics/CLI/spells/faerie-fire-xphb.md)"
+    "name": "Spellcasting"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Draegloth.webp"
 ```
 ^statblock
 

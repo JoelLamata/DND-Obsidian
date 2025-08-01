@@ -2,9 +2,10 @@
 obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/ai
-aliases: ["Enhanced Defense"]
+aliases:
+- Enhanced Defense
 ---
 # Enhanced Defense
 *Source: Tasha's Cauldron of Everything p. 21*  

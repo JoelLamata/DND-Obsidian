@@ -2,18 +2,21 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
 - ttrpg-cli/monster/environment/mountain
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/giant
-aliases: ["Fire Giant Dreadnought"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Fire Giant Dreadnought
 ---
-# Fire Giant Dreadnought
+# [Fire Giant Dreadnought](3-Mechanics\CLI\bestiary\giant/fire-giant-dreadnought-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 124*  
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > When I first saw a fire giant dreadnought, I doubted the giant could even move. I quickly learned my error.
 
@@ -25,39 +28,60 @@ Dreadnoughts are massively powerful fire giants who wield two huge shields like 
 
 When not called on to fight, dreadnoughts maintain their strength by using their shields to shove huge quantities of coal, stone, or ore about the foundry. Occasionally, dreadnoughts are called on by their superiors to accompany a war or diplomatic delegation and use their fierce and intimidating demeanor to strengthen the delegation's position.
 
-```ad-statblock
-title: Fire Giant Dreadnought
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Fire%20Giant%20Dreadnought.webp#token)
-*Huge giant, Typically  Lawful Evil*
-
-- **Armor Class** 21  ([plate](compendium/items/plate-armor.md), [Dual Shields](compendium/items/shield.md))
-- **Hit Points** 187 (`15d12 + 90`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|27 (+8)| 9 (-1)|23 (+6)| 8 (-1)|10 (+0)|11 (+0)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Dexterity +4, Constitution +11, Charisma +5
-- **Skills** Athletics +13, Perception +5
-- **Senses** passive Perception 15
-- **Languages** Giant
-- **Challenge** 14
-
-## Traits
-
-***Dual Shields.*** The giant carries two shields, which together give the giant +3 to its AC (accounted for above).
-
-## Actions
-
-***Multiattack.*** The giant makes two Fireshield or Rock attacks.
-
-***Fireshield.*** *Melee Weapon Attack:* `dice: d20+13` (+13 to hit), reach 5 ft., one target. *Hit:* `dice: 4d6 + 8|avg` (`4d6 + 8`) bludgeoning damage plus `dice: 2d6|avg` (`2d6`) fire damage plus `dice: 2d6|avg` (`2d6`) piercing damage.
-
-***Rock.*** *Ranged Weapon Attack:* `dice: d20+13` (+13 to hit), range 60/240 ft., one target. *Hit:* `dice: 4d10 + 8|avg` (`4d10 + 8`) bludgeoning damage.
-
-***Shield Charge (Recharge 5-6).*** The giant moves up to 30 feet in a straight line and can move through the space of any creature smaller than Huge. The first time it enters a creature's space during this move, that creature must succeed on a DC 21 Strength saving throw or take `dice: 8d6 + 8|avg` (`8d6 + 8`) bludgeoning damage plus `dice: 4d6|avg` (`4d6`) fire damage and be pushed up to 30 feet and knocked [prone](/compendium/rules/conditions.md#prone).
+```statblock
+"name": "Fire Giant Dreadnought (MPMM)"
+"size": "Huge"
+"type": "giant"
+"alignment": "Typically  Lawful Evil"
+"ac": !!int "21"
+"ac_class": "[plate](/3-Mechanics/CLI/items/plate-armor-xphb.md), [Dual Shields](/3-Mechanics/CLI/items/shield-xphb.md)"
+"hp": !!int "187"
+"hit_dice": "15d12 + 90"
+"modifier": !!int "-1"
+"stats":
+  - !!int "27"
+  - !!int "9"
+  - !!int "23"
+  - !!int "8"
+  - !!int "10"
+  - !!int "11"
+"speed": "30 ft."
+"saves":
+  - "dexterity": !!int "4"
+  - "constitution": !!int "11"
+  - "charisma": !!int "5"
+"skillsaves":
+  - "name": "[Athletics](/3-Mechanics/CLI/skills.md#Athletics)"
+    "desc": "+13"
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+5"
+"damage_immunities": "fire"
+"senses": "passive Perception 15"
+"languages": "Giant"
+"cr": "14"
+"traits":
+  - "desc": "The giant carries two shields, which together give the giant +3 to its\
+      \ AC (accounted for above)."
+    "name": "Dual Shields"
+"actions":
+  - "desc": "The giant makes two Fireshield or Rock attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 22\
+      \ (4d6 + 8) bludgeoning damage plus 7 (2d6) fire damage plus 7 (2d6) piercing\
+      \ damage."
+    "name": "Fireshield"
+  - "desc": "Ranged Weapon Attack: +13 to hit, range 60/240 ft., one target. Hit:\
+      \ 30 (4d10 + 8) bludgeoning damage."
+    "name": "Rock"
+  - "desc": "The giant moves up to 30 feet in a straight line and can move through\
+      \ the space of any creature smaller than Huge. The first time it enters a creature's\
+      \ space during this move, that creature must succeed on a DC 21 Strength saving\
+      \ throw or take 36 (8d6 + 8) bludgeoning damage plus 14 (4d6) fire damage and\
+      \ be pushed up to 30 feet and knocked [prone](/3-Mechanics/CLI/conditions.md#Prone)."
+    "name": "Shield Charge (Recharge 5-6)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Fire Giant Dreadnought.webp"
 ```
 ^statblock
 

@@ -2,42 +2,54 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
 - ttrpg-cli/monster/environment/grassland
 - ttrpg-cli/monster/environment/swamp
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast/dinosaur
-aliases: ["Hadrosaurus"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Hadrosaurus
 ---
-# Hadrosaurus
+# [Hadrosaurus](3-Mechanics\CLI\bestiary\beast/hadrosaurus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 96*  
 
 A hadrosaurus is a semi-quadrupedal herbivore with bony head crests. If raised from a hatchling, it can be trained to carry a rider.
 
-```ad-statblock
-title: Hadrosaurus
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Hadrosaurus.webp#token)
-*Large beast (dinosaur), Unaligned*
-
-- **Armor Class** 11  (natural armor)
-- **Hit Points** 19 (`3d10 + 3`)
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|10 (+0)|13 (+1)| 2 (-4)|10 (+0)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2
-- **Senses** passive Perception 12
-- **Languages** —
-- **Challenge** 1/4
-
-## Actions
-
-***Tail.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d10 + 2|avg` (`1d10 + 2`) bludgeoning damage.
+```statblock
+"name": "Hadrosaurus (MPMM)"
+"size": "Large"
+"type": "beast"
+"subtype": "dinosaur"
+"alignment": "Unaligned"
+"ac": !!int "11"
+"ac_class": "natural armor"
+"hp": !!int "19"
+"hit_dice": "3d10 + 3"
+"modifier": !!int "0"
+"stats":
+  - !!int "15"
+  - !!int "10"
+  - !!int "13"
+  - !!int "2"
+  - !!int "10"
+  - !!int "5"
+"speed": "40 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+2"
+"senses": "passive Perception 12"
+"languages": ""
+"cr": "1/4"
+"actions":
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10\
+      \ + 2) bludgeoning damage."
+    "name": "Tail"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Hadrosaurus.webp"
 ```
 ^statblock
 

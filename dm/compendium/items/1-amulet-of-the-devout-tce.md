@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/uncommon
-- ttrpg-cli/item/wondrous
 aliases: 
 - "+1 Amulet of the Devout"
 ---
 # +1 Amulet of the Devout
-*Wondrous Item, uncommon (requires attunement by a cleric or paladin)*  
+*Wondrous item, uncommon (requires attunement by a cleric or paladin)*  
+
 
 - **Weight**: 1.0 lbs.
 

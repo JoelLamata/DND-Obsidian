@@ -2,21 +2,32 @@
 obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
-- compendium/src/5e/xge
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
-- ttrpg-cli/spell/class/fighter/eldritch-knight
-- ttrpg-cli/spell/class/rogue/arcane-trickster
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
-- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/transmutation
-aliases: ["Pyrotechnics"]
+- ttrpg-cli/spell/subclass/arcane-trickster
+- ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subclass/eldritch-knight
+classes:
+- Artificer
+- Bard
+- Bard (College of Lore)
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Sorcerer
+- Wizard
+aliases:
+- Pyrotechnics
 ---
 # Pyrotechnics
 *2nd-level, Transmutation*  
 
-- **Casting time:** 1 action
+
+- **Casting time:** 1 Action
 - **Range:** 60 feet
 - **Components:** V, S
 - **Duration:** Instantaneous
@@ -25,7 +36,7 @@ Choose an area of nonmagical flame that you can see and that fits within a 5-foo
 
 ## Fireworks
 
-The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become [blinded](/compendium/rules/conditions.md#blinded) until the end of your next turn.
+The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become [blinded](/3-Mechanics/CLI/conditions.md#Blinded) until the end of your next turn.
 
 ## Smoke
 
@@ -33,6 +44,6 @@ Thick black smoke spreads out from the target in a 20-foot radius, moving around
 
 ## Summary
 
-**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Bard](compendium/classes/bard.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Fighter (Eldritch Knight)](/3-Mechanics/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer](/3-Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Artificer](/3-Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](/3-Mechanics/CLI/lists/list-spells-classes-bard.md); [Rogue (Arcane Trickster)](/3-Mechanics/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](/3-Mechanics/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](/3-Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 163*

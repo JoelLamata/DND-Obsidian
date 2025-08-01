@@ -2,15 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/0
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/aberration
-aliases: ["Cranium Rat"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Cranium Rat
 ---
-# Cranium Rat
+# [Cranium Rat](3-Mechanics\CLI\bestiary\aberration/cranium-rat-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 83*  
 
 ## Cranium Rat
@@ -19,37 +22,41 @@ Mind flayers create cranium rats by bombarding rats with psionic energy. Cranium
 
 A single cranium rat uses its natural telepathy to communicate hunger, fear, and other base emotions. A swarm of cranium rats communicating telepathically "speaks" as one creature, often referring to itself using the collective pronouns "we" and "us." Some mind flayer colonies use cranium rats as spies. The rats invade communities and act as eyes and ears for the colony's elder brain, transmitting their thoughts when they swarm and are within range of the elder brain's telepathy.
 
-```ad-statblock
-title: Cranium Rat
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Cranium%20Rat.webp#token)
-*Tiny aberration, Unaligned*
-
-- **Armor Class** 12 
-- **Hit Points** 2 (`1d4`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 (-4)|14 (+2)|10 (+0)| 4 (-3)|11 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 30 ft., passive Perception 10
-- **Languages** telepathy 30 ft.
-- **Challenge** 0
-
-## Traits
-
-***Telepathic Shroud.*** The cranium rat is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* 1 piercing damage.
-
-## Bonus Actions
-
-***Illumination.*** The cranium rat sheds dim light from its exposed brain in a 5-foot radius or extinguishes the light.
+```statblock
+"name": "Cranium Rat (MPMM)"
+"size": "Tiny"
+"type": "aberration"
+"alignment": "Unaligned"
+"ac": !!int "12"
+"hp": !!int "2"
+"hit_dice": "1d4"
+"modifier": !!int "2"
+"stats":
+  - !!int "2"
+  - !!int "14"
+  - !!int "10"
+  - !!int "4"
+  - !!int "11"
+  - !!int "8"
+"speed": "30 ft."
+"senses": "darkvision 30 ft., passive Perception 10"
+"languages": "telepathy 30 ft."
+"cr": "0"
+"traits":
+  - "desc": "The cranium rat is immune to any effect that would sense its emotions\
+      \ or read its thoughts, as well as to all divination spells."
+    "name": "Telepathic Shroud"
+"actions":
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing\
+      \ damage."
+    "name": "Bite"
+"bonus_actions":
+  - "desc": "The cranium rat sheds dim light from its exposed brain in a 5-foot radius\
+      \ or extinguishes the light."
+    "name": "Illumination"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Cranium Rat.webp"
 ```
 ^statblock
 

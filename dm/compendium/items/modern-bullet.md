@@ -2,13 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/dmg
-- ttrpg-cli/item/weapon/ammunition/firearm
+- ttrpg-cli/compendium/src/5e/dmg
+- ttrpg-cli/item/age/modern
+- ttrpg-cli/item/gear/ammunition-firearm
+- ttrpg-cli/item/rarity/none
 aliases: 
 - "Modern Bullet"
 ---
 # Modern Bullet
-*Ammunition (Firearm)*  
+*Ammunition (firearm)*  
+
 
 - **Weight**: 0.1 lbs.
 

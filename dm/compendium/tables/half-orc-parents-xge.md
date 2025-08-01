@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/xge
-aliases: ["Half-Orc Parents"]
+- ttrpg-cli/compendium/src/5e/xge
+aliases:
+- Half-Orc Parents
 ---
 # Half-Orc Parents
 *Source: Xanathar's Guide to Everything p. 62* 

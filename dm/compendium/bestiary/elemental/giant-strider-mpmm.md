@@ -2,23 +2,26 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
 - ttrpg-cli/monster/environment/hill
 - ttrpg-cli/monster/environment/mountain
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/elemental
-aliases: ["Giant Strider"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Giant Strider
 ---
-# Giant Strider
+# [Giant Strider](3-Mechanics\CLI\bestiary\elemental/giant-strider-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 137*  
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > Out of curiosity, I once tamed a giant strider. Several potions of fire resistance later, the creature was purring in my lap, and I didn't feel a thing.
 
-> [!quote]- A quote from Tasha  
+> [!quote] A quote from Tasha  
 > 
 > We might have discovered the key to unlock Mordenkainen's frigid heart: magical pets!
 
@@ -26,35 +29,46 @@ These fierce and majestic monsters exhibit attributes of both birds and reptiles
 
 Firenewts prize giant striders and seek to adopt them whenever possible. They provide for stables of these creatures in their lairs, and in return, the giant striders voluntarily serve as mounts for firenewt warriors (in this book).
 
-```ad-statblock
-title: Giant Strider
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Giant%20Strider.webp#token)
-*Large elemental, Unaligned*
-
-- **Armor Class** 14  (natural armor)
-- **Hit Points** 22 (`3d10 + 6`)
-- **Speed** 50 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|13 (+1)|14 (+2)| 4 (-3)|12 (+1)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 11
-- **Languages** —
-- **Challenge** 1
-
-## Traits
-
-***Fire Absorption.*** Whenever the giant strider is subjected to fire damage, it takes no damage and regains a number of hit points equal to half the fire damage dealt.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) piercing damage.
-
-***Fire Burst (Recharge 5-6).*** The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 12 Dexterity saving throw, taking `dice: 4d6|avg` (`4d6`) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren't being worn or carried
+```statblock
+"name": "Giant Strider (MPMM)"
+"size": "Large"
+"type": "elemental"
+"alignment": "Unaligned"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "22"
+"hit_dice": "3d10 + 6"
+"modifier": !!int "1"
+"stats":
+  - !!int "18"
+  - !!int "13"
+  - !!int "14"
+  - !!int "4"
+  - !!int "12"
+  - !!int "6"
+"speed": "50 ft."
+"damage_immunities": "fire"
+"senses": "passive Perception 11"
+"languages": ""
+"cr": "1"
+"traits":
+  - "desc": "Whenever the giant strider is subjected to fire damage, it takes no damage\
+      \ and regains a number of hit points equal to half the fire damage dealt."
+    "name": "Fire Absorption"
+"actions":
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+      \ + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "The giant strider hurls a gout of flame at a point it can see within\
+      \ 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point\
+      \ must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a\
+      \ failed save, or half as much damage on a successful one. The fire spreads\
+      \ around corners, and it ignites flammable objects in that area that aren't\
+      \ being worn or carried"
+    "name": "Fire Burst (Recharge 5-6)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Giant Strider.webp"
 ```
 ^statblock
 

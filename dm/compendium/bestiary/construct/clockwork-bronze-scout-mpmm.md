@@ -2,7 +2,7 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/grassland
@@ -10,9 +10,12 @@ tags:
 - ttrpg-cli/monster/environment/mountain
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
-aliases: ["Clockwork Bronze Scout"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Clockwork Bronze Scout
 ---
-# Clockwork Bronze Scout
+# [Clockwork Bronze Scout](3-Mechanics\CLI\bestiary\construct/clockwork-bronze-scout-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 79*  
 
 A bronze scout seldom emerges from underground. Its telescoping eyestalks observe foes at close range while most of its segmented body remains buried. If detected, it sends electrical shocks through the ground toward pursuers while it retreats.
@@ -31,8 +34,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 | dice: d10 | Enhancement |
 |-----------|-------------|
-| 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](/compendium/rules/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
-| 2 | **Sensors.** The range of the clockwork's [darkvision](/compendium/rules/senses.md#darkvision) increases by 60 feet, and it gains proficiency in [Perception](/compendium/rules/skills.md#Perception) if it lacks that proficiency. |
+| 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](/3-Mechanics/CLI/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
+| 2 | **Sensors.** The range of the clockwork's [darkvision](/3-Mechanics/CLI/senses.md#Darkvision) increases by 60 feet, and it gains proficiency in [Perception](/3-Mechanics/CLI/skills.md#Perception) if it lacks that proficiency. |
 | 3 | **Fortified.** The clockwork's AC increases by 2. |
 | 4 | **Increased Speed.** The clockwork's speed increases by 10 feet. |
 | 5 | **Reinforced Construction.** The clockwork has resistance to force, lightning, and thunder damage. |
@@ -49,51 +52,65 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 | dice: d8 | Malfunction |
 |----------|-------------|
-| 1 | **Faulty Sensors.** Roll a `dice: d6\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](/compendium/rules/conditions.md#blinded) until the end of its turn. |
-| 2 | **Flawed Targeting.** Roll a `dice: d6\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn. |
+| 1 | **Faulty Sensors.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](/3-Mechanics/CLI/conditions.md#Blinded) until the end of its turn. |
+| 2 | **Flawed Targeting.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn. |
 | 3 | **Ground Fault.** The clockwork has vulnerability to lightning damage. |
-| 4 | **Imprinting Loop.** Roll a `dice: d6\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks or dam ages it. |
+| 4 | **Imprinting Loop.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clock work's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks or dam ages it. |
 | 5 | **Limited Steering.** The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn. |
-| 6 | **Overactive Sense of Self-Preservation.** If the clock work has half its hit points or fewer at the start of its turn in combat, roll a `dice: d6\|avg` (`d6`). If you roll a 1, it retreats from combat if possible. It otherwise keeps fighting. |
-| 7 | **Overheats.** Roll a `dice: d6\|avg` (`d6`) at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](/compendium/rules/conditions.md#incapacitated) until the end of its turn. |
+| 6 | **Overactive Sense of Self-Preservation.** If the clock work has half its hit points or fewer at the start of its turn in combat, roll a `dice:d6\|noform\|noparens\|avg` (`d6`). If you roll a 1, it retreats from combat if possible. It otherwise keeps fighting. |
+| 7 | **Overheats.** Roll a `dice:d6\|noform\|noparens\|avg` (`d6`) at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](/3-Mechanics/CLI/conditions.md#Incapacitated) until the end of its turn. |
 | 8 | **Rusty Gears.** The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet. |
 ^clockwork-malfunctions
 
-## Statblock
-
-```ad-statblock
-title: Clockwork Bronze Scout
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Clockwork%20Bronze%20Scout.webp#token)
-*Medium construct, Unaligned*
-
-- **Armor Class** 13 
-- **Hit Points** 36 (`8d8`)
-- **Speed** 30 ft., burrow 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|16 (+3)|11 (+0)| 3 (-4)|14 (+2)| 1 (-5)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +6, Stealth +7
-- **Senses** darkvision 60 ft., passive Perception 16
-- **Languages** understands one language of its creator but can't speak
-- **Challenge** 1
-
-## Traits
-
-***Earth Armor.*** The clockwork doesn't provoke opportunity attacks when it burrows.
-
-***Magic Resistance.*** The clockwork has advantage on saving throws against spells and other magical effects.
-
-***Unusual Nature.*** The clockwork doesn't require air, food, drink, or sleep.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage plus `dice: 1d6|avg` (`1d6`) lightning damage.
-
-***Lightning Flare (Recharges after a Short or Long Rest).*** Each creature in contact with the ground within 15 feet of the clockwork must make a DC 13 Dexterity saving throw, taking `dice: 4d6|avg` (`4d6`) lightning damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Clockwork Bronze Scout (MPMM)"
+"size": "Medium"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"hp": !!int "36"
+"hit_dice": "8d8"
+"modifier": !!int "3"
+"stats":
+  - !!int "10"
+  - !!int "16"
+  - !!int "11"
+  - !!int "3"
+  - !!int "14"
+  - !!int "1"
+"speed": "30 ft., burrow 30 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+7"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [exhaustion](/3-Mechanics/CLI/conditions.md#Exhaustion),\
+  \ [frightened](/3-Mechanics/CLI/conditions.md#Frightened), [paralyzed](/3-Mechanics/CLI/conditions.md#Paralyzed),\
+  \ [petrified](/3-Mechanics/CLI/conditions.md#Petrified), [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 60 ft., passive Perception 16"
+"languages": "understands one language of its creator but can't speak"
+"cr": "1"
+"traits":
+  - "desc": "The clockwork doesn't provoke [opportunity attacks](/3-Mechanics/CLI/actions.md#Opportunity%20Attack)\
+      \ when it burrows."
+    "name": "Earth Armor"
+  - "desc": "The clockwork has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The clockwork doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
+"actions":
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+      \ + 3) piercing damage plus 3 (d6) lightning damage."
+    "name": "Bite"
+  - "desc": "Each creature in contact with the ground within 15 feet of the clockwork\
+      \ must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage\
+      \ on a failed save, or half as much damage on a successful one."
+    "name": "Lightning Flare (Recharges after a Short or Long Rest)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Clockwork Bronze Scout.webp"
 ```
 ^statblock
 

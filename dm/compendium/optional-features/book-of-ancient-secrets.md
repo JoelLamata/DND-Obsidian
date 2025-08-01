@@ -2,12 +2,13 @@
 obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
-- compendium/src/5e/phb
+- ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/ei
-aliases: ["Book of Ancient Secrets"]
+aliases:
+- Book of Ancient Secrets
 ---
 # Book of Ancient Secrets
-*Source: Player's Handbook p. 110. Available in the SRD.*  
+*Source: Player's Handbook p. 110. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 **Prerequisite**: Pact of the Tome
 

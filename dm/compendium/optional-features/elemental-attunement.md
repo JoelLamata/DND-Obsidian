@@ -2,9 +2,10 @@
 obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
-- compendium/src/5e/phb
+- ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/ed
-aliases: ["Elemental Attunement"]
+aliases:
+- Elemental Attunement
 ---
 # Elemental Attunement
 *Source: Player's Handbook p. 81*  

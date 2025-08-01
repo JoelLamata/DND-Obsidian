@@ -2,26 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/dmg
+- ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/tier/major
-- ttrpg-cli/item/wondrous/wondrous-item
+- ttrpg-cli/item/wondrous/generic-variant
 aliases: 
 - "+1 Weapon (no damage)"
-- "+1 Net"
 ---
 # +1 Weapon (no damage)
-*Generic Variant, major, uncommon*  
+*Major, uncommon*  
+
 
 
 You have a +1 bonus to attack rolls made with this weapon.
-
-**Variants**:
-- [+1 Net](#+1%20Net)
-
-### +1 Net
-
-- **Weight**: 3.0 lbs.
-
 
 *Source: Dungeon Master's Guide p. 213*

@@ -2,23 +2,23 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/dmg
+- ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
-- ttrpg-cli/item/property/martial
-- ttrpg-cli/item/property/versatile
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/tier/major
-- ttrpg-cli/item/weapon/martial/melee
+- ttrpg-cli/item/weapon/martial
+- ttrpg-cli/item/weapon/melee
 aliases: 
 - "Sword of Answering (Last Quip)"
 ---
 # Sword of Answering (Last Quip)
-*Melee Weapon, major, legendary (requires attunement by a chaotic neutral creature)*  
+*Weapon ([longsword](/3-Mechanics/CLI/items/longsword-xphb.md)), major, legendary (requires attunement by a chaotic neutral creature)*  
+
 
 - **Damage**:
-  - One-handed: 1d8 S
-  - Two-handed: 1d10 S
-- **Properties**: Martial, [Versatile](/compendium/rules/item-properties.md#Versatile)
+  - One-handed: 1d8 slashing
+  - Two-handed: 1d10 slashing
+- **Properties**: [Versatile](/3-Mechanics/CLI/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 In the world of Greyhawk, only nine of these blades are known to exist. Each is patterned after the legendary sword Fragarach, which is variously translated as "Final Word." Each of the nine swords has its own name and alignment, and each bears a different gem in its pommel.

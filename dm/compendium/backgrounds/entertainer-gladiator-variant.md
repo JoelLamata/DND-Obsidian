@@ -2,16 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- compendium/src/5e/phb
 - ttrpg-cli/background
-aliases: ["Entertainer (Gladiator) (Variant)"]
+- ttrpg-cli/compendium/src/5e/phb
+aliases:
+- Entertainer (Gladiator) (Variant)
 ---
 # Entertainer (Gladiator) (Variant)
 *Source: Player's Handbook p. 131*  
 
-- **Skill Proficiencies.** [Acrobatics](/compendium/rules/skills.md#Acrobatics), [Performance](/compendium/rules/skills.md#Performance)  
-- **Tool Proficiencies.** [Disguise kit](compendium/items/disguise-kit.md), one type of musical instrument  
-- **Equipment.** An inexpensive but unusual weapon, such as a [trident](compendium/items/trident.md) or [net](compendium/items/net.md) (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), [costume clothes](compendium/items/costume-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 15 gp  
+
+- **Skill Proficiencies.** [Acrobatics](/3-Mechanics/CLI/skills.md#Acrobatics), [Performance](/3-Mechanics/CLI/skills.md#Performance)  
+- **Tool Proficiencies.** [Disguise kit](/3-Mechanics/CLI/items/disguise-kit-xphb.md), one type of musical instrument  
+- **Equipment.** An inexpensive but unusual weapon, such as a [trident](/3-Mechanics/CLI/items/trident-xphb.md) or [net](/3-Mechanics/CLI/items/net-xphb.md) (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), [costume clothes](/3-Mechanics/CLI/items/costume-xphb.md), and a belt [pouch](/3-Mechanics/CLI/items/pouch-xphb.md) containing 15 gp  
 
 A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment–perhaps a gladiatorial arena or secret pit fighting club. You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net.
 

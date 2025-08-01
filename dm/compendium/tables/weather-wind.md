@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Weather; Wind"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Weather; Wind
 ---
 # Weather; Wind
 *Source: Dungeon Master's Guide p. 109* 

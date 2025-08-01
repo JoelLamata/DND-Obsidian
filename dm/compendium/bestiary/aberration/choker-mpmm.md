@@ -2,16 +2,19 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/mountain
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/aberration
-aliases: ["Choker"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Choker
 ---
-# Choker
+# [Choker](3-Mechanics\CLI\bestiary\aberration/choker-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 76*  
 
 The choker is a subterranean predator far more dangerous than its small size and spindly, rubbery limbs would suggest.
@@ -24,39 +27,53 @@ When a target presents itself, the choker's starfish-shaped hands dart out of it
 
 Chokers tend to set their ambushes alone, rather than working in concert, but where one choker is found, others are likely to be nearby. They communicate through eerie, keening howls that travel long distances through caves and tunnels but are difficult to identify or locate in a typical echo-filled cavern.
 
-```ad-statblock
-title: Choker
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Choker.webp#token)
-*Small aberration, Typically  Chaotic Evil*
-
-- **Armor Class** 16  (natural armor)
-- **Hit Points** 13 (`3d6 + 3`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|14 (+2)|13 (+1)| 4 (-3)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Languages** Deep Speech
-- **Challenge** 1
-
-## Traits
-
-***Aberrant Quickness (Recharges after a Short or Long Rest).*** The choker can take an extra action on its turn.
-
-***Boneless.*** The choker can move through and occupy a space as narrow as 4 inches wide without squeezing.
-
-***Spider Climb.*** The choker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-## Actions
-
-***Multiattack.*** The choker makes two Tentacle attacks.
-
-***Tentacle.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 10 ft., one target. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage. If the target is a Large or smaller creature, it is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 15). Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends.
+```statblock
+"name": "Choker (MPMM)"
+"size": "Small"
+"type": "aberration"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "13"
+"hit_dice": "3d6 + 3"
+"modifier": !!int "2"
+"stats":
+  - !!int "16"
+  - !!int "14"
+  - !!int "13"
+  - !!int "4"
+  - !!int "12"
+  - !!int "7"
+"speed": "30 ft."
+"skillsaves":
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+6"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Deep Speech"
+"cr": "1"
+"traits":
+  - "desc": "The choker can take an extra action on its turn."
+    "name": "Aberrant Quickness (Recharges after a Short or Long Rest)"
+  - "desc": "The choker can move through and occupy a space as narrow as 4 inches\
+      \ wide without squeezing."
+    "name": "Boneless"
+  - "desc": "The choker can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
+"actions":
+  - "desc": "The choker makes two Tentacle attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage. If the target is a Large or smaller creature, it\
+      \ is [grappled](/3-Mechanics/CLI/conditions.md#Grappled) (escape DC 15). Until\
+      \ this grapple ends, the target is [restrained](/3-Mechanics/CLI/conditions.md#Restrained),\
+      \ and the choker can't use this tentacle on another target. The choker has two\
+      \ tentacles. If this attack is a critical hit, the target also can't breathe\
+      \ or speak until the grapple ends."
+    "name": "Tentacle"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Choker.webp"
 ```
 ^statblock
 

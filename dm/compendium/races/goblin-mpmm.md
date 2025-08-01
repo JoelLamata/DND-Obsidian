@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/goblin
-aliases: ["Goblin"]
+aliases:
+- Goblin
 ---
 # Goblin
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 20*  
+![](races/MPMM/Goblin.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Type**: humanoid
@@ -26,7 +28,7 @@ You can see in dim light within 60 feet of you as if it were bright light and in
 
 ### Fey Ancestry
 
-You have advantage on saving throws you make to avoid or end the [charmed](/compendium/rules/conditions.md#charmed) condition on yourself.
+You have advantage on saving throws you make to avoid or end the [charmed](/3-Mechanics/CLI/conditions.md#Charmed) condition on yourself.
 
 ### Fury of the Small
 
@@ -36,7 +38,7 @@ You can use this trait a number of times equal to your proficiency bonus, regain
 
 ### Nimble Escape
 
-You can take the [Disengage](/compendium/rules/actions.md#Disengage) or [Hide](/compendium/rules/actions.md#Hide) action as a bonus action on each of your turns.
+You can take the [Disengage](/3-Mechanics/CLI/actions.md#Disengage) or [Hide](/3-Mechanics/CLI/actions.md#Hide) action as a bonus action on each of your turns.
 
 ## Description
 

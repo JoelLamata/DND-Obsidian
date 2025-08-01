@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/satyr
-aliases: ["Satyr"]
+aliases:
+- Satyr
 ---
 # Satyr
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 29*  
+![](races/MPMM/Satyr.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Type**: fey
@@ -22,7 +24,7 @@ You are a Fey.
 
 ### Ram
 
-You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals `dice: 1d6|avg` (`1d6`) + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.
+You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals `dice:1d6|noform|noparens|avg` (`d6`) + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Magic Resistance
 
@@ -30,11 +32,11 @@ You have advantage on saving throws against spells.
 
 ### Mirthful Leaps
 
-Whenever you make a long jump or a high jump, you can roll a `dice: d8|avg` (`d8`) and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as usual.
+Whenever you make a long jump or a high jump, you can roll a `dice:d8|noform|noparens|avg` (`d8`) and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as usual.
 
 ### Reveler
 
-As an embodiment of revelry, you have proficiency in the [Performance](/compendium/rules/skills.md#Performance) and [Persuasion](/compendium/rules/skills.md#Persuasion) skills, and you have proficiency with one [musical instrument](compendium/items/musical-instrument.md) of your choice.
+As an embodiment of revelry, you have proficiency in the [Performance](/3-Mechanics/CLI/skills.md#Performance) and [Persuasion](/3-Mechanics/CLI/skills.md#Persuasion) skills, and you have proficiency with one [musical instrument](/3-Mechanics/CLI/items/musical-instrument-xphb.md) of your choice.
 
 ## Description
 

@@ -2,9 +2,10 @@
 obsidianUIMode: preview
 cssclasses: json5e-hazard
 tags:
-- compendium/src/5e/xge
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/hazard/smpl
-aliases: ["Scything Blade Trap"]
+aliases:
+- Scything Blade Trap
 ---
 # Scything Blade Trap
 *Generic Hazard*  

@@ -2,16 +2,19 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/elf
-aliases: ["Shadar-kai Shadow Dancer"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Shadar-kai Shadow Dancer
 ---
-# Shadar-kai Shadow Dancer
+# [Shadar-kai Shadow Dancer](3-Mechanics\CLI\bestiary\humanoid/shadar-kai-shadow-dancer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 213*  
 
 Those who have fought shadow dancers describe the experience as similar to fighting a living darkness. Every dim alcove and darkened nook is a place the lithe and acrobatic shadow dancers can emerge from to ambush their prey. Using this tactic, they attack their enemies from all angles with a flurry of entangling chains that hold fast and corrupt the flesh. When their quarry is helpless, they dispatch it and then loot the corpse for trinkets, particularly anything colorful and lively to gaze at after they return to the gloom of the Shadowfell.
@@ -32,47 +35,62 @@ Within the fortress are items that the Raven Queen finds irresistible: objects i
 
 Shadar-kai encountered outside the Shadowfell are often on quests to find the most sorrow-touched items they can find to bring back to their queen's gloomy castle.
 
-## Statblock
-
-```ad-statblock
-title: Shadar-kai Shadow Dancer
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Shadar-kai%20Shadow%20Dancer.webp#token)
-*Medium humanoid (elf), Any alignment*
-
-- **Armor Class** 15  ([studded leather](compendium/items/studded-leather-armor.md))
-- **Hit Points** 71 (`13d8 + 13`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|16 (+3)|13 (+1)|11 (+0)|12 (+1)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +6, Charisma +4
-- **Skills** Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Languages** Common, Elvish
-- **Challenge** 7
-
-## Traits
-
-***Fey Ancestry.*** The shadar-kai has advantage on saving throws against being [charmed](/compendium/rules/conditions.md#charmed), and magic can't put it to sleep.
-
-## Actions
-
-***Multiattack.*** The shadar-kai makes three Spiked Chain attacks.
-
-It can use Shadow Jump after one of these attacks.
-
-***Spiked Chain.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 2d6 + 3|avg` (`2d6 + 3`) piercing damage. The target must succeed on a DC 14 Dexterity saving throw or suffer one of the following effects (choose one or roll a `dice: d6|avg` (`d6`)):
-
-- **1–2 Decay.** The target takes `dice: 4d10|avg` (`4d10`) necrotic damage.  
-- **3–4 Grapple.** The target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), and the shadar-kai can't grapple another target.  
-- **5–6 Topple.** The target is knocked [prone](/compendium/rules/conditions.md#prone).  
-
-## Bonus Actions
-
-***Shadow Jump.*** The shadar-kai teleports, along with any equipment is it wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it teleports from and the space it teleports to must be in dim light or darkness.
+```statblock
+"name": "Shadar-kai Shadow Dancer (MPMM)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "elf"
+"alignment": "Any alignment"
+"ac": !!int "15"
+"ac_class": "[studded leather](/3-Mechanics/CLI/items/studded-leather-armor-xphb.md)"
+"hp": !!int "71"
+"hit_dice": "13d8 + 13"
+"modifier": !!int "3"
+"stats":
+  - !!int "12"
+  - !!int "16"
+  - !!int "13"
+  - !!int "11"
+  - !!int "12"
+  - !!int "12"
+"speed": "30 ft."
+"saves":
+  - "dexterity": !!int "6"
+  - "charisma": !!int "4"
+"skillsaves":
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+6"
+"damage_resistances": "necrotic"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [exhaustion](/3-Mechanics/CLI/conditions.md#Exhaustion)"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Common, Elvish"
+"cr": "7"
+"traits":
+  - "desc": "The shadar-kai has advantage on saving throws against being [charmed](/3-Mechanics/CLI/conditions.md#Charmed),\
+      \ and magic can't put it to sleep."
+    "name": "Fey Ancestry"
+"actions":
+  - "desc": "The shadar-kai makes three Spiked Chain attacks.\n\nIt can use Shadow\
+      \ Jump after one of these attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10\
+      \ (2d6 + 3) piercing damage. The target must succeed on a DC 14 Dexterity saving\
+      \ throw or suffer one of the following effects (choose one or roll a d6):\n\n\
+      - 1–2 Decay. The target takes 22 (4d10) necrotic damage.  \n- 3–4 Grapple.\
+      \ The target is [grappled](/3-Mechanics/CLI/conditions.md#Grappled) (escape\
+      \ DC 14) if it is a Medium or smaller creature. Until the grapple ends, the\
+      \ target is [restrained](/3-Mechanics/CLI/conditions.md#Restrained), and the\
+      \ shadar-kai can't grapple another target.  \n- 5–6 Topple. The target is\
+      \ knocked [prone](/3-Mechanics/CLI/conditions.md#Prone).  "
+    "name": "Spiked Chain"
+"bonus_actions":
+  - "desc": "The shadar-kai teleports, along with any equipment is it wearing or carrying,\
+      \ up to 30 feet to an unoccupied space it can see. Both the space it teleports\
+      \ from and the space it teleports to must be in dim light or darkness."
+    "name": "Shadow Jump"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Shadar-kai Shadow Dancer.webp"
 ```
 ^statblock
 

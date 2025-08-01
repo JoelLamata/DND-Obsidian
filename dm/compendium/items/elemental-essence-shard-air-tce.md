@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-- ttrpg-cli/item/wondrous
 aliases: 
 - "Elemental Essence Shard (Air)"
 ---
 # Elemental Essence Shard (Air)
-*Wondrous Item, rare (requires attunement by a sorcerer)*  
+*Wondrous item, rare (requires attunement by a sorcerer)*  
+
 
 - **Weight**: 1.0 lbs.
 

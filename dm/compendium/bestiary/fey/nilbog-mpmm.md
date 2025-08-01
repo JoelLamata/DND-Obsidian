@@ -2,16 +2,19 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/hill
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/fey/goblinoid
-aliases: ["Nilbog"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Nilbog
 ---
-# Nilbog
+# [Nilbog](3-Mechanics\CLI\bestiary\fey/nilbog-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 195*  
 
 When Maglubiyet conquered the goblin gods, a trickster deity was determined to get the last laugh. Although Maglubiyet shattered its essence, this trickster god survives in a splintered form as possessing spirits that cause disorder unless they are appeased. Goblins have no name for this deity and dare not give it one, lest Maglubiyet use its name to ensnare and crush it as he did their other deities. They call the possessing spirit, as well as the goblin possessed by it, a nilbog ("goblin" spelled backward), and they revel in the chaos a nilbog sows.
@@ -28,51 +31,63 @@ A goblin targeted by the spirit must succeed on a DC 15 Charisma saving throw or
 
 If its host is killed or the possession is ended by a spell such as hallow, magic circle, or protection from evil and good, the spirit searches for another goblin to possess. The spirit can leave its host at any time, but it won't do so willingly unless it knows there's another potential host nearby. A goblin stripped of their nilbog spirit reverts to their normal statistics and loses the traits they gained while possessed.
 
-## Statblock
-
-```ad-statblock
-title: Nilbog
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Nilbog.webp#token)
-*Small fey (goblinoid), Typically  Chaotic Neutral*
-
-- **Armor Class** 13  ([leather armor](compendium/items/leather-armor.md))
-- **Hit Points** 7 (`2d6`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (-1)|14 (+2)|10 (+0)|10 (+0)| 8 (-1)|15 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Languages** Common, Goblin
-- **Challenge** 1
-
-## Traits
-
-***Nilbogism.*** Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be [charmed](/compendium/rules/conditions.md#charmed) until the end of the creature's next turn. A creature [charmed](/compendium/rules/conditions.md#charmed) in this way must use its action praising the nilbog.
-
-The nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction.
-
-***Spellcasting.*** The nilbog casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 12):
-
-**At will**: [mage hand](compendium/spells/mage-hand.md), [Tasha's hideous laughter](compendium/spells/tashas-hideous-laughter.md)
-
-## Actions
-
-***Fool's Scepter.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) bludgeoning damage.
-
-***Mocking Word.*** The nilbog targets one creature it can see within 60 feet of it. The target must succeed on a DC 12 Wisdom saving throw or take `dice: 2d4|avg` (`2d4`) psychic damage and have disadvantage on its next attack roll before the end of its next turn.
-
-## Bonus Actions
-
-***Nimble Escape.*** The nilbog takes the [Disengage](/compendium/rules/actions.md#Disengage) or [Hide](/compendium/rules/actions.md#Hide) action.
-
-## Reactions
-
-***Reversal of Fortune.*** In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains `dice: 1d6|avg` (`1d6`) hit points.
+```statblock
+"name": "Nilbog (MPMM)"
+"size": "Small"
+"type": "fey"
+"subtype": "goblinoid"
+"alignment": "Typically  Chaotic Neutral"
+"ac": !!int "13"
+"ac_class": "[leather armor](/3-Mechanics/CLI/items/leather-armor-xphb.md)"
+"hp": !!int "7"
+"hit_dice": "2d6"
+"modifier": !!int "2"
+"stats":
+  - !!int "8"
+  - !!int "14"
+  - !!int "10"
+  - !!int "10"
+  - !!int "8"
+  - !!int "15"
+"speed": "30 ft."
+"skillsaves":
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+6"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "Common, Goblin"
+"cr": "1"
+"traits":
+  - "desc": "Any creature that attempts to damage the nilbog must first succeed on\
+      \ a DC 12 Charisma saving throw or be [charmed](/3-Mechanics/CLI/conditions.md#Charmed)\
+      \ until the end of the creature's next turn. A creature [charmed](/3-Mechanics/CLI/conditions.md#Charmed)\
+      \ in this way must use its action praising the nilbog.\n\nThe nilbog can't regain\
+      \ hit points, including through magical healing, except through its Reversal\
+      \ of Fortune reaction."
+    "name": "Nilbogism"
+"actions":
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+      \ + 2) bludgeoning damage."
+    "name": "Fool's Scepter"
+  - "desc": "The nilbog targets one creature it can see within 60 feet of it. The\
+      \ target must succeed on a DC 12 Wisdom saving throw or take 5 (2d4) psychic\
+      \ damage and have disadvantage on its next attack roll before the end of its\
+      \ next turn."
+    "name": "Mocking Word"
+  - "desc": "The nilbog casts one of the following spells, using Charisma as the spellcasting\
+      \ ability (spell save DC 12):\n\nAt will: [mage hand](/3-Mechanics/CLI/spells/mage-hand-xphb.md),\
+      \ [Tasha's hideous laughter](/3-Mechanics/CLI/spells/tashas-hideous-laughter-xphb.md)"
+    "name": "Spellcasting"
+"bonus_actions":
+  - "desc": "The nilbog takes the [Disengage](/3-Mechanics/CLI/actions.md#Disengage)\
+      \ or [Hide](/3-Mechanics/CLI/actions.md#Hide) action."
+    "name": "Nimble Escape"
+"reactions":
+  - "desc": "In response to another creature dealing damage to the nilbog, the nilbog\
+      \ reduces the damage to 0 and regains 3 (d6) hit points."
+    "name": "Reversal of Fortune"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Nilbog.webp"
 ```
 ^statblock
 

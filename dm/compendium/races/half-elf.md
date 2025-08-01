@@ -2,14 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
-- compendium/src/5e/phb
+- ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/half-elf
-aliases: ["Half-Elf"]
+aliases:
+- Half-Elf
 ---
 # Half-Elf
-*Source: Player's Handbook p. 38. Available in the SRD.*  
+*Source: Player's Handbook p. 38. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+![](races/PHB/Half-Elf.webp#right)
 
-- **Ability Scores**: Charisma +2, Apply +1 to 2 (distinct) of Strength, Dexterity, Constitution, Intelligence, Wisdom
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Wisdom.
 - **Size**: Medium
 - **Speed**: 30 ft.
 
@@ -29,7 +31,7 @@ Thanks to your elf blood, you have superior vision in dark and dim conditions. Y
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](/compendium/rules/conditions.md#charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](/3-Mechanics/CLI/conditions.md#Charmed), and magic can't put you to sleep.
 
 ### Skill Versatility
 
@@ -59,5 +61,5 @@ Half-elves use either human or elven naming conventions. As if to emphasize that
 
 > [!note] Excellent Ambassadors
 > 
-> Many half-elves learn at an early age to get along with everyone, defusing hostility and finding common ground. As a race, they have elves grace without elves aloofness and human energy without human boorishness. They often make excellent ambassadors and go-betweens (except between elves and humans, since each side suspects the half-elf of favoring the other).
+> Many half-elves learn at an early age to get along with everyone, defusing hostility and finding common ground. As a race, they have elven grace without elven aloofness and human energy without human boorishness. They often make excellent ambassadors and go-betweens (except between elves and humans, since each side suspects the half-elf of favoring the other).
 ^excellent-ambassadors

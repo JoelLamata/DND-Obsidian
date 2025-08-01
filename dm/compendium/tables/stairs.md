@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Stairs"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Stairs
 ---
 # Stairs
 *Source: Dungeon Master's Guide p. 291* 

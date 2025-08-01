@@ -2,16 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- compendium/src/5e/phb
 - ttrpg-cli/background
-aliases: ["Folk Hero"]
+- ttrpg-cli/compendium/src/5e/phb
+aliases:
+- Folk Hero
 ---
 # Folk Hero
-*Source: Player's Handbook p. 131. Available in the Basic Rules.*  
+*Source: Player's Handbook p. 131. Available in the Basic Rules (2014)*  
 
-- **Skill Proficiencies.** [Animal Handling](/compendium/rules/skills.md#Animal%20Handling), [Survival](/compendium/rules/skills.md#Survival)  
+
+- **Skill Proficiencies.** [Animal Handling](/3-Mechanics/CLI/skills.md#Animal%20Handling), [Survival](/3-Mechanics/CLI/skills.md#Survival)  
 - **Tool Proficiencies.** One type of artisan's tools, vehicles (land)  
-- **Equipment.** A set of artisan's tools (one of your choice), a [shovel](compendium/items/shovel.md), an [iron pot](compendium/items/iron-pot.md), a set of [common clothes](compendium/items/common-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 10 gp  
+- **Equipment.** A set of artisan's tools (one of your choice), a [shovel](/3-Mechanics/CLI/items/shovel-xphb.md), an [iron pot](/3-Mechanics/CLI/items/iron-pot-xphb.md), a set of [common clothes](/3-Mechanics/CLI/items/common-clothes.md), and a belt [pouch](/3-Mechanics/CLI/items/pouch-xphb.md) containing 10 gp  
 
 You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.
 

@@ -2,13 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/phb
-- ttrpg-cli/item/wealth/coinage
+- ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/item/gear/treasure-coinage
+- ttrpg-cli/item/rarity/none
 aliases: 
 - "Electrum (ep)"
 ---
 # Electrum (ep)
-*Coinage*  
+*Treasure (coinage)*  
+![](items/PHB/Electrum (ep).webp#right)
 
 - **Cost**: 5 sp
 - **Weight**: 0.02 lbs.

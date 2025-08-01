@@ -2,15 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/hill
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
-aliases: ["Gray Render"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Gray Render
 ---
-# Gray Render
+# [Gray Render](3-Mechanics\CLI\bestiary\monstrosity/gray-render-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 146*  
 
 A curious impulse drives the gray render. Despite its hulking form and terrible appetite, it wants most of all to bond with an intelligent creature and, once bonded, to give its life to protect that creature. Great strength and a ferocious nature make gray renders fierce guardians, but they lack a shred of cunning.
@@ -41,37 +44,51 @@ The Gray Render Quirks table presents possible quirks for gray renders that can 
 | 12 | Chases birds, leaping into the air to catch them, heedless of the destruction it causes |
 ^gray-render-quirks
 
-```ad-statblock
-title: Gray Render
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Gray%20Render.webp#token)
-*Large monstrosity, Typically  Chaotic Neutral*
-
-- **Armor Class** 19  (natural armor)
-- **Hit Points** 189 (`18d10 + 90`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|13 (+1)|20 (+5)| 3 (-4)| 6 (-2)| 8 (-1)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Strength +8, Constitution +9
-- **Skills** Perception +2
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** —
-- **Challenge** 12
-
-## Actions
-
-***Multiattack.*** The gray render makes one Bite attack and two Claw attacks.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 5 ft., one target. *Hit:* `dice: 2d12 + 4|avg` (`2d12 + 4`) piercing damage. If the target is Medium or smaller, the target must succeed on a DC 16 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone).
-
-***Claw.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 10 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) slashing damage, plus `dice: 3d6|avg` (`3d6`) bludgeoning damage if the target is [prone](/compendium/rules/conditions.md#prone).
-
-## Reactions
-
-***Bloody Rampage.*** When the gray render takes damage, it makes one Claw attack against a random creature within its reach, other than its master.
+```statblock
+"name": "Gray Render (MPMM)"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Typically  Chaotic Neutral"
+"ac": !!int "19"
+"ac_class": "natural armor"
+"hp": !!int "189"
+"hit_dice": "18d10 + 90"
+"modifier": !!int "1"
+"stats":
+  - !!int "19"
+  - !!int "13"
+  - !!int "20"
+  - !!int "3"
+  - !!int "6"
+  - !!int "8"
+"speed": "30 ft."
+"saves":
+  - "strength": !!int "8"
+  - "constitution": !!int "9"
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+2"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": ""
+"cr": "12"
+"actions":
+  - "desc": "The gray render makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17\
+      \ (2d12 + 4) piercing damage. If the target is Medium or smaller, the target\
+      \ must succeed on a DC 16 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/conditions.md#Prone)."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13\
+      \ (2d8 + 4) slashing damage, plus 10 (3d6) bludgeoning damage if the target\
+      \ is [prone](/3-Mechanics/CLI/conditions.md#Prone)."
+    "name": "Claw"
+"reactions":
+  - "desc": "When the gray render takes damage, it makes one Claw attack against a\
+      \ random creature within its reach, other than its master."
+    "name": "Bloody Rampage"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Gray Render.webp"
 ```
 ^statblock
 

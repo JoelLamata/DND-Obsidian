@@ -2,16 +2,22 @@
 obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
-- compendium/src/5e/xge
+- ttrpg-cli/compendium/src/5e/xge
+- ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
-- ttrpg-cli/spell/level/6
+- ttrpg-cli/spell/level/6th-level
 - ttrpg-cli/spell/school/transmutation
-aliases: ["Bones of the Earth"]
+classes:
+- Bard
+- Druid
+aliases:
+- Bones of the Earth
 ---
 # Bones of the Earth
 *6th-level, Transmutation*  
 
-- **Casting time:** 1 action
+
+- **Casting time:** 1 Action
 - **Range:** 120 feet
 - **Components:** V, S
 - **Duration:** Instantaneous
@@ -20,10 +26,10 @@ You cause up to six pillars of stone to burst from places on the ground that you
 
 If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.
 
-If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes `dice: 6d6|avg` (`6d6`) bludgeoning damage and is [restrained](/compendium/rules/conditions.md#restrained), pinched between the pillar and the obstacle. The [restrained](/compendium/rules/conditions.md#restrained) creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer [restrained](/compendium/rules/conditions.md#restrained) and must either move off the pillar or fall off it.
+If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes `dice:6d6|noform|noparens|avg` (`6d6`) bludgeoning damage and is [restrained](/3-Mechanics/CLI/conditions.md#Restrained), pinched between the pillar and the obstacle. The [restrained](/3-Mechanics/CLI/conditions.md#Restrained) creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer [restrained](/3-Mechanics/CLI/conditions.md#Restrained) and must either move off the pillar or fall off it.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th.
 
-**Classes**: [Druid](compendium/classes/druid.md)
+**Classes**: [Druid](/3-Mechanics/CLI/lists/list-spells-classes-druid.md); [Bard](/3-Mechanics/CLI/lists/list-spells-classes-bard.md)
 
 *Source: Xanathar's Guide to Everything p. 150*

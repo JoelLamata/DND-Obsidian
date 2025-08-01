@@ -2,15 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/paladin
-aliases: ["Blackguard"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Blackguard
 ---
-# Blackguard
+# [Blackguard](3-Mechanics\CLI\bestiary\humanoid/blackguard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 63*  
 
 Blackguards are paladins who broke their sacred oaths and now indulge their own villainous ambitions. They consort with Fiends and Undead, and they reject many of the goodly things from their former lives.
@@ -33,47 +36,73 @@ Blackguards often adorn their armor and weapons with dread accoutrements or are 
 | 8 | Glaive adorned with a length of cloth bearing the words "I choose violence" |
 ^blackguard-accoutrements
 
-```ad-statblock
-title: Blackguard
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Blackguard.webp#token)
-*Medium humanoid (paladin), Typically  Neutral Evil*
-
-- **Armor Class** 18  ([plate](compendium/items/plate-armor.md))
-- **Hit Points** 119 (`14d8 + 56`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|11 (+0)|18 (+4)|11 (+0)|14 (+2)|15 (+2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Wisdom +5, Charisma +5
-- **Skills** Athletics +7, Deception +5, Intimidation +5
-- **Senses** passive Perception 12
-- **Languages** any one language (usually Common)
-- **Challenge** 8
-
-***Spellcasting.*** The blackguard casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 13):
-
-**2/day each**: [command](compendium/spells/command.md), [dispel magic](compendium/spells/dispel-magic.md), [find steed](compendium/spells/find-steed.md)
-
-## Actions
-
-***Multiattack.*** The blackguard makes three attacks, using Glaive, Shortbow, or both.
-
-***Glaive.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 10 ft., one target. *Hit:* `dice: 1d10 + 4|avg` (`1d10 + 4`) slashing damage plus `dice: 2d8|avg` (`2d8`) necrotic damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* `dice: d20+3` (+3 to hit), range 80/320 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
-
-***Dreadful Aspect (Recharges after a Short or Long Rest).*** Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be [frightened](/compendium/rules/conditions.md#frightened) of the blackguard for 1 minute. If a [frightened](/compendium/rules/conditions.md#frightened) target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success.
-
-## Bonus Actions
-
-***Smite.*** Immediately after the blackguard hits a target with an attack roll, the blackguard can force that target to make a DC 13 Constitution saving throw. On a failed save, the target suffers one of the following effects of the blackguard's choice:
-
-***Blind.*** The target is [blinded](/compendium/rules/conditions.md#blinded) for 1 minute. The [blinded](/compendium/rules/conditions.md#blinded) target can repeat the save at the end of each of its turns, ending the effect on itself on a success.
-
-***Shove.*** The target is pushed up to 10 feet away and knocked [prone](/compendium/rules/conditions.md#prone).
+```statblock
+"name": "Blackguard (MPMM)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "paladin"
+"alignment": "Typically  Neutral Evil"
+"ac": !!int "18"
+"ac_class": "[plate](/3-Mechanics/CLI/items/plate-armor-xphb.md)"
+"hp": !!int "119"
+"hit_dice": "14d8 + 56"
+"modifier": !!int "0"
+"stats":
+  - !!int "18"
+  - !!int "11"
+  - !!int "18"
+  - !!int "11"
+  - !!int "14"
+  - !!int "15"
+"speed": "30 ft."
+"saves":
+  - "wisdom": !!int "5"
+  - "charisma": !!int "5"
+"skillsaves":
+  - "name": "[Athletics](/3-Mechanics/CLI/skills.md#Athletics)"
+    "desc": "+7"
+  - "name": "[Deception](/3-Mechanics/CLI/skills.md#Deception)"
+    "desc": "+5"
+  - "name": "[Intimidation](/3-Mechanics/CLI/skills.md#Intimidation)"
+    "desc": "+5"
+"senses": "passive Perception 12"
+"languages": "any one language (usually Common)"
+"cr": "8"
+"actions":
+  - "desc": "The blackguard makes three attacks, using Glaive, Shortbow, or both."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9\
+      \ (1d10 + 4) slashing damage plus 9 (2d8) necrotic damage."
+    "name": "Glaive"
+  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Shortbow"
+  - "desc": "Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom\
+      \ saving throw or be [frightened](/3-Mechanics/CLI/conditions.md#Frightened)\
+      \ of the blackguard for 1 minute. If a [frightened](/3-Mechanics/CLI/conditions.md#Frightened)\
+      \ target ends its turn more than 30 feet away from the blackguard, the target\
+      \ can repeat the saving throw, ending the effect on itself on a success."
+    "name": "Dreadful Aspect (Recharges after a Short or Long Rest)"
+  - "desc": "The blackguard casts one of the following spells, using Charisma as the\
+      \ spellcasting ability (spell save DC 13):\n\n2/day each: [command](/3-Mechanics/CLI/spells/command-xphb.md),\
+      \ [dispel magic](/3-Mechanics/CLI/spells/dispel-magic-xphb.md), [find steed](/3-Mechanics/CLI/spells/find-steed-xphb.md)"
+    "name": "Spellcasting"
+"bonus_actions":
+  - "desc": "Immediately after the blackguard hits a target with an attack roll, the\
+      \ blackguard can force that target to make a DC 13 Constitution saving throw.\
+      \ On a failed save, the target suffers one of the following effects of the blackguard's\
+      \ choice:"
+    "name": "Smite"
+  - "desc": "The target is [blinded](/3-Mechanics/CLI/conditions.md#Blinded) for 1\
+      \ minute. The [blinded](/3-Mechanics/CLI/conditions.md#Blinded) target can repeat\
+      \ the save at the end of each of its turns, ending the effect on itself on a\
+      \ success."
+    "name": "Blind"
+  - "desc": "The target is pushed up to 10 feet away and knocked [prone](/3-Mechanics/CLI/conditions.md#Prone)."
+    "name": "Shove"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Blackguard.webp"
 ```
 ^statblock
 

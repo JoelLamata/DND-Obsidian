@@ -2,17 +2,19 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- compendium/src/5e/phb
 - ttrpg-cli/background
-aliases: ["Noble (Knight) (Variant)"]
+- ttrpg-cli/compendium/src/5e/phb
+aliases:
+- Noble (Knight) (Variant)
 ---
 # Noble (Knight) (Variant)
 *Source: Player's Handbook p. 136*  
 
-- **Skill Proficiencies.** [History](/compendium/rules/skills.md#History), [Persuasion](/compendium/rules/skills.md#Persuasion)  
+
+- **Skill Proficiencies.** [History](/3-Mechanics/CLI/skills.md#History), [Persuasion](/3-Mechanics/CLI/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of gaming set  
 - **Languages.** One of your choice  
-- **Equipment.** A set of [fine clothes](compendium/items/fine-clothes.md), a [signet ring](compendium/items/signet-ring.md), a scroll of pedigree, and a purse containing 25 gp  
+- **Equipment.** A set of [fine clothes](/3-Mechanics/CLI/items/fine-clothes-xphb.md), a [signet ring](/3-Mechanics/CLI/items/signet-ring.md), a scroll of pedigree, and a purse containing 25 gp  
 
 A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature. One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).
 

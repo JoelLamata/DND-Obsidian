@@ -2,13 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
-- compendium/src/5e/phb
+- ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/ed
-aliases: ["Gong of the Summit"]
+aliases:
+- Gong of the Summit
 ---
 # Gong of the Summit
 *Source: Player's Handbook p. 81*  
 
-**Prerequisite**: 6th-level
+**Prerequisite**: Level 6
 
-You can spend 3 ki points to cast [shatter](compendium/spells/shatter.md).
+You can spend 3 ki points to cast [shatter](/3-Mechanics/CLI/spells/shatter-xphb.md).

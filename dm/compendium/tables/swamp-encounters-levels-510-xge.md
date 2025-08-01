@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/xge
-aliases: ["Swamp Encounters (Levels 5—10)"]
+- ttrpg-cli/compendium/src/5e/xge
+aliases:
+- Swamp Encounters (Levels 5—10)
 ---
 # Swamp Encounters (Levels 5—10)
 *Source: Xanathar's Guide to Everything p. 105* 
@@ -14,41 +15,41 @@ aliases: ["Swamp Encounters (Levels 5—10)"]
 
 | dice: d100 | Encounter |
 |------------|-----------|
-| 01 | 1 [green hag](compendium/bestiary/fey/green-hag.md) |
-| 02-03 | `dice: 2d4\|avg` (`2d4`) [giant lizards](compendium/bestiary/beast/giant-lizard.md) or `dice: 2d4\|avg` (`2d4`) [giant poisonous snakes](compendium/bestiary/beast/giant-poisonous-snake.md) |
-| 04-05 | `dice: 2d8\|avg` (`2d8`) [winged kobolds](compendium/bestiary/humanoid/winged-kobold.md) |
-| 06-07 | `dice: 1d10 + 1\|avg` (`1d10 + 1`) [bullywugs](compendium/bestiary/humanoid/bullywug.md) with `dice: 1d8 + 1\|avg` (`1d8 + 1`) [giant frogs](compendium/bestiary/beast/giant-frog.md) |
-| 08-09 | 1 [druid](compendium/bestiary/humanoid/druid.md) |
-| 10 | `dice: 1d8 + 1\|avg` (`1d8 + 1`) [swarms of insects](compendium/bestiary/beast/swarm-of-insects.md) |
-| 11-13 | `dice: 1d12\|avg` (`1d12`) [ghouls](compendium/bestiary/undead/ghoul.md) |
-| 14-16 | `dice: 2d8\|avg` (`2d8`) [scouts](compendium/bestiary/humanoid/scout.md) |
-| 17-19 | `dice: 2d10\|avg` (`2d10`) [orcs](compendium/bestiary/humanoid/orc.md) |
-| 20-22 | `dice: 2d4\|avg` (`2d4`) [giant spiders](compendium/bestiary/beast/giant-spider.md) |
-| 23-24 | Tainted water that exposes creatures that move through it to sight rot (see ""Diseases"" in chapter 8 of the *Dungeon Master's Guide*) |
-| 25-27 | `dice: 1d6 + 2\|avg` (`1d6 + 2`) [giant toads](compendium/bestiary/beast/giant-toad.md) |
-| 28-30 | `dice: 3d6\|avg` (`3d6`) [lizardfolk](compendium/bestiary/humanoid/lizardfolk.md) |
-| 31-33 | `dice: 1d8 + 1\|avg` (`1d8 + 1`) yuan-ti purebloods |
-| 34-36 | `dice: 1d4 + 1\|avg` (`1d4 + 1`) swarms of poisonous snakes |
+| 01 | 1 [green hag](/3-Mechanics/CLI/bestiary/fey/green-hag-xmm.md) |
+| 02-03 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [giant lizards](/3-Mechanics/CLI/bestiary/beast/giant-lizard-xmm.md) or `dice:2d4\|noform\|noparens\|avg` (`2d4`) [giant poisonous snakes](/3-Mechanics/CLI/bestiary/beast/giant-venomous-snake-xmm.md) |
+| 04-05 | `dice:2d8\|noform\|noparens\|avg` (`2d8`) [winged kobolds](/3-Mechanics/CLI/bestiary/dragon/winged-kobold-xmm.md) |
+| 06-07 | `dice:1d10+1\|noform\|noparens\|avg` (`1d10 + 1`) [bullywugs](/3-Mechanics/CLI/bestiary/fey/bullywug-warrior-xmm.md) with `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [giant frogs](/3-Mechanics/CLI/bestiary/beast/giant-frog-xmm.md) |
+| 08-09 | 1 [druid](/3-Mechanics/CLI/bestiary/humanoid/druid-xmm.md) |
+| 10 | `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [swarms of insects](/3-Mechanics/CLI/bestiary/beast/swarm-of-insects-xmm.md) |
+| 11-13 | `dice:1d12\|noform\|noparens\|avg` (`d12`) [ghouls](/3-Mechanics/CLI/bestiary/undead/ghoul-xmm.md) |
+| 14-16 | `dice:2d8\|noform\|noparens\|avg` (`2d8`) [scouts](/3-Mechanics/CLI/bestiary/humanoid/scout-xmm.md) |
+| 17-19 | `dice:2d10\|noform\|noparens\|avg` (`2d10`) [orcs](/3-Mechanics/CLI/bestiary/humanoid/tough-xmm.md) |
+| 20-22 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [giant spiders](/3-Mechanics/CLI/bestiary/beast/giant-spider-xmm.md) |
+| 23-24 | Tainted water that exposes creatures that move through it to [sight rot](/3-Mechanics/CLI/diseases.md#Sight%20Rot) (see ""Diseases"" in chapter 8 of the *Dungeon Master's Guide*) |
+| 25-27 | `dice:1d6+2\|noform\|noparens\|avg` (`1d6 + 2`) [giant toads](/3-Mechanics/CLI/bestiary/beast/giant-toad-xmm.md) |
+| 28-30 | `dice:3d6\|noform\|noparens\|avg` (`3d6`) [lizardfolk](/3-Mechanics/CLI/bestiary/humanoid/scout-xmm.md) |
+| 31-33 | `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [yuan-ti purebloods](/3-Mechanics/CLI/bestiary/monstrosity/yuan-ti-infiltrator-xmm.md) |
+| 34-36 | `dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`) [swarms of poisonous snakes](/3-Mechanics/CLI/bestiary/beast/swarm-of-venomous-snakes-xmm.md) |
 | 37-38 | A bloated humanoid corpse floating facedown in the water |
-| 39-41 | 1 [shambling mound](compendium/bestiary/plant/shambling-mound.md) |
-| 42-44 | `dice: 1d4 + 1\|avg` (`1d4 + 1`) [will-o'-wisps](compendium/bestiary/undead/will-o-wisp.md) |
-| 45-47 | `dice: 2d6\|avg` (`2d6`) [crocodiles](compendium/bestiary/beast/crocodile.md) |
-| 48-50 | `dice: 1d4 + 1\|avg` (`1d4 + 1`) [giant constrictor snakes](compendium/bestiary/beast/giant-constrictor-snake.md) |
-| 51-54 | 1 [lizardfolk shaman](compendium/bestiary/humanoid/lizardfolk-shaman.md) with `dice: 1d3\|avg` (`1d3`) swarms of poisonous snakes and `dice: 1d8 + 2\|avg` (`1d8 + 2`) [lizardfolk](compendium/bestiary/humanoid/lizardfolk.md) |
-| 55-58 | `dice: 1d8 + 1\|avg` (`1d8 + 1`) [ogres](compendium/bestiary/giant/ogre.md) |
-| 59-62 | `dice: 2d4\|avg` (`2d4`) [ghasts](compendium/bestiary/undead/ghast.md) |
+| 39-41 | 1 [shambling mound](/3-Mechanics/CLI/bestiary/plant/shambling-mound-xmm.md) |
+| 42-44 | `dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`) [will-o'-wisps](/3-Mechanics/CLI/bestiary/undead/will-o-wisp-xmm.md) |
+| 45-47 | `dice:2d6\|noform\|noparens\|avg` (`2d6`) [crocodiles](/3-Mechanics/CLI/bestiary/beast/crocodile-xmm.md) |
+| 48-50 | `dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`) [giant constrictor snakes](/3-Mechanics/CLI/bestiary/beast/giant-constrictor-snake-xmm.md) |
+| 51-54 | 1 [lizardfolk shaman](/3-Mechanics/CLI/bestiary/elemental/lizardfolk-geomancer-xmm.md) with `dice:1d3\|noform\|noparens\|avg` (`d3`) [swarms of poisonous snakes](/3-Mechanics/CLI/bestiary/beast/swarm-of-venomous-snakes-xmm.md) and `dice:1d8+2\|noform\|noparens\|avg` (`1d8 + 2`) [lizardfolk](/3-Mechanics/CLI/bestiary/humanoid/scout-xmm.md) |
+| 55-58 | `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [ogres](/3-Mechanics/CLI/bestiary/giant/ogre-xmm.md) |
+| 59-62 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [ghasts](/3-Mechanics/CLI/bestiary/undead/ghast-xmm.md) |
 | 63-65 | An altar partially sunk into the mud, devoted to a god that is part human and part frog |
-| 66-69 | 1 giant crocodile |
-| 70-73 | 1 [shambling mound](compendium/bestiary/plant/shambling-mound.md) |
-| 74-77 | 1 orc Eye of Gruumsh with `dice: 1d3\|avg` (`1d3`) [ogres](compendium/bestiary/giant/ogre.md) and `dice: 2d10 + 5\|avg` (`2d10 + 5`) [orcs](compendium/bestiary/humanoid/orc.md) |
-| 78-80 | A torrential rain that lasts `dice: 1d6\|avg` (`1d6`) minutes and puts out all unprotected flames within 1 mile |
-| 81-82 | 1 [young black dragon](compendium/bestiary/dragon/young-black-dragon.md) |
-| 83-84 | `dice: 1d4\|avg` (`1d4`) [green hags](compendium/bestiary/fey/green-hag.md) with `dice: 1d6 + 1\|avg` (`1d6 + 1`) [ogres](compendium/bestiary/giant/ogre.md) |
-| 85-86 | 1 yuan-ti abomination |
-| 87-88 | `dice: 1d4 + 1\|avg` (`1d4 + 1`) [wights](compendium/bestiary/undead/wight.md) |
-| 89-90 | `dice: 1d6 + 1\|avg` (`1d6 + 1`) yuan-ti malisons: type 1, type 2, type 3 |
-| 91-93 | `dice: 1d4 + 1\|avg` (`1d4 + 1`) [trolls](compendium/bestiary/giant/troll.md) |
-| 94-96 | `dice: 1d10\|avg` (`1d10`) revenants |
-| 97-99 | `dice: 1d8 + 1\|avg` (`1d8 + 1`) [water elementals](compendium/bestiary/elemental/water-elemental.md) |
-| 00 | `dice: 1d3\|avg` (`1d3`) [hydras](compendium/bestiary/monstrosity/hydra.md) |
+| 66-69 | 1 [giant crocodile](/3-Mechanics/CLI/bestiary/beast/giant-crocodile-xmm.md) |
+| 70-73 | 1 [shambling mound](/3-Mechanics/CLI/bestiary/plant/shambling-mound-xmm.md) |
+| 74-77 | 1 [orc Eye of Gruumsh](/3-Mechanics/CLI/bestiary/humanoid/cultist-fanatic-xmm.md) with `dice:1d3\|noform\|noparens\|avg` (`d3`) [ogres](/3-Mechanics/CLI/bestiary/giant/ogre-xmm.md) and `dice:2d10+5\|noform\|noparens\|avg` (`2d10 + 5`) [orcs](/3-Mechanics/CLI/bestiary/humanoid/tough-xmm.md) |
+| 78-80 | A torrential rain that lasts `dice:1d6\|noform\|noparens\|avg` (`d6`) minutes and puts out all unprotected flames within 1 mile |
+| 81-82 | 1 [young black dragon](/3-Mechanics/CLI/bestiary/dragon/young-black-dragon-xmm.md) |
+| 83-84 | `dice:1d4\|noform\|noparens\|avg` (`d4`) [green hags](/3-Mechanics/CLI/bestiary/fey/green-hag-xmm.md) with `dice:1d6+1\|noform\|noparens\|avg` (`1d6 + 1`) [ogres](/3-Mechanics/CLI/bestiary/giant/ogre-xmm.md) |
+| 85-86 | 1 [yuan-ti abomination](/3-Mechanics/CLI/bestiary/monstrosity/yuan-ti-abomination-xmm.md) |
+| 87-88 | `dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`) [wights](/3-Mechanics/CLI/bestiary/undead/wight-xmm.md) |
+| 89-90 | `dice:1d6+1\|noform\|noparens\|avg` (`1d6 + 1`) yuan-ti malisons: [type 1](/3-Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-1-xmm.md), [type 2](/3-Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-2-xmm.md), [type 3](/3-Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3-xmm.md) |
+| 91-93 | `dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`) [trolls](/3-Mechanics/CLI/bestiary/giant/troll-xmm.md) |
+| 94-96 | `dice:1d10\|noform\|noparens\|avg` (`d10`) [revenants](/3-Mechanics/CLI/bestiary/undead/revenant-xmm.md) |
+| 97-99 | `dice:1d8+1\|noform\|noparens\|avg` (`1d8 + 1`) [water elementals](/3-Mechanics/CLI/bestiary/elemental/water-elemental-xmm.md) |
+| 00 | `dice:1d3\|noform\|noparens\|avg` (`d3`) [hydras](/3-Mechanics/CLI/bestiary/monstrosity/hydra-xmm.md) |
 ^swamp-encounters-levels-510

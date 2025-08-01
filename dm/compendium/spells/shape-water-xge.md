@@ -2,26 +2,41 @@
 obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
-- compendium/src/5e/xge
-- ttrpg-cli/spell/class/cleric/arcana-domain
-- ttrpg-cli/spell/class/cleric/nature-domain
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/spell/class/druid
-- ttrpg-cli/spell/class/druid/circle-of-the-land
-- ttrpg-cli/spell/class/fighter/eldritch-knight
-- ttrpg-cli/spell/class/rogue/arcane-trickster
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/druidic-warrior
+- ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/wood-elf-magic
 - ttrpg-cli/spell/level/cantrip
+- ttrpg-cli/spell/optfeature/pact-of-the-tome
+- ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/kobold
 - ttrpg-cli/spell/school/transmutation
-aliases: ["Shape Water"]
+- ttrpg-cli/spell/subclass/arcane-trickster
+- ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subclass/eldritch-knight
+- ttrpg-cli/spell/subclass/nature-domain
+classes:
+- Bard (College of Lore)
+- Cleric (Nature Domain)
+- Druid
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Sorcerer
+- Wizard
+aliases:
+- Shape Water
 ---
 # Shape Water
 *cantrip, Transmutation*  
 
-- **Casting time:** 1 action
+
+- **Casting time:** 1 Action
 - **Range:** 30 feet
 - **Components:** S
-- **Duration:** Instantaneous,  up to 1 hour
+- **Duration:** Instantaneous, up to 1 hour
 
 You choose an area of water that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:
 
@@ -32,6 +47,6 @@ You choose an area of water that you can see within range and that fits within a
 
 If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
 
-**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric (Nature Domain)](compendium/classes/cleric-nature-domain.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Druid](/3-Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](/3-Mechanics/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer](/3-Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](/3-Mechanics/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Nature Domain)](/3-Mechanics/CLI/lists/list-spells-classes-nature-domain.md "class=XPHB"); [Bard (College of Lore)](/3-Mechanics/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](/3-Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 164*

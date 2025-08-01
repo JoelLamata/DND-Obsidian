@@ -2,13 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/phb
-- ttrpg-cli/item/wealth/coinage
+- ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/item/gear/treasure-coinage
+- ttrpg-cli/item/rarity/none
 aliases: 
 - "Platinum (pp)"
 ---
 # Platinum (pp)
-*Coinage*  
+*Treasure (coinage)*  
+![](items/PHB/Platinum (pp).webp#right)
 
 - **Cost**: 10 gp
 - **Weight**: 0.02 lbs.

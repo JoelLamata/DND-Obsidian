@@ -2,21 +2,24 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
 - ttrpg-cli/monster/environment/mountain
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
-aliases: ["Star Spawn Larva Mage"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Star Spawn Larva Mage
 ---
-# Star Spawn Larva Mage
+# [Star Spawn Larva Mage](3-Mechanics\CLI\bestiary\aberration/star-spawn-larva-mage-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 228*  
 
 A larva mage is a nightmarish combination of a mortal body and otherworldly substance. When a powerful cultist of a wormlike entity such as Kyuss or Kezef—usually a warlock or other spellcaster—contacts the comet-borne emissary of an Elder Evil, the emissary can merge with a mortal consciousness to create a larva mage. None of the original cultist's personality survives the transformation; what emerges is wholly alien.
 
 ## Star Spawn
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > Stars don't spawn these creatures.
 > 
@@ -38,59 +41,86 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 - Cult of Tharizdun, the Chained God  
 - Cult of Tyranthraxus, the Flamed One  
 
-## Statblock
-
-```ad-statblock
-title: Star Spawn Larva Mage
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Star%20Spawn%20Larva%20Mage.webp#token)
-*Medium aberration, Typically  Chaotic Evil*
-
-- **Armor Class** 16  (natural armor)
-- **Hit Points** 168 (`16d8 + 96`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|12 (+1)|23 (+6)|18 (+4)|12 (+1)|16 (+3)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Dexterity +6, Wisdom +6, Charisma +8
-- **Skills** Perception +6
-- **Senses** darkvision 60 ft., passive Perception 16
-- **Languages** Deep Speech
-- **Challenge** 16
-
-## Traits
-
-***Return to Worms.*** When the mage is reduced to 0 hit points, it breaks apart into a [swarm of insects](compendium/bestiary/beast/swarm-of-insects.md) in the same space. Unless the swarm is destroyed, the mage reforms from it 24 hours later.
-
-***Spellcasting.*** The mage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):
-
-**At will**: [mage hand](compendium/spells/mage-hand.md), [message](compendium/spells/message.md), [minor illusion](compendium/spells/minor-illusion.md)
-
-**1/day**: [dominate monster](compendium/spells/dominate-monster.md)
-
-## Actions
-
-***Multiattack.*** The mage makes three Slam or Eldritch Bolt attacks.
-
-***Slam.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 10 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) bludgeoning damage, and the target must succeed on a DC 19 Constitution saving throw or be [poisoned](/compendium/rules/conditions.md#poisoned) until the end of its next turn.
-
-***Eldritch Bolt.*** *Ranged Spell Attack:* `dice: d20+8` (+8 to hit), range 60 ft., one target. *Hit:* `dice: 3d10 + 3|avg` (`3d10 + 3`) force damage.
-
-***Plague of Worms (Recharge 6).*** Each creature other than a star spawn within 10 feet of the mage must succeed on a DC 19 Dexterity saving throw or take `dice: 5d8|avg` (`5d8`) necrotic damage and be [blinded](/compendium/rules/conditions.md#blinded) and [restrained](/compendium/rules/conditions.md#restrained) by masses of swarming worms. The affected creature takes `dice: 5d8|avg` (`5d8`) necrotic damage at the start of each of the mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-## Reactions
-
-***Feed on Weakness.*** When a creature within 20 feet of the mage fails a saving throw, the mage gains 10 temporary hit points.
-
-## Legendary Actions
-
-***Slam.*** The mage makes one Slam attack.
-
-***Eldritch Bolt (Costs 2 Actions).*** The mage makes one Eldritch Bolt attack.
-
-***Feed (Costs 3 Actions).*** Each creature [restrained](/compendium/rules/conditions.md#restrained) by the mage's Plague of Worms takes `dice: 3d8|avg` (`3d8`) necrotic damage, and the mage gains 6 temporary hit points.
+```statblock
+"name": "Star Spawn Larva Mage (MPMM)"
+"size": "Medium"
+"type": "aberration"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "168"
+"hit_dice": "16d8 + 96"
+"modifier": !!int "1"
+"stats":
+  - !!int "17"
+  - !!int "12"
+  - !!int "23"
+  - !!int "18"
+  - !!int "12"
+  - !!int "16"
+"speed": "30 ft."
+"saves":
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+6"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "psychic"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [frightened](/3-Mechanics/CLI/conditions.md#Frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/conditions.md#Paralyzed), [petrified](/3-Mechanics/CLI/conditions.md#Petrified),\
+  \ [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned), [restrained](/3-Mechanics/CLI/conditions.md#Restrained)"
+"senses": "darkvision 60 ft., passive Perception 16"
+"languages": "Deep Speech"
+"cr": "16"
+"traits":
+  - "desc": "When the mage is reduced to 0 hit points, it breaks apart into a [swarm\
+      \ of insects](/3-Mechanics/CLI/bestiary/beast/swarm-of-insects-xmm.md) in the\
+      \ same space. Unless the swarm is destroyed, the mage reforms from it 24 hours\
+      \ later."
+    "name": "Return to Worms"
+"actions":
+  - "desc": "The mage makes three Slam or Eldritch Bolt attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 7\
+      \ (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 19 Constitution\
+      \ saving throw or be [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned) until\
+      \ the end of its next turn."
+    "name": "Slam"
+  - "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 19\
+      \ (3d10 + 3) force damage."
+    "name": "Eldritch Bolt"
+  - "desc": "Each creature other than a star spawn within 10 feet of the mage must\
+      \ succeed on a DC 19 Dexterity saving throw or take 22 (5d8) necrotic damage\
+      \ and be [blinded](/3-Mechanics/CLI/conditions.md#Blinded) and [restrained](/3-Mechanics/CLI/conditions.md#Restrained)\
+      \ by masses of swarming worms. The affected creature takes 22 (5d8) necrotic\
+      \ damage at the start of each of the mage's turns. The creature can repeat the\
+      \ saving throw at the end of each of its turns, ending the effect on itself\
+      \ on a success."
+    "name": "Plague of Worms (Recharge 6)"
+  - "desc": "The mage casts one of the following spells, requiring no material components\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
+      \ will: [mage hand](/3-Mechanics/CLI/spells/mage-hand-xphb.md), [message](/3-Mechanics/CLI/spells/message-xphb.md),\
+      \ [minor illusion](/3-Mechanics/CLI/spells/minor-illusion-xphb.md)\n\n1/day:\
+      \ [dominate monster](/3-Mechanics/CLI/spells/dominate-monster-xphb.md)"
+    "name": "Spellcasting"
+"reactions":
+  - "desc": "When a creature within 20 feet of the mage fails a saving throw, the\
+      \ mage gains 10 temporary hit points."
+    "name": "Feed on Weakness"
+"legendary_actions":
+  - "desc": "The mage makes one Slam attack."
+    "name": "Slam"
+  - "desc": "The mage makes one Eldritch Bolt attack."
+    "name": "Eldritch Bolt (Costs 2 Actions)"
+  - "desc": "Each creature [restrained](/3-Mechanics/CLI/conditions.md#Restrained)\
+      \ by the mage's Plague of Worms takes 13 (3d8) necrotic damage, and the mage\
+      \ gains 6 temporary hit points."
+    "name": "Feed (Costs 3 Actions)"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Star Spawn Larva Mage.webp"
 ```
 ^statblock
 

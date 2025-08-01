@@ -2,11 +2,12 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/dmg
-aliases: ["Sentient Magic Item Communication"]
+- ttrpg-cli/compendium/src/5e/dmg
+aliases:
+- Sentient Magic Item Communication
 ---
 # Sentient Magic Item Communication
-*Source: Dungeon Master's Guide p. 214. Available in the SRD.* 
+*Source: Dungeon Master's Guide p. 214. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 
 
 **Sentient Magic Item Communication**
 

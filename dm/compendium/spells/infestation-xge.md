@@ -2,32 +2,48 @@
 obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
-- compendium/src/5e/xge
-- ttrpg-cli/spell/class/cleric/arcana-domain
-- ttrpg-cli/spell/class/cleric/nature-domain
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/spell/class/druid
-- ttrpg-cli/spell/class/druid/circle-of-the-land
-- ttrpg-cli/spell/class/fighter/eldritch-knight
-- ttrpg-cli/spell/class/rogue/arcane-trickster
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/druidic-warrior
+- ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/wood-elf-magic
 - ttrpg-cli/spell/level/cantrip
+- ttrpg-cli/spell/optfeature/pact-of-the-tome
+- ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/kobold
 - ttrpg-cli/spell/school/conjuration
-aliases: ["Infestation"]
+- ttrpg-cli/spell/subclass/arcane-trickster
+- ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subclass/eldritch-knight
+- ttrpg-cli/spell/subclass/nature-domain
+classes:
+- Bard (College of Lore)
+- Cleric (Nature Domain)
+- Druid
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Sorcerer
+- Warlock
+- Wizard
+aliases:
+- Infestation
 ---
 # Infestation
 *cantrip, Conjuration*  
 
-- **Casting time:** 1 action
+
+- **Casting time:** 1 Action
 - **Range:** 30 feet
-- **Components:** V, S, a living flea
+- **Components:** V, S, M (a living flea)
 - **Duration:** Instantaneous
 
-You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes `dice: 1d6|avg` (`1d6`) poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a `dice: d4|avg` (`d4`) for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.
+You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes `dice:1d6|noform|noparens|avg` (`d6`) poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a `dice:d4|noform|noparens|avg` (`d4`) for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.
 
-The spell's damage increases by `dice: 1d6|avg` (`1d6`) when you reach 5th level (`dice: 2d6|avg` (`2d6`)), 11th level (`dice: 3d6|avg` (`3d6`)), and 17th level (`dice: 4d6|avg` (`4d6`)).
+The spell's damage increases by `dice:1d6|noform|noparens|avg` (`d6`) when you reach 5th level (`dice:2d6|noform|noparens|avg` (`2d6`)), 11th level (`dice:3d6|noform|noparens|avg` (`3d6`)), and 17th level (`dice:4d6|noform|noparens|avg` (`4d6`)).
 
-**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric (Nature Domain)](compendium/classes/cleric-nature-domain.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Druid](/3-Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](/3-Mechanics/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](/3-Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](/3-Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](/3-Mechanics/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Nature Domain)](/3-Mechanics/CLI/lists/list-spells-classes-nature-domain.md "class=XPHB"); [Bard (College of Lore)](/3-Mechanics/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](/3-Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 158*

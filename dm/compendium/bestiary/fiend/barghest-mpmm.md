@@ -2,7 +2,7 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/grassland
@@ -11,9 +11,12 @@ tags:
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend
-aliases: ["Barghest"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Barghest
 ---
-# Barghest
+# [Barghest](3-Mechanics\CLI\bestiary\fiend/barghest-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 60*  
 
 Long ago, the god Maglubiyet—conqueror and then lord of early goblinoids—bargained with the General of Gehenna for aid. The General provided yugoloths, which then died in service to Maglubiyet. Yet when the time came to honor his part of the compact, Maglubiyet reneged on the deal. In vengeance, the General of Gehenna created the soul-devouring barghests to devour goblinoid souls.
@@ -24,49 +27,78 @@ A barghest hungers for the day when it can complete its mission, return to Gehen
 
 Any conflagration larger than its body acts as a gateway to Gehenna and banishes it to that plane, where it is likely to be slain or enslaved by a yugoloth for its failure.
 
-```ad-statblock
-title: Barghest
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Barghest.webp#token)
-*Large fiend, Typically  Neutral Evil*
-
-- **Armor Class** 17  (natural armor)
-- **Hit Points** 60 (`8d10 + 16`)
-- **Speed** 60 ft. (30 ft. in goblin form)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|15 (+2)|14 (+2)|13 (+1)|12 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +4, Intimidation +4, Perception +5, Stealth +4
-- **Senses** blindsight 60 ft., darkvision 60 ft., passive Perception 15
-- **Languages** Abyssal, Common, Goblin, Infernal, telepathy 60 ft.
-- **Challenge** 4
-
-## Traits
-
-***Fire Banishment.*** When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna
-
-***Soul Feeding.*** The barghest can feed on the corpse of a Fey or Humanoid it killed within the past 10 minutes. This feeding takes at least 1 minute, and it destroys the corpse. The victim's soul is trapped in the barghest for 24 hours, after which time it is digested and the person is incapable of being revived. If the barghest dies before the soul is digested, the soul is released. While a soul is trapped in the barghest, any magic that tries to restore the soul to life has a 50% chance chance of failing and being wasted.
-
-***Spellcasting.*** The barghest casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 12):
-
-**At will**: [levitate](compendium/spells/levitate.md), [minor illusion](compendium/spells/minor-illusion.md), [pass without trace](compendium/spells/pass-without-trace.md)
-
-**1/day each**: [charm person](compendium/spells/charm-person.md), [dimension door](compendium/spells/dimension-door.md), [suggestion](compendium/spells/suggestion.md)
-
-## Actions
-
-***Multiattack.*** The barghest makes one Bite attack and one Claw attack.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) slashing damage.
-
-## Bonus Actions
-
-***Change Shape.*** The barghest transforms into a Small goblin or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. The barghest reverts to its true form if it dies.
+```statblock
+"name": "Barghest (MPMM)"
+"size": "Large"
+"type": "fiend"
+"alignment": "Typically  Neutral Evil"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "60"
+"hit_dice": "8d10 + 16"
+"modifier": !!int "2"
+"stats":
+  - !!int "19"
+  - !!int "15"
+  - !!int "14"
+  - !!int "13"
+  - !!int "12"
+  - !!int "14"
+"speed": "60 ft. (30 ft. in goblin form)"
+"skillsaves":
+  - "name": "[Deception](/3-Mechanics/CLI/skills.md#Deception)"
+    "desc": "+4"
+  - "name": "[Intimidation](/3-Mechanics/CLI/skills.md#Intimidation)"
+    "desc": "+4"
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+4"
+"damage_resistances": "cold; lightning; bludgeoning, piercing, slashing from nonmagical\
+  \ attacks"
+"damage_immunities": "acid, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 15"
+"languages": "Abyssal, Common, Goblin, Infernal, telepathy 60 ft."
+"cr": "4"
+"traits":
+  - "desc": "When the barghest starts its turn engulfed in flames that are at least\
+      \ 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or\
+      \ be instantly banished to Gehenna"
+    "name": "Fire Banishment"
+  - "desc": "The barghest can feed on the corpse of a Fey or Humanoid it killed within\
+      \ the past 10 minutes. This feeding takes at least 1 minute, and it destroys\
+      \ the corpse. The victim's soul is trapped in the barghest for 24 hours, after\
+      \ which time it is digested and the person is incapable of being revived. If\
+      \ the barghest dies before the soul is digested, the soul is released. While\
+      \ a soul is trapped in the barghest, any magic that tries to restore the soul\
+      \ to life has a 50 percent chance of failing and being wasted."
+    "name": "Soul Feeding"
+"actions":
+  - "desc": "The barghest makes one Bite attack and one Claw attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+      \ + 4) slashing damage."
+    "name": "Claw"
+  - "desc": "The barghest casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\
+      \nAt will: [levitate](/3-Mechanics/CLI/spells/levitate-xphb.md), [minor\
+      \ illusion](/3-Mechanics/CLI/spells/minor-illusion-xphb.md), [pass without trace](/3-Mechanics/CLI/spells/pass-without-trace-xphb.md)\n\
+      \n1/day each: [charm person](/3-Mechanics/CLI/spells/charm-person-xphb.md),\
+      \ [dimension door](/3-Mechanics/CLI/spells/dimension-door-xphb.md), [suggestion](/3-Mechanics/CLI/spells/suggestion-xphb.md)"
+    "name": "Spellcasting"
+"bonus_actions":
+  - "desc": "The barghest transforms into a Small goblin or back into its true form.\
+      \ Other than its size and speed, its statistics are the same in each form. Any\
+      \ equipment it is wearing or carrying isn't transformed. The barghest reverts\
+      \ to its true form if it dies."
+    "name": "Change Shape"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Barghest.webp"
 ```
 ^statblock
 

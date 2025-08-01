@@ -2,14 +2,17 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
-aliases: ["Girallon"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Girallon
 ---
-# Girallon
+# [Girallon](3-Mechanics\CLI\bestiary\monstrosity/girallon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 139*  
 
 A girallon looks like an oversized, four-armed ape with grayish-tan skin and white fur. Its vicious fangs and claws reveal it to be a monstrous predator.
@@ -26,37 +29,47 @@ Numerous creatures have tried to tame, subjugate, or cooperate with the monsters
 
 Girallons that are well treated might be willing to serve as guards, though they lack the intelligence to take on tasks more complicated than attacking strangers who enter their domain. A girallon that's captured when young and carefully trained could end up in a seemingly unlikely place, such as guarding the entrance to a city's thieves' guild. Those who would keep a girallon must always be wary, however, because the creature could revert to its predatory nature at any time.
 
-```ad-statblock
-title: Girallon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Girallon.webp#token)
-*Large monstrosity, Unaligned*
-
-- **Armor Class** 13 
-- **Hit Points** 59 (`7d10 + 21`)
-- **Speed** 40 ft., climb 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|16 (+3)|16 (+3)| 5 (-3)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +5, Stealth +5
-- **Senses** darkvision 60 ft., passive Perception 15
-- **Languages** —
-- **Challenge** 4
-
-## Actions
-
-***Multiattack.*** The girallon makes one Bite attack and four Claw attacks.
-
-***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) slashing damage.
-
-## Bonus Actions
-
-***Aggressive.*** The girallon moves up to its speed toward a hostile creature that it can see.
+```statblock
+"name": "Girallon (MPMM)"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"hp": !!int "59"
+"hit_dice": "7d10 + 21"
+"modifier": !!int "3"
+"stats":
+  - !!int "18"
+  - !!int "16"
+  - !!int "16"
+  - !!int "5"
+  - !!int "12"
+  - !!int "7"
+"speed": "40 ft., climb 40 ft."
+"skillsaves":
+  - "name": "[Perception](/3-Mechanics/CLI/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+5"
+"senses": "darkvision 60 ft., passive Perception 15"
+"languages": ""
+"cr": "4"
+"actions":
+  - "desc": "The girallon makes one Bite attack and four Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7\
+      \ (1d6 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7\
+      \ (1d6 + 4) slashing damage."
+    "name": "Claw"
+"bonus_actions":
+  - "desc": "The girallon moves up to its speed toward a hostile creature that it\
+      \ can see."
+    "name": "Aggressive"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Girallon.webp"
 ```
 ^statblock
 

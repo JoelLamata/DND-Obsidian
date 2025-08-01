@@ -2,16 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- compendium/src/5e/phb
 - ttrpg-cli/background
-aliases: ["Criminal (Spy) (Variant)"]
+- ttrpg-cli/compendium/src/5e/phb
+aliases:
+- Criminal (Spy) (Variant)
 ---
 # Criminal (Spy) (Variant)
-*Source: Player's Handbook p. 130. Available in the Basic Rules.*  
+*Source: Player's Handbook p. 130. Available in the Basic Rules (2014)*  
 
-- **Skill Proficiencies.** [Deception](/compendium/rules/skills.md#Deception), [Stealth](/compendium/rules/skills.md#Stealth)  
-- **Tool Proficiencies.** One type of gaming set, [thieves' tools](compendium/items/thieves-tools.md)  
-- **Equipment.** A [crowbar](compendium/items/crowbar.md), a set of dark [common clothes](compendium/items/common-clothes.md) including a hood, and a belt [pouch](compendium/items/pouch.md) containing 15 gp  
+
+- **Skill Proficiencies.** [Deception](/3-Mechanics/CLI/skills.md#Deception), [Stealth](/3-Mechanics/CLI/skills.md#Stealth)  
+- **Tool Proficiencies.** One type of gaming set, [thieves' tools](/3-Mechanics/CLI/items/thieves-tools-xphb.md)  
+- **Equipment.** A [crowbar](/3-Mechanics/CLI/items/crowbar-xphb.md), a set of dark [common clothes](/3-Mechanics/CLI/items/common-clothes.md) including a hood, and a belt [pouch](/3-Mechanics/CLI/items/pouch-xphb.md) containing 15 gp  
 
 Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder.
 

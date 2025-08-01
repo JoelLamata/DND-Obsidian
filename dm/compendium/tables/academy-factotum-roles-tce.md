@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/tce
-aliases: ["Academy Factotum Roles"]
+- ttrpg-cli/compendium/src/5e/tce
+aliases:
+- Academy Factotum Roles
 ---
 # Academy Factotum Roles
 *Source: Tasha's Cauldron of Everything p. 85* 
@@ -12,10 +13,10 @@ aliases: ["Academy Factotum Roles"]
 
 | Role | Backgrounds |
 |------|-------------|
-| Student | [Acolyte](compendium/backgrounds/acolyte.md), [Guild Artisan](compendium/backgrounds/guild-artisan.md), [Noble](compendium/backgrounds/noble.md), [Outlander](compendium/backgrounds/outlander.md), [Sage](compendium/backgrounds/sage.md), [Urchin](compendium/backgrounds/urchin.md) |
-| Groundskeeper | [Charlatan](compendium/backgrounds/charlatan.md), [Hermit](compendium/backgrounds/hermit.md), [Outlander](compendium/backgrounds/outlander.md), [Soldier](compendium/backgrounds/soldier.md), [Urchin](compendium/backgrounds/urchin.md) |
-| Professor | [Acolyte](compendium/backgrounds/acolyte.md), [Entertainer](compendium/backgrounds/entertainer.md), [Folk Hero](compendium/backgrounds/folk-hero.md), [Noble](compendium/backgrounds/noble.md), [Sage](compendium/backgrounds/sage.md) |
-| Researcher | [Acolyte](compendium/backgrounds/acolyte.md), [Charlatan](compendium/backgrounds/charlatan.md), [Guild Artisan](compendium/backgrounds/guild-artisan.md), [Hermit](compendium/backgrounds/hermit.md), [Sage](compendium/backgrounds/sage.md) |
-| Financier | [Charlatan](compendium/backgrounds/charlatan.md), [Criminal](compendium/backgrounds/criminal.md), [Noble](compendium/backgrounds/noble.md), [Sailor](compendium/backgrounds/sailor.md), [Urchin](compendium/backgrounds/urchin.md) |
+| Student | [Acolyte](/3-Mechanics/CLI/backgrounds/acolyte-xphb.md), [Guild Artisan](/3-Mechanics/CLI/backgrounds/guild-artisan.md), [Noble](/3-Mechanics/CLI/backgrounds/noble-xphb.md), [Outlander](/3-Mechanics/CLI/backgrounds/outlander.md), [Sage](/3-Mechanics/CLI/backgrounds/sage-xphb.md), [Urchin](/3-Mechanics/CLI/backgrounds/urchin.md) |
+| Groundskeeper | [Charlatan](/3-Mechanics/CLI/backgrounds/charlatan-xphb.md), [Hermit](/3-Mechanics/CLI/backgrounds/hermit-xphb.md), [Outlander](/3-Mechanics/CLI/backgrounds/outlander.md), [Soldier](/3-Mechanics/CLI/backgrounds/soldier-xphb.md), [Urchin](/3-Mechanics/CLI/backgrounds/urchin.md) |
+| Professor | [Acolyte](/3-Mechanics/CLI/backgrounds/acolyte-xphb.md), [Entertainer](/3-Mechanics/CLI/backgrounds/entertainer-xphb.md), [Folk Hero](/3-Mechanics/CLI/backgrounds/folk-hero.md), [Noble](/3-Mechanics/CLI/backgrounds/noble-xphb.md), [Sage](/3-Mechanics/CLI/backgrounds/sage-xphb.md) |
+| Researcher | [Acolyte](/3-Mechanics/CLI/backgrounds/acolyte-xphb.md), [Charlatan](/3-Mechanics/CLI/backgrounds/charlatan-xphb.md), [Guild Artisan](/3-Mechanics/CLI/backgrounds/guild-artisan.md), [Hermit](/3-Mechanics/CLI/backgrounds/hermit-xphb.md), [Sage](/3-Mechanics/CLI/backgrounds/sage-xphb.md) |
+| Financier | [Charlatan](/3-Mechanics/CLI/backgrounds/charlatan-xphb.md), [Criminal](/3-Mechanics/CLI/backgrounds/criminal-xphb.md), [Noble](/3-Mechanics/CLI/backgrounds/noble-xphb.md), [Sailor](/3-Mechanics/CLI/backgrounds/sailor-xphb.md), [Urchin](/3-Mechanics/CLI/backgrounds/urchin.md) |
 | Expert Speaker | Any |
 ^academy-factotum-roles

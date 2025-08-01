@@ -2,18 +2,21 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
 - ttrpg-cli/monster/environment/mountain
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/aberration
-aliases: ["Derro"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Derro
 ---
-# Derro
+# [Derro](3-Mechanics\CLI\bestiary\aberration/derro-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 91*  
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > Mind flayers must be stopped. They have visited horrors on countless worlds, and entire groups of people have been mutated by illithid experiments. Such are the derro.
 > 
@@ -27,37 +30,49 @@ Grandiose fantasies and rampant fanaticism have obscured derro's true origin, ev
 
 Derro tell their own stories of flight and survival in the Underdark, in which mind flayers aren't always the enemy. They tell of two brothers, the gods Diirinka and Diinkarazan, and of how Diirinka cleverly betrayed his sibling so that he could steal magical power from the evil they escaped. The danger the brothers are said to face in this legend varies, depending on whatever foe the savants want to lead their people against, yet the essence of the story remains the same: a lesson of survival at any price and an example of how deceitfulness and cruelty can be virtues.
 
-```ad-statblock
-title: Derro
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Derro.webp#token)
-*Small aberration, Typically  Chaotic Evil*
-
-- **Armor Class** 13  ([leather armor](compendium/items/leather-armor.md))
-- **Hit Points** 13 (`3d6 + 3`)
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|14 (+2)|12 (+1)|11 (+0)| 5 (-3)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +4
-- **Senses** darkvision 120 ft., passive Perception 7
-- **Languages** Dwarvish, Undercommon
-- **Challenge** 1/4
-
-## Traits
-
-***Magic Resistance.*** The derro has advantage on saving throws against spells and other magical effects.
-
-***Sunlight Sensitivity.*** While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Hooked Spear.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6|avg` (`1d6`) piercing damage. If the target is Medium or smaller, the derro can choose to deal no damage and knock it [prone](/compendium/rules/conditions.md#prone).
-
-***Light Crossbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 80/320 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage.
+```statblock
+"name": "Derro (MPMM)"
+"size": "Small"
+"type": "aberration"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "13"
+"ac_class": "[leather armor](/3-Mechanics/CLI/items/leather-armor-xphb.md)"
+"hp": !!int "13"
+"hit_dice": "3d6 + 3"
+"modifier": !!int "2"
+"stats":
+  - !!int "10"
+  - !!int "14"
+  - !!int "12"
+  - !!int "11"
+  - !!int "5"
+  - !!int "9"
+"speed": "30 ft."
+"skillsaves":
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+4"
+"senses": "darkvision 120 ft., passive Perception 7"
+"languages": "Dwarvish, Undercommon"
+"cr": "1/4"
+"traits":
+  - "desc": "The derro has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "While in sunlight, the derro has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](/3-Mechanics/CLI/skills.md#Perception)) checks\
+      \ that rely on sight."
+    "name": "Sunlight Sensitivity"
+"actions":
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (d6)\
+      \ piercing damage. If the target is Medium or smaller, the derro can choose\
+      \ to deal no damage and knock it [prone](/3-Mechanics/CLI/conditions.md#Prone)."
+    "name": "Hooked Spear"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 6 (1d8 + 2) piercing damage."
+    "name": "Light Crossbow"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Derro.webp"
 ```
 ^statblock
 

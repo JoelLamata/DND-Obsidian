@@ -2,16 +2,19 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
-aliases: ["Star Spawn Mangler"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Star Spawn Mangler
 ---
-# Star Spawn Mangler
+# [Star Spawn Mangler](3-Mechanics\CLI\bestiary\aberration/star-spawn-mangler-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 229*  
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > The cultists who blaspheme reality by calling out to Elder Evils often speak of a Far Realm from which these entities hail.
 > 
@@ -21,7 +24,7 @@ A mangler is a low-slung, creeping horror with multiple gangly arms—it most of
 
 ## Star Spawn
 
-> [!quote]- A quote from Mordenkainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > Stars don't spawn these creatures.
 > 
@@ -43,42 +46,55 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 - Cult of Tharizdun, the Chained God  
 - Cult of Tyranthraxus, the Flamed One  
 
-## Statblock
-
-```ad-statblock
-title: Star Spawn Mangler
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Star%20Spawn%20Mangler.webp#token)
-*Medium aberration, Typically  Chaotic Evil*
-
-- **Armor Class** 14 
-- **Hit Points** 71 (`13d8 + 13`)
-- **Speed** 40 ft., climb 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (-1)|18 (+4)|12 (+1)|11 (+0)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +7, Constitution +4
-- **Skills** Stealth +7
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Languages** Deep Speech
-- **Challenge** 5
-
-## Traits
-
-***Ambusher.*** The mangler has advantage on initiative rolls.
-
-## Actions
-
-***Multiattack.*** The mangler makes two Claw attacks.
-
-***Claw.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) slashing damage. If the attack roll has advantage, the target also takes `dice: 2d6|avg` (`2d6`) psychic damage.
-
-***Flurry of Claws (Recharge 5-6).*** The mangler makes six Claw attacks. Either before or after these attacks, it can move up to its speed without provoking opportunity attacks.
-
-## Bonus Actions
-
-***Shadow Stealth.*** While in dim light or darkness, the mangler takes the [Hide](/compendium/rules/actions.md#Hide) action.
+```statblock
+"name": "Star Spawn Mangler (MPMM)"
+"size": "Medium"
+"type": "aberration"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "14"
+"hp": !!int "71"
+"hit_dice": "13d8 + 13"
+"modifier": !!int "4"
+"stats":
+  - !!int "8"
+  - !!int "18"
+  - !!int "12"
+  - !!int "11"
+  - !!int "12"
+  - !!int "7"
+"speed": "40 ft., climb 40 ft."
+"saves":
+  - "dexterity": !!int "7"
+  - "constitution": !!int "4"
+"skillsaves":
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+7"
+"damage_resistances": "cold"
+"damage_immunities": "psychic"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [frightened](/3-Mechanics/CLI/conditions.md#Frightened),\
+  \ [prone](/3-Mechanics/CLI/conditions.md#Prone)"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Deep Speech"
+"cr": "5"
+"traits":
+  - "desc": "The mangler has advantage on initiative rolls."
+    "name": "Ambusher"
+"actions":
+  - "desc": "The mangler makes two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+      \ + 4) slashing damage. If the attack roll has advantage, the target also takes\
+      \ 7 (2d6) psychic damage."
+    "name": "Claw"
+  - "desc": "The mangler makes six Claw attacks. Either before or after these attacks,\
+      \ it can move up to its speed without provoking [opportunity attacks](/3-Mechanics/CLI/actions.md#Opportunity%20Attack)."
+    "name": "Flurry of Claws (Recharge 5-6)"
+"bonus_actions":
+  - "desc": "While in dim light or darkness, the mangler takes the [Hide](/3-Mechanics/CLI/actions.md#Hide)\
+      \ action."
+    "name": "Shadow Stealth"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Star Spawn Mangler.webp"
 ```
 ^statblock

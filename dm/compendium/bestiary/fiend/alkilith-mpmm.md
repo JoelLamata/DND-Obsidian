@@ -2,15 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
-- compendium/src/5e/mpmm
+- ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/demon
-aliases: ["Alkilith"]
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- Alkilith
 ---
-# Alkilith
+# [Alkilith](3-Mechanics\CLI\bestiary\fiend/alkilith-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 44*  
 
 An alkilith is easily mistaken for some kind of foul fungal growth that appears on doorways, windows, and other portals. These dripping infestations conceal the demonic nature of the alkilith, making what should be a dire warning appear strange but otherwise innocuous. Wherever alkiliths take root, they weaken the fabric of reality, creating a portal through which even nastier demons can invade.
@@ -19,49 +22,78 @@ The appearance of an alkilith in the world heralds a great wrongness and an immi
 
 Alkiliths spring from cast-off bits of the hideous, shuddering body of Juiblex. They gradually become self-aware and seek to find their way onto the Material Plane. Since most cultists consider them too risky to summon—they can, after all, create portals to the Abyss—alkiliths must find other escape routes out of their native plane.
 
-```ad-statblock
-title: Alkilith
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Alkilith.webp#token)
-*Medium fiend (demon), Typically  Chaotic Evil*
-
-- **Armor Class** 17  (natural armor)
-- **Hit Points** 168 (`16d8 + 96`)
-- **Speed** 40 ft., climb 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|19 (+4)|22 (+6)| 6 (-2)|11 (+0)| 7 (-2)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +8, Constitution +10
-- **Skills** Stealth +8
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Languages** understands Abyssal but can't speak
-- **Challenge** 11
-
-## Traits
-
-***Abyssal Rift.*** If the alkilith surrounds a door, window, or similar opening continuously for `dice: 6d6|avg` (`6d6`) days, the opening becomes a permanent portal to a random layer of the Abyss.
-
-***Amorphous.*** The alkilith can move through a space as narrow as 1 inch wide without squeezing.
-
-***False Appearance.*** If the alkilith is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the alkilith move or act, that creature must succeed on a DC 18 Intelligence ([Investigation](/compendium/rules/skills.md#Investigation)) check to discern that the alkilith isn't ordinary slime or fungus.
-
-***Foment Confusion.*** Any creature that isn't a demon that starts its turn within 30 feet of the alkilith must succeed on a DC 18 Wisdom saving throw, or it hears a faint buzzing in its head for a moment and has disadvantage on its next attack roll, saving throw, or ability check.
-
-If the saving throw against Foment Confusion fails by 5 or more, the creature is instead subjected to the [confusion](compendium/spells/confusion.md) spell for 1 minute (no [concentration](/compendium/rules/conditions.md#concentration) required by the alkilith). While under the effect of that confusion, the creature is immune to Foment Confusion.
-
-***Magic Resistance.*** The alkilith has advantage on saving throws against spells and other magical effects.
-
-***Spider Climb.*** The alkilith can climb difficult surfaces, such as upside down on ceilings, without making an ability check.
-
-***Unusual Nature.*** The alkilith doesn't require air, food, drink, or sleep.
-
-## Actions
-
-***Multiattack.*** The alkilith makes three Tentacle attacks.
-
-***Tentacle.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 15 ft., one target. *Hit:* `dice: 4d6 + 4|avg` (`4d6 + 4`) acid damage.
+```statblock
+"name": "Alkilith (MPMM)"
+"size": "Medium"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "168"
+"hit_dice": "16d8 + 96"
+"modifier": !!int "4"
+"stats":
+  - !!int "12"
+  - !!int "19"
+  - !!int "22"
+  - !!int "6"
+  - !!int "11"
+  - !!int "7"
+"speed": "40 ft., climb 40 ft."
+"saves":
+  - "dexterity": !!int "8"
+  - "constitution": !!int "10"
+"skillsaves":
+  - "name": "[Stealth](/3-Mechanics/CLI/skills.md#Stealth)"
+    "desc": "+8"
+"damage_resistances": "acid; cold; fire; lightning; bludgeoning, piercing, slashing\
+  \ from nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/conditions.md#Charmed), [frightened](/3-Mechanics/CLI/conditions.md#Frightened),\
+  \ [poisoned](/3-Mechanics/CLI/conditions.md#Poisoned)"
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "understands Abyssal but can't speak"
+"cr": "11"
+"traits":
+  - "desc": "If the alkilith surrounds a door, window, or similar opening continuously\
+      \ for 6d6 days, the opening becomes a permanent portal to a random layer of\
+      \ the Abyss."
+    "name": "Abyssal Rift"
+  - "desc": "The alkilith can move through a space as narrow as 1 inch wide without\
+      \ squeezing."
+    "name": "Amorphous"
+  - "desc": "If the alkilith is motionless at the start of combat, it has advantage\
+      \ on its initiative roll. Moreover, if a creature hasn't observed the alkilith\
+      \ move or act, that creature must succeed on a DC 18 Intelligence ([Investigation](/3-Mechanics/CLI/skills.md#Investigation))\
+      \ check to discern that the alkilith isn't ordinary slime or fungus."
+    "name": "False Appearance"
+  - "desc": "Any creature that isn't a demon that starts its turn within 30 feet of\
+      \ the alkilith must succeed on a DC 18 Wisdom saving throw, or it hears a faint\
+      \ buzzing in its head for a moment and has disadvantage on its next attack roll,\
+      \ saving throw, or ability check.\n\nIf the saving throw against Foment Confusion\
+      \ fails by 5 or more, the creature is instead subjected to the [confusion](/3-Mechanics/CLI/spells/confusion-xphb.md)\
+      \ spell for 1 minute (no [concentration](/3-Mechanics/CLI/conditions.md#Concentration)\
+      \ required by the alkilith). While under the effect of that confusion, the creature\
+      \ is immune to Foment Confusion."
+    "name": "Foment Confusion"
+  - "desc": "The alkilith has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The alkilith can climb difficult surfaces, such as upside down on ceilings,\
+      \ without making an ability check."
+    "name": "Spider Climb"
+  - "desc": "The alkilith doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
+"actions":
+  - "desc": "The alkilith makes three Tentacle attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 18\
+      \ (4d6 + 4) acid damage."
+    "name": "Tentacle"
+"source":
+  - "MPMM"
+"image": "bestiary/tokens/MPMM/Alkilith.webp"
 ```
 ^statblock
 

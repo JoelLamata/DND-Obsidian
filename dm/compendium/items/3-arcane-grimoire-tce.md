@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
-- ttrpg-cli/item/wondrous
 aliases: 
 - "+3 Arcane Grimoire"
 ---
 # +3 Arcane Grimoire
-*Wondrous Item, very rare (requires attunement by a wizard)*  
+*Wondrous item, very rare (requires attunement by a wizard)*  
+
 
 - **Weight**: 3.0 lbs.
 

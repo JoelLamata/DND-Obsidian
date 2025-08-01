@@ -2,9 +2,10 @@
 obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
-- compendium/src/5e/xge
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/optional-feature/ei
-aliases: ["Gift of the Ever-Living Ones"]
+aliases:
+- Gift of the Ever-Living Ones
 ---
 # Gift of the Ever-Living Ones
 *Source: Xanathar's Guide to Everything p. 57*  

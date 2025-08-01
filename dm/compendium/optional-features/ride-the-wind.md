@@ -2,13 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
-- compendium/src/5e/phb
+- ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/ed
-aliases: ["Ride the Wind"]
+aliases:
+- Ride the Wind
 ---
 # Ride the Wind
 *Source: Player's Handbook p. 81*  
 
-**Prerequisite**: 11th-level
+**Prerequisite**: Level 11
 
-You can spend 4 ki points to cast [fly](compendium/spells/fly.md), targeting yourself.
+You can spend 4 ki points to cast [fly](/3-Mechanics/CLI/spells/fly-xphb.md), targeting yourself.

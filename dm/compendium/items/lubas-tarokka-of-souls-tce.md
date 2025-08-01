@@ -2,15 +2,15 @@
 obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
-- compendium/src/5e/tce
+- ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
-- ttrpg-cli/item/wondrous
 aliases: 
 - "Luba's Tarokka of Souls"
 ---
 # Luba's Tarokka of Souls
-*Wondrous Item, artifact (requires attunement)*  
+*Wondrous item, artifact (requires attunement)*  
+![](items/TCE/Luba's Tarokka of Souls.webp#right)
 
 
 Not all lingering spirits are tragic souls, lost on their way to the hereafter. Some languish as prisoners, souls so wicked mortals dare not free them upon an unsuspecting afterlife.
@@ -23,16 +23,16 @@ Like all tarokka decks, the *Tarokka of Souls* is a lavishly illustrated collect
 
 The artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the "Dungeon Master's Guide":
 
-- 2 [minor detrimental](compendium/tables/artifact-properties-minor-detrimental-properties.md) properties  
-- 2 [minor beneficial](compendium/tables/artifact-properties-minor-beneficial-properties.md) properties  
+- 2 [minor detrimental](/3-Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md) properties  
+- 2 [minor beneficial](/3-Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md) properties  
 
 ## Spells
 
-While holding the deck, you can use an action to cast one of the following spells (save DC 18) from it: [comprehend languages](compendium/spells/comprehend-languages.md), [detect evil and good](compendium/spells/detect-evil-and-good.md), [detect magic](compendium/spells/detect-magic.md), [detect poison and disease](compendium/spells/detect-poison-and-disease.md), [locate object](compendium/spells/locate-object.md), or [scrying](compendium/spells/scrying.md). Once you use the deck to cast a spell, you can't cast that spell again from it until the next dawn.
+While holding the deck, you can use an action to cast one of the following spells (save DC 18) from it: [comprehend languages](/3-Mechanics/CLI/spells/comprehend-languages-xphb.md), [detect evil and good](/3-Mechanics/CLI/spells/detect-evil-and-good-xphb.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic-xphb.md), [detect poison and disease](/3-Mechanics/CLI/spells/detect-poison-and-disease-xphb.md), [locate object](/3-Mechanics/CLI/spells/locate-object-xphb.md), or [scrying](/3-Mechanics/CLI/spells/scrying-xphb.md). Once you use the deck to cast a spell, you can't cast that spell again from it until the next dawn.
 
 ## Enduring Vision
 
-While holding the deck, you automatically succeed on Constitution saving throws made to maintain your [concentration](/compendium/rules/conditions.md#concentration) on divination spells.
+While holding the deck, you automatically succeed on Constitution saving throws made to maintain your [concentration](/3-Mechanics/CLI/conditions.md#Concentration) on divination spells.
 
 ## Twist of Fate
 
@@ -40,11 +40,12 @@ As an action, you can draw a card from the deck and twist the fortune of another
 
 - **Weal.** The creature has advantage on attack rolls, ability checks, and saving throws for the next hour.  
 - **Woe.** The creature has disadvantage on attack rolls, ability checks, and saving throws for the next hour.  
-- The deck can be used in this way twice, and you regain all expended uses at the next dawn.  
+
+The deck can be used in this way twice, and you regain all expended uses at the next dawn.
 
 ## Prisoners of Fate
 
-Whenever you use the Twist of Fate property, there is a chance that one of the souls trapped in the deck escapes. Roll `dice: d100|avg` (`d100`) and consult the Souls of the Tarokka table. If you roll one of the high cards, the soul associated with it escapes. You can find its statistics in the "Monster Manual". If you roll a soul that has already escaped, roll again.
+Whenever you use the Twist of Fate property, there is a chance that one of the souls trapped in the deck escapes. Roll `dice:d100|noform|noparens|avg` (`d100`) and consult the Souls of the Tarokka table. If you roll one of the high cards, the soul associated with it escapes. You can find its statistics in the "Monster Manual". If you roll a soul that has already escaped, roll again.
 
 **Souls of the Tarokka**
 
@@ -52,24 +53,24 @@ Whenever you use the Twist of Fate property, there is a chance that one of the s
 
 | dice: d100 | Card | Soul |
 |------------|------|------|
-| 1 | Artifact | [Flameskull](compendium/bestiary/undead/flameskull.md) |
-| 2 | Beast | [Wraith](compendium/bestiary/undead/wraith.md) |
-| 3 | Broken | [Banshee](compendium/bestiary/undead/banshee.md) |
-| 4 | Darklord | [Vampire](compendium/bestiary/undead/vampire.md) |
-| 5 | Donjon | [Mummy](compendium/bestiary/undead/mummy.md) |
-| 6 | Executioner | [Death knight](compendium/bestiary/undead/death-knight.md) |
-| 7 | Ghost | [Ghost](compendium/bestiary/undead/ghost.md) |
-| 8 | Horseman | [Mummy lord](compendium/bestiary/undead/mummy-lord.md) |
-| 9 | Innocent | [Ghost](compendium/bestiary/undead/ghost.md) |
-| 10 | Marionette | [Mummy](compendium/bestiary/undead/mummy.md) |
-| 11 | Mists | [Wraith](compendium/bestiary/undead/wraith.md) |
-| 12 | Raven | [Vampire spawn](compendium/bestiary/undead/vampire-spawn.md) |
-| 13 | Seer | [Vampire](compendium/bestiary/undead/vampire.md) |
-| 14 | Tempter | [Vampire spawn](compendium/bestiary/undead/vampire-spawn.md) |
+| 1 | Artifact | [Flameskull](/3-Mechanics/CLI/bestiary/undead/flameskull-xmm.md) |
+| 2 | Beast | [Wraith](/3-Mechanics/CLI/bestiary/undead/wraith-xmm.md) |
+| 3 | Broken | [Banshee](/3-Mechanics/CLI/bestiary/undead/banshee-xmm.md) |
+| 4 | Darklord | [Vampire](/3-Mechanics/CLI/bestiary/undead/vampire-xmm.md) |
+| 5 | Donjon | [Mummy](/3-Mechanics/CLI/bestiary/undead/mummy-xmm.md) |
+| 6 | Executioner | [Death knight](/3-Mechanics/CLI/bestiary/undead/death-knight-xmm.md) |
+| 7 | Ghost | [Ghost](/3-Mechanics/CLI/bestiary/undead/ghost-xmm.md) |
+| 8 | Horseman | [Mummy lord](/3-Mechanics/CLI/bestiary/undead/mummy-lord-xmm.md) |
+| 9 | Innocent | [Ghost](/3-Mechanics/CLI/bestiary/undead/ghost-xmm.md) |
+| 10 | Marionette | [Mummy](/3-Mechanics/CLI/bestiary/undead/mummy-xmm.md) |
+| 11 | Mists | [Wraith](/3-Mechanics/CLI/bestiary/undead/wraith-xmm.md) |
+| 12 | Raven | [Vampire spawn](/3-Mechanics/CLI/bestiary/undead/vampire-spawn-xmm.md) |
+| 13 | Seer | [Vampire](/3-Mechanics/CLI/bestiary/undead/vampire-xmm.md) |
+| 14 | Tempter | [Vampire spawn](/3-Mechanics/CLI/bestiary/undead/vampire-spawn-xmm.md) |
 | 15-100 | — | — |
 ^souls-of-the-tarokka
 
-The released soul appears at a random location within `dice: 10d10|avg` (`10d10`) miles of you and terrorizes the living. Until the released soul is destroyed, it gains the benefit of a weal from the deck's Twist of Fate property, and both you and the original target of Twist of Fate suffer the effect of woe.
+The released soul appears at a random location within `dice:10d10|noform|noparens|avg` (`10d10`) miles of you and terrorizes the living. Until the released soul is destroyed, it gains the benefit of a weal from the deck's Twist of Fate property, and both you and the original target of Twist of Fate suffer the effect of woe.
 
 ## Shuffling Fate
 
@@ -77,7 +78,7 @@ If you go 7 days without using the Twist of Fate property, your attunement to Lu
 
 ## Destroying the Deck
 
-Luba's Tarokka of Souls can be destroyed only if all fourteen souls within are released and destroyed. This reveals a fifteenth soul, a [lich](compendium/bestiary/undead/lich.md), that inhabits the Nether card, which appears only when the fourteen souls are defeated. If this ancient entity is destroyed, the Nether card vanishes and the deck becomes a normal tarokka deck, with no special properties, but it includes a new card of the DM's design.
+Luba's Tarokka of Souls can be destroyed only if all fourteen souls within are released and destroyed. This reveals a fifteenth soul, a [lich](/3-Mechanics/CLI/bestiary/undead/lich-xmm.md), that inhabits the Nether card, which appears only when the fourteen souls are defeated. If this ancient entity is destroyed, the Nether card vanishes and the deck becomes a normal tarokka deck, with no special properties, but it includes a new card of the DM's design.
 
 ### Mother Luba and the Vistani
 

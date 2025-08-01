@@ -2,8 +2,9 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- compendium/src/5e/xge
-aliases: ["Supplemental Tables; Relationship"]
+- ttrpg-cli/compendium/src/5e/xge
+aliases:
+- Supplemental Tables; Relationship
 ---
 # Supplemental Tables; Relationship
 *Source: Xanathar's Guide to Everything p. 72* 
