@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TODONAME/Notas.md",
-                "mode": "source",
+                "file": "dm/compendium/bestiary/elemental/elemental-cataclysm-xmm.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notas"
+              "title": "elemental-cataclysm-xmm"
             }
           }
         ]
@@ -240,8 +240,16 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "a8c2f72cadf0a9d4",
+  "active": "220bdc28fad73674",
   "lastOpenFiles": [
+    "1. TODONAME/Notas.md",
+    "dm/compendium/bestiary/construct/modron-tridrone-xmm.md",
+    "3-Mechanics/CLI/bestiary/construct/modron-tridrone-xmm.md",
+    "3-Mechanics/CLI/bestiary/construct",
+    "3-Mechanics/CLI/bestiary",
+    "3-Mechanics/CLI",
+    "3-Mechanics",
+    "dm/compendium/bestiary/monstrosity/mimic.md",
     "dm/compendium/skills.md",
     "dm/compendium/senses.md",
     "dm/compendium/item-types.md",
@@ -264,20 +272,12 @@
     "dm/compendium/variant-rules/tool-proficiencies-xge.md",
     "dm/compendium/variant-rules/temporary-hit-points-xphb.md",
     "dm/compendium/variant-rules/teleportation-xphb.md",
-    "dm/compendium/variant-rules/stat-block-xphb.md",
-    "dm/compendium/variant-rules/target-xphb.md",
-    "dm/compendium/variant-rules/swimming-xphb.md",
-    "dm/compendium/variant-rules/telepathy-xphb.md",
     "dm/compendium/variant-rules",
     "dm/compendium/lists",
     "dm/compendium/books/xanathars-guide-to-everything",
     "dm/compendium/books/tashas-cauldron-of-everything",
     "dm/compendium/books/players-handbook-2024",
     "dm/compendium/books/players-handbook-2014",
-    "dm/compendium/books/mordenkainen-presents-monsters-of-the-multiverse",
-    "dm/compendium/books/monster-manual-2025",
-    "dm/compendium/books/monster-manual-2014",
-    "dm/compendium/books/dungeon-masters-guide-2024",
     "z_Assets/Otros/Pasted image 20250721201429.png",
     "z_Assets/Otros/Pasted image 20250412201443.png",
     "z_Assets/Tokens/Jaspar Graves.png",

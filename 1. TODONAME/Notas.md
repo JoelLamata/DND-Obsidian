@@ -101,12 +101,12 @@ Un gremio puede:
 - [[beholder|Beholder]]
 - [[hydra|Hydra]]
 - [[mind-flayer|Mind Flayer]]
-- [[Modrons]]
+- Modrons: [[modron-tridrone-xmm|Modron Tridrone]]
 - [[owlbear|Owlbear]]
 - [[purple-worm|Purple Worm]]
 - [[lich|Lich]]
 - [[chimera|Chimera]]
-- [[Elemental catalist]]
+- [[elemental-cataclysm-xmm|Elemental Cataclysm]]
 - [[mimic|Mimic]]
 
 #### Items
