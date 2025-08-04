@@ -19,7 +19,7 @@
 - Como Hunter x Hunter. Hay terreno como explorado, donde seres vivos habitan y crean sociedades. Y un terreno "desconocido" o inexplorado donde habitan terribles horrores o peligros.
 - El territorio no explorado esta dividido entre diferentes zonas de dragones legendarios.
 - ? Para diferenciar a los gremios se pueden usar colores o por continentes.
-- La religion tiene muy poca importancia en la mayoria del mundo.
+- La religion tiene muy poca importancia en la mayoria del mundo. Preguntar cual prefieren: https://5e.tools/book.html#phb,13,the%20greek%20pantheon,0
 - Usar elementos absurdos como sitios de Hora de Aventuras.
 - El mundo es una imitacion de la politica actual pero enfocada en un mundo magico. Donde hay corrupcion por todos lados y el dinero lo mueve todo.
 
@@ -110,7 +110,7 @@ Un gremio puede:
 - [[mimic|Mimic]]
 
 #### Items
-![[Pasted image 20250721201429.png]]
+![[Magic Item Tracker.png]]
 - Crear economia de items
 	- El gremio tiene una tienda con items a la venta
 	- Los items que consiguen en las misiones se pueden vender luego
