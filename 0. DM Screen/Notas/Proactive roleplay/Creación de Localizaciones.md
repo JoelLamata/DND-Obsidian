@@ -15,6 +15,7 @@ Tipos comunes de localizaciones:
 - Ciudades y asentamientos 
 	- Es más fácil organizarlo a partir de las facciones ya existentes, que intentar hacerlo individual para cada NPC
 	- Quien vive ahí, que quieren y que van a hacer para conseguirlo
+	- Cuando se completa un objetivo en la ciudad o asentamiento, este provoca un cambio
 	- Ayuda para conectar los objetivos del jugador con la ciudad o asentamiento:
 
 | 1d8 | Conexión                                                            |
@@ -40,5 +41,10 @@ Tipos comunes de localizaciones:
 | 8   | Fábricas capaces de crear objetos de alta calidad                                     |
 
 - Tierras salvajes
+	- Los objetivos pueden situarse dentro de la naturaleza
+	- Esta no tiene porque ser un sitio de paso, sino que puede ser el lugar donde un encuentro se produzca
+	- La amplitud del terreno permite situaciones distintas a las de una dungeon normal, como huidas, caza, etc.
 - Mazmorras y guaridas
-El resto del capítulo ofrece una discusión de varios tipos comunes de localizaciones (bases de jugadores, ciudades y asentamientos, tierras salvajes, mazmorras y guaridas) y cómo podrían encajar en un juego proactivo.
+	- Una mazmorra no tiene porque ser el típico lugar subterraneo lleno de habitaciones interconectadas, puede ser cualquier espacio, como una taverna, o las ruinas de una antigua ciudad. "El lugar donde el conflicto ocurre"
+	- El objetivo de los personajes puede definir la misma mazmorra
+	- Usar las preguntas del principio
