@@ -19,7 +19,13 @@
 - Toy Story ?
 - Las tortugas ninja
 - Smiling friends
-- 
+- Espies de veritat
+- MIC ? super3
+- El detectiu conan
+- Dora ?
+- Doraemon ?
+- Los coches locos
+- Pingüinos de Madagascar 
 
 ##### La zona de teletrasportación tiene anuncios
 - "Gracias por usar teletransportes Nintendo"
