@@ -26,6 +26,7 @@
 - Doraemon ?
 - Los coches locos
 - Pingüinos de Madagascar 
+- Shin chan
 
 ##### La zona de teletrasportación tiene anuncios
 - "Gracias por usar teletransportes Nintendo"

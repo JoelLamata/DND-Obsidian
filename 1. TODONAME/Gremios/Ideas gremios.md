@@ -46,7 +46,12 @@ El gobierno se hace cargo del MEO.
 Líder del govierno: Princesa Leonor
 
 El territorio esta dividido en comunidades que tienen su propio gobierno (igual que españa).
-Algunos líderes son: Princesa chicle (Bonnibel), Señor presidente (smiling friends), Robin (teen titans), King Bob (La banda del patio)
+Algunos líderes son: 
+- Princesa chicle (Bonnibel)
+- Señor presidente (smiling friends)
+- Robin (teen titans)
+- King Bob (La banda del patio)
+- Calliou (Calliou)
 
 TODO !NOTAS!
 
@@ -57,7 +62,7 @@ Pueden estar o no de acuerdo con el gobierno, velan por el bienestar de los trab
 Sindicatos posibles:
 - La T.I.A.
 - Futurama (Profesor Hubert Farnsworth) son una compañia de reparto de paquetes.
-- Tortugas ninja: extremistas que hacen cualquier cosa para que el gobierno cambie
+- Tortugas ninja + mbappe: extremistas que hacen cualquier cosa para que el gobierno cambie
 - Historias corrientes: trabajadores precarios de un parque que solo quieren un sueldo digno
 
 TODO !NOTAS!
@@ -67,17 +72,20 @@ Les dan igual las normas, quieren cumplir sus objetivos cueste lo que cueste.
 
 Ejemplos:
 - Los muppets: Lo que vendría a ser una mafia típica, liderada por la rana gustavo.
+- Barrio sesamo: banda criminal opuesta a los muppets. Elmo es el lider.
 - Monstruos S.A.: Grupo criminal que se dedica a robar la risa y felicidad a los niños.
-- Minions: Puro caos.
-- Ben 10: asesino a sueldo
+- Minions: Puro caos. Son la falange.
+- Ben 10: asesino a sueldo. ???
 
 ### Religiones o cultos
 Siguen a un dios o grupo de dioses hasta donde haga falta. Son capaces de hacer cualquier cosa por cumplir la palabra de sus deidades.
 
 Ejemplos:
 - Looney toons: Culto liderado por Bugs Bunny. Todos sus integrantes creen que Bugs es el origen y final de todo, lo seguirian hasta la muerte.
+- MIC: secuestra niños.
 - Gravity falls: Religión formada bajo la creencia del dios Bill Cypher.
-- Codigo lyoko: Creen que un virus malvado llamado XANA ha infectado el país. En verdad son solo racistas que quieren acabar con los moros (o una raza específica).
+- Codigo lyoko: Creen que un virus malvado llamado XANA ha infectado el país. En verdad son solo racistas que quieren acabar con los moros (o una raza específica). XANAFOBOS? Tener XANA == diablo
+- Minions??
 
 ### Otros
 Pueden tener motivos totalmente distintos a los demás grupos, y no tienen porque chocar entre ellos.
@@ -85,5 +93,7 @@ Pueden tener motivos totalmente distintos a los demás grupos, y no tienen porqu
 Ejemplos:
 - Kim possible y espies de veritat: son un grupo de espías que intentar detener a gente y conseguir información. Pueden ser como la CIA o grupo criminal.
 - Scooby doo / detectiu conan: grupo de investigadores. Resuelven misterios a cambio de dinero.
+- Pingüinos de Madagascar: grupo de mercenarios
 - Football Galactic: el mejor equipo de fútbol del mundo.
 - Los coches locos: grupo que organiza carreras ilegales de coches.
+- Shrek: vive en un pantano. Hacer mision como la peli
