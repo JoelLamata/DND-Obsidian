@@ -1,7 +1,7 @@
-`dice: [[Misiones table ?#^misiones]]|Misión`
-`dice: [[Misiones table ?#^misiones]]|Entorno`
-`dice: [[Misiones table ?#^misiones]]|Enemigo/Facción`
-`dice: [[Misiones table ?#^misiones]]|Complicación`
+`dice: [[Misiones table#^misiones]]|Misión`
+`dice: [[Misiones table#^misiones]]|Entorno`
+`dice: [[Misiones table#^misiones]]|Enemigo/Facción`
+`dice: [[Misiones table#^misiones]]|Complicación`
 
 | d20 | Misión | Entorno | Enemigo/Facción | Complicación |
 |-----|--------|---------|-----------------|--------------|
