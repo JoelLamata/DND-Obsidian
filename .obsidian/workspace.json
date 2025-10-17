@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "elemental-cataclysm-xmm"
             }
+          },
+          {
+            "id": "80dc5ecdcab01a4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,12 +255,35 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "a8c2f72cadf0a9d4",
+  "active": "80dc5ecdcab01a4d",
   "lastOpenFiles": [
+    "3-Mechanics/CLI/bestiary/construct/modron-tridrone-xmm.md",
+    "conflict-files-obsidian-git.md",
+    "1. TODONAME/Misiones/Junior/Ejemplo.md",
+    "1. TODONAME/Misiones/Junior",
+    "1. TODONAME/Gremios/Lugares/T.I.A..md",
+    "1. TODONAME/Gremios/O.S.A.C. - Gremio Principal.md",
+    "1. TODONAME/Gremios/Mapas Gremios.md",
+    "1. TODONAME/Gremios/Lugares",
+    "1. TODONAME/Gremios/Ideas personajes.md",
+    "1. TODONAME/Gremios/Ideas gremios.md",
+    "1. TODONAME/Gremios",
+    "z_Assets/Portraits/Gunter.png",
+    "z_Assets/Portraits/Donatelo.png",
+    "z_Assets/Portraits/Dango.png",
+    "z_Assets/Portraits/Dango.jpg",
+    "z_Assets/Pasted Images/Pasted image 20250412200004.png",
+    "z_Assets/Pasted Images/Pasted image 20250214164150.png",
+    "z_Assets/Pasted Images/Pasted image 20250214161939.png",
+    "z_Assets/Pasted Images/Pasted image 20240820095014.png",
+    "z_Assets/Pasted Images/Pasted image 20250214154035.png",
+    "z_Assets/Pasted Images/Pasted image 20241102170412.png",
+    "z_Assets/Pasted Images",
+    "z_Assets/Default imprimir.odg",
+    "1. TODONAME/Misiones/NPCs Book - Misiones por Categoria.md",
     "dm/compendium/bestiary/elemental/elemental-cataclysm-xmm.md",
     "1. TODONAME/Notas.md",
     "dm/compendium/bestiary/construct/modron-tridrone-xmm.md",
-    "3-Mechanics/CLI/bestiary/construct/modron-tridrone-xmm.md",
     "3-Mechanics/CLI/bestiary/construct",
     "3-Mechanics/CLI/bestiary",
     "3-Mechanics/CLI",
@@ -264,29 +302,6 @@
     "dm/compendium/variant-rules/weapon-xphb.md",
     "dm/compendium/variant-rules/weapon-mastery-properties-xphb.md",
     "dm/compendium/variant-rules/weapon-attack-xphb.md",
-    "dm/compendium/variant-rules/wands-that-dont-recharge.md",
-    "dm/compendium/variant-rules/vulnerability-xphb.md",
-    "dm/compendium/variant-rules/unoccupied-space-xphb.md",
-    "dm/compendium/variant-rules/unarmed-strike-xphb.md",
-    "dm/compendium/variant-rules/tying-knots-xge.md",
-    "dm/compendium/variant-rules/training-to-gain-levels-xdmg.md",
-    "dm/compendium/variant-rules/tool-proficiencies-xge.md",
-    "dm/compendium/variant-rules/temporary-hit-points-xphb.md",
-    "dm/compendium/variant-rules",
-    "dm/compendium/lists",
-    "dm/compendium/books/xanathars-guide-to-everything",
-    "dm/compendium/books/tashas-cauldron-of-everything",
-    "dm/compendium/books/players-handbook-2024",
-    "dm/compendium/books/players-handbook-2014",
-    "z_Assets/Otros/Pasted image 20250721201429.png",
-    "z_Assets/Otros/Pasted image 20250412201443.png",
-    "z_Assets/Tokens/Jaspar Graves.png",
-    "z_Assets/Otros/Pasted image 20250412200004.png",
-    "z_Assets/Otros/Pasted image 20250214164150.png",
-    "z_Assets/Otros/Pasted image 20250214161939.png",
-    "z_Assets/Otros/Pasted image 20250214154035.png",
-    "z_Assets/Otros/Pasted image 20241102170412.png",
-    "z_Assets/Portraits/Tarbol Eixeberria.jpg",
-    "z_Assets/Tarbol Eixeberria.jpg"
+    "dm/compendium/variant-rules"
   ]
 }

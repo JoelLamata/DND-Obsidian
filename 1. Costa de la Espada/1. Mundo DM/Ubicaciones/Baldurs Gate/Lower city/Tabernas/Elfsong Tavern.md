@@ -11,7 +11,7 @@ El nombre se debe a un extraño fenómeno: una voz fantasmagórica de mujer elfa
 * Estofado a 1 cp por jarra, y 2 cp más por un tazón grande
 * Todas las raciones de otros alimentos costaban 1 cp (una ración era media comida para la mayoría de la gente).
 
-![[Captura de pantalla 2024-08-20 a las 9.27.41.png]]
+![[z_Assets/Pasted Images/Captura de pantalla 2024-08-20 a las 9.27.41.png]]
 
 ## Imágenes
 

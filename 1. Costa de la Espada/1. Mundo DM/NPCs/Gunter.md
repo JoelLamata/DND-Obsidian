@@ -1,4 +1,4 @@
-![[Pasted image 20250412201443.png]]
+![[Gunter.png]]
 
 Tiene una fe inquebrantable en el poder del cariño, la luz del sol, y el agua de lluvia.
 Sus frases favoritas son:
