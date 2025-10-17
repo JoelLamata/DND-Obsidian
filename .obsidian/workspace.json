@@ -1,56 +1,55 @@
 {
   "main": {
-    "id": "fff07e93dae2c781",
+    "id": "461ea9e6642bf178",
     "type": "split",
     "children": [
       {
-        "id": "aa265653fc397f5a",
+        "id": "5b58463ccbb14c16",
         "type": "tabs",
         "children": [
           {
-            "id": "220bdc28fad73674",
+            "id": "015f18d412e4496a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dm/compendium/bestiary/elemental/elemental-cataclysm-xmm.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "elemental-cataclysm-xmm"
-            }
-          },
-          {
-            "id": "80dc5ecdcab01a4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 7 (5-10-2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Sesión 7 (5-10-2025)"
+            }
+          },
+          {
+            "id": "2b1dd8801209dd84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Costa de la Espada/1. Mundo DM/Apuntes/Ejercito revolucionario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ejercito revolucionario"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ac895a4a2e78be99",
+    "id": "7430d83663b52a3e",
     "type": "split",
     "children": [
       {
-        "id": "85904f42be6cc345",
+        "id": "b0b704c1b4f44c57",
         "type": "tabs",
         "children": [
           {
-            "id": "a8c2f72cadf0a9d4",
+            "id": "234577e429e3cae4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +62,7 @@
             }
           },
           {
-            "id": "f58c33cd9787488b",
+            "id": "5c731e10011b4960",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +79,7 @@
             }
           },
           {
-            "id": "f48f666bc8ee51a6",
+            "id": "71af340f4aeb9737",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,23 +92,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300
   },
   "right": {
-    "id": "06549097f17b725a",
+    "id": "8d99e7a451b26f9c",
     "type": "split",
     "children": [
       {
-        "id": "f9ed66939a70ccff",
+        "id": "665b96885020cb63",
         "type": "tabs",
         "children": [
           {
-            "id": "a42ecbf90655b9f6",
+            "id": "0a852da57b856735",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 4 (03-11-2024).md",
+                "file": "1. Costa de la Espada/1. Mundo DM/Apuntes/Ejercito revolucionario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,93 +118,65 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sesión 4 (03-11-2024)"
+              "title": "Backlinks for Ejercito revolucionario"
             }
           },
           {
-            "id": "76b519fbade39414",
+            "id": "09d58a4d531fa5a2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 4 (03-11-2024).md",
+                "file": "1. Costa de la Espada/1. Mundo DM/Apuntes/Ejercito revolucionario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sesión 4 (03-11-2024)"
+              "title": "Outgoing links from Ejercito revolucionario"
             }
           },
           {
-            "id": "95ccbd4b58039fec",
+            "id": "b76888657aa3b46a",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "f46705925213b2a9",
+            "id": "95966e989191da26",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 4 (03-11-2024).md"
+                "file": "1. Costa de la Espada/1. Mundo DM/Apuntes/Ejercito revolucionario.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sesión 4 (03-11-2024)"
+              "title": "Outline of Ejercito revolucionario"
             }
           },
           {
-            "id": "92127c2e6d30aa00",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM",
-              "state": {
-                "calendar": "ID_39c8a9d82afb",
-                "ephemeral": {
-                  "viewState": 1,
-                  "displaying": {
-                    "day": 1,
-                    "month": 0,
-                    "year": 1491
-                  },
-                  "displayDayNumber": false,
-                  "displayMoons": true
-                },
-                "id": "ID_8a19f829f968"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "44790cfb7dc6596c",
+            "id": "232e2a7f2afdef0f",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
               "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
+              "icon": "lucide-ghost",
+              "title": "initiative-tracker-view"
             }
           },
           {
-            "id": "33b371d91f9398e0",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
-            "id": "43ef87adb0dec7b6",
+            "id": "64a63929cff77a27",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -213,95 +184,51 @@
               "icon": "dices",
               "title": "Dice Tray"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "861a98ae8fe6bc5d",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "6439c29d1cf91705",
+            "id": "2af970714f51b80d",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "initiative-tracker-view",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "fantasy-content-generator:Fantasy Generators": false,
-      "translate:Open translation view": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
+      "bases:Create new base": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-git:Open Git source control": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "translate:Open translation view": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "80dc5ecdcab01a4d",
+  "active": "015f18d412e4496a",
   "lastOpenFiles": [
-    "3-Mechanics/CLI/bestiary/construct/modron-tridrone-xmm.md",
-    "conflict-files-obsidian-git.md",
-    "1. TODONAME/Misiones/Junior/Ejemplo.md",
-    "1. TODONAME/Misiones/Junior",
-    "1. TODONAME/Gremios/Lugares/T.I.A..md",
-    "1. TODONAME/Gremios/O.S.A.C. - Gremio Principal.md",
-    "1. TODONAME/Gremios/Mapas Gremios.md",
-    "1. TODONAME/Gremios/Lugares",
-    "1. TODONAME/Gremios/Ideas personajes.md",
-    "1. TODONAME/Gremios/Ideas gremios.md",
-    "1. TODONAME/Gremios",
-    "z_Assets/Portraits/Gunter.png",
+    "1. Costa de la Espada/1. Mundo DM/Apuntes/Ejercito revolucionario.md",
+    "1. Costa de la Espada/3. Proximas sesiones/Sesión 7 (5-10-2025).md",
     "z_Assets/Portraits/Donatelo.png",
     "z_Assets/Portraits/Dango.png",
     "z_Assets/Portraits/Dango.jpg",
-    "z_Assets/Pasted Images/Pasted image 20250412200004.png",
-    "z_Assets/Pasted Images/Pasted image 20250214164150.png",
-    "z_Assets/Pasted Images/Pasted image 20250214161939.png",
-    "z_Assets/Pasted Images/Pasted image 20240820095014.png",
-    "z_Assets/Pasted Images/Pasted image 20250214154035.png",
-    "z_Assets/Pasted Images/Pasted image 20241102170412.png",
-    "z_Assets/Pasted Images",
     "z_Assets/Default imprimir.odg",
-    "1. TODONAME/Misiones/NPCs Book - Misiones por Categoria.md",
-    "dm/compendium/bestiary/elemental/elemental-cataclysm-xmm.md",
-    "1. TODONAME/Notas.md",
-    "dm/compendium/bestiary/construct/modron-tridrone-xmm.md",
-    "3-Mechanics/CLI/bestiary/construct",
-    "3-Mechanics/CLI/bestiary",
-    "3-Mechanics/CLI",
-    "3-Mechanics",
-    "dm/compendium/bestiary/monstrosity/mimic.md",
-    "dm/compendium/skills.md",
-    "dm/compendium/senses.md",
-    "dm/compendium/item-types.md",
-    "dm/compendium/item-properties.md",
-    "dm/compendium/item-mastery.md",
-    "dm/compendium/diseases.md",
-    "dm/compendium/damage-types.md",
-    "dm/compendium/conditions.md",
-    "dm/compendium/actions.md",
-    "dm/compendium/vehicles/apparatus-of-kwalish-xdmg.md",
-    "dm/compendium/variant-rules/weapon-xphb.md",
-    "dm/compendium/variant-rules/weapon-mastery-properties-xphb.md",
-    "dm/compendium/variant-rules/weapon-attack-xphb.md",
-    "dm/compendium/variant-rules"
+    "z_Assets/Default imprimir.jpg"
   ]
 }
