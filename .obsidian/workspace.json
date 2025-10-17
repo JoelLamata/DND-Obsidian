@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dm/compendium/bestiary/elemental/elemental-cataclysm-xmm.md",
+                "file": "1. Costa de la Espada/3. Proximas sesiones/Sesión 7 (NI IDEA).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "elemental-cataclysm-xmm"
-            }
-          },
-          {
-            "id": "80dc5ecdcab01a4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Sesión 7 (NI IDEA)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,10 +240,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "80dc5ecdcab01a4d",
+  "active": "220bdc28fad73674",
   "lastOpenFiles": [
-    "3-Mechanics/CLI/bestiary/construct/modron-tridrone-xmm.md",
+    "dm/compendium/bestiary/elemental/elemental-cataclysm-xmm.md",
     "conflict-files-obsidian-git.md",
+    "3-Mechanics/CLI/bestiary/construct/modron-tridrone-xmm.md",
     "1. TODONAME/Misiones/Junior/Ejemplo.md",
     "1. TODONAME/Misiones/Junior",
     "1. TODONAME/Gremios/Lugares/T.I.A..md",
@@ -281,7 +267,6 @@
     "z_Assets/Pasted Images",
     "z_Assets/Default imprimir.odg",
     "1. TODONAME/Misiones/NPCs Book - Misiones por Categoria.md",
-    "dm/compendium/bestiary/elemental/elemental-cataclysm-xmm.md",
     "1. TODONAME/Notas.md",
     "dm/compendium/bestiary/construct/modron-tridrone-xmm.md",
     "3-Mechanics/CLI/bestiary/construct",
