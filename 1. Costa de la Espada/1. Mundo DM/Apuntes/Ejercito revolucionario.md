@@ -7,8 +7,6 @@
 **Reformar el ejército y la nobleza**
 - Desean depurar las estructuras militares y nobles, reemplazándolas con líderes surgidos del pueblo o de méritos probados.
 
-
-
 ## Miembros
 - Dice que
 - No dice que 
@@ -23,12 +21,12 @@ Un druida élfico que protege los bosques y aborrece a los Drow por sus constant
 **Miembros Principales:**
 - **[[Atheris Quinlan]]**
 - **Dango**: mago que utiliza su magia para pasar desapercibido y recabar información.
-	- Dice que
+	- Dice que 
 	- No dice que
 	- Intenta esconder que
 ![[Dango.jpg]]
 - **Donatelo**
-	- Dice que
-	- No dice que
-	- Intenta esconder que
+	- Dice que le encanta la pizza
+	- No dice que es celiaco
+	- Intenta esconder que solo lucha porque le invitan a pizza
 ![[Donatelo.png]]
