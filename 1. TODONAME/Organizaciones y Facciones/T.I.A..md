@@ -1,6 +1,6 @@
 Superintendente (CEO): 
 Vicente
-![[Pasted image 20250806210051.png]]
+![[Superintendente Vicente.png]]
 
 Zona teletransportación:
 Profesor Bacterio
