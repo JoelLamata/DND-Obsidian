@@ -1,10 +1,10 @@
 Realista:
-- Govierno
+- Gobierno
 - Sindicato
 - Organización criminal
-- Religión o culto
+- Religión o culto 
 
-Ideas de Govierno:
+Ideas de Gobierno:
 - Reino chuche
 - Teen titans
 - Smiling Friends
@@ -24,6 +24,8 @@ Ideas de religión o culto:
 - Looney toons
 - Gravity falls
 - Codigo lyoko
+- lopus
+- islam
 
 Otros:
 - Espías:
