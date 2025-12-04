@@ -108,6 +108,8 @@ Un gremio puede:
 - [[chimera|Chimera]]
 - [[elemental-cataclysm-xmm|Elemental Cataclysm]]
 - [[mimic|Mimic]]
+- [[displacer-beast-xmm|Displacer Beast]]
+- [[blue-abishai-mpmm|Blue Abishai]]
 
 #### Items
 ![[Magic Item Tracker.png]]
