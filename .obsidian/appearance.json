@@ -1,7 +1,8 @@
 {
-  "accentColor": "",
   "cssTheme": "ITS Theme",
+  "accentColor": "",
   "enabledCssSnippets": [
     "dnd5e-compendium"
-  ]
+  ],
+  "theme": "obsidian"
 }
