@@ -9,3 +9,4 @@ Si lo rescatan, el Doppelganger hará su mayor esfuerzo para hacerse pasar por P
 Si hay [pelea](https://www.dndbeyond.com/encounters/ca33fbe0-4e90-45ec-9780-8ae58dfa313a) el Doppelganger intentará huir ya que no puede ganar.
 
 Si pasan de la misión, alguien más rescatará al Doppelganger.
+
