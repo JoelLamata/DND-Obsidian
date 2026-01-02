@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. DM Screen/Notas/Proactive roleplay/2. Facciones.md",
+                "file": "0. DM Screen/Notas/Proactive roleplay/1. Personajes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Facciones"
+              "title": "1. Personajes"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "0. DM Screen/Notas/Proactive roleplay/2. Facciones.md",
+            "file": "1. Hispania/Organizaciones y Facciones/O.S.A.C..md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -182,6 +182,10 @@
   },
   "active": "ca3c14bd196cd6b1",
   "lastOpenFiles": [
+    "0. DM Screen/Notas/Proactive roleplay/5. Conflictos.md",
+    "0. DM Screen/Notas/Proactive roleplay/2. Facciones.md",
+    "1. Hispania/Organizaciones y Facciones/Ideas gremios.md",
+    "1. Hispania/Organizaciones y Facciones/O.S.A.C..md",
     "1. Hispania/Organizaciones y Facciones/RUE - Desengaño 21.md",
     "1. Hispania/Notas Historia/Notas con los tontos.md",
     "1. Hispania/Notas Historia/Notas.md"
