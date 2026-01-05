@@ -56,7 +56,7 @@ Poder contratar expertos para ayudar
 - Robar un objeto sin ser descubierto.
 - Ganarse la confianza de una persona o grupo para obtener información.
 
-# Eventos
+## Eventos
 - Juegos olimpicos de Gremiolimpiadas
 - Carrera contra otro gremio
 - Trabajo de corrupción para el beneficio del gremio
@@ -68,3 +68,6 @@ Poder contratar expertos para ayudar
 - Arena de fantasmas del rey broncas
 - ayudar a un rey que ha sido destronado por un farsante
 - literalmente la historia de shrek 1
+
+## Otros
+- Participar en un funeral
