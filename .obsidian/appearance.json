@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "dnd5e-compendium"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSize": 15
 }

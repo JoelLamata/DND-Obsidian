@@ -1,4 +1,6 @@
 Torto: Debe dinero
+https://www.reddit.com/r/UnearthedArcana/comments/10ki0az/a_true_d100_wild_magic_surge_table_expanded_from/
+
 Alex: Cada sesion uno
 Aitor: Hopper -> Mejorar a Hopper
 Nàdia: Silah -> buscar los padres
