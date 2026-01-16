@@ -1,1 +1,0 @@
-![[Superintendente Vicente.png]]
