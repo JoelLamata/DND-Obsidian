@@ -1,0 +1,15 @@
+{
+  "ITS@@select": "wotc-beyond",
+  "ITS@@mini": false,
+  "ITS@@accent-color": false,
+  "ITS@@default-callout-quote": false,
+  "ITS@@embed-clean": false,
+  "ITS@@embed-dark-background": false,
+  "ITS@@embed-mini-headers": false,
+  "ITS@@justified": false,
+  "ITS@@file-line-width": 1000,
+  "ITS@@background-image": false,
+  "ITS@@minimalist-workspace": false,
+  "ITS@@writing": false,
+  "ITS@@ITS-Sizes": "sizing-readable"
+}

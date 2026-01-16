@@ -1,0 +1,1 @@
+Descripción de los objetivos de los gremios y que relación tienen con los demás.
