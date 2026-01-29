@@ -31,4 +31,7 @@ Discutir como quieren el gremio:
 - Nivel de conflicto con otros gremios
 - Tipo de ideologia / nivel de corrupcion
 
+Quedar para montar cosas con el carton?
+Discutir opciones para mapas y figuritas
+
 Decidir dia Sesion 1
