@@ -20,3 +20,15 @@ Referencias a todo tipo de personas:
 - La isla de las tentaciones
 
 Mirar de quedar viernes
+
+# Sesion 0
+
+Crear sus personajes
+
+Discutir como quieren el gremio:
+- Nivel de fuerza respecto los demas gremios
+- La encuesta que les hice
+- Nivel de conflicto con otros gremios
+- Tipo de ideologia / nivel de corrupcion
+
+Decidir dia Sesion 1
