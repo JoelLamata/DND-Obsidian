@@ -26,12 +26,14 @@ Mirar de quedar viernes
 Crear sus personajes
 
 Discutir como quieren el gremio:
-- Nivel de fuerza respecto los demas gremios
+- Nivel de fuerza respecto los demas gremios. Algo peor que los demás gremios (o de los tochos)
 - La encuesta que les hice
-- Nivel de conflicto con otros gremios
-- Tipo de ideologia / nivel de corrupcion
+- Nivel de conflicto con otros gremios. No nos respetan por ser peores (menos precian)
+- Tipo de ideologia / nivel de corrupcion. Nivel básico de corrupción (cobrar en B, esconder cagadas etc.)
 
 Quedar para montar cosas con el carton?
 Discutir opciones para mapas y figuritas
+Si (garazi)
 
 Decidir dia Sesion 1
+Rescatar a Paco
