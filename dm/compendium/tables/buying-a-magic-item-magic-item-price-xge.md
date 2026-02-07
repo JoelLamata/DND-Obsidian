@@ -9,7 +9,7 @@ aliases:
 # Buying a Magic Item; Magic Item Price
 *Source: Xanathar's Guide to Everything p. 126* 
 
-**Magic Item Price**
+**Magic Item Price** ^a27122
 
 | Rarity | Asking Price* |
 |--------|---------------|
