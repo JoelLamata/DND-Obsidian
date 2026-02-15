@@ -29,5 +29,7 @@ La mansión se ve claramente desgastada por el tiempo, cargada de polvo y con ma
 #### Tesoros
 - Diario del padre hablando de cosas feas
 
+Pociones: https://www.dndbeyond.com/magic-items?filter-type=0&filter-type=3&filter-search=&filter-rarity=1&filter-rarity=2&filter-requires-attunement=&filter-effect-type=&filter-effect-subtype=&filter-has-charges=&filter-source-category=24&filter-source-category=38&filter-partnered-content=f
+
 VALIOSO:
 - 
