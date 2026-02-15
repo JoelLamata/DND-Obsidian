@@ -10,7 +10,7 @@ Si hay [pelea](https://www.dndbeyond.com/encounters/ca33fbe0-4e90-45ec-9780-8ae5
 Si pasan de la misión, alguien más rescatará al Doppelganger.
 
 ### Info PCs
-Paco fue a una mansión situada a las afueras de Lugo. Había sido reportado por los habitantes cercanos que habían oído ruidos raros cuando la mansión llevaba años abandonada.
+Paco fue a una mansión situada a las afueras de [[Lugonia]]. Había sido reportado por los habitantes cercanos que habían oído ruidos raros cuando la mansión llevaba años abandonada.
 
 Los lugareños hablan que la mansión está maldita, y que nadie en su sano juicio se atreve a acercarse.
 Se dice que antes vivía una familia adinerada, vivían aislados y nadie sabía nada de ellos. Un día se enteraron que uno de los hijos se había suicidado, y ahí empezaron a pasar cosas raras. No se sabe bien que sucedió, pero una noche, una de las hijas asesinó a los padres, y trató de huir. Fue atrapada días después, mentalmente inestable y con muchísimo miedo.
@@ -27,3 +27,7 @@ TODO rehacer en casa?
 La mansión se ve claramente desgastada por el tiempo, cargada de polvo y con marcas de sangre de la fatídica noche.
 
 #### Tesoros
+- Diario del padre hablando de cosas feas
+
+VALIOSO:
+- 

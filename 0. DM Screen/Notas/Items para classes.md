@@ -118,6 +118,42 @@
 ###### Legendary
 - 
 
+#### Sorcerer
+###### Uncommon
+- Bloodwell vial (Att.): https://www.dndbeyond.com/magic-items/2412091-bloodwell-vial
+- Wand of Magic Missiles: https://www.dndbeyond.com/magic-items/4794-wand-of-magic-missiles
+
+###### Rare
+- Elven Chain: https://www.dndbeyond.com/magic-items/4631-elven-chain
+- Ring of spell storing (Att.): https://www.dndbeyond.com/magic-items/4730-ring-of-spell-storing
+- Wand of paralysis (Att.): https://www.dndbeyond.com/magic-items/4795-wand-of-paralysis
+
+###### Very Rare
+- Ioun Stone of Leadership: https://www.dndbeyond.com/magic-items/4937-ioun-stone-of-leadership
+
+###### Legendary
+- 
+
+#### Fighter
+###### Uncommon
+- Adamantine Armor: https://www.dndbeyond.com/magic-items/5370-adamantine-armor
+- Weapong of Warning (Att.): https://www.dndbeyond.com/magic-items/5504-weapon-of-warning
+
+###### Rare
+- Dragon Wing Bow (Att.): https://www.dndbeyond.com/magic-items/4047200-dragon-wing-bow
+- Flame Tongue (Att.): https://www.dndbeyond.com/magic-items/5386-flame-tongue
+- Iron Bands of Binding: https://www.dndbeyond.com/magic-items/4665-iron-bands-of-binding
+- Ring of Free Action (Att.): https://www.dndbeyond.com/magic-items/4722-ring-of-free-action
+- Sword of Life Stealing (Att.): https://www.dndbeyond.com/magic-items/5390-sword-of-life-stealing
+
+###### Very Rare
+- Frost Brand (Att.): https://www.dndbeyond.com/magic-items/5387-frost-brand
+- Potion of Speed: https://www.dndbeyond.com/magic-items/4714-potion-of-speed
+- Spellguard Shield (Att.): https://www.dndbeyond.com/magic-items/4757-spellguard-shield
+
+###### Legendary
+- 
+
 #### General:
 - Bag of Holding: https://www.dndbeyond.com/magic-items/4581-bag-of-holding
 - Ring of protection (Att): https://www.dndbeyond.com/magic-items/4726-ring-of-protection
