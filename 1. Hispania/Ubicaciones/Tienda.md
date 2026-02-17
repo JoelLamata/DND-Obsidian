@@ -7,14 +7,5 @@
 ### Objetos
 ![[buying-a-magic-item-magic-item-price-xge#^magic-item-price]]
 
-#### Common
-- 
 
-#### Uncommon
-
-#### Rare
-
-#### Very rare
-
-#### Legendary
-
+![[Items para classes]]
