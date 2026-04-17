@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Hispania/Notas/Notas.md",
+                "file": "1. Hispania/Personajes/PCs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notas"
+              "title": "PCs"
             }
           }
         ],
@@ -55,7 +55,7 @@
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
-          "title": "Files"
+          "title": "Explorador de archivos"
         }
       },
       {
@@ -190,13 +190,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
@@ -206,10 +206,13 @@
   },
   "active": "bc4bf5bfc2115280",
   "lastOpenFiles": [
+    "1. Hispania/Misiones/Arreglar el televisor a Encarnita.md",
+    "1. Hispania/Personajes/PCs.md",
+    "1. Hispania/Misiones/Rescate a Paco.md",
+    "1. Hispania/Notas/Notas.md",
     "1. Hispania/Ubicaciones/Tienda.md",
     "0. DM Screen/Notas/Items para classes.md",
     "dm/compendium/tables/buying-a-magic-item-magic-item-price-xge.md",
-    "1. Hispania/Misiones/Rescate a Paco.md",
     "1. Hispania/Misiones/Escolta al Paqui.md",
     "1. Hispania/Misiones/Notas/Lugares.md",
     "0. DM Screen/Notas/Combate.md",
@@ -224,7 +227,6 @@
     "1. Hispania/z_Assets/upstairs.png",
     "1. Hispania/z_Assets/basement.png",
     "1. Hispania/Notas/Posibles herramientas.md",
-    "1. Hispania/Notas/Notas.md",
     "1. Hispania/Organizaciones y Facciones/Objetivos y relaciones.md",
     "1. Hispania/Organizaciones y Facciones/El Ministerio de Equipos Operativos (MEO).md",
     "1. Hispania/Organizaciones y Facciones/Ideas gremios.md",
@@ -233,8 +235,6 @@
     "1. Hispania/Ubicaciones/Villapene.md",
     "1. Hispania/Misiones/Notas/Misiones table.md",
     "1. Hispania/Misiones/Notas/Ideas Misiones.md",
-    "1. Hispania/Misiones/Arreglar el televisor a Encarnita.md",
-    "1. Hispania/Notas/Notas con los tontos.md",
-    "0. DM Screen/Notas/Sistema NPCs.md"
+    "1. Hispania/Notas/Notas con los tontos.md"
   ]
 }
