@@ -32,3 +32,4 @@ Vesperal (Guillem)
 - Existe un diario con información sobre la balada mística.
 - Dejar que Guillem haga una pregunta sobre el tema y dar una respuesta 
 
+![[encarnita_FULL_25x32.png]]
