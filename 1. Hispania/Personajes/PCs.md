@@ -26,3 +26,11 @@ Está en busca y captura por los Kalashtar.
 | Sentido de la orientación: solo puede moverse de lado, no en diagonal. Y viceversa.                                                 |
 | Frenos rotos: en combate, no sabe frenar, para parar tiene que chocarse con algo                                                    |
 | Sobrecarga eléctrica: al recibir un golpe saltan chispas que electrocutan a todos los que estén cerca                               |
+
+| Ventajas robot                                                                             |
+| ------------------------------------------------------------------------------------------ |
+| Puntería +: tiene +1 en las tiradas a tocar                                                |
+| Turbo: como bonus action, puede moverse 10 pies extra                                      |
+| Terraneitor: no le afecta el terreno difícil                                               |
+| Cuatro brazos: ventaja a la hora de hacer un grappling a una criatura de su tamaño o menos |
+|                                                                                            |
