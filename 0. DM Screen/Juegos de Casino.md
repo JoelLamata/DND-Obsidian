@@ -10,3 +10,6 @@ Si uno de los dados coincide con el número del jugador, duplica su dinero.
 Si dos dados coinciden con el número del jugador, este triplica.
 Si tres dados coinciden con el número del jugador, este quadruplica.
 Si ninguno de los dados coincide, la casa se queda con el dinero.
+
+### Matthew Mercer
+https://x.com/matthewmercer/status/774357425272922112/photo/1
