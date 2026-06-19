@@ -2,6 +2,8 @@
 
 Villapene es la villa principal donde empezarán los PCs. Esta servirá como su base principal, y podrán añadir mejoras.
 
+![[Villapene.jpg]]
+
 ## Descripción física
 
 * **Tamaño**:
