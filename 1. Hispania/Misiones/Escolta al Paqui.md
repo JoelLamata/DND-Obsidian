@@ -6,6 +6,8 @@ Durante la compra pueden aprovechar para conseguir provisiones para ellos mismos
 Mercancía que deben comprar:
 - Bolsos y ropa de marca "Amancio Ortega"
 
+[[se busca.jpg]]
+
 ## Tiendas:
 
 ### La Miura
@@ -32,6 +34,7 @@ Objetos mágicos (100po - 150po - 250po)
 - **Ungüento de hombre lobo**: reduce daño de mordiscos de bestias.
 
 La bruja puede intentar vender cualquier cosa a un precio absurdo.
+[[La miura.jpg]]
 
 ### Taberna los porros
 Comida (5-10pc)
@@ -64,6 +67,7 @@ Rumores disponibles
 - Desaparición de ovejas.
 - Un fantasma que canta coplas.
 - Un tesoro enterrado bajo un olivo.
+[[taberna los porros.png]]
 
 ### Fragua de Queixo
 Servicios (1po-5po)
@@ -85,6 +89,7 @@ Objetos especiales (5po - 50po)
 
 Curiosidad
 Queixo asegura haber forjado una espada para un gigante, pero nadie le cree.
+[[queixo.webp]]
 
 ### Ermita de MIC
 
@@ -104,6 +109,7 @@ Milagros atribuidos a **cinc segons**
 - Encontrar objetos perdidos.
 - Hacer aparecer comida.
 - Curar dolor de cabeza.
+[[MIC.png]]
 
 ### Amancio Ortega
 
@@ -123,6 +129,7 @@ Artículos especiales (15po - 40po)
 
 Rumor
 Nadie ha visto jamás los almacenes de Amancio. Algunos creen que tiene un portal mágico lleno de sastres goblin trabajando día y noche.
+[[Amancio Ortega.jpg]]
 
 ## Transporte
 Durante el transporte sufren el ataque de un [[quickling-mpmm|Trasgo (Quickling)]]:
