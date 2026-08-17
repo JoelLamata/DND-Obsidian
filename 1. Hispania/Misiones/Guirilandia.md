@@ -1,3 +1,21 @@
+Al llegar encuentran a **Baljeet Tjinder**, esta vendiendo entradas a la **Horripilante guarida de Kobolds**. 
+
+NOMBRES:
+Phineas Flynn
+Ferb Fletcher
+Candace Flynn
+Heinz Doofenshmirtz
+Isabella Garcia-Shapiro
+Linda Flyn (madre)
+Lawrence Fletcher (padre)
+Buford Van Stomm (maton)
+Las Chicas del Club de Acampada: Son las amigas de Isabella. Gretchen, Adyson Sweetwater, Ginger Hirano, Holly, Katie y Milly.
+Jeremy Johnson (novio)
+Stacy Hirano (amiga de Candace)
+Vanessa Doofenshmirtz
+
+Cambiar a: sacar los turistas de aqui que va a llegar mama?
+
 ![[Omu Kobold Lair ground level, NUMBERS.jpg]]
 **1: Barricaded Bazaar Entrance:** The Kobolds have sealed off all entrances into the bazaar, except for the open entrance way at location 2: These barricades are constructed of wooden spikes, wood plank, old stone blocks, clay and a whole lot of non-flamable glue. Some of the barricades have small kobold sized tunnels hidden in them, allowing the kobolds to move through the barricade relatively easily compared to other small creatures.
 
@@ -17,7 +35,8 @@
 
 **7: Underground Entrance**: The stairs lead to and from the Bazaar’s basement. 
 
-**8: Empty Ruin:** This ruin is for the most part empty, though sometimes, other inhabitants of Omu may inhabit the ruin. 
+**8: Empty Ruin:** This ruin is for the most part empty,
+though sometimes, other inhabitants of Omu may inhabit the ruin. 
 
 **9: Home of the Exiled:** Here lives a kobold named Cattrap. He was a former kobold inventor but was exiled for making a trap that involved a pit trap with cats on fire… Them being Kobolds didn't actually have a large problem with this idea and when they tried it out, the cats escaped the pit while on fire and coursed most of the basement furniture to become set aflame. For this huge failure in trap design, he was exiled to never speak to another kobold again. If the party speaks with cattrap about his story, he suggests that the party kill the current kobold leader and make him the new leader, then he can tell the party whatever they want about Omu. The party could of course also try and interrogate the kobold for this knowledge, but if they do say, they simply learn that the kobold did in fact not know all that much and that the leader has all the information.
 
