@@ -36,3 +36,4 @@ Está en busca y captura por los Kalashtar.
 | Terraneitor: no le afecta el terreno difícil                                               |
 | Cuatro brazos: ventaja a la hora de hacer un grappling a una criatura de su tamaño o menos |
 |                                                                                            |
+mirar ideas en manual del dm página 224
