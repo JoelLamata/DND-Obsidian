@@ -14,58 +14,57 @@ Jeremy Johnson (novio)
 Stacy Hirano (amiga de Candace)
 Vanessa Doofenshmirtz
 
-Cambiar a: sacar los turistas de aqui que va a llegar mama?
+**sacar los turistas de aqui que va a llegar mama**
 
 ![[Omu Kobold Lair ground level, NUMBERS.jpg]]
-**1: Barricaded Bazaar Entrance:** The Kobolds have sealed off all entrances into the bazaar, except for the open entrance way at location 2: These barricades are constructed of wooden spikes, wood plank, old stone blocks, clay and a whole lot of non-flamable glue. Some of the barricades have small kobold sized tunnels hidden in them, allowing the kobolds to move through the barricade relatively easily compared to other small creatures.
+**1: Entrada barricada:** Han barricado esta entrada, solo se puede entrar por el número 2.
 
-**2: Open Bazaar Entrance**: At least three kobolds are stationed here as a lookout at all times. Their job is to notify the rest of the clan in case of an attack or warn unknown intruders to leave this bazaar alone or feel the wrath of the kobolds. 
+**2: Entrada abierta**: Antes de adentrarse en el edificio está **Baljeet Tjinder** en un puesto pequeño con una caja y un cartel indicando: Adultos 2po, Niños 1po. Una vez dentro, **Phineas Flynn** está explicando las diferentes zonas y trampas de la primera planta.
 
-**3: Hallway of Slipperiness:** The floor here has been covered in a thin layer of wax and animal fat, making it similar to that of a grease spell. Characters who slip and fall have a 50% chance of also being impaled by one or more of the wooden spikes scattered around. The Kobolds sometimes run through this area when the bazaar is about to come under attack, when they do, they make sure that they aren't seen passing through, as they have learned that simply sliding through the area on their stomachs allows for easy passage.
+**3: El pasillo resvaloso:** El suelo de este lugar está cubierto por una fina capa de cera y grasa animal, lo que lo hace similar al de un hechizo de [[grease|Grease]]. Los personajes que resbalen y caigan tienen un 50 % de probabilidades de quedar empalados por una o varias de las estacas de madera esparcidas por el suelo. Deslizarse por el suelo boca abajo les permite atravesarla fácilmente.
 
-**4: Well Lounge:** Once notified of an attack, kobold warriors from area 12 rush here with their slings and start hurling rocks at the characters as soon as they step into the Hallway of slipperiness. - While the area isn't under attack, the hole is usually occupied by a handful of kobold scouts that search the old ruins of Omu for trinkets, gadgets and materials for the kobold trap inventors. 
+**4: Sala del Pozo:** El pozo suele estar ocupado por Las Chicas del Club de Acampada kobolds que registran las antiguas ruinas de Omu en busca de baratijas, artilugios y materiales para los inventores de trampas kobolds.
+	**4a: Almacén A:** Aquí se suele almacenar cuero, tela y otros materiales de origen animal, aunque también se pueden encontrar otros objetos diversos.
+	**4b: Almacén B:** Aquí se suelen almacenar piedras, madera y herramientas, aunque también se pueden encontrar otros objetos diversos.
 
-**4a: Storage** **A**: Leather, cloth, and other animal-gained material, is usually stored here, though various other objects can also be found.
+**5: Lugar de trabajo de los innovadores:** **Ferb Fletcher** tiene aquí su oficina, y es prácticamente el jefe de la defensa de primera línea de los kobolds.
 
-**4b: Storage B**: Rocks, wood and tools are usually stored here, though various other objects can also be found.
+**6: Zona de siesta:** Los guardias de vigilancia, los exploradores y el inventor kobold suelen echarse la siesta aquí.
+Se encuentran a **Buford Van Stomm (maton)**
 
-**5: Innovators Work Place:** A kobold inventor has his office here, and he is pretty much the boss of the kobolds frontline defense. 
+**7: Entrada subterránea:** Las escaleras conducen al sótano del bazar y a la superficie.
 
-**6: Napping Area**: The watch guards, scouts and the kobold inventor frequently take naps here.
+**8: Ruina vacía:** Esta ruina está prácticamente vacía. Aunque, a veces, otros habitantes de Omu pueden habitar las ruinas.
 
-**7: Underground Entrance**: The stairs lead to and from the Bazaar’s basement. 
+**9: Hogar de los exiliados:** Aquí vive **Heinz Doofenshmirtz**, cuenta que lo han exiliado por intentar hacer un expulsaguirinaitor, que consistia en dispararles con pistolitas de agua a los turistas.
 
-**8: Empty Ruin:** This ruin is for the most part empty,
-though sometimes, other inhabitants of Omu may inhabit the ruin. 
+**10: Chimenea de vapor:** El vapor caliente de las zonas 23 y 22 se escapa a través del techo de la cueva y sale por aquí. El agujero se va estrechando a medida que desciende, llegando a tener tan solo ½ pies de ancho.
 
-**9: Home of the Exiled:** Here lives a kobold named Cattrap. He was a former kobold inventor but was exiled for making a trap that involved a pit trap with cats on fire… Them being Kobolds didn't actually have a large problem with this idea and when they tried it out, the cats escaped the pit while on fire and coursed most of the basement furniture to become set aflame. For this huge failure in trap design, he was exiled to never speak to another kobold again. If the party speaks with cattrap about his story, he suggests that the party kill the current kobold leader and make him the new leader, then he can tell the party whatever they want about Omu. The party could of course also try and interrogate the kobold for this knowledge, but if they do say, they simply learn that the kobold did in fact not know all that much and that the leader has all the information.
-
-**10: Steam Chimney:** Hot Steam from area 23 and 22 escape through the cave ceiling and out here. The hole narrows as it gets further down, getting as narrow as ½ feet.  
 
 ![[Omu Kobold Lair Basement level NUMBERS.jpg]]
 
-**11: Blocked off Room**: To ensure that intruders walk through traps and blockades, this way that once led into area 17, has been completely sealed off, similar to the barricades above the basement. 
+**11: Sala bloqueada**: Para garantizar que los intrusos pasen por las trampas y los bloqueos, este pasillo, que antes conducía a la zona 17, ha sido completamente sellado, de forma similar a las barricadas situadas sobre el sótano.
 
-**12: Warriors Room:** Kobold warriors sleep and train here. Once a kobold's training is completed, they are either assigned to be kobold trap inventors, scouts or warriors.  
+**12: Sala de los guerreros:** Los guerreros kobolds duermen y entrenan aquí. Una vez completado el entrenamiento de un kobold, se le asigna la función de inventor de trampas, explorador o guerrero.
 
-**13: Blocked Entrances:** These entrances once either led further into the old underground city tunnels or back up to the surface.
+**13: Entradas bloqueadas:** Estas entradas conducían antiguamente a las profundidades de los túneles de la antigua ciudad subterránea o de vuelta a la superficie.
 
-**14: Trapped hallway:** As soon as a character steps into the middle of this hallway, the floor underneath breaks and the characters fall into a 5 foot deep pit trap, filled with wooden spikes and oily grease. Once kobolds hear that the trap is triggered, a kobold waiting in area 15 runs out with a lit torch and throws it into the oil-filled pit, setting the characters on fire. The Kobolds dug the pit and then rebuilt the floor with poorly placed support beams. - In the center of the hallway, is a large stone tablet on the wall. It was customary for citizens of Omu to write ownership of a building in the literal stone, but the old writing has been scratched over by the kobolds and it now hosts a list of the names of old kobold trap inventors.  
+**14: Pasillo con trampa:** En cuanto un personaje se adentra en el centro de este pasillo, el suelo se rompe y los personajes caen en un foso trampa de 5 pies de profundidad. **Isabella Garcia-Shapiro** está al inicio de este pasillo, y tiene un cartel marcando los tiempos que hace la gente en superar la trampa sin caerse. 
 
-**15: Statue of Ubtao:** The only noticeable thing to be found in this room is an old statue of the god Ubtao in his human form. If examined, the party might find the word “deserter” scratched in the old language of Omu. 
+**15: Estatua de Ubtao:** Lo único destacable que hay en esta sala es una antigua estatua del dios Ubtao en su forma humana. Si la examinan, el grupo podría encontrar la palabra «desertor» grabada en el antiguo idioma de Omu.
 
-**16: Room of the Kobold leader:** The Kobold leader usually enjoys his life at the top of the clan rankings while sleeping atop a pile of gold and gemstones. He is awaiting his transformation to become a true dragon, and as such has ordered many of his kobold warriors to mine a lair for him to inhabit once the transformation is made. During the construction of his upcoming lair, they discovered a large magma cave chamber (area 23). If the party negotiates with the kobold leader, he offers his friendship in exchange for getting rid of the magma elemental that inhabit the chamber. 
+**16: Sala del líder de los kobolds:** **Lawrence Fletcher (padre)** disfruta de su vida en lo más alto de la jerarquía del clan mientras duerme sobre un montón de oro y piedras preciosas. Está a la espera de su transformación para convertirse en un auténtico dragón y, por ello, ha ordenado a muchos de sus guerreros kobolds que excaven una guarida en la que pueda habitar una vez que se haya producido la transformación. Durante la construcción de su futura guarida, descubrieron una gran cámara de magma (zona 23). Si el grupo negocia con el líder de los kobolds, este les ofrece su amistad a cambio de que se deshagan del elemental de magma que habita en la cámara. Como se ve, sigue mucho su papel, hasta un punto que peocupa un poco.
 
-**17: Clan’s Grand Hall:** Way too many kobolds live happily cramped together here, most of which are engaged in various work for the clan.  
+**17: Gran salón del clan:** Aquí viven felices, apiñados, demasiados kobolds, la mayoría de los cuales se dedican a diversas tareas para el clan.
 
-**18: Sleeping Quarters:** Here most of the kobolds sleep and protect the eggs of the clans
+**18: Dormitorios:** Aquí duermen la mayoría de los kobolds y protegen los huevos del clan.
 
-**19: Miners Hall**: The miners store the dug out stone here, so that it can be used for various constructions and trap builds. The area is also used for taking naps. 
+**19: Sala de los mineros**: Los mineros almacenan aquí la piedra extraída, para que pueda utilizarse en diversas construcciones y en la creación de trampas. La zona también se utiliza para echar una siesta.
 
-**20: Future Dragons lair:** This cave is far from what the kobold leader has in vision, but the current problem of the Magma elemental from area 23 occasionally attacking the miners, the progress has come to a standstill. 
+**20: Guarida de los futuros dragones:** Esta cueva dista mucho de lo que el líder de los kobolds tiene en mente, pero debido al problema actual del elemental de magma de la zona 23, que ataca ocasionalmente a los mineros, los trabajos se han estancado.
 
-**21: Prisoners Cage:** Recently a group of intruders managed to get as far as to area 15 before falling to the army of kobolds. One of the intruders managed to survive and is being held prisoner here until he agrees to kill the magma elemental, even if the chance of him beating the elemental is slim. 
+**21: Jaula de prisioneros:** Hay un ornitorrinco encerrado. Dicen que es el ser más peligroso que ha pisado este plano.
 
-**22: Lava Chamber Entrance:** The water that flows through here is nearly boiling and the stone is hot enough to cook an egg. The only reason that this chamber has not been sealed off is because of the kobold leader refusing to give up ownership of the huge crystal within the cave.
+**22: Entrada a la cámara de lava:** El agua que fluye por aquí está casi hirviendo y la piedra está tan caliente que se podría cocinar un huevo. La única razón por la que esta cámara no ha sido sellada es que el líder de los kobolds se niega a renunciar a la propiedad del enorme cristal que hay dentro de la cueva.
 
-**23: Giant Magma Crystal:** This giant Magma Crystal is dense enough to withstand the constant touch of lava, the chamber only reveals the tip of the crystal as it is in fact just about 100 feet long descending further down into the magma. This type of Crystal is usually only found in the quasi plane of magma (fire and earth), but for reasons unknown, its now also here. The room is guarded by a magma elemental that refuses to let anybody near the crystal.
+**23: Cristal de magma gigante:** Este cristal de magma gigante es lo suficientemente denso como para soportar el contacto constante con la lava; la cámara solo deja ver la punta del cristal, ya que, de hecho, mide unos 100 pies de largo y se adentra aún más en el magma. Este tipo de cristal solo se encuentra normalmente en el cuasi-plano del magma (fuego y tierra), pero, por razones desconocidas, ahora también está aquí. La sala está custodiada por un elemental de magma que se niega a dejar que nadie se acerque al cristal.

@@ -1,5 +1,7 @@
 Torto: Debe dinero
 https://www.reddit.com/r/UnearthedArcana/comments/10ki0az/a_true_d100_wild_magic_surge_table_expanded_from/
+![[Pasted image 20260818200243.png]]
+![[Pasted image 20260818200254.png]]
 
 Alex: Cada sesion uno
 Aitor: Hopper -> Mejorar a Hopper
