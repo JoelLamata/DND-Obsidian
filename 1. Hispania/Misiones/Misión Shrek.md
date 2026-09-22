@@ -43,6 +43,6 @@ Puzzle: Inteligecia-Sabiduria
 	- [[PICSAR#Marcianito]]
 	- [[PICSAR#Rex]]
 	- [[PICSAR#Hamm]]
-![[Pasted image 20260921185839.png]]![[Pasted image 20260921185852.png]]
+![[Pasted image 20260922163931.png]]![[Sin título.jpg]]
 
 
