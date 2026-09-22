@@ -1,5 +1,7 @@
 Torto: Debe dinero
 https://www.reddit.com/r/UnearthedArcana/comments/10ki0az/a_true_d100_wild_magic_surge_table_expanded_from/
+![[Pasted image 20260818200243.png]]
+![[Pasted image 20260818200254.png]]
 
 Alex: Cada sesion uno
 Aitor: Hopper -> Mejorar a Hopper
@@ -34,3 +36,4 @@ Está en busca y captura por los Kalashtar.
 | Terraneitor: no le afecta el terreno difícil                                               |
 | Cuatro brazos: ventaja a la hora de hacer un grappling a una criatura de su tamaño o menos |
 |                                                                                            |
+mirar ideas en manual del dm página 224
